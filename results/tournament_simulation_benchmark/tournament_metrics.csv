@@ -1,0 +1,13 @@
+tournament,engine,matches_count,accuracy_pct,log_loss,normalized_rps,brier_score,scoreline_nll,total_goal_nll,exact_score_hit_pct,home_recall_pct,draw_recall_pct,away_recall_pct
+2018 FIFA World Cup,Engine A (Legacy Poisson),64,54.69,0.9831,0.2084,0.5861,2.8416,1.8181,17.19,72.0,0.0,65.38
+2018 FIFA World Cup,Engine B (MDS Poisson),64,54.69,0.983,0.2084,0.5861,2.8417,1.8178,17.19,72.0,0.0,65.38
+2018 FIFA World Cup,Engine C (MDS NegBin + DC),64,54.69,0.987,0.2099,0.5888,2.8646,1.8288,4.69,72.0,0.0,65.38
+UEFA Euro 2020 (2021),Engine A (Legacy Poisson),51,56.86,0.9988,0.2064,0.5987,2.9626,1.8942,13.73,90.48,0.0,55.56
+UEFA Euro 2020 (2021),Engine B (MDS Poisson),51,58.82,0.9988,0.2065,0.5987,2.9627,1.894,13.73,90.48,0.0,61.11
+UEFA Euro 2020 (2021),Engine C (MDS NegBin + DC),51,58.82,1.0029,0.2079,0.6013,2.9735,1.9013,11.76,90.48,0.0,61.11
+2022 FIFA World Cup,Engine A (Legacy Poisson),64,57.81,1.0245,0.2154,0.6134,3.0034,2.0056,6.25,78.57,0.0,71.43
+2022 FIFA World Cup,Engine B (MDS Poisson),64,57.81,1.0249,0.2155,0.6137,3.0035,2.005,6.25,78.57,0.0,71.43
+2022 FIFA World Cup,Engine C (MDS NegBin + DC),64,57.81,1.0257,0.216,0.6146,2.9872,1.9871,6.25,78.57,0.0,71.43
+2014 FIFA World Cup,Engine A (Legacy Poisson),64,60.94,0.9864,0.2089,0.5901,2.982,1.9658,7.81,82.76,0.0,68.18
+2014 FIFA World Cup,Engine B (MDS Poisson),64,60.94,0.9866,0.209,0.5903,2.9818,1.9653,7.81,82.76,0.0,68.18
+2014 FIFA World Cup,Engine C (MDS NegBin + DC),64,60.94,0.9901,0.2103,0.5924,2.9719,1.9587,9.38,82.76,0.0,68.18

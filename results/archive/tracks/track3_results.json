@@ -1,0 +1,161 @@
+{
+  "n_simulations": 100,
+  "target_year": 2026,
+  "teams": [
+    "Algeria",
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Belgium",
+    "Bosnia and Herzegovina",
+    "Brazil",
+    "Cabo Verde",
+    "Canada",
+    "Colombia",
+    "Congo DR",
+    "Croatia",
+    "Cura\u00e7ao",
+    "Czechia",
+    "C\u00f4te d'Ivoire",
+    "Ecuador",
+    "Egypt",
+    "England",
+    "France",
+    "Germany",
+    "Ghana",
+    "Haiti",
+    "IR Iran",
+    "Iraq",
+    "Japan",
+    "Jordan",
+    "Mexico",
+    "Morocco",
+    "Netherlands",
+    "New Zealand",
+    "Norway",
+    "Panama"
+  ],
+  "most_likely_winner": "Argentina",
+  "most_likely_final": [
+    "Argentina",
+    "France"
+  ],
+  "top_10_winner_prob": [
+    {
+      "team": "Argentina",
+      "p_winner": 0.18,
+      "p_finalist": 0.27,
+      "p_semi": 0.39,
+      "p_qf": 0.51,
+      "p_group_exit": 0.22
+    },
+    {
+      "team": "France",
+      "p_winner": 0.12,
+      "p_finalist": 0.2,
+      "p_semi": 0.33,
+      "p_qf": 0.5,
+      "p_group_exit": 0.24
+    },
+    {
+      "team": "Netherlands",
+      "p_winner": 0.11,
+      "p_finalist": 0.16,
+      "p_semi": 0.28,
+      "p_qf": 0.44,
+      "p_group_exit": 0.28
+    },
+    {
+      "team": "England",
+      "p_winner": 0.09,
+      "p_finalist": 0.15,
+      "p_semi": 0.24,
+      "p_qf": 0.5,
+      "p_group_exit": 0.23
+    },
+    {
+      "team": "Brazil",
+      "p_winner": 0.08,
+      "p_finalist": 0.15,
+      "p_semi": 0.2,
+      "p_qf": 0.38,
+      "p_group_exit": 0.26
+    },
+    {
+      "team": "Germany",
+      "p_winner": 0.07,
+      "p_finalist": 0.15,
+      "p_semi": 0.32,
+      "p_qf": 0.52,
+      "p_group_exit": 0.15
+    },
+    {
+      "team": "Japan",
+      "p_winner": 0.06,
+      "p_finalist": 0.08,
+      "p_semi": 0.12,
+      "p_qf": 0.25,
+      "p_group_exit": 0.41
+    },
+    {
+      "team": "Belgium",
+      "p_winner": 0.05,
+      "p_finalist": 0.15,
+      "p_semi": 0.22,
+      "p_qf": 0.47,
+      "p_group_exit": 0.16
+    },
+    {
+      "team": "C\u00f4te d'Ivoire",
+      "p_winner": 0.04,
+      "p_finalist": 0.08,
+      "p_semi": 0.16,
+      "p_qf": 0.33,
+      "p_group_exit": 0.43
+    },
+    {
+      "team": "Croatia",
+      "p_winner": 0.04,
+      "p_finalist": 0.08,
+      "p_semi": 0.2,
+      "p_qf": 0.34,
+      "p_group_exit": 0.37
+    }
+  ],
+  "validation": {
+    "n_matches": 1849,
+    "mean_goals_per_match": 2.2893455922120065,
+    "draw_rate": 0.2833964305029746,
+    "home_win_rate": 0.3758788534342888,
+    "away_win_rate": 0.34072471606273663,
+    "home_advantage_goals": 0.3821428571428571,
+    "real_mean_goals_per_match": 2.69,
+    "real_draw_rate": 0.23,
+    "top_scorelines": [
+      {
+        "scoreline": "1-1",
+        "count": 231
+      },
+      {
+        "scoreline": "1-0",
+        "count": 218
+      },
+      {
+        "scoreline": "0-0",
+        "count": 215
+      },
+      {
+        "scoreline": "0-1",
+        "count": 192
+      },
+      {
+        "scoreline": "1-2",
+        "count": 134
+      },
+      {
+        "scoreline": "0-2",
+        "count": 132
+      }
+    ]
+  }
+}

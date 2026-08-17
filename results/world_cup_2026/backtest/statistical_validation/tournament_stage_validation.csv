@@ -1,0 +1,7 @@
+stage,actual_qualifiers_count,stage_brier_score,naive_benchmark_brier,brier_skill_score (BSS),stage_log_loss,calibration_status
+Round of 32,32,0.184142,0.222222,0.1714,0.5479,Valid probabilistic discrimination (BSS > 0)
+Round of 16,16,0.17312,0.222222,0.221,0.5248,Valid probabilistic discrimination (BSS > 0)
+Quarter-Finals,8,0.116101,0.138889,0.1641,0.373,Valid probabilistic discrimination (BSS > 0)
+Semi-Finals,4,0.063184,0.076389,0.1729,0.2178,Valid probabilistic discrimination (BSS > 0)
+Final,2,0.034772,0.039931,0.1292,0.1289,Valid probabilistic discrimination (BSS > 0)
+Champion,1,0.018361,0.020399,0.0999,0.073,Valid probabilistic discrimination (BSS > 0)

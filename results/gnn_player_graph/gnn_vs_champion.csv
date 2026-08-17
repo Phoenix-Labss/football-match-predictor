@@ -1,0 +1,4 @@
+model,accuracy_pct,correct_matches,log_loss,normalized_rps,brier_score,ece
+Current Champion,59.84,5927,0.8736,0.171,0.5142,0.0169
+GNN Alone (G2),59.45,5888,0.8954,0.1759,0.5273,0.0168
+Champion + GNN Ensemble,59.76,5919,0.8734,0.171,0.514,0.014

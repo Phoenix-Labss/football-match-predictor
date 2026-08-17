@@ -1,0 +1,52 @@
+{
+  "tournament": "2022 FIFA World Cup",
+  "cutoff_date": "2022-11-20",
+  "n_training_matches": 1388,
+  "frozen_dispersion_alpha": 0.1504,
+  "actual_champion": "Argentina",
+  "pre_tournament_rank_argentina": 3,
+  "pre_tournament_prob_argentina_c": 5.64,
+  "metrics_engine_a": {
+    "accuracy_pct": 56.25,
+    "log_loss": 1.0281,
+    "normalized_rps": 0.4325,
+    "brier_score": 0.6148,
+    "ece": 0.1479,
+    "home_recall_pct": 78.57,
+    "draw_recall_pct": 0.0,
+    "away_recall_pct": 66.67,
+    "exact_score_hit_pct": 6.25,
+    "scoreline_nll": 3.0158
+  },
+  "metrics_engine_b": {
+    "accuracy_pct": 56.25,
+    "log_loss": 1.0281,
+    "normalized_rps": 0.4325,
+    "brier_score": 0.6147,
+    "ece": 0.1478,
+    "home_recall_pct": 78.57,
+    "draw_recall_pct": 0.0,
+    "away_recall_pct": 66.67,
+    "exact_score_hit_pct": 6.25,
+    "scoreline_nll": 3.0157
+  },
+  "metrics_engine_c": {
+    "accuracy_pct": 56.25,
+    "log_loss": 1.029,
+    "normalized_rps": 0.4338,
+    "brier_score": 0.6161,
+    "ece": 0.1383,
+    "home_recall_pct": 78.57,
+    "draw_recall_pct": 0.0,
+    "away_recall_pct": 66.67,
+    "exact_score_hit_pct": 9.38,
+    "scoreline_nll": 2.997
+  },
+  "scoreline_variance_observed": 3.58,
+  "scoreline_variance_poisson": 2.43,
+  "scoreline_variance_negbin": 2.9,
+  "best_1x2_engine": "Engine A / B (Legacy / MDS Poisson)",
+  "best_scoreline_engine": "Engine C (Match-Day State + Negative Binomial + Dixon-Coles)",
+  "best_tournament_simulation_engine": "Engine C (Match-Day State + Negative Binomial + Dixon-Coles)",
+  "engine_c_classification": "B. IMPROVES SCORE REALISM ONLY (Heavy-tail calibration & blowout likelihood without inflating 1X2 certainty)"
+}

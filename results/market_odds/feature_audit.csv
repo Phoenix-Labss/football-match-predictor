@@ -1,0 +1,12 @@
+feature_name,tier,formula,timestamp_constraint,leakage_risk
+market_home_prob,M1,p_raw_h / sum(p_raw),Closing line t = -15 min before kickoff,Zero (Verified)
+market_draw_prob,M1,p_raw_d / sum(p_raw),Closing line t = -15 min before kickoff,Zero (Verified)
+market_away_prob,M1,p_raw_a / sum(p_raw),Closing line t = -15 min before kickoff,Zero (Verified)
+market_favorite_prob,M1,"max(p_h, p_a)",Closing line t = -15 min before kickoff,Zero (Verified)
+market_entropy,M1,-sum(p_i * ln(p_i)),Closing line t = -15 min before kickoff,Zero (Verified)
+market_overround,M1,sum(1/odds) - 1.0,Closing line t = -15 min before kickoff,Zero (Verified)
+market_open_home_prob,M2,p_open_h / sum(p_open),Opening line t = -7 days before kickoff,Zero (Verified)
+home_prob_move,M3,p_close_h - p_open_h,Pre-match delta strictly t < Kickoff,Zero (Verified)
+draw_prob_move,M3,p_close_d - p_open_d,Pre-match delta strictly t < Kickoff,Zero (Verified)
+asian_handicap_line,M4,implied goal supremacy,Pre-match AH line strictly t < Kickoff,Zero (Verified)
+market_over_2_5_prob,M5,1 - P(Total Goals <= 2),Pre-match O/U line strictly t < Kickoff,Zero (Verified)

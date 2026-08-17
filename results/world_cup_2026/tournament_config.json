@@ -1,0 +1,29 @@
+{
+  "tournament": "2026 FIFA World Cup",
+  "host_nations": [
+    "USA",
+    "Canada",
+    "Mexico"
+  ],
+  "num_teams": 48,
+  "num_groups": 12,
+  "format": "48 teams (12 groups of 4), top 2 + 8 best 3rds qualify to Round of 32",
+  "total_tournament_matches": 104,
+  "simulations_count": 10000,
+  "total_match_realizations": 1040000,
+  "seed": 42,
+  "timestamp": "2026-08-16 06:58:17 UTC",
+  "match_day_state": {
+    "enabled": true,
+    "player_form_sigma": 0.02,
+    "player_perf_sigma": 0.02,
+    "team_execution_sigma": 0.02,
+    "team_cohesion_sigma": 0.02,
+    "star_stability_factor": 0.75,
+    "inconsistent_volatility_factor": 1.25,
+    "min_multiplier": 0.85,
+    "max_multiplier": 1.15
+  },
+  "engine": "Dixon-Coles Bivariate Poisson Match Engine (Neutral Venue)",
+  "runtime_seconds": 450.17
+}

@@ -1,0 +1,4 @@
+class,static_brier,mds_brier,static_ece,mds_ece,delta_ece,static_calib_intercept,static_calib_slope,mds_calib_intercept,mds_calib_slope
+Home,0.225807,0.225777,0.155908,0.156001,9.3e-05,1.5757,3.2708,1.578,3.2816
+Draw,0.182165,0.182112,0.07168,0.071288,-0.000391,2.0359,3.8853,2.0542,3.8982
+Away,0.168575,0.168592,0.153759,0.153951,0.000192,2.8828,5.796,2.892,5.8184

@@ -1,0 +1,10 @@
+column,missing_count,missing_pct,data_type,unique_values
+date,0,0.0,str,16491
+home_team,0,0.0,str,328
+away_team,0,0.0,str,322
+home_score,0,0.0,int64,26
+away_score,0,0.0,int64,22
+tournament,0,0.0,str,202
+city,0,0.0,str,2092
+country,0,0.0,str,269
+neutral,0,0.0,bool,2

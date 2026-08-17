@@ -1,0 +1,7 @@
+comparison,metric,mean_diff_A_minus_B,dm_stat,p_value,statistically_significant_p05,bootstrap_ci_95
+Classic_Elo vs Fixed_5pct,Ranked Probability Score (Norm. RPS),-5.9e-05,-0.3198,0.74914,False,"[-0.000391, 0.000306]"
+Classic_Elo vs Fixed_5pct,Multiclass Log Loss,0.000342,0.4161,0.67738,False,"[-0.001174, 0.002006]"
+Classic_Elo vs Adaptive_Elo,Ranked Probability Score (Norm. RPS),1.6e-05,0.0893,0.92887,False,"[-0.000329, 0.000370]"
+Classic_Elo vs Adaptive_Elo,Multiclass Log Loss,0.000717,0.896,0.37029,False,"[-0.000919, 0.002228]"
+Fixed_5pct vs Adaptive_Elo,Ranked Probability Score (Norm. RPS),7.6e-05,0.4648,0.64212,False,"[-0.000230, 0.000379]"
+Fixed_5pct vs Adaptive_Elo,Multiclass Log Loss,0.000375,0.532,0.59472,False,"[-0.001049, 0.001675]"

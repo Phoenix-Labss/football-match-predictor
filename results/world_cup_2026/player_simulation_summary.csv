@@ -1,0 +1,26 @@
+player,team,position,base_ability,sim_mean,sim_std,p5,median,p95,strong_state_pct,poor_state_pct
+Kylian Mbappe,France,ST,94.0,93.97,2.87,89.16,94.03,98.99,6.1,5.5
+Erling Braut Haaland,Norway,ST,94.0,93.97,2.89,89.1,94.01,99.0,6.8,5.8
+Vitor Vitinha,Portugal,CM,93.0,92.98,2.9,88.23,92.95,97.94,6.2,5.4
+Declan Rice,England,CM,93.0,92.96,2.91,88.14,92.95,97.91,5.9,5.9
+Pedro Pedri,Spain,CM,92.09,92.07,2.88,87.32,92.06,96.95,6.1,5.6
+Achraf Hakimi,Morocco,CB,92.0,91.94,2.9,87.2,91.93,96.85,5.8,5.8
+Unai Simon,Spain,GK,92.0,92.0,2.45,88.01,92.0,96.1,3.2,2.8
+Daniel Olmo,Spain,ST,92.0,92.02,2.91,87.28,92.0,96.9,6.2,5.5
+Masour Ousmane Dembele,France,ST,92.0,92.01,2.92,87.23,91.98,96.92,6.2,5.6
+Nahuel Molina,Argentina,CB,92.0,91.95,2.92,87.16,91.94,96.86,5.9,5.9
+Michael Akpovie Olise,France,ST,92.0,91.96,2.9,87.23,91.89,96.87,6.0,5.6
+Bukayo Ayoyinka Saka,England,ST,92.0,91.92,2.9,87.12,91.9,96.75,5.5,6.1
+Lautaro Javier Martinez,Argentina,ST,91.0,91.04,2.9,86.26,91.02,95.91,6.2,5.7
+Alejandro Grimaldo,Spain,CB,91.0,91.02,2.89,86.34,90.97,95.86,6.2,5.4
+Alexander Isak,Sweden,ST,91.0,90.97,2.89,86.21,90.96,95.79,6.0,5.9
+William Alain André Gabriel Saliba,France,CB,91.0,91.03,2.9,86.29,91.01,95.84,6.2,5.8
+Mikel Merino,Spain,CM,91.0,91.01,2.92,86.23,90.98,95.92,6.3,5.8
+Marcos Nicolás Senesi,Argentina,CB,91.0,91.0,2.92,86.29,90.96,95.86,6.2,5.7
+Julián Alvarez,Argentina,ST,91.0,91.05,2.91,86.3,91.05,95.9,6.3,5.5
+Enzo Jeremías Fernandez,Argentina,CM,91.0,90.95,2.89,86.23,90.91,95.73,5.8,5.9
+Jude Victor William Bellingham,England,CM,90.91,90.87,2.87,86.17,90.86,95.66,5.8,5.8
+Ryan Jiro Gravenberch,Netherlands,CM,90.0,89.98,2.85,85.38,89.93,94.72,5.8,5.5
+Jamal Musiala,Germany,CM,89.61,89.55,2.88,84.84,89.52,94.32,5.9,6.0
+Florian Richard Wirtz,Germany,CM,89.26,89.23,2.84,84.53,89.19,93.93,5.8,6.1
+Arda Guler,Türkiye,ST,84.77,84.81,2.96,80.05,84.72,89.75,8.0,7.1

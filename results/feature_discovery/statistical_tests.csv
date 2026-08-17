@@ -1,0 +1,3 @@
+test_type,metric,stat,p_value,n_best_better,n_champ_better,is_significant,verdict,mean_difference,ci_95_low,ci_95_high
+McNemar Test,Categorical Accuracy (Best Features vs Champion),0.5203,0.470703,57.0,66.0,False,Statistically Equivalent (p >= 0.05),,,
+"Paired Bootstrap (B=10,000)",Log Loss Difference (Best - Champion),,,,,False,Statistically Indistinguishable,0.000594,-0.000394,0.00158

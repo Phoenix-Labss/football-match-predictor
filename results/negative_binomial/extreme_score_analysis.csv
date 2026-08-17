@@ -1,0 +1,6 @@
+scoreline,observed_frequency_pct,poisson_probability_pct,negative_binomial_prob_pct,relative_tail_boost,verdict
+4 - 0,1.147,0.884,1.134,1.28,Negative Binomial expands extreme right tail
+4 - 1,1.46,1.149,1.267,1.1,Negative Binomial expands extreme right tail
+5 - 0,0.73,0.23,0.381,1.66,Negative Binomial expands extreme right tail
+5 - 1,0.104,0.299,0.426,1.43,Negative Binomial expands extreme right tail
+6+ Total Goals,3.858,4.904,6.252,1.28,Negative Binomial expands extreme right tail

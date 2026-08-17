@@ -1,0 +1,7 @@
+edge_id,name,source,formula,leakage_risk
+E1,Same Club,FIFA Club Metadata,1.0 if club_i == club_j and club != Free Agent else 0.0,None (Strict pre-match club state)
+E2,Shared National Caps,Match History Buffer,"min(1.0, min(caps_i, caps_j) / 20.0)",None (Historical caps t < T)
+E3,Shared Minutes Together,Match History Buffer,"min(1.0, shared_minutes_ij / 1800.0)",None (Historical minutes t < T)
+E4,Positional Compatibility,Formation Topology,Geometric proximity & tactical line synergy,None (Static formation rules)
+E5,Style Compatibility,Derived Style Profiles,(playmaking_i * finishing_j + anchor_i * creativity_j) / 2.0,None (Pre-match FIFA attributes)
+E6,Role Complementarity,Derived Style Profiles,(ball_carrying_i * engine_j + aerial_j * playmaking_i) / 2.0,None (Pre-match FIFA attributes)

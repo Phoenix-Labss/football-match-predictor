@@ -1,0 +1,46 @@
+{
+  "Scenario_A_Baseline": {
+    "min_rating_classic": 2000.0,
+    "min_rating_fixed5": 2000.0,
+    "min_rating_adaptive": 2000.0,
+    "max_drop_classic": 0.0,
+    "max_drop_fixed5": 0.0,
+    "max_drop_adaptive": 0.0,
+    "final_rating_classic": 2028.4779575002938,
+    "final_rating_fixed5": 2028.4779575002938,
+    "final_rating_adaptive": 2028.4779575002938
+  },
+  "Scenario_B_Isolated_Shock": {
+    "min_rating_classic": 1990.3692750198227,
+    "min_rating_fixed5": 1992.4556940753905,
+    "min_rating_adaptive": 1996.1367639179853,
+    "max_drop_classic": 9.63072498017732,
+    "max_drop_fixed5": 7.544305924609489,
+    "max_drop_adaptive": 3.863236082014737,
+    "final_rating_classic": 2007.2122398874724,
+    "final_rating_fixed5": 2008.9597794689166,
+    "final_rating_adaptive": 2012.056882155586
+  },
+  "Scenario_C_Transient_Slump": {
+    "min_rating_classic": 1942.2230578034073,
+    "min_rating_fixed5": 1946.4350672999499,
+    "min_rating_adaptive": 1956.963808452438,
+    "max_drop_classic": 57.7769421965927,
+    "max_drop_fixed5": 53.56493270005012,
+    "max_drop_adaptive": 43.03619154756211,
+    "final_rating_classic": 1968.5883571865888,
+    "final_rating_fixed5": 1971.830806219019,
+    "final_rating_adaptive": 1980.0535547924057
+  },
+  "Scenario_D_Structural_Decline": {
+    "min_rating_classic": 1897.4150116650912,
+    "min_rating_fixed5": 1900.8182402139144,
+    "min_rating_adaptive": 1918.0899338554045,
+    "max_drop_classic": 102.58498833490876,
+    "max_drop_fixed5": 99.18175978608565,
+    "max_drop_adaptive": 81.91006614459548,
+    "final_rating_classic": 1935.779905590163,
+    "final_rating_fixed5": 1938.1646202605978,
+    "final_rating_adaptive": 1950.5360147443967
+  }
+}

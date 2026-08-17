@@ -1,0 +1,6 @@
+player,team,position,base_ovr,corr_perf_with_team_attack,corr_perf_with_match_xg,corr_perf_with_match_win
+Damián Emiliano Martinez,Argentina,GK,82.0,0.01,0.031,0.036
+Florian Richard Wirtz,Germany,CM,91.0,0.044,0.13,0.035
+Jude Victor William Bellingham,England,CM,93.0,-0.003,0.212,0.019
+Kylian Mbappe,France,ST,94.0,0.706,0.233,0.013
+Pedro Pedri,Spain,CM,93.0,0.011,0.123,0.007

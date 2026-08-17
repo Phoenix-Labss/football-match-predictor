@@ -1,0 +1,5 @@
+player,position,fifa_ovr,base_ability,sim_ability_mean,sim_ability_std,sim_ability_min,sim_ability_p5,sim_ability_p50,sim_ability_p95,sim_ability_max,contrib_mean,contrib_std
+Neymar Jr,"LW, CAM",91.0,91.0,91.02,2.89,80.28,86.31,91.04,95.83,101.43,88.57,2.82
+Danilo,"RB, LB, CB",81.0,81.0,80.99,2.79,70.56,76.45,80.95,85.66,93.15,81.09,2.79
+Marquinhos,"CB, CDM",87.0,87.0,86.98,2.99,75.9,82.18,86.96,91.99,100.05,86.68,2.98
+Alisson,GK,89.0,89.0,89.0,2.4,79.92,85.08,88.96,93.05,98.74,86.0,2.32

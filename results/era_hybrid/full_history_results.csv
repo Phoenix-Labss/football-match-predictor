@@ -1,0 +1,5 @@
+Model,Full_Test_Matches,Accuracy,Correct,LogLoss,NormRPS,Brier,ECE
+Current Champion (Core Longitudinal Ensemble),9904,59.86,5929,0.873,0.1709,0.5139,0.0181
+Modern-Rich Branch Only (Full),9904,60.18,5960,0.8715,0.1703,0.5128,0.0149
+Fixed Era-Aware Hybrid (w=0.8),9904,59.93,5935,0.8714,0.1704,0.5128,0.0168
+Gated Era-Aware Hybrid,9904,59.85,5928,0.8718,0.1705,0.5131,0.019

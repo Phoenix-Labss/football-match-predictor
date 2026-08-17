@@ -1,0 +1,5 @@
+threshold,n_upsets,mean_drop_classic,mean_drop_fixed5,mean_drop_adaptive,median_drop_classic,median_drop_fixed5,median_drop_adaptive,max_drop_classic,max_drop_fixed5,max_drop_adaptive,pct_adaptive_smaller_than_classic,pct_adaptive_smaller_than_fixed5
+0.75,1457,22.86,19.52,19.15,20.16,20.0,18.94,61.35,20.0,30.0,65.7,54.4
+0.8,767,23.72,19.91,19.25,20.74,20.0,19.73,61.35,20.0,30.0,68.6,50.6
+0.85,333,24.46,20.0,19.55,21.34,20.0,20.64,61.35,20.0,30.0,66.7,39.9
+0.9,84,25.68,20.0,19.72,22.42,20.0,21.88,43.74,20.0,30.0,64.3,40.5

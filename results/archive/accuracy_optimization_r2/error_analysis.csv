@@ -1,0 +1,7 @@
+predicted_class,actual_class,error_type,error_count,pct_of_all_errors,pct_of_total_samples
+Away,Draw,Predicted Away -> Actual Draw,2691,38.39349407904123,15.52798615118292
+Away,Home,Predicted Away -> Actual Home,1992,28.420602083036094,11.494518176572416
+Home,Draw,Predicted Home -> Actual Draw,1258,17.948352118704523,7.259088286208887
+Home,Away,Predicted Home -> Actual Away,995,14.196033670994435,5.741488747836122
+Draw,Home,Predicted Draw -> Actual Home,41,0.5849621914681125,0.23658395845354874
+Draw,Away,Predicted Draw -> Actual Away,32,0.45655585675559995,0.18465089440276974

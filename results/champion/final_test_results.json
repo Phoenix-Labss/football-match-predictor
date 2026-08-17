@@ -1,0 +1,31 @@
+{
+  "test_n_matches": 9904,
+  "baseline_model": {
+    "name": "Classic_M0_HistGBDT",
+    "accuracy": 0.5973344103392568,
+    "log_loss": 0.8734053409246585,
+    "normalized_rps": 0.17063184009269539,
+    "brier_score": 0.5137295856888333,
+    "ece": 0.011778784337522228
+  },
+  "champion_optimized_model": {
+    "name": "Dynamic_Oracle_Champion_Ensemble (LightGBM+XGBoost+CatBoost+HistGBDT+DixonColes)",
+    "accuracy": 0.601373182552504,
+    "log_loss": 0.8686729682766596,
+    "normalized_rps": 0.16958174400886017,
+    "brier_score": 0.5111677453872154,
+    "ece": 0.014325607805993495
+  },
+  "absolute_improvement": {
+    "accuracy": 0.0040387722132472215,
+    "log_loss": 0.0047323726479988615,
+    "normalized_rps": 0.001050096083835217,
+    "ece": -0.002546823468471267
+  },
+  "percentage_improvement": {
+    "accuracy": 0.6761325219743151,
+    "log_loss": 0.5418300560182955,
+    "normalized_rps": 0.6154162571679204,
+    "ece": -21.6221249620656
+  }
+}

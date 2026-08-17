@@ -1,0 +1,5 @@
+Metric,Value
+Mean Gate Activation (All),0.2025525771009359
+Mean Gate Activation (Rich-Era),0.5343638546444237
+Gated Validation Accuracy,59.23
+Gated Validation LogLoss,0.8792

@@ -1,0 +1,4 @@
+comparison,metric,sample_matches,engine_A_mean,engine_C_mean,mean_difference,ci_95_low,ci_95_high,dm_p_value,is_statistically_significant,conclusion
+Engine A (Legacy) vs Engine C (MDS NegBin + DC),Log Loss,243,0.998177,1.00132,0.003143,0.000786,0.005361,0.007995,True,Statistically Significant Engine A Superiority (p < 0.05)
+Engine A (Legacy) vs Engine C (MDS NegBin + DC),Normalized RPS,243,0.209964,0.211223,0.001259,0.000556,0.001949,0.000474,True,Statistically Significant Engine A Superiority (p < 0.05)
+Engine A (Legacy) vs Engine C (MDS NegBin + DC),Scoreline NLL,243,2.946594,2.947977,0.001383,-0.018642,0.020186,0.890498,False,Statistically Indistinguishable (p >= 0.05)

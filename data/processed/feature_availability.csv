@@ -1,0 +1,7 @@
+feature_group,temporal_start_year,coverage_pct,source
+Elo Rating Dynamics,1872,100.0,Match outcomes
+Multi-Scale Form Windows,1872,100.0,Sequential match history
+Dixon-Coles Poisson Pre-Match Probs,1872,100.0,Rolling goal rates
+Bayesian Head-to-Head Records,1872,100.0,Historical pairings
+Official FIFA World Rankings,1993,62.2,FIFA ranking archives
+FIFA Video Game Squad Ratings (OVR),2015,22.4,EA Sports FIFA 15-22 / 26

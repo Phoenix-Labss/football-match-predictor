@@ -1,0 +1,4 @@
+entity_type,source,matched_players,match_rate_pct,resolution_method
+National Team Starting XI,FIFA Player Database,11 / 11,100.0,Exact name + team match with OVR rank tie-breaking
+StatsBomb Event Actors,StatsBomb Open Lineups,11 / 11,100.0,Official lineup ID alignment
+Historic Pre-2015 International Players,Synthetic Era-Adjusted Rating,11 / 11,100.0,Historical Elo & team-level strength projection

@@ -1,0 +1,63 @@
+tournament,date,matchup,favorite,underdog,actual_score,actual_result,legacy_fav_prob,mds_poi_fav_prob,mds_nb_fav_prob,legacy_logloss,mds_poi_logloss,mds_nb_logloss,logloss_dampening
+2018 FIFA World Cup,2018-06-15,Morocco vs Iran,Morocco,Iran,0 - 1,Away,0.444,0.442,0.436,1.3913,1.3863,1.3582,0.0331
+2018 FIFA World Cup,2018-06-15,Portugal vs Spain,Spain,Portugal,3 - 3,Draw,0.403,0.401,0.399,1.1764,1.1766,1.185,-0.0086
+2018 FIFA World Cup,2018-06-16,Argentina vs Iceland,Argentina,Iceland,1 - 1,Draw,0.586,0.587,0.569,1.3871,1.3902,1.3731,0.014
+2018 FIFA World Cup,2018-06-17,Germany vs Mexico,Germany,Mexico,0 - 1,Away,0.458,0.457,0.45,1.3835,1.3786,1.3462,0.0373
+2018 FIFA World Cup,2018-06-17,Brazil vs Switzerland,Brazil,Switzerland,1 - 1,Draw,0.428,0.428,0.424,1.1932,1.1961,1.203,-0.0098
+2018 FIFA World Cup,2018-06-19,Colombia vs Japan,Colombia,Japan,1 - 2,Away,0.421,0.421,0.418,1.2589,1.2567,1.234,0.0249
+2018 FIFA World Cup,2018-06-21,Denmark vs Australia,Denmark,Australia,1 - 1,Draw,0.406,0.407,0.404,1.1672,1.1691,1.1764,-0.0092
+2018 FIFA World Cup,2018-06-21,Argentina vs Croatia,Argentina,Croatia,0 - 3,Away,0.401,0.401,0.399,1.2108,1.2081,1.1906,0.0202
+2018 FIFA World Cup,2018-06-25,Saudi Arabia vs Egypt,Egypt,Saudi Arabia,2 - 1,Home,0.4,0.4,0.397,1.2425,1.2396,1.2222,0.0203
+2018 FIFA World Cup,2018-06-25,Spain vs Morocco,Spain,Morocco,2 - 2,Draw,0.464,0.464,0.457,1.2016,1.2035,1.2053,-0.0037
+2018 FIFA World Cup,2018-06-25,Iran vs Portugal,Portugal,Iran,1 - 1,Draw,0.511,0.512,0.501,1.2463,1.2484,1.2433,0.003
+2018 FIFA World Cup,2018-06-26,Australia vs Peru,Australia,Peru,0 - 2,Away,0.429,0.429,0.424,1.3568,1.3534,1.3289,0.0279
+2018 FIFA World Cup,2018-06-26,Denmark vs France,France,Denmark,0 - 0,Draw,0.443,0.447,0.44,1.1962,1.2008,1.2055,-0.0093
+2018 FIFA World Cup,2018-06-27,South Korea vs Germany,Germany,South Korea,2 - 0,Home,0.539,0.54,0.527,1.6574,1.6583,1.5995,0.0579
+2018 FIFA World Cup,2018-06-27,Switzerland vs Costa Rica,Switzerland,Costa Rica,2 - 2,Draw,0.42,0.419,0.415,1.1608,1.1615,1.1669,-0.0061
+2018 FIFA World Cup,2018-07-01,Russia vs Spain,Spain,Russia,1 - 1,Draw,0.463,0.462,0.454,1.2106,1.2104,1.2133,-0.0027
+UEFA Euro 2020 (2021),2021-06-12,Denmark vs Finland,Denmark,Finland,0 - 1,Away,0.447,0.446,0.44,1.3841,1.3799,1.3514,0.0327
+UEFA Euro 2020 (2021),2021-06-14,Scotland vs Czech Republic,Scotland,Czech Republic,0 - 2,Away,0.403,0.403,0.399,1.2975,1.2949,1.2773,0.0202
+UEFA Euro 2020 (2021),2021-06-14,Poland vs Slovakia,Poland,Slovakia,1 - 2,Away,0.406,0.407,0.404,1.2704,1.271,1.2523,0.0181
+UEFA Euro 2020 (2021),2021-06-14,Spain vs Sweden,Spain,Sweden,0 - 0,Draw,0.465,0.464,0.456,1.2182,1.2192,1.2225,-0.0043
+UEFA Euro 2020 (2021),2021-06-18,Croatia vs Czech Republic,Croatia,Czech Republic,1 - 1,Draw,0.465,0.464,0.457,1.1975,1.1971,1.1985,-0.001
+UEFA Euro 2020 (2021),2021-06-18,England vs Scotland,England,Scotland,0 - 0,Draw,0.446,0.446,0.44,1.1948,1.1948,1.1991,-0.0043
+UEFA Euro 2020 (2021),2021-06-19,Spain vs Poland,Spain,Poland,1 - 1,Draw,0.432,0.43,0.426,1.2125,1.2131,1.2212,-0.0087
+UEFA Euro 2020 (2021),2021-06-19,Hungary vs France,France,Hungary,1 - 1,Draw,0.543,0.544,0.53,1.2764,1.2789,1.2676,0.0088
+UEFA Euro 2020 (2021),2021-06-23,Germany vs Hungary,Germany,Hungary,2 - 2,Draw,0.546,0.549,0.535,1.2737,1.278,1.2648,0.0089
+UEFA Euro 2020 (2021),2021-06-27,Netherlands vs Czech Republic,Netherlands,Czech Republic,0 - 2,Away,0.503,0.503,0.492,1.606,1.5995,1.5556,0.0504
+UEFA Euro 2020 (2021),2021-06-28,France vs Switzerland,France,Switzerland,3 - 3,Draw,0.451,0.449,0.442,1.1904,1.1895,1.193,-0.0026
+UEFA Euro 2020 (2021),2021-07-02,Switzerland vs Spain,Spain,Switzerland,1 - 1,Draw,0.432,0.432,0.427,1.1811,1.1827,1.1881,-0.007
+2022 FIFA World Cup,2022-11-21,United States vs Wales,Wales,United States,1 - 1,Draw,0.537,0.538,0.525,1.2594,1.2618,1.2516,0.0078
+2022 FIFA World Cup,2022-11-22,Argentina vs Saudi Arabia,Argentina,Saudi Arabia,1 - 2,Away,0.521,0.521,0.51,1.6161,1.6137,1.5656,0.0505
+2022 FIFA World Cup,2022-11-22,Denmark vs Tunisia,Denmark,Tunisia,0 - 0,Draw,0.521,0.522,0.511,1.3122,1.3157,1.3145,-0.0023
+2022 FIFA World Cup,2022-11-23,Germany vs Japan,Germany,Japan,1 - 2,Away,0.509,0.509,0.499,1.5563,1.5552,1.5104,0.0459
+2022 FIFA World Cup,2022-11-24,Uruguay vs South Korea,Uruguay,South Korea,0 - 0,Draw,0.411,0.413,0.41,1.216,1.2184,1.2285,-0.0125
+2022 FIFA World Cup,2022-11-25,Netherlands vs Ecuador,Netherlands,Ecuador,1 - 1,Draw,0.511,0.512,0.502,1.2756,1.2798,1.278,-0.0024
+2022 FIFA World Cup,2022-11-25,England vs United States,England,United States,0 - 0,Draw,0.683,0.682,0.659,1.5185,1.5165,1.4656,0.0529
+2022 FIFA World Cup,2022-11-27,Japan vs Costa Rica,Japan,Costa Rica,0 - 1,Away,0.427,0.427,0.423,1.297,1.2938,1.2713,0.0257
+2022 FIFA World Cup,2022-11-27,Belgium vs Morocco,Belgium,Morocco,0 - 2,Away,0.421,0.422,0.419,1.2626,1.2665,1.2449,0.0177
+2022 FIFA World Cup,2022-11-29,Iran vs United States,Iran,United States,0 - 1,Away,0.524,0.524,0.512,1.6675,1.6638,1.6158,0.0517
+2022 FIFA World Cup,2022-11-30,Australia vs Denmark,Denmark,Australia,1 - 0,Home,0.442,0.441,0.436,1.3579,1.3543,1.3282,0.0297
+2022 FIFA World Cup,2022-11-30,Tunisia vs France,France,Tunisia,1 - 0,Home,0.621,0.622,0.603,1.9204,1.9226,1.8354,0.085
+2022 FIFA World Cup,2022-12-01,Japan vs Spain,Spain,Japan,2 - 1,Home,0.502,0.503,0.494,1.5208,1.5234,1.48,0.0408
+2022 FIFA World Cup,2022-12-01,Croatia vs Belgium,Belgium,Croatia,0 - 0,Draw,0.405,0.408,0.406,1.2029,1.205,1.2147,-0.0118
+2022 FIFA World Cup,2022-12-02,Cameroon vs Brazil,Brazil,Cameroon,1 - 0,Home,0.494,0.494,0.485,1.4947,1.4911,1.4506,0.0441
+2022 FIFA World Cup,2022-12-02,South Korea vs Portugal,Portugal,South Korea,2 - 1,Home,0.474,0.474,0.467,1.421,1.418,1.3831,0.0379
+2022 FIFA World Cup,2022-12-05,Japan vs Croatia,Croatia,Japan,1 - 1,Draw,0.419,0.419,0.415,1.2149,1.217,1.2265,-0.0116
+2022 FIFA World Cup,2022-12-06,Morocco vs Spain,Spain,Morocco,0 - 0,Draw,0.439,0.439,0.434,1.2124,1.2148,1.2216,-0.0092
+2022 FIFA World Cup,2022-12-09,Croatia vs Brazil,Brazil,Croatia,1 - 1,Draw,0.409,0.41,0.407,1.1928,1.1949,1.2035,-0.0107
+2022 FIFA World Cup,2022-12-10,Morocco vs Portugal,Portugal,Morocco,1 - 0,Home,0.408,0.407,0.405,1.241,1.2399,1.222,0.019
+2014 FIFA World Cup,2014-06-14,Uruguay vs Costa Rica,Uruguay,Costa Rica,1 - 3,Away,0.471,0.471,0.464,1.4101,1.4054,1.3727,0.0374
+2014 FIFA World Cup,2014-06-16,Ghana vs United States,Ghana,United States,1 - 2,Away,0.488,0.488,0.48,1.4469,1.4438,1.406,0.0409
+2014 FIFA World Cup,2014-06-16,Iran vs Nigeria,Nigeria,Iran,0 - 0,Draw,0.414,0.413,0.41,1.2072,1.2087,1.2179,-0.0107
+2014 FIFA World Cup,2014-06-17,Brazil vs Mexico,Brazil,Mexico,0 - 0,Draw,0.422,0.422,0.419,1.1959,1.1972,1.2046,-0.0087
+2014 FIFA World Cup,2014-06-17,Russia vs South Korea,Russia,South Korea,1 - 1,Draw,0.424,0.423,0.419,1.2081,1.2087,1.217,-0.0089
+2014 FIFA World Cup,2014-06-18,Spain vs Chile,Spain,Chile,0 - 2,Away,0.454,0.455,0.45,1.3521,1.3539,1.3251,0.027
+2014 FIFA World Cup,2014-06-20,Italy vs Costa Rica,Italy,Costa Rica,0 - 1,Away,0.513,0.514,0.504,1.5608,1.5628,1.5183,0.0425
+2014 FIFA World Cup,2014-06-21,Germany vs Ghana,Germany,Ghana,2 - 2,Draw,0.539,0.536,0.524,1.3086,1.3066,1.3012,0.0074
+2014 FIFA World Cup,2014-06-22,United States vs Portugal,Portugal,United States,2 - 2,Draw,0.609,0.609,0.592,1.4203,1.4222,1.4015,0.0188
+2014 FIFA World Cup,2014-06-24,Costa Rica vs England,England,Costa Rica,0 - 0,Draw,0.485,0.486,0.478,1.2534,1.2553,1.2575,-0.0041
+2014 FIFA World Cup,2014-06-25,Ecuador vs France,France,Ecuador,0 - 0,Draw,0.511,0.509,0.5,1.2777,1.2764,1.2752,0.0025
+2014 FIFA World Cup,2014-06-28,Brazil vs Chile,Brazil,Chile,1 - 1,Draw,0.411,0.412,0.409,1.1986,1.2002,1.2089,-0.0103
+2014 FIFA World Cup,2014-06-29,Costa Rica vs Greece,Greece,Costa Rica,1 - 1,Draw,0.408,0.407,0.405,1.1993,1.2001,1.2092,-0.0099
+2014 FIFA World Cup,2014-07-05,Netherlands vs Costa Rica,Netherlands,Costa Rica,0 - 0,Draw,0.535,0.536,0.525,1.3296,1.3338,1.3306,-0.001

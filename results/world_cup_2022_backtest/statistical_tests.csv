@@ -1,0 +1,10 @@
+comparison,metric,sample_matches,mean_difference,ci_95_low,ci_95_high,dm_p_value,is_statistically_significant,verdict
+Engine A (Legacy) vs Engine B (MDS Poisson),Log Loss,64,-1.7e-05,-0.000276,0.000235,0.8945,False,Statistically Indistinguishable (p >= 0.05)
+Engine A (Legacy) vs Engine B (MDS Poisson),Normalized RPS,64,-5e-06,-9e-05,7.4e-05,0.9003,False,Statistically Indistinguishable (p >= 0.05)
+Engine A (Legacy) vs Engine B (MDS Poisson),Scoreline NLL,64,-9.3e-05,-0.000536,0.000313,0.6678,False,Statistically Indistinguishable (p >= 0.05)
+Engine A (Legacy) vs Engine C (MDS NegBin),Log Loss,64,0.000905,-0.007135,0.008264,0.8165,False,Statistically Indistinguishable (p >= 0.05)
+Engine A (Legacy) vs Engine C (MDS NegBin),Normalized RPS,64,0.000624,-0.001708,0.002775,0.5872,False,Statistically Indistinguishable (p >= 0.05)
+Engine A (Legacy) vs Engine C (MDS NegBin),Scoreline NLL,64,-0.01881,-0.076903,0.030239,0.4998,False,Statistically Indistinguishable (p >= 0.05)
+Engine B (MDS Poisson) vs Engine C (MDS NegBin),Log Loss,64,0.000922,-0.007037,0.007962,0.8138,False,Statistically Indistinguishable (p >= 0.05)
+Engine B (MDS Poisson) vs Engine C (MDS NegBin),Normalized RPS,64,0.000629,-0.001719,0.002779,0.5869,False,Statistically Indistinguishable (p >= 0.05)
+Engine B (MDS Poisson) vs Engine C (MDS NegBin),Scoreline NLL,64,-0.018717,-0.078429,0.030892,0.5008,False,Statistically Indistinguishable (p >= 0.05)

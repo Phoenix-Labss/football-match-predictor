@@ -1,0 +1,31 @@
+tournament_fold,matches_count,model_name,accuracy_pct,log_loss,normalized_rps,brier_score,scoreline_nll,total_goal_nll
+2014 FIFA World Cup,64,Model A: Dixon-Coles Poisson,62.5,0.9841,0.2081,0.5885,2.9843,1.9701
+2014 FIFA World Cup,64,Model B: Negative Binomial Indep,62.5,0.9817,0.2088,0.5854,2.9732,1.9601
+2014 FIFA World Cup,64,Model C: Negative Binomial + DC,62.5,0.9884,0.2097,0.5912,2.9739,1.9625
+2014 FIFA World Cup,64,Model D: MDS + Poisson,62.5,0.9839,0.208,0.5883,2.9836,1.97
+2014 FIFA World Cup,64,Model E: MDS + Negative Binomial,62.5,0.9815,0.2087,0.5853,2.9732,1.9602
+2014 FIFA World Cup,64,Model F: MDS + Negative Binomial + DC,62.5,0.9882,0.2097,0.591,2.9739,1.9626
+UEFA Euro 2016,51,Model A: Dixon-Coles Poisson,47.06,1.0332,0.2109,0.621,2.5966,1.669
+UEFA Euro 2016,51,Model B: Negative Binomial Indep,47.06,1.0355,0.2115,0.622,2.6112,1.6764
+UEFA Euro 2016,51,Model C: Negative Binomial + DC,47.06,1.0354,0.2116,0.6225,2.6149,1.6826
+UEFA Euro 2016,51,Model D: MDS + Poisson,47.06,1.033,0.2108,0.6208,2.5973,1.6695
+UEFA Euro 2016,51,Model E: MDS + Negative Binomial,47.06,1.0354,0.2114,0.6219,2.612,1.677
+UEFA Euro 2016,51,Model F: MDS + Negative Binomial + DC,47.06,1.0353,0.2115,0.6224,2.6157,1.6832
+2018 FIFA World Cup,64,Model A: Dixon-Coles Poisson,54.69,0.9823,0.208,0.5856,2.8386,1.8156
+2018 FIFA World Cup,64,Model B: Negative Binomial Indep,54.69,0.9788,0.2086,0.5825,2.8487,1.8127
+2018 FIFA World Cup,64,Model C: Negative Binomial + DC,54.69,0.9866,0.2096,0.5886,2.8626,1.8272
+2018 FIFA World Cup,64,Model D: MDS + Poisson,54.69,0.9818,0.2079,0.5853,2.8376,1.8147
+2018 FIFA World Cup,64,Model E: MDS + Negative Binomial,54.69,0.9783,0.2085,0.5822,2.8483,1.8121
+2018 FIFA World Cup,64,Model F: MDS + Negative Binomial + DC,54.69,0.9861,0.2095,0.5883,2.8622,1.8266
+UEFA Euro 2020 (2021),51,Model A: Dixon-Coles Poisson,56.86,0.9972,0.2061,0.5977,2.963,1.8977
+UEFA Euro 2020 (2021),51,Model B: Negative Binomial Indep,58.82,0.9972,0.207,0.5962,2.972,1.8997
+UEFA Euro 2020 (2021),51,Model C: Negative Binomial + DC,58.82,1.0015,0.2077,0.6004,2.9745,1.9051
+UEFA Euro 2020 (2021),51,Model D: MDS + Poisson,56.86,0.9971,0.2061,0.5976,2.9625,1.897
+UEFA Euro 2020 (2021),51,Model E: MDS + Negative Binomial,58.82,0.9972,0.207,0.5962,2.972,1.8993
+UEFA Euro 2020 (2021),51,Model F: MDS + Negative Binomial + DC,58.82,1.0015,0.2077,0.6004,2.9745,1.9047
+2022 FIFA World Cup,64,Model A: Dixon-Coles Poisson,56.25,1.0264,0.2159,0.6143,2.997,1.9997
+2022 FIFA World Cup,64,Model B: Negative Binomial Indep,56.25,1.0223,0.2159,0.612,2.9801,1.9877
+2022 FIFA World Cup,64,Model C: Negative Binomial + DC,56.25,1.0272,0.2164,0.6153,2.9806,1.9809
+2022 FIFA World Cup,64,Model D: MDS + Poisson,56.25,1.0261,0.2158,0.6141,2.9961,1.9992
+2022 FIFA World Cup,64,Model E: MDS + Negative Binomial,56.25,1.0221,0.2158,0.6118,2.98,1.9874
+2022 FIFA World Cup,64,Model F: MDS + Negative Binomial + DC,56.25,1.0269,0.2164,0.6152,2.9804,1.9807

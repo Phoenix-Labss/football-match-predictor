@@ -1,0 +1,62 @@
+[
+  {
+    "threshold": 0.75,
+    "n_upsets": 1457,
+    "mean_drop_classic": 22.86,
+    "mean_drop_fixed5": 19.52,
+    "mean_drop_adaptive": 19.15,
+    "median_drop_classic": 20.16,
+    "median_drop_fixed5": 20.0,
+    "median_drop_adaptive": 18.94,
+    "max_drop_classic": 61.35,
+    "max_drop_fixed5": 20.0,
+    "max_drop_adaptive": 30.0,
+    "pct_adaptive_smaller_than_classic": 65.7,
+    "pct_adaptive_smaller_than_fixed5": 54.4
+  },
+  {
+    "threshold": 0.8,
+    "n_upsets": 767,
+    "mean_drop_classic": 23.72,
+    "mean_drop_fixed5": 19.91,
+    "mean_drop_adaptive": 19.25,
+    "median_drop_classic": 20.74,
+    "median_drop_fixed5": 20.0,
+    "median_drop_adaptive": 19.73,
+    "max_drop_classic": 61.35,
+    "max_drop_fixed5": 20.0,
+    "max_drop_adaptive": 30.0,
+    "pct_adaptive_smaller_than_classic": 68.6,
+    "pct_adaptive_smaller_than_fixed5": 50.6
+  },
+  {
+    "threshold": 0.85,
+    "n_upsets": 333,
+    "mean_drop_classic": 24.46,
+    "mean_drop_fixed5": 20.0,
+    "mean_drop_adaptive": 19.55,
+    "median_drop_classic": 21.34,
+    "median_drop_fixed5": 20.0,
+    "median_drop_adaptive": 20.64,
+    "max_drop_classic": 61.35,
+    "max_drop_fixed5": 20.0,
+    "max_drop_adaptive": 30.0,
+    "pct_adaptive_smaller_than_classic": 66.7,
+    "pct_adaptive_smaller_than_fixed5": 39.9
+  },
+  {
+    "threshold": 0.9,
+    "n_upsets": 84,
+    "mean_drop_classic": 25.68,
+    "mean_drop_fixed5": 20.0,
+    "mean_drop_adaptive": 19.72,
+    "median_drop_classic": 22.42,
+    "median_drop_fixed5": 20.0,
+    "median_drop_adaptive": 21.88,
+    "max_drop_classic": 43.74,
+    "max_drop_fixed5": 20.0,
+    "max_drop_adaptive": 30.0,
+    "pct_adaptive_smaller_than_classic": 64.3,
+    "pct_adaptive_smaller_than_fixed5": 40.5
+  }
+]

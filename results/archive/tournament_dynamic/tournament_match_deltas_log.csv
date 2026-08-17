@@ -1,0 +1,316 @@
+tournament,date,match,score,delta_classic,delta_adaptive
+2018 FIFA World Cup,2018-06-14,Russia vs Saudi Arabia,5-0,14.01,10.9
+2018 FIFA World Cup,2018-06-15,Egypt vs Uruguay,0-1,6.64,7.55
+2018 FIFA World Cup,2018-06-15,Morocco vs Iran,0-1,10.01,9.0
+2018 FIFA World Cup,2018-06-15,Portugal vs Spain,3-3,4.45,4.86
+2018 FIFA World Cup,2018-06-16,France vs Australia,2-1,5.5,5.4
+2018 FIFA World Cup,2018-06-16,Argentina vs Iceland,1-1,7.62,8.32
+2018 FIFA World Cup,2018-06-16,Peru vs Denmark,0-1,15.22,14.0
+2018 FIFA World Cup,2018-06-16,Croatia vs Nigeria,2-0,11.09,8.83
+2018 FIFA World Cup,2018-06-17,Brazil vs Switzerland,1-1,7.86,8.92
+2018 FIFA World Cup,2018-06-17,Germany vs Mexico,0-1,15.85,14.8
+2018 FIFA World Cup,2018-06-17,Costa Rica vs Serbia,0-1,12.36,10.48
+2018 FIFA World Cup,2018-06-18,Sweden vs South Korea,1-0,10.13,7.72
+2018 FIFA World Cup,2018-06-18,Belgium vs Panama,3-0,8.76,8.16
+2018 FIFA World Cup,2018-06-18,Tunisia vs England,1-2,4.89,5.0
+2018 FIFA World Cup,2018-06-19,Poland vs Senegal,1-2,12.78,7.1
+2018 FIFA World Cup,2018-06-19,Russia vs Egypt,3-1,12.8,8.98
+2018 FIFA World Cup,2018-06-19,Colombia vs Japan,1-2,17.63,8.89
+2018 FIFA World Cup,2018-06-20,Portugal vs Morocco,1-0,7.14,6.58
+2018 FIFA World Cup,2018-06-20,Uruguay vs Saudi Arabia,1-0,4.41,4.89
+2018 FIFA World Cup,2018-06-20,Iran vs Spain,0-1,5.83,5.64
+2018 FIFA World Cup,2018-06-21,Argentina vs Croatia,0-3,27.36,9.95
+2018 FIFA World Cup,2018-06-21,France vs Peru,1-0,8.92,5.79
+2018 FIFA World Cup,2018-06-21,Denmark vs Australia,1-1,2.24,0.53
+2018 FIFA World Cup,2018-06-22,Nigeria vs Iceland,2-0,19.35,6.04
+2018 FIFA World Cup,2018-06-22,Brazil vs Costa Rica,2-0,3.94,3.17
+2018 FIFA World Cup,2018-06-22,Serbia vs Switzerland,1-2,8.85,8.52
+2018 FIFA World Cup,2018-06-23,Belgium vs Tunisia,5-2,8.99,10.26
+2018 FIFA World Cup,2018-06-23,South Korea vs Mexico,1-2,6.45,6.66
+2018 FIFA World Cup,2018-06-23,Germany vs Sweden,2-1,6.2,5.17
+2018 FIFA World Cup,2018-06-24,England vs Panama,6-1,8.38,6.93
+2018 FIFA World Cup,2018-06-24,Japan vs Senegal,2-2,1.16,1.19
+2018 FIFA World Cup,2018-06-24,Poland vs Colombia,0-3,14.53,12.19
+2018 FIFA World Cup,2018-06-25,Russia vs Uruguay,0-3,16.9,5.9
+2018 FIFA World Cup,2018-06-25,Saudi Arabia vs Egypt,2-1,14.39,5.6
+2018 FIFA World Cup,2018-06-25,Iran vs Portugal,1-1,2.85,2.64
+2018 FIFA World Cup,2018-06-25,Spain vs Morocco,2-2,8.17,5.7
+2018 FIFA World Cup,2018-06-26,Australia vs Peru,0-2,12.05,4.79
+2018 FIFA World Cup,2018-06-26,Denmark vs France,0-0,5.37,6.46
+2018 FIFA World Cup,2018-06-26,Nigeria vs Argentina,1-2,5.17,3.79
+2018 FIFA World Cup,2018-06-26,Iceland vs Croatia,1-2,6.2,4.94
+2018 FIFA World Cup,2018-06-27,South Korea vs Germany,2-0,29.74,15.23
+2018 FIFA World Cup,2018-06-27,Mexico vs Sweden,0-3,27.54,6.34
+2018 FIFA World Cup,2018-06-27,Serbia vs Brazil,0-2,3.97,2.79
+2018 FIFA World Cup,2018-06-27,Switzerland vs Costa Rica,2-2,4.0,3.44
+2018 FIFA World Cup,2018-06-28,England vs Belgium,0-1,12.69,13.45
+2018 FIFA World Cup,2018-06-28,Panama vs Tunisia,1-2,11.22,9.82
+2018 FIFA World Cup,2018-06-28,Japan vs Poland,0-1,11.48,8.13
+2018 FIFA World Cup,2018-06-28,Senegal vs Colombia,0-1,7.9,4.35
+2018 FIFA World Cup,2018-06-30,Uruguay vs Portugal,2-1,12.43,9.23
+2018 FIFA World Cup,2018-06-30,France vs Argentina,4-3,10.58,9.54
+2018 FIFA World Cup,2018-07-01,Russia vs Spain,1-1,7.06,7.35
+2018 FIFA World Cup,2018-07-01,Croatia vs Denmark,1-1,2.14,2.73
+2018 FIFA World Cup,2018-07-02,Brazil vs Mexico,2-0,6.51,7.2
+2018 FIFA World Cup,2018-07-02,Belgium vs Japan,3-2,5.68,7.81
+2018 FIFA World Cup,2018-07-03,Sweden vs Switzerland,1-0,14.04,6.86
+2018 FIFA World Cup,2018-07-03,Colombia vs England,1-1,0.82,0.74
+2018 FIFA World Cup,2018-07-05,Malaysia vs Fiji,1-0,18.66,14.58
+2018 FIFA World Cup,2018-07-06,Uruguay vs France,0-2,13.78,14.32
+2018 FIFA World Cup,2018-07-06,Brazil vs Belgium,1-2,17.6,10.37
+2018 FIFA World Cup,2018-07-07,Russia vs Croatia,2-2,2.84,1.9
+2018 FIFA World Cup,2018-07-07,Sweden vs England,0-2,11.82,10.0
+2018 FIFA World Cup,2018-07-10,France vs Belgium,1-0,10.89,10.05
+2018 FIFA World Cup,2018-07-11,Croatia vs England,2-1,14.51,11.96
+2018 FIFA World Cup,2018-07-14,Belgium vs England,2-0,16.9,13.95
+2018 FIFA World Cup,2018-07-15,France vs Croatia,4-2,12.03,11.14
+UEFA Euro 2020,2021-06-11,DR Congo vs Mali,1-1,2.79,1.25
+UEFA Euro 2020,2021-06-11,Philippines vs Guam,3-0,8.0,6.66
+UEFA Euro 2020,2021-06-11,Nepal vs Australia,0-3,1.1,0.67
+UEFA Euro 2020,2021-06-11,Kuwait vs Jordan,0-0,0.72,0.88
+UEFA Euro 2020,2021-06-11,Cambodia vs Iran,0-10,0.64,0.43
+UEFA Euro 2020,2021-06-11,Hong Kong vs Iraq,0-1,2.59,2.98
+UEFA Euro 2020,2021-06-11,Yemen vs Uzbekistan,0-1,3.26,2.41
+UEFA Euro 2020,2021-06-11,Afghanistan vs Oman,1-2,3.69,3.09
+UEFA Euro 2020,2021-06-11,Myanmar vs Kyrgyzstan,1-8,15.83,4.38
+UEFA Euro 2020,2021-06-11,Malaysia vs Vietnam,1-2,6.53,6.59
+UEFA Euro 2020,2021-06-11,Japan vs Serbia,1-0,8.69,6.5
+UEFA Euro 2020,2021-06-11,Guinea vs Niger,2-1,6.19,5.13
+UEFA Euro 2020,2021-06-11,Kosovo vs Gambia,1-0,9.81,7.44
+UEFA Euro 2020,2021-06-11,Mauritania vs Liberia,1-0,10.69,10.96
+UEFA Euro 2020,2021-06-11,Tunisia vs Algeria,0-2,17.52,10.64
+UEFA Euro 2020,2021-06-11,Italy vs Turkey,3-0,8.03,8.97
+UEFA Euro 2020,2021-06-11,United Arab Emirates vs Indonesia,5-0,5.68,5.36
+UEFA Euro 2020,2021-06-11,Saudi Arabia vs Singapore,3-0,3.63,2.99
+UEFA Euro 2020,2021-06-11,China vs Maldives,5-0,3.53,2.68
+UEFA Euro 2020,2021-06-12,Haiti vs Canada,0-1,11.39,4.94
+UEFA Euro 2020,2021-06-12,Panama vs Curaçao,2-1,6.46,4.97
+UEFA Euro 2020,2021-06-12,Ghana vs Ivory Coast,0-0,1.4,0.16
+UEFA Euro 2020,2021-06-12,Saint Kitts and Nevis vs El Salvador,0-4,15.07,7.9
+UEFA Euro 2020,2021-06-12,Denmark vs Finland,0-1,20.47,13.07
+UEFA Euro 2020,2021-06-12,Wales vs Switzerland,1-1,1.17,2.86
+UEFA Euro 2020,2021-06-12,Russia vs Belgium,0-3,9.24,8.95
+UEFA Euro 2020,2021-06-12,Morocco vs Burkina Faso,1-0,5.97,5.91
+UEFA Euro 2020,2021-06-12,Mexico vs Honduras,0-0,7.8,8.75
+UEFA Euro 2020,2021-06-13,South Korea vs Lebanon,2-1,2.33,2.29
+UEFA Euro 2020,2021-06-13,Sudan vs Zambia,0-1,9.57,8.92
+UEFA Euro 2020,2021-06-13,Tanzania vs Malawi,2-0,15.59,9.84
+UEFA Euro 2020,2021-06-13,Austria vs North Macedonia,3-1,11.52,10.56
+UEFA Euro 2020,2021-06-13,Netherlands vs Ukraine,3-2,5.59,5.52
+UEFA Euro 2020,2021-06-13,England vs Croatia,1-0,5.17,5.37
+UEFA Euro 2020,2021-06-13,Brazil vs Venezuela,3-0,3.45,2.12
+UEFA Euro 2020,2021-06-13,Colombia vs Ecuador,1-0,7.97,5.81
+UEFA Euro 2020,2021-06-14,Poland vs Slovakia,1-2,15.47,16.66
+UEFA Euro 2020,2021-06-14,Libya vs Liberia,0-1,14.83,16.14
+UEFA Euro 2020,2021-06-14,Scotland vs Czech Republic,0-2,17.85,8.3
+UEFA Euro 2020,2021-06-14,Argentina vs Chile,1-1,5.2,4.91
+UEFA Euro 2020,2021-06-14,Paraguay vs Bolivia,3-1,10.86,8.17
+UEFA Euro 2020,2021-06-14,Spain vs Sweden,0-0,7.88,8.69
+UEFA Euro 2020,2021-06-15,Iran vs Iraq,1-0,5.17,4.28
+UEFA Euro 2020,2021-06-15,Japan vs Kyrgyzstan,5-1,2.88,2.1
+UEFA Euro 2020,2021-06-15,Philippines vs Maldives,1-1,5.94,6.32
+UEFA Euro 2020,2021-06-15,China vs Syria,3-1,12.98,9.12
+UEFA Euro 2020,2021-06-15,Australia vs Jordan,1-0,5.28,4.05
+UEFA Euro 2020,2021-06-15,Bahrain vs Hong Kong,4-0,4.7,5.03
+UEFA Euro 2020,2021-06-15,Palestine vs Yemen,3-0,10.77,8.51
+UEFA Euro 2020,2021-06-15,Bangladesh vs Oman,0-3,2.3,2.26
+UEFA Euro 2020,2021-06-15,Tajikistan vs Myanmar,4-0,12.22,10.67
+UEFA Euro 2020,2021-06-15,India vs Afghanistan,1-1,2.52,2.98
+UEFA Euro 2020,2021-06-15,Saudi Arabia vs Uzbekistan,3-0,17.01,6.05
+UEFA Euro 2020,2021-06-15,Canada vs Haiti,3-0,14.82,11.56
+UEFA Euro 2020,2021-06-15,Thailand vs Malaysia,0-1,15.94,10.89
+UEFA Euro 2020,2021-06-15,Sierra Leone vs Benin,1-0,16.25,7.81
+UEFA Euro 2020,2021-06-15,Kuwait vs Taiwan,2-1,2.64,2.28
+UEFA Euro 2020,2021-06-15,Germany vs France,0-1,11.12,10.04
+UEFA Euro 2020,2021-06-15,Hungary vs Portugal,0-3,9.25,7.6
+UEFA Euro 2020,2021-06-15,United Arab Emirates vs Vietnam,3-2,8.1,6.31
+UEFA Euro 2020,2021-06-15,Tunisia vs Mali,1-0,7.08,5.93
+UEFA Euro 2020,2021-06-15,El Salvador vs Saint Kitts and Nevis,2-0,6.01,5.82
+UEFA Euro 2020,2021-06-15,Curaçao vs Panama,0-0,1.93,3.78
+UEFA Euro 2020,2021-06-15,Djibouti vs Somalia,1-0,9.75,10.48
+UEFA Euro 2020,2021-06-16,Russia vs Finland,1-0,8.19,6.28
+UEFA Euro 2020,2021-06-16,Turkey vs Wales,0-2,17.8,4.86
+UEFA Euro 2020,2021-06-16,Italy vs Switzerland,3-0,11.66,11.73
+UEFA Euro 2020,2021-06-17,Denmark vs Belgium,1-2,9.02,8.16
+UEFA Euro 2020,2021-06-17,Ukraine vs North Macedonia,2-1,6.3,4.7
+UEFA Euro 2020,2021-06-17,Netherlands vs Austria,2-0,7.11,5.32
+UEFA Euro 2020,2021-06-17,Colombia vs Venezuela,0-0,5.58,7.75
+UEFA Euro 2020,2021-06-17,Brazil vs Peru,4-0,4.15,3.42
+UEFA Euro 2020,2021-06-17,Algeria vs Liberia,5-1,3.01,2.78
+UEFA Euro 2020,2021-06-18,Croatia vs Czech Republic,1-1,1.64,1.97
+UEFA Euro 2020,2021-06-18,Sweden vs Slovakia,1-0,7.97,8.02
+UEFA Euro 2020,2021-06-18,England vs Scotland,0-0,9.66,9.91
+UEFA Euro 2020,2021-06-18,Chile vs Bolivia,1-0,4.58,2.2
+UEFA Euro 2020,2021-06-18,Argentina vs Uruguay,1-0,9.65,8.03
+UEFA Euro 2020,2021-06-19,Germany vs Portugal,4-2,18.09,14.2
+UEFA Euro 2020,2021-06-19,Libya vs Sudan,0-1,13.98,15.27
+UEFA Euro 2020,2021-06-19,Spain vs Poland,1-1,8.49,8.95
+UEFA Euro 2020,2021-06-19,Hungary vs France,1-1,8.09,9.48
+UEFA Euro 2020,2021-06-20,Italy vs Wales,1-0,4.46,3.45
+UEFA Euro 2020,2021-06-20,Switzerland vs Turkey,3-1,12.64,9.27
+UEFA Euro 2020,2021-06-20,Venezuela vs Ecuador,2-2,1.11,1.69
+UEFA Euro 2020,2021-06-20,Colombia vs Peru,1-2,16.73,11.19
+UEFA Euro 2020,2021-06-20,Oman vs Somalia,2-1,0.93,0.91
+UEFA Euro 2020,2021-06-21,Netherlands vs North Macedonia,3-0,3.6,2.54
+UEFA Euro 2020,2021-06-21,Finland vs Belgium,0-2,3.82,2.97
+UEFA Euro 2020,2021-06-21,Denmark vs Russia,4-1,10.17,6.89
+UEFA Euro 2020,2021-06-21,Ukraine vs Austria,0-1,13.34,10.98
+UEFA Euro 2020,2021-06-21,Uruguay vs Chile,1-1,2.31,0.45
+UEFA Euro 2020,2021-06-21,Argentina vs Paraguay,1-0,4.73,3.32
+UEFA Euro 2020,2021-06-22,Scotland vs Croatia,1-3,14.17,9.41
+UEFA Euro 2020,2021-06-22,England vs Czech Republic,1-0,4.16,4.14
+UEFA Euro 2020,2021-06-22,Mauritania vs Yemen,2-0,10.51,12.0
+UEFA Euro 2020,2021-06-23,Portugal vs France,2-2,1.92,3.35
+UEFA Euro 2020,2021-06-23,Germany vs Hungary,2-2,8.58,10.03
+UEFA Euro 2020,2021-06-23,Spain vs Slovakia,5-0,4.88,3.29
+UEFA Euro 2020,2021-06-23,Sweden vs Poland,3-2,10.34,12.05
+UEFA Euro 2020,2021-06-23,Lebanon vs Djibouti,1-0,2.2,2.08
+UEFA Euro 2020,2021-06-23,Brazil vs Colombia,2-1,4.04,4.2
+UEFA Euro 2020,2021-06-23,Ecuador vs Peru,2-2,0.16,1.03
+UEFA Euro 2020,2021-06-24,Bolivia vs Uruguay,0-2,4.79,3.02
+UEFA Euro 2020,2021-06-24,Chile vs Paraguay,0-2,22.82,7.15
+UEFA Euro 2020,2021-06-24,Palestine vs Comoros,5-1,12.05,5.29
+UEFA Euro 2020,2021-06-25,Bahrain vs Kuwait,2-0,10.45,4.92
+UEFA Euro 2020,2021-06-26,Wales vs Denmark,0-4,16.39,10.9
+UEFA Euro 2020,2021-06-26,Italy vs Austria,2-1,5.05,4.16
+UEFA Euro 2020,2021-06-27,El Salvador vs Guatemala,0-0,1.33,1.05
+UEFA Euro 2020,2021-06-27,Venezuela vs Peru,0-1,10.81,6.61
+UEFA Euro 2020,2021-06-27,Brazil vs Ecuador,1-1,9.79,10.46
+UEFA Euro 2020,2021-06-27,Netherlands vs Czech Republic,0-2,26.73,6.67
+UEFA Euro 2020,2021-06-27,Belgium vs Portugal,1-0,9.22,5.81
+UEFA Euro 2020,2021-06-28,Argentina vs Bolivia,4-1,3.33,1.65
+UEFA Euro 2020,2021-06-28,Croatia vs Spain,3-5,9.01,8.3
+UEFA Euro 2020,2021-06-28,France vs Switzerland,3-3,4.81,6.01
+UEFA Euro 2020,2021-06-28,Uruguay vs Paraguay,1-0,7.4,6.28
+UEFA Euro 2020,2021-06-29,Sweden vs Ukraine,1-2,14.37,12.73
+UEFA Euro 2020,2021-06-29,England vs Germany,2-0,12.42,9.2
+UEFA Euro 2020,2021-06-30,Mexico vs Panama,3-0,7.17,5.83
+UEFA Euro 2020,2021-07-02,Switzerland vs Spain,1-1,4.69,5.89
+UEFA Euro 2020,2021-07-02,Brazil vs Chile,1-0,2.53,3.06
+UEFA Euro 2020,2021-07-02,Peru vs Paraguay,3-3,1.92,2.61
+UEFA Euro 2020,2021-07-02,Trinidad and Tobago vs Montserrat,6-1,11.29,6.9
+UEFA Euro 2020,2021-07-02,Haiti vs Saint Vincent and the Grenadines,6-1,8.86,9.18
+UEFA Euro 2020,2021-07-02,Bermuda vs Barbados,8-1,17.96,11.95
+UEFA Euro 2020,2021-07-02,Belgium vs Italy,1-2,14.22,11.46
+UEFA Euro 2020,2021-07-03,Czech Republic vs Denmark,1-2,8.13,8.98
+UEFA Euro 2020,2021-07-03,Ukraine vs England,0-4,10.83,7.23
+UEFA Euro 2020,2021-07-03,Mexico vs Nigeria,4-0,10.78,11.01
+UEFA Euro 2020,2021-07-03,Uruguay vs Colombia,0-0,0.08,1.3
+UEFA Euro 2020,2021-07-03,Argentina vs Ecuador,3-0,10.5,6.9
+UEFA Euro 2020,2021-07-03,Guatemala vs Guyana,4-0,10.66,14.54
+UEFA Euro 2020,2021-07-03,Cuba vs French Guiana,0-3,17.81,6.96
+UEFA Euro 2020,2021-07-03,Guadeloupe vs Bahamas,2-0,7.47,5.44
+UEFA Euro 2020,2021-07-04,Qatar vs El Salvador,1-0,9.33,8.54
+UEFA Euro 2020,2021-07-05,Brazil vs Peru,1-0,2.46,1.89
+UEFA Euro 2020,2021-07-06,South Africa vs Botswana,1-0,4.59,4.02
+UEFA Euro 2020,2021-07-06,Trinidad and Tobago vs French Guiana,1-1,0.52,3.04
+UEFA Euro 2020,2021-07-06,Guatemala vs Guadeloupe,1-1,3.91,2.37
+UEFA Euro 2020,2021-07-06,Eswatini vs Lesotho,3-1,21.94,5.9
+UEFA Euro 2020,2021-07-06,Italy vs Spain,1-1,0.27,1.75
+UEFA Euro 2020,2021-07-06,Argentina vs Colombia,1-1,3.33,3.37
+UEFA Euro 2020,2021-07-06,Haiti vs Bermuda,4-1,12.69,5.48
+UEFA Euro 2020,2021-07-07,Mozambique vs Zimbabwe,0-0,3.58,4.1
+UEFA Euro 2020,2021-07-07,Senegal vs Namibia,1-2,20.93,10.52
+UEFA Euro 2020,2021-07-07,England vs Denmark,2-1,7.07,5.75
+UEFA Euro 2020,2021-07-08,Zambia vs Lesotho,1-2,19.39,8.8
+UEFA Euro 2020,2021-07-08,South Africa vs Eswatini,1-0,2.55,1.61
+UEFA Euro 2020,2021-07-09,Malawi vs Zimbabwe,2-2,3.22,2.81
+UEFA Euro 2020,2021-07-09,Senegal vs Mozambique,1-0,2.7,2.56
+UEFA Euro 2020,2021-07-09,Peru vs Colombia,2-3,8.5,6.82
+UEFA Euro 2020,2021-07-10,Zambia vs Eswatini,0-1,19.74,9.17
+UEFA Euro 2020,2021-07-10,Mexico vs Trinidad and Tobago,0-0,10.12,8.77
+UEFA Euro 2020,2021-07-10,Brazil vs Argentina,0-1,17.85,6.23
+UEFA Euro 2020,2021-07-10,Lesotho vs Botswana,0-4,18.81,7.87
+UEFA Euro 2020,2021-07-11,Canada vs Martinique,4-1,11.83,11.74
+UEFA Euro 2020,2021-07-11,England vs Italy,1-1,2.05,2.51
+UEFA Euro 2020,2021-07-11,Namibia vs Zimbabwe,2-0,19.5,14.17
+UEFA Euro 2020,2021-07-11,Mozambique vs Malawi,2-0,18.52,10.91
+UEFA Euro 2020,2021-07-11,El Salvador vs Guatemala,2-0,16.97,6.24
+UEFA Euro 2020,2021-07-11,United States vs Haiti,1-0,3.53,2.65
+2022 FIFA World Cup,2022-11-20,Uzbekistan vs Russia,0-0,1.24,0.23
+2022 FIFA World Cup,2022-11-20,North Macedonia vs Azerbaijan,1-3,28.63,13.45
+2022 FIFA World Cup,2022-11-20,Austria vs Italy,2-0,26.62,5.38
+2022 FIFA World Cup,2022-11-20,Gambia vs Guinea-Bissau,0-0,1.93,1.61
+2022 FIFA World Cup,2022-11-20,Hungary vs Greece,2-1,7.92,10.43
+2022 FIFA World Cup,2022-11-20,Israel vs Cyprus,2-3,20.8,8.08
+2022 FIFA World Cup,2022-11-20,Luxembourg vs Bulgaria,0-0,2.52,5.83
+2022 FIFA World Cup,2022-11-20,Qatar vs Ecuador,0-2,15.37,10.34
+2022 FIFA World Cup,2022-11-20,Malta vs Republic of Ireland,0-1,3.7,2.2
+2022 FIFA World Cup,2022-11-20,Moldova vs Romania,0-5,7.72,5.44
+2022 FIFA World Cup,2022-11-20,Norway vs Finland,1-1,4.81,5.05
+2022 FIFA World Cup,2022-11-20,Oman vs Belarus,2-0,11.58,7.89
+2022 FIFA World Cup,2022-11-20,Slovakia vs Chile,0-0,0.71,3.63
+2022 FIFA World Cup,2022-11-20,Slovenia vs Montenegro,1-0,6.9,7.36
+2022 FIFA World Cup,2022-11-20,South Africa vs Angola,1-1,6.42,5.93
+2022 FIFA World Cup,2022-11-20,Saint Lucia vs San Marino,1-0,2.04,1.83
+2022 FIFA World Cup,2022-11-20,Syria vs Venezuela,1-2,5.81,7.82
+2022 FIFA World Cup,2022-11-20,Niger vs Gabon,1-3,8.84,6.68
+2022 FIFA World Cup,2022-11-21,England vs Iran,6-2,16.39,14.32
+2022 FIFA World Cup,2022-11-21,Senegal vs Netherlands,0-2,7.51,9.53
+2022 FIFA World Cup,2022-11-21,United States vs Wales,1-1,2.25,5.1
+2022 FIFA World Cup,2022-11-22,Argentina vs Saudi Arabia,1-2,21.79,8.03
+2022 FIFA World Cup,2022-11-22,Mexico vs Poland,0-0,1.03,2.96
+2022 FIFA World Cup,2022-11-22,Denmark vs Tunisia,0-0,5.08,3.9
+2022 FIFA World Cup,2022-11-22,France vs Australia,4-1,10.68,10.76
+2022 FIFA World Cup,2022-11-23,Belgium vs Canada,1-0,6.28,5.34
+2022 FIFA World Cup,2022-11-23,Germany vs Japan,1-2,16.0,8.63
+2022 FIFA World Cup,2022-11-23,Spain vs Costa Rica,7-0,9.27,5.67
+2022 FIFA World Cup,2022-11-23,Morocco vs Croatia,0-0,2.65,2.31
+2022 FIFA World Cup,2022-11-24,Switzerland vs Cameroon,1-0,5.97,6.85
+2022 FIFA World Cup,2022-11-24,Brazil vs Serbia,2-0,5.7,3.21
+2022 FIFA World Cup,2022-11-24,Uruguay vs South Korea,0-0,3.14,2.92
+2022 FIFA World Cup,2022-11-24,Portugal vs Ghana,3-2,3.44,3.94
+2022 FIFA World Cup,2022-11-25,England vs United States,0-0,4.17,3.84
+2022 FIFA World Cup,2022-11-25,Qatar vs Senegal,1-3,18.22,9.43
+2022 FIFA World Cup,2022-11-25,Netherlands vs Ecuador,1-1,5.18,5.74
+2022 FIFA World Cup,2022-11-25,Wales vs Iran,0-2,15.04,5.74
+2022 FIFA World Cup,2022-11-26,Tunisia vs Australia,0-1,11.61,10.22
+2022 FIFA World Cup,2022-11-26,France vs Denmark,2-1,9.52,7.29
+2022 FIFA World Cup,2022-11-26,Poland vs Saudi Arabia,2-0,12.96,7.28
+2022 FIFA World Cup,2022-11-26,Argentina vs Mexico,2-0,7.71,8.23
+2022 FIFA World Cup,2022-11-27,Spain vs Germany,1-1,3.37,2.9
+2022 FIFA World Cup,2022-11-27,Japan vs Costa Rica,0-1,15.46,8.13
+2022 FIFA World Cup,2022-11-27,Croatia vs Canada,4-1,15.66,14.41
+2022 FIFA World Cup,2022-11-27,Belgium vs Morocco,0-2,26.38,8.27
+2022 FIFA World Cup,2022-11-28,Portugal vs Uruguay,2-0,14.85,5.03
+2022 FIFA World Cup,2022-11-28,South Korea vs Ghana,2-3,17.43,6.05
+2022 FIFA World Cup,2022-11-28,Brazil vs Switzerland,1-0,3.86,3.45
+2022 FIFA World Cup,2022-11-28,Cameroon vs Serbia,3-3,5.96,2.47
+2022 FIFA World Cup,2022-11-29,Wales vs England,0-3,10.18,7.52
+2022 FIFA World Cup,2022-11-29,Iran vs United States,0-1,12.25,9.72
+2022 FIFA World Cup,2022-11-29,Ecuador vs Senegal,1-2,14.49,11.15
+2022 FIFA World Cup,2022-11-29,Qatar vs Netherlands,0-2,6.73,7.08
+2022 FIFA World Cup,2022-11-30,Poland vs Argentina,0-2,6.95,5.6
+2022 FIFA World Cup,2022-11-30,Saudi Arabia vs Mexico,1-2,7.62,5.43
+2022 FIFA World Cup,2022-11-30,Australia vs Denmark,1-0,15.81,13.53
+2022 FIFA World Cup,2022-11-30,Tunisia vs France,1-0,19.2,13.39
+2022 FIFA World Cup,2022-12-01,Costa Rica vs Germany,2-4,9.45,7.46
+2022 FIFA World Cup,2022-12-01,Canada vs Morocco,1-2,9.96,7.92
+2022 FIFA World Cup,2022-12-01,Croatia vs Belgium,0-0,2.07,3.12
+2022 FIFA World Cup,2022-12-01,Japan vs Spain,2-1,18.26,8.04
+2022 FIFA World Cup,2022-12-02,South Korea vs Portugal,2-1,17.72,11.51
+2022 FIFA World Cup,2022-12-02,Ghana vs Uruguay,0-2,7.78,8.14
+2022 FIFA World Cup,2022-12-02,Serbia vs Switzerland,2-3,11.42,8.65
+2022 FIFA World Cup,2022-12-02,Cameroon vs Brazil,1-0,22.64,13.14
+2022 FIFA World Cup,2022-12-03,Netherlands vs United States,3-1,10.34,10.17
+2022 FIFA World Cup,2022-12-03,Argentina vs Australia,2-1,4.29,4.24
+2022 FIFA World Cup,2022-12-04,France vs Poland,3-1,9.89,8.06
+2022 FIFA World Cup,2022-12-04,England vs Senegal,3-0,11.33,11.04
+2022 FIFA World Cup,2022-12-05,Brazil vs South Korea,4-1,6.31,5.59
+2022 FIFA World Cup,2022-12-05,Japan vs Croatia,1-1,1.59,0.09
+2022 FIFA World Cup,2022-12-06,Morocco vs Spain,0-0,5.5,6.74
+2022 FIFA World Cup,2022-12-06,Portugal vs Switzerland,6-1,16.99,10.22
+2022 FIFA World Cup,2022-12-09,Malaysia vs Cambodia,4-0,4.44,4.01
+2022 FIFA World Cup,2022-12-09,Croatia vs Brazil,1-1,7.29,8.09
+2022 FIFA World Cup,2022-12-09,Netherlands vs Argentina,2-2,2.19,3.74
+2022 FIFA World Cup,2022-12-10,Morocco vs Portugal,1-0,16.78,15.86
+2022 FIFA World Cup,2022-12-10,England vs France,1-2,11.39,9.17
+2022 FIFA World Cup,2022-12-11,Thailand vs Myanmar,6-0,3.33,3.83
+2022 FIFA World Cup,2022-12-13,Argentina vs Croatia,3-0,11.31,7.37
+2022 FIFA World Cup,2022-12-14,Vietnam vs Philippines,1-0,3.63,4.25
+2022 FIFA World Cup,2022-12-14,France vs Morocco,2-0,11.28,6.38
+2022 FIFA World Cup,2022-12-14,Thailand vs Taiwan,0-1,22.35,8.52
+2022 FIFA World Cup,2022-12-14,Malaysia vs Maldives,3-0,6.8,7.2
+2022 FIFA World Cup,2022-12-17,Singapore vs Maldives,3-1,8.7,4.88
+2022 FIFA World Cup,2022-12-17,Croatia vs Morocco,2-1,10.71,10.43
+2022 FIFA World Cup,2022-12-18,Argentina vs France,3-3,2.54,2.46

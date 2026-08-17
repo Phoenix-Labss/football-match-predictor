@@ -1,0 +1,10 @@
+metric,legacy_engine,match_day_state_engine,delta
+Home Win % (Brazil),36.08,36.25,0.17
+Draw %,26.71,27.12,0.41
+Away Win % (France),37.22,36.63,-0.59
+xG Home (Brazil) Mean,1.434,1.433,-0.001
+xG Home (Brazil) Std Dev,0.099,0.099,0.0
+xG Away (France) Mean,1.453,1.453,0.0
+xG Away (France) Std Dev,0.1,0.101,0.001
+Brazil Attack Std Dev,2.13,2.14,0.01
+Most Likely Scoreline,1 - 1,1 - 1,N/A

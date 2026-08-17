@@ -1,0 +1,65 @@
+{
+  "verified_champion_status": "MAINTAINED (Round 1 60.14% Champion Preserved)",
+  "current_champion": {
+    "accuracy": 0.601373182552504,
+    "correct": 5956,
+    "test_matches": 9904,
+    "log_loss": 0.8686729682766596,
+    "normalized_rps": 0.16958174400886017
+  },
+  "best_expanded_model": {
+    "dataset_variant": "D7_PlayerInteractions",
+    "accuracy": 0.5988489499192245,
+    "correct": 5931,
+    "test_matches": 9904,
+    "log_loss": 0.8782232339935462,
+    "normalized_rps": 0.17222040664961716,
+    "brier_score": 0.5170421769551686,
+    "ece": 0.013404181467379674,
+    "ensemble_weights": {
+      "LightGBM": 0.2208,
+      "XGBoost": 0.69,
+      "CatBoost": 0.0799,
+      "HistGBDT": 0.0093,
+      "DixonColes": 0.0
+    }
+  },
+  "modern_rich_subset_results": [
+    {
+      "Experiment": "1_Team_Features_Only",
+      "Modern_Test_Matches": 2476,
+      "Accuracy": 60.46,
+      "Correct": 1497,
+      "LogLoss": 0.8694,
+      "NormRPS": 0.1691
+    },
+    {
+      "Experiment": "2_Team_Plus_Player_Quality",
+      "Modern_Test_Matches": 2476,
+      "Accuracy": 60.82,
+      "Correct": 1506,
+      "LogLoss": 0.8639,
+      "NormRPS": 0.1676
+    },
+    {
+      "Experiment": "3_Team_Player_Lineup_Continuity",
+      "Modern_Test_Matches": 2476,
+      "Accuracy": 61.15,
+      "Correct": 1514,
+      "LogLoss": 0.8632,
+      "NormRPS": 0.1674
+    },
+    {
+      "Experiment": "4_Team_Player_Lineup_Events_XG",
+      "Modern_Test_Matches": 2476,
+      "Accuracy": 61.07,
+      "Correct": 1512,
+      "LogLoss": 0.8636,
+      "NormRPS": 0.1674
+    }
+  ],
+  "delta_vs_champion": {
+    "accuracy": -0.0025242326332794995,
+    "correct": -25
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "test_n_matches": 9904,
+  "baseline_model": {
+    "name": "Classic_M0_HistGBDT",
+    "accuracy": 0.6004644588045234,
+    "log_loss": 0.8702316166323981,
+    "normalized_rps": 0.16990428795098267,
+    "ece": 0.009427255948933353,
+    "correct_predictions": 5947
+  },
+  "round1_champion_model": {
+    "name": "Round1_LogLoss_Ensemble",
+    "accuracy": 0.6003634894991923,
+    "log_loss": 0.8764517622403968,
+    "normalized_rps": 0.17067090042887595,
+    "ece": 0.029023951982658443,
+    "correct_predictions": 5946
+  },
+  "round2_champion_model": {
+    "name": "Round 2 OOF Stacking Meta-Classifier (Meta_HistGBDT)",
+    "accuracy": 0.5976373182552503,
+    "log_loss": 0.8751206586113432,
+    "normalized_rps": 0.17049270881872808,
+    "brier_score": 0.5143657387929128,
+    "ece": 0.007585136774008525,
+    "correct_predictions": 5919,
+    "ensemble_accuracy_standalone": 0.6011712439418416,
+    "meta_classifier_accuracy_standalone": 0.5976373182552503,
+    "weights": {
+      "LightGBM": 0.22381178933271817,
+      "XGBoost": 0.42200875074948596,
+      "CatBoost": 0.06739960524112051,
+      "HistGBDT": 0.2867798546766753,
+      "Dixon_Coles": 1.3877787807814457e-17
+    },
+    "per_class_precision": {
+      "Away": 0.6196253071253072,
+      "Draw": 0.34210526315789475,
+      "Home": 0.5764248704663213
+    },
+    "per_class_recall": {
+      "Away": 0.855779427359491,
+      "Draw": 0.045099739809193407,
+      "Home": 0.6174124176205341
+    },
+    "confusion_matrix_actual_rows_pred_cols": [
+      [
+        4035,
+        102,
+        578
+      ],
+      [
+        1472,
+        104,
+        730
+      ],
+      [
+        1005,
+        98,
+        1780
+      ]
+    ]
+  },
+  "improvements": {
+    "vs_baseline_acc_delta": -0.0028271405492730217,
+    "vs_baseline_pct": -0.47082562636623526,
+    "vs_round1_champ_acc_delta": -0.0027261712439419217,
+    "vs_round1_champ_pct": -0.45408678102927663,
+    "additional_correct_vs_round1": -27,
+    "additional_correct_vs_baseline": -28
+  }
+}

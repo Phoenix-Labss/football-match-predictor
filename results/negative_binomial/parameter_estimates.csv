@@ -1,0 +1,5 @@
+dataset_subset,sample_size,mean_goals,variance_to_mean_ratio (VMR),home_alpha_mle,away_alpha_mle,pooled_alpha_mle
+All Modern International Matches (2010-2025),15506,2.727,1.367,0.3503,0.4615,0.4059
+Major Tournament Finals (2010-2025),959,2.353,1.071,0.1086,0.0774,0.093
+FIFA World Cup Tournaments Only (2010-2022),256,2.566,1.129,0.2117,0.0406,0.1262
+World Cup & Euro Qualifiers (2010-2025),4422,2.828,1.262,0.4353,0.5145,0.4749

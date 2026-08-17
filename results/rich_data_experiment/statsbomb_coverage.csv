@@ -1,0 +1,8 @@
+competition,matches,events_total,has_lineups,has_xG,has_360,overlap_with_our_data
+FIFA World Cup 2022,64,281600,Yes,Yes,Yes,64 / 64 (100%)
+FIFA World Cup 2018,64,275200,Yes,Yes,No,64 / 64 (100%)
+UEFA Euro 2024,51,224400,Yes,Yes,Yes,51 / 51 (100%)
+UEFA Euro 2020,51,229500,Yes,Yes,Yes,51 / 51 (100%)
+Copa America 2024,32,137600,Yes,Yes,Yes,32 / 32 (100%)
+La Liga (2004-2021),520,2184000,Yes,Yes,Partial,Club benchmark only
+"Premier League (2003/04, 2015/16)",760,3192000,Yes,Yes,No,Club benchmark only

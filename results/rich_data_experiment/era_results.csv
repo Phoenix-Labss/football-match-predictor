@@ -1,0 +1,5 @@
+era,val_matches,champion_accuracy_pct,rich_data_accuracy_pct,delta_accuracy_pct,champion_log_loss,rich_data_log_loss,champion_rps,rich_data_rps
+2010-2014,3296,57.13,57.55,0.42,0.9184,0.9148,0.1842,0.1831
+2015-2018,6991,58.52,58.5,-0.02,0.8914,0.8878,0.1767,0.1755
+2019-2022,5809,60.92,61.23,0.31,0.8495,0.849,0.1652,0.165
+2023-2026,1234,60.45,61.43,0.98,0.863,0.8623,0.1707,0.1704

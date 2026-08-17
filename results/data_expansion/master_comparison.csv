@@ -1,0 +1,6 @@
+Dataset,Match Count,Feature Count,Accuracy,Log Loss,RPS,Brier,ECE
+Current Champion (Round 1 Ensemble),49520,217,"60.14% (5,956 / 9,904)",0.8687,0.1696,0.5112,0.0143
+Expanded International (D1),49519,45,"59.91% (5,933 / 9,904)",0.8718,0.1702,0.5126,0.0118
+Rich Player Quality (D4),49519,55,"60.01% (5,943 / 9,904)",0.8708,0.1700,0.5122,0.0135
+Rich Player + Lineup Continuity (D6),49519,60,"60.05% (5,947 / 9,904)",0.8704,0.1699,0.5119,0.0140
+Rich Player + Lineup + Interactions + Events (D7),49519,62,"59.88% (5,931 / 9,904)",0.8782,0.1722,0.5170,0.0134

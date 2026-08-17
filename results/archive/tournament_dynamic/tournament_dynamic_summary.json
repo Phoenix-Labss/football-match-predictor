@@ -1,0 +1,2621 @@
+[
+  {
+    "tournament": "2018 FIFA World Cup",
+    "actual_winner": "France",
+    "n_matches": 65,
+    "metrics": {
+      "STATIC": {
+        "n_matches": 65,
+        "accuracy": 0.5385,
+        "log_loss": 0.9815,
+        "brier_score": 0.5844,
+        "mean_rating_movement": 0.0,
+        "major_rating_swings_over_15pts": 0
+      },
+      "CLASSIC_DYNAMIC": {
+        "n_matches": 65,
+        "accuracy": 0.5538,
+        "log_loss": 0.9695,
+        "brier_score": 0.577,
+        "mean_rating_movement": 10.3,
+        "major_rating_swings_over_15pts": 11
+      },
+      "ADAPTIVE_DYNAMIC": {
+        "n_matches": 65,
+        "accuracy": 0.5385,
+        "log_loss": 0.976,
+        "brier_score": 0.5837,
+        "mean_rating_movement": 7.62,
+        "major_rating_swings_over_15pts": 1
+      }
+    },
+    "match_log": [
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-14",
+        "match": "Russia vs Saudi Arabia",
+        "score": "5-0",
+        "delta_classic": 14.01,
+        "delta_adaptive": 10.9
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-15",
+        "match": "Egypt vs Uruguay",
+        "score": "0-1",
+        "delta_classic": 6.64,
+        "delta_adaptive": 7.55
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-15",
+        "match": "Morocco vs Iran",
+        "score": "0-1",
+        "delta_classic": 10.01,
+        "delta_adaptive": 9.0
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-15",
+        "match": "Portugal vs Spain",
+        "score": "3-3",
+        "delta_classic": 4.45,
+        "delta_adaptive": 4.86
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-16",
+        "match": "France vs Australia",
+        "score": "2-1",
+        "delta_classic": 5.5,
+        "delta_adaptive": 5.4
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-16",
+        "match": "Argentina vs Iceland",
+        "score": "1-1",
+        "delta_classic": 7.62,
+        "delta_adaptive": 8.32
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-16",
+        "match": "Peru vs Denmark",
+        "score": "0-1",
+        "delta_classic": 15.22,
+        "delta_adaptive": 14.0
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-16",
+        "match": "Croatia vs Nigeria",
+        "score": "2-0",
+        "delta_classic": 11.09,
+        "delta_adaptive": 8.83
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-17",
+        "match": "Brazil vs Switzerland",
+        "score": "1-1",
+        "delta_classic": 7.86,
+        "delta_adaptive": 8.92
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-17",
+        "match": "Germany vs Mexico",
+        "score": "0-1",
+        "delta_classic": 15.85,
+        "delta_adaptive": 14.8
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-17",
+        "match": "Costa Rica vs Serbia",
+        "score": "0-1",
+        "delta_classic": 12.36,
+        "delta_adaptive": 10.48
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-18",
+        "match": "Sweden vs South Korea",
+        "score": "1-0",
+        "delta_classic": 10.13,
+        "delta_adaptive": 7.72
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-18",
+        "match": "Belgium vs Panama",
+        "score": "3-0",
+        "delta_classic": 8.76,
+        "delta_adaptive": 8.16
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-18",
+        "match": "Tunisia vs England",
+        "score": "1-2",
+        "delta_classic": 4.89,
+        "delta_adaptive": 5.0
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-19",
+        "match": "Poland vs Senegal",
+        "score": "1-2",
+        "delta_classic": 12.78,
+        "delta_adaptive": 7.1
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-19",
+        "match": "Russia vs Egypt",
+        "score": "3-1",
+        "delta_classic": 12.8,
+        "delta_adaptive": 8.98
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-19",
+        "match": "Colombia vs Japan",
+        "score": "1-2",
+        "delta_classic": 17.63,
+        "delta_adaptive": 8.89
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-20",
+        "match": "Portugal vs Morocco",
+        "score": "1-0",
+        "delta_classic": 7.14,
+        "delta_adaptive": 6.58
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-20",
+        "match": "Uruguay vs Saudi Arabia",
+        "score": "1-0",
+        "delta_classic": 4.41,
+        "delta_adaptive": 4.89
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-20",
+        "match": "Iran vs Spain",
+        "score": "0-1",
+        "delta_classic": 5.83,
+        "delta_adaptive": 5.64
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-21",
+        "match": "Argentina vs Croatia",
+        "score": "0-3",
+        "delta_classic": 27.36,
+        "delta_adaptive": 9.95
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-21",
+        "match": "France vs Peru",
+        "score": "1-0",
+        "delta_classic": 8.92,
+        "delta_adaptive": 5.79
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-21",
+        "match": "Denmark vs Australia",
+        "score": "1-1",
+        "delta_classic": 2.24,
+        "delta_adaptive": 0.53
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-22",
+        "match": "Nigeria vs Iceland",
+        "score": "2-0",
+        "delta_classic": 19.35,
+        "delta_adaptive": 6.04
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-22",
+        "match": "Brazil vs Costa Rica",
+        "score": "2-0",
+        "delta_classic": 3.94,
+        "delta_adaptive": 3.17
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-22",
+        "match": "Serbia vs Switzerland",
+        "score": "1-2",
+        "delta_classic": 8.85,
+        "delta_adaptive": 8.52
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-23",
+        "match": "Belgium vs Tunisia",
+        "score": "5-2",
+        "delta_classic": 8.99,
+        "delta_adaptive": 10.26
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-23",
+        "match": "South Korea vs Mexico",
+        "score": "1-2",
+        "delta_classic": 6.45,
+        "delta_adaptive": 6.66
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-23",
+        "match": "Germany vs Sweden",
+        "score": "2-1",
+        "delta_classic": 6.2,
+        "delta_adaptive": 5.17
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-24",
+        "match": "England vs Panama",
+        "score": "6-1",
+        "delta_classic": 8.38,
+        "delta_adaptive": 6.93
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-24",
+        "match": "Japan vs Senegal",
+        "score": "2-2",
+        "delta_classic": 1.16,
+        "delta_adaptive": 1.19
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-24",
+        "match": "Poland vs Colombia",
+        "score": "0-3",
+        "delta_classic": 14.53,
+        "delta_adaptive": 12.19
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-25",
+        "match": "Russia vs Uruguay",
+        "score": "0-3",
+        "delta_classic": 16.9,
+        "delta_adaptive": 5.9
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-25",
+        "match": "Saudi Arabia vs Egypt",
+        "score": "2-1",
+        "delta_classic": 14.39,
+        "delta_adaptive": 5.6
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-25",
+        "match": "Iran vs Portugal",
+        "score": "1-1",
+        "delta_classic": 2.85,
+        "delta_adaptive": 2.64
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-25",
+        "match": "Spain vs Morocco",
+        "score": "2-2",
+        "delta_classic": 8.17,
+        "delta_adaptive": 5.7
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-26",
+        "match": "Australia vs Peru",
+        "score": "0-2",
+        "delta_classic": 12.05,
+        "delta_adaptive": 4.79
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-26",
+        "match": "Denmark vs France",
+        "score": "0-0",
+        "delta_classic": 5.37,
+        "delta_adaptive": 6.46
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-26",
+        "match": "Nigeria vs Argentina",
+        "score": "1-2",
+        "delta_classic": 5.17,
+        "delta_adaptive": 3.79
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-26",
+        "match": "Iceland vs Croatia",
+        "score": "1-2",
+        "delta_classic": 6.2,
+        "delta_adaptive": 4.94
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-27",
+        "match": "South Korea vs Germany",
+        "score": "2-0",
+        "delta_classic": 29.74,
+        "delta_adaptive": 15.23
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-27",
+        "match": "Mexico vs Sweden",
+        "score": "0-3",
+        "delta_classic": 27.54,
+        "delta_adaptive": 6.34
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-27",
+        "match": "Serbia vs Brazil",
+        "score": "0-2",
+        "delta_classic": 3.97,
+        "delta_adaptive": 2.79
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-27",
+        "match": "Switzerland vs Costa Rica",
+        "score": "2-2",
+        "delta_classic": 4.0,
+        "delta_adaptive": 3.44
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-28",
+        "match": "England vs Belgium",
+        "score": "0-1",
+        "delta_classic": 12.69,
+        "delta_adaptive": 13.45
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-28",
+        "match": "Panama vs Tunisia",
+        "score": "1-2",
+        "delta_classic": 11.22,
+        "delta_adaptive": 9.82
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-28",
+        "match": "Japan vs Poland",
+        "score": "0-1",
+        "delta_classic": 11.48,
+        "delta_adaptive": 8.13
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-28",
+        "match": "Senegal vs Colombia",
+        "score": "0-1",
+        "delta_classic": 7.9,
+        "delta_adaptive": 4.35
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-30",
+        "match": "Uruguay vs Portugal",
+        "score": "2-1",
+        "delta_classic": 12.43,
+        "delta_adaptive": 9.23
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-06-30",
+        "match": "France vs Argentina",
+        "score": "4-3",
+        "delta_classic": 10.58,
+        "delta_adaptive": 9.54
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-07-01",
+        "match": "Russia vs Spain",
+        "score": "1-1",
+        "delta_classic": 7.06,
+        "delta_adaptive": 7.35
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-07-01",
+        "match": "Croatia vs Denmark",
+        "score": "1-1",
+        "delta_classic": 2.14,
+        "delta_adaptive": 2.73
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-07-02",
+        "match": "Brazil vs Mexico",
+        "score": "2-0",
+        "delta_classic": 6.51,
+        "delta_adaptive": 7.2
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-07-02",
+        "match": "Belgium vs Japan",
+        "score": "3-2",
+        "delta_classic": 5.68,
+        "delta_adaptive": 7.81
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-07-03",
+        "match": "Sweden vs Switzerland",
+        "score": "1-0",
+        "delta_classic": 14.04,
+        "delta_adaptive": 6.86
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-07-03",
+        "match": "Colombia vs England",
+        "score": "1-1",
+        "delta_classic": 0.82,
+        "delta_adaptive": 0.74
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-07-05",
+        "match": "Malaysia vs Fiji",
+        "score": "1-0",
+        "delta_classic": 18.66,
+        "delta_adaptive": 14.58
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-07-06",
+        "match": "Uruguay vs France",
+        "score": "0-2",
+        "delta_classic": 13.78,
+        "delta_adaptive": 14.32
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-07-06",
+        "match": "Brazil vs Belgium",
+        "score": "1-2",
+        "delta_classic": 17.6,
+        "delta_adaptive": 10.37
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-07-07",
+        "match": "Russia vs Croatia",
+        "score": "2-2",
+        "delta_classic": 2.84,
+        "delta_adaptive": 1.9
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-07-07",
+        "match": "Sweden vs England",
+        "score": "0-2",
+        "delta_classic": 11.82,
+        "delta_adaptive": 10.0
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-07-10",
+        "match": "France vs Belgium",
+        "score": "1-0",
+        "delta_classic": 10.89,
+        "delta_adaptive": 10.05
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-07-11",
+        "match": "Croatia vs England",
+        "score": "2-1",
+        "delta_classic": 14.51,
+        "delta_adaptive": 11.96
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-07-14",
+        "match": "Belgium vs England",
+        "score": "2-0",
+        "delta_classic": 16.9,
+        "delta_adaptive": 13.95
+      },
+      {
+        "tournament": "2018 FIFA World Cup",
+        "date": "2018-07-15",
+        "match": "France vs Croatia",
+        "score": "4-2",
+        "delta_classic": 12.03,
+        "delta_adaptive": 11.14
+      }
+    ]
+  },
+  {
+    "tournament": "UEFA Euro 2020",
+    "actual_winner": "Italy",
+    "n_matches": 163,
+    "metrics": {
+      "STATIC": {
+        "n_matches": 163,
+        "accuracy": 0.6564,
+        "log_loss": 0.8728,
+        "brier_score": 0.5074,
+        "mean_rating_movement": 0.0,
+        "major_rating_swings_over_15pts": 0
+      },
+      "CLASSIC_DYNAMIC": {
+        "n_matches": 163,
+        "accuracy": 0.6687,
+        "log_loss": 0.8625,
+        "brier_score": 0.5007,
+        "mean_rating_movement": 8.57,
+        "major_rating_swings_over_15pts": 27
+      },
+      "ADAPTIVE_DYNAMIC": {
+        "n_matches": 163,
+        "accuracy": 0.6442,
+        "log_loss": 0.8705,
+        "brier_score": 0.5075,
+        "mean_rating_movement": 6.39,
+        "major_rating_swings_over_15pts": 3
+      }
+    },
+    "match_log": [
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "DR Congo vs Mali",
+        "score": "1-1",
+        "delta_classic": 2.79,
+        "delta_adaptive": 1.25
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "Philippines vs Guam",
+        "score": "3-0",
+        "delta_classic": 8.0,
+        "delta_adaptive": 6.66
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "Nepal vs Australia",
+        "score": "0-3",
+        "delta_classic": 1.1,
+        "delta_adaptive": 0.67
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "Kuwait vs Jordan",
+        "score": "0-0",
+        "delta_classic": 0.72,
+        "delta_adaptive": 0.88
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "Cambodia vs Iran",
+        "score": "0-10",
+        "delta_classic": 0.64,
+        "delta_adaptive": 0.43
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "Hong Kong vs Iraq",
+        "score": "0-1",
+        "delta_classic": 2.59,
+        "delta_adaptive": 2.98
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "Yemen vs Uzbekistan",
+        "score": "0-1",
+        "delta_classic": 3.26,
+        "delta_adaptive": 2.41
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "Afghanistan vs Oman",
+        "score": "1-2",
+        "delta_classic": 3.69,
+        "delta_adaptive": 3.09
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "Myanmar vs Kyrgyzstan",
+        "score": "1-8",
+        "delta_classic": 15.83,
+        "delta_adaptive": 4.38
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "Malaysia vs Vietnam",
+        "score": "1-2",
+        "delta_classic": 6.53,
+        "delta_adaptive": 6.59
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "Japan vs Serbia",
+        "score": "1-0",
+        "delta_classic": 8.69,
+        "delta_adaptive": 6.5
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "Guinea vs Niger",
+        "score": "2-1",
+        "delta_classic": 6.19,
+        "delta_adaptive": 5.13
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "Kosovo vs Gambia",
+        "score": "1-0",
+        "delta_classic": 9.81,
+        "delta_adaptive": 7.44
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "Mauritania vs Liberia",
+        "score": "1-0",
+        "delta_classic": 10.69,
+        "delta_adaptive": 10.96
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "Tunisia vs Algeria",
+        "score": "0-2",
+        "delta_classic": 17.52,
+        "delta_adaptive": 10.64
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "Italy vs Turkey",
+        "score": "3-0",
+        "delta_classic": 8.03,
+        "delta_adaptive": 8.97
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "United Arab Emirates vs Indonesia",
+        "score": "5-0",
+        "delta_classic": 5.68,
+        "delta_adaptive": 5.36
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "Saudi Arabia vs Singapore",
+        "score": "3-0",
+        "delta_classic": 3.63,
+        "delta_adaptive": 2.99
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-11",
+        "match": "China vs Maldives",
+        "score": "5-0",
+        "delta_classic": 3.53,
+        "delta_adaptive": 2.68
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-12",
+        "match": "Haiti vs Canada",
+        "score": "0-1",
+        "delta_classic": 11.39,
+        "delta_adaptive": 4.94
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-12",
+        "match": "Panama vs Cura\u00e7ao",
+        "score": "2-1",
+        "delta_classic": 6.46,
+        "delta_adaptive": 4.97
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-12",
+        "match": "Ghana vs Ivory Coast",
+        "score": "0-0",
+        "delta_classic": 1.4,
+        "delta_adaptive": 0.16
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-12",
+        "match": "Saint Kitts and Nevis vs El Salvador",
+        "score": "0-4",
+        "delta_classic": 15.07,
+        "delta_adaptive": 7.9
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-12",
+        "match": "Denmark vs Finland",
+        "score": "0-1",
+        "delta_classic": 20.47,
+        "delta_adaptive": 13.07
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-12",
+        "match": "Wales vs Switzerland",
+        "score": "1-1",
+        "delta_classic": 1.17,
+        "delta_adaptive": 2.86
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-12",
+        "match": "Russia vs Belgium",
+        "score": "0-3",
+        "delta_classic": 9.24,
+        "delta_adaptive": 8.95
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-12",
+        "match": "Morocco vs Burkina Faso",
+        "score": "1-0",
+        "delta_classic": 5.97,
+        "delta_adaptive": 5.91
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-12",
+        "match": "Mexico vs Honduras",
+        "score": "0-0",
+        "delta_classic": 7.8,
+        "delta_adaptive": 8.75
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-13",
+        "match": "South Korea vs Lebanon",
+        "score": "2-1",
+        "delta_classic": 2.33,
+        "delta_adaptive": 2.29
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-13",
+        "match": "Sudan vs Zambia",
+        "score": "0-1",
+        "delta_classic": 9.57,
+        "delta_adaptive": 8.92
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-13",
+        "match": "Tanzania vs Malawi",
+        "score": "2-0",
+        "delta_classic": 15.59,
+        "delta_adaptive": 9.84
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-13",
+        "match": "Austria vs North Macedonia",
+        "score": "3-1",
+        "delta_classic": 11.52,
+        "delta_adaptive": 10.56
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-13",
+        "match": "Netherlands vs Ukraine",
+        "score": "3-2",
+        "delta_classic": 5.59,
+        "delta_adaptive": 5.52
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-13",
+        "match": "England vs Croatia",
+        "score": "1-0",
+        "delta_classic": 5.17,
+        "delta_adaptive": 5.37
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-13",
+        "match": "Brazil vs Venezuela",
+        "score": "3-0",
+        "delta_classic": 3.45,
+        "delta_adaptive": 2.12
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-13",
+        "match": "Colombia vs Ecuador",
+        "score": "1-0",
+        "delta_classic": 7.97,
+        "delta_adaptive": 5.81
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-14",
+        "match": "Poland vs Slovakia",
+        "score": "1-2",
+        "delta_classic": 15.47,
+        "delta_adaptive": 16.66
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-14",
+        "match": "Libya vs Liberia",
+        "score": "0-1",
+        "delta_classic": 14.83,
+        "delta_adaptive": 16.14
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-14",
+        "match": "Scotland vs Czech Republic",
+        "score": "0-2",
+        "delta_classic": 17.85,
+        "delta_adaptive": 8.3
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-14",
+        "match": "Argentina vs Chile",
+        "score": "1-1",
+        "delta_classic": 5.2,
+        "delta_adaptive": 4.91
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-14",
+        "match": "Paraguay vs Bolivia",
+        "score": "3-1",
+        "delta_classic": 10.86,
+        "delta_adaptive": 8.17
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-14",
+        "match": "Spain vs Sweden",
+        "score": "0-0",
+        "delta_classic": 7.88,
+        "delta_adaptive": 8.69
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Iran vs Iraq",
+        "score": "1-0",
+        "delta_classic": 5.17,
+        "delta_adaptive": 4.28
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Japan vs Kyrgyzstan",
+        "score": "5-1",
+        "delta_classic": 2.88,
+        "delta_adaptive": 2.1
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Philippines vs Maldives",
+        "score": "1-1",
+        "delta_classic": 5.94,
+        "delta_adaptive": 6.32
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "China vs Syria",
+        "score": "3-1",
+        "delta_classic": 12.98,
+        "delta_adaptive": 9.12
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Australia vs Jordan",
+        "score": "1-0",
+        "delta_classic": 5.28,
+        "delta_adaptive": 4.05
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Bahrain vs Hong Kong",
+        "score": "4-0",
+        "delta_classic": 4.7,
+        "delta_adaptive": 5.03
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Palestine vs Yemen",
+        "score": "3-0",
+        "delta_classic": 10.77,
+        "delta_adaptive": 8.51
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Bangladesh vs Oman",
+        "score": "0-3",
+        "delta_classic": 2.3,
+        "delta_adaptive": 2.26
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Tajikistan vs Myanmar",
+        "score": "4-0",
+        "delta_classic": 12.22,
+        "delta_adaptive": 10.67
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "India vs Afghanistan",
+        "score": "1-1",
+        "delta_classic": 2.52,
+        "delta_adaptive": 2.98
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Saudi Arabia vs Uzbekistan",
+        "score": "3-0",
+        "delta_classic": 17.01,
+        "delta_adaptive": 6.05
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Canada vs Haiti",
+        "score": "3-0",
+        "delta_classic": 14.82,
+        "delta_adaptive": 11.56
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Thailand vs Malaysia",
+        "score": "0-1",
+        "delta_classic": 15.94,
+        "delta_adaptive": 10.89
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Sierra Leone vs Benin",
+        "score": "1-0",
+        "delta_classic": 16.25,
+        "delta_adaptive": 7.81
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Kuwait vs Taiwan",
+        "score": "2-1",
+        "delta_classic": 2.64,
+        "delta_adaptive": 2.28
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Germany vs France",
+        "score": "0-1",
+        "delta_classic": 11.12,
+        "delta_adaptive": 10.04
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Hungary vs Portugal",
+        "score": "0-3",
+        "delta_classic": 9.25,
+        "delta_adaptive": 7.6
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "United Arab Emirates vs Vietnam",
+        "score": "3-2",
+        "delta_classic": 8.1,
+        "delta_adaptive": 6.31
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Tunisia vs Mali",
+        "score": "1-0",
+        "delta_classic": 7.08,
+        "delta_adaptive": 5.93
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "El Salvador vs Saint Kitts and Nevis",
+        "score": "2-0",
+        "delta_classic": 6.01,
+        "delta_adaptive": 5.82
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Cura\u00e7ao vs Panama",
+        "score": "0-0",
+        "delta_classic": 1.93,
+        "delta_adaptive": 3.78
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-15",
+        "match": "Djibouti vs Somalia",
+        "score": "1-0",
+        "delta_classic": 9.75,
+        "delta_adaptive": 10.48
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-16",
+        "match": "Russia vs Finland",
+        "score": "1-0",
+        "delta_classic": 8.19,
+        "delta_adaptive": 6.28
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-16",
+        "match": "Turkey vs Wales",
+        "score": "0-2",
+        "delta_classic": 17.8,
+        "delta_adaptive": 4.86
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-16",
+        "match": "Italy vs Switzerland",
+        "score": "3-0",
+        "delta_classic": 11.66,
+        "delta_adaptive": 11.73
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-17",
+        "match": "Denmark vs Belgium",
+        "score": "1-2",
+        "delta_classic": 9.02,
+        "delta_adaptive": 8.16
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-17",
+        "match": "Ukraine vs North Macedonia",
+        "score": "2-1",
+        "delta_classic": 6.3,
+        "delta_adaptive": 4.7
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-17",
+        "match": "Netherlands vs Austria",
+        "score": "2-0",
+        "delta_classic": 7.11,
+        "delta_adaptive": 5.32
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-17",
+        "match": "Colombia vs Venezuela",
+        "score": "0-0",
+        "delta_classic": 5.58,
+        "delta_adaptive": 7.75
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-17",
+        "match": "Brazil vs Peru",
+        "score": "4-0",
+        "delta_classic": 4.15,
+        "delta_adaptive": 3.42
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-17",
+        "match": "Algeria vs Liberia",
+        "score": "5-1",
+        "delta_classic": 3.01,
+        "delta_adaptive": 2.78
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-18",
+        "match": "Croatia vs Czech Republic",
+        "score": "1-1",
+        "delta_classic": 1.64,
+        "delta_adaptive": 1.97
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-18",
+        "match": "Sweden vs Slovakia",
+        "score": "1-0",
+        "delta_classic": 7.97,
+        "delta_adaptive": 8.02
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-18",
+        "match": "England vs Scotland",
+        "score": "0-0",
+        "delta_classic": 9.66,
+        "delta_adaptive": 9.91
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-18",
+        "match": "Chile vs Bolivia",
+        "score": "1-0",
+        "delta_classic": 4.58,
+        "delta_adaptive": 2.2
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-18",
+        "match": "Argentina vs Uruguay",
+        "score": "1-0",
+        "delta_classic": 9.65,
+        "delta_adaptive": 8.03
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-19",
+        "match": "Germany vs Portugal",
+        "score": "4-2",
+        "delta_classic": 18.09,
+        "delta_adaptive": 14.2
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-19",
+        "match": "Libya vs Sudan",
+        "score": "0-1",
+        "delta_classic": 13.98,
+        "delta_adaptive": 15.27
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-19",
+        "match": "Spain vs Poland",
+        "score": "1-1",
+        "delta_classic": 8.49,
+        "delta_adaptive": 8.95
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-19",
+        "match": "Hungary vs France",
+        "score": "1-1",
+        "delta_classic": 8.09,
+        "delta_adaptive": 9.48
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-20",
+        "match": "Italy vs Wales",
+        "score": "1-0",
+        "delta_classic": 4.46,
+        "delta_adaptive": 3.45
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-20",
+        "match": "Switzerland vs Turkey",
+        "score": "3-1",
+        "delta_classic": 12.64,
+        "delta_adaptive": 9.27
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-20",
+        "match": "Venezuela vs Ecuador",
+        "score": "2-2",
+        "delta_classic": 1.11,
+        "delta_adaptive": 1.69
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-20",
+        "match": "Colombia vs Peru",
+        "score": "1-2",
+        "delta_classic": 16.73,
+        "delta_adaptive": 11.19
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-20",
+        "match": "Oman vs Somalia",
+        "score": "2-1",
+        "delta_classic": 0.93,
+        "delta_adaptive": 0.91
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-21",
+        "match": "Netherlands vs North Macedonia",
+        "score": "3-0",
+        "delta_classic": 3.6,
+        "delta_adaptive": 2.54
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-21",
+        "match": "Finland vs Belgium",
+        "score": "0-2",
+        "delta_classic": 3.82,
+        "delta_adaptive": 2.97
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-21",
+        "match": "Denmark vs Russia",
+        "score": "4-1",
+        "delta_classic": 10.17,
+        "delta_adaptive": 6.89
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-21",
+        "match": "Ukraine vs Austria",
+        "score": "0-1",
+        "delta_classic": 13.34,
+        "delta_adaptive": 10.98
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-21",
+        "match": "Uruguay vs Chile",
+        "score": "1-1",
+        "delta_classic": 2.31,
+        "delta_adaptive": 0.45
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-21",
+        "match": "Argentina vs Paraguay",
+        "score": "1-0",
+        "delta_classic": 4.73,
+        "delta_adaptive": 3.32
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-22",
+        "match": "Scotland vs Croatia",
+        "score": "1-3",
+        "delta_classic": 14.17,
+        "delta_adaptive": 9.41
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-22",
+        "match": "England vs Czech Republic",
+        "score": "1-0",
+        "delta_classic": 4.16,
+        "delta_adaptive": 4.14
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-22",
+        "match": "Mauritania vs Yemen",
+        "score": "2-0",
+        "delta_classic": 10.51,
+        "delta_adaptive": 12.0
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-23",
+        "match": "Portugal vs France",
+        "score": "2-2",
+        "delta_classic": 1.92,
+        "delta_adaptive": 3.35
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-23",
+        "match": "Germany vs Hungary",
+        "score": "2-2",
+        "delta_classic": 8.58,
+        "delta_adaptive": 10.03
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-23",
+        "match": "Spain vs Slovakia",
+        "score": "5-0",
+        "delta_classic": 4.88,
+        "delta_adaptive": 3.29
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-23",
+        "match": "Sweden vs Poland",
+        "score": "3-2",
+        "delta_classic": 10.34,
+        "delta_adaptive": 12.05
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-23",
+        "match": "Lebanon vs Djibouti",
+        "score": "1-0",
+        "delta_classic": 2.2,
+        "delta_adaptive": 2.08
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-23",
+        "match": "Brazil vs Colombia",
+        "score": "2-1",
+        "delta_classic": 4.04,
+        "delta_adaptive": 4.2
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-23",
+        "match": "Ecuador vs Peru",
+        "score": "2-2",
+        "delta_classic": 0.16,
+        "delta_adaptive": 1.03
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-24",
+        "match": "Bolivia vs Uruguay",
+        "score": "0-2",
+        "delta_classic": 4.79,
+        "delta_adaptive": 3.02
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-24",
+        "match": "Chile vs Paraguay",
+        "score": "0-2",
+        "delta_classic": 22.82,
+        "delta_adaptive": 7.15
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-24",
+        "match": "Palestine vs Comoros",
+        "score": "5-1",
+        "delta_classic": 12.05,
+        "delta_adaptive": 5.29
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-25",
+        "match": "Bahrain vs Kuwait",
+        "score": "2-0",
+        "delta_classic": 10.45,
+        "delta_adaptive": 4.92
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-26",
+        "match": "Wales vs Denmark",
+        "score": "0-4",
+        "delta_classic": 16.39,
+        "delta_adaptive": 10.9
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-26",
+        "match": "Italy vs Austria",
+        "score": "2-1",
+        "delta_classic": 5.05,
+        "delta_adaptive": 4.16
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-27",
+        "match": "El Salvador vs Guatemala",
+        "score": "0-0",
+        "delta_classic": 1.33,
+        "delta_adaptive": 1.05
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-27",
+        "match": "Venezuela vs Peru",
+        "score": "0-1",
+        "delta_classic": 10.81,
+        "delta_adaptive": 6.61
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-27",
+        "match": "Brazil vs Ecuador",
+        "score": "1-1",
+        "delta_classic": 9.79,
+        "delta_adaptive": 10.46
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-27",
+        "match": "Netherlands vs Czech Republic",
+        "score": "0-2",
+        "delta_classic": 26.73,
+        "delta_adaptive": 6.67
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-27",
+        "match": "Belgium vs Portugal",
+        "score": "1-0",
+        "delta_classic": 9.22,
+        "delta_adaptive": 5.81
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-28",
+        "match": "Argentina vs Bolivia",
+        "score": "4-1",
+        "delta_classic": 3.33,
+        "delta_adaptive": 1.65
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-28",
+        "match": "Croatia vs Spain",
+        "score": "3-5",
+        "delta_classic": 9.01,
+        "delta_adaptive": 8.3
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-28",
+        "match": "France vs Switzerland",
+        "score": "3-3",
+        "delta_classic": 4.81,
+        "delta_adaptive": 6.01
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-28",
+        "match": "Uruguay vs Paraguay",
+        "score": "1-0",
+        "delta_classic": 7.4,
+        "delta_adaptive": 6.28
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-29",
+        "match": "Sweden vs Ukraine",
+        "score": "1-2",
+        "delta_classic": 14.37,
+        "delta_adaptive": 12.73
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-29",
+        "match": "England vs Germany",
+        "score": "2-0",
+        "delta_classic": 12.42,
+        "delta_adaptive": 9.2
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-06-30",
+        "match": "Mexico vs Panama",
+        "score": "3-0",
+        "delta_classic": 7.17,
+        "delta_adaptive": 5.83
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-02",
+        "match": "Switzerland vs Spain",
+        "score": "1-1",
+        "delta_classic": 4.69,
+        "delta_adaptive": 5.89
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-02",
+        "match": "Brazil vs Chile",
+        "score": "1-0",
+        "delta_classic": 2.53,
+        "delta_adaptive": 3.06
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-02",
+        "match": "Peru vs Paraguay",
+        "score": "3-3",
+        "delta_classic": 1.92,
+        "delta_adaptive": 2.61
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-02",
+        "match": "Trinidad and Tobago vs Montserrat",
+        "score": "6-1",
+        "delta_classic": 11.29,
+        "delta_adaptive": 6.9
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-02",
+        "match": "Haiti vs Saint Vincent and the Grenadines",
+        "score": "6-1",
+        "delta_classic": 8.86,
+        "delta_adaptive": 9.18
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-02",
+        "match": "Bermuda vs Barbados",
+        "score": "8-1",
+        "delta_classic": 17.96,
+        "delta_adaptive": 11.95
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-02",
+        "match": "Belgium vs Italy",
+        "score": "1-2",
+        "delta_classic": 14.22,
+        "delta_adaptive": 11.46
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-03",
+        "match": "Czech Republic vs Denmark",
+        "score": "1-2",
+        "delta_classic": 8.13,
+        "delta_adaptive": 8.98
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-03",
+        "match": "Ukraine vs England",
+        "score": "0-4",
+        "delta_classic": 10.83,
+        "delta_adaptive": 7.23
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-03",
+        "match": "Mexico vs Nigeria",
+        "score": "4-0",
+        "delta_classic": 10.78,
+        "delta_adaptive": 11.01
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-03",
+        "match": "Uruguay vs Colombia",
+        "score": "0-0",
+        "delta_classic": 0.08,
+        "delta_adaptive": 1.3
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-03",
+        "match": "Argentina vs Ecuador",
+        "score": "3-0",
+        "delta_classic": 10.5,
+        "delta_adaptive": 6.9
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-03",
+        "match": "Guatemala vs Guyana",
+        "score": "4-0",
+        "delta_classic": 10.66,
+        "delta_adaptive": 14.54
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-03",
+        "match": "Cuba vs French Guiana",
+        "score": "0-3",
+        "delta_classic": 17.81,
+        "delta_adaptive": 6.96
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-03",
+        "match": "Guadeloupe vs Bahamas",
+        "score": "2-0",
+        "delta_classic": 7.47,
+        "delta_adaptive": 5.44
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-04",
+        "match": "Qatar vs El Salvador",
+        "score": "1-0",
+        "delta_classic": 9.33,
+        "delta_adaptive": 8.54
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-05",
+        "match": "Brazil vs Peru",
+        "score": "1-0",
+        "delta_classic": 2.46,
+        "delta_adaptive": 1.89
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-06",
+        "match": "South Africa vs Botswana",
+        "score": "1-0",
+        "delta_classic": 4.59,
+        "delta_adaptive": 4.02
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-06",
+        "match": "Trinidad and Tobago vs French Guiana",
+        "score": "1-1",
+        "delta_classic": 0.52,
+        "delta_adaptive": 3.04
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-06",
+        "match": "Guatemala vs Guadeloupe",
+        "score": "1-1",
+        "delta_classic": 3.91,
+        "delta_adaptive": 2.37
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-06",
+        "match": "Eswatini vs Lesotho",
+        "score": "3-1",
+        "delta_classic": 21.94,
+        "delta_adaptive": 5.9
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-06",
+        "match": "Italy vs Spain",
+        "score": "1-1",
+        "delta_classic": 0.27,
+        "delta_adaptive": 1.75
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-06",
+        "match": "Argentina vs Colombia",
+        "score": "1-1",
+        "delta_classic": 3.33,
+        "delta_adaptive": 3.37
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-06",
+        "match": "Haiti vs Bermuda",
+        "score": "4-1",
+        "delta_classic": 12.69,
+        "delta_adaptive": 5.48
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-07",
+        "match": "Mozambique vs Zimbabwe",
+        "score": "0-0",
+        "delta_classic": 3.58,
+        "delta_adaptive": 4.1
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-07",
+        "match": "Senegal vs Namibia",
+        "score": "1-2",
+        "delta_classic": 20.93,
+        "delta_adaptive": 10.52
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-07",
+        "match": "England vs Denmark",
+        "score": "2-1",
+        "delta_classic": 7.07,
+        "delta_adaptive": 5.75
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-08",
+        "match": "Zambia vs Lesotho",
+        "score": "1-2",
+        "delta_classic": 19.39,
+        "delta_adaptive": 8.8
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-08",
+        "match": "South Africa vs Eswatini",
+        "score": "1-0",
+        "delta_classic": 2.55,
+        "delta_adaptive": 1.61
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-09",
+        "match": "Malawi vs Zimbabwe",
+        "score": "2-2",
+        "delta_classic": 3.22,
+        "delta_adaptive": 2.81
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-09",
+        "match": "Senegal vs Mozambique",
+        "score": "1-0",
+        "delta_classic": 2.7,
+        "delta_adaptive": 2.56
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-09",
+        "match": "Peru vs Colombia",
+        "score": "2-3",
+        "delta_classic": 8.5,
+        "delta_adaptive": 6.82
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-10",
+        "match": "Zambia vs Eswatini",
+        "score": "0-1",
+        "delta_classic": 19.74,
+        "delta_adaptive": 9.17
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-10",
+        "match": "Mexico vs Trinidad and Tobago",
+        "score": "0-0",
+        "delta_classic": 10.12,
+        "delta_adaptive": 8.77
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-10",
+        "match": "Brazil vs Argentina",
+        "score": "0-1",
+        "delta_classic": 17.85,
+        "delta_adaptive": 6.23
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-10",
+        "match": "Lesotho vs Botswana",
+        "score": "0-4",
+        "delta_classic": 18.81,
+        "delta_adaptive": 7.87
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-11",
+        "match": "Canada vs Martinique",
+        "score": "4-1",
+        "delta_classic": 11.83,
+        "delta_adaptive": 11.74
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-11",
+        "match": "England vs Italy",
+        "score": "1-1",
+        "delta_classic": 2.05,
+        "delta_adaptive": 2.51
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-11",
+        "match": "Namibia vs Zimbabwe",
+        "score": "2-0",
+        "delta_classic": 19.5,
+        "delta_adaptive": 14.17
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-11",
+        "match": "Mozambique vs Malawi",
+        "score": "2-0",
+        "delta_classic": 18.52,
+        "delta_adaptive": 10.91
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-11",
+        "match": "El Salvador vs Guatemala",
+        "score": "2-0",
+        "delta_classic": 16.97,
+        "delta_adaptive": 6.24
+      },
+      {
+        "tournament": "UEFA Euro 2020",
+        "date": "2021-07-11",
+        "match": "United States vs Haiti",
+        "score": "1-0",
+        "delta_classic": 3.53,
+        "delta_adaptive": 2.65
+      }
+    ]
+  },
+  {
+    "tournament": "2022 FIFA World Cup",
+    "actual_winner": "Argentina",
+    "n_matches": 87,
+    "metrics": {
+      "STATIC": {
+        "n_matches": 87,
+        "accuracy": 0.5632,
+        "log_loss": 1.0254,
+        "brier_score": 0.5955,
+        "mean_rating_movement": 0.0,
+        "major_rating_swings_over_15pts": 0
+      },
+      "CLASSIC_DYNAMIC": {
+        "n_matches": 87,
+        "accuracy": 0.5517,
+        "log_loss": 1.0385,
+        "brier_score": 0.6001,
+        "mean_rating_movement": 9.77,
+        "major_rating_swings_over_15pts": 21
+      },
+      "ADAPTIVE_DYNAMIC": {
+        "n_matches": 87,
+        "accuracy": 0.5632,
+        "log_loss": 1.0261,
+        "brier_score": 0.5918,
+        "mean_rating_movement": 6.95,
+        "major_rating_swings_over_15pts": 1
+      }
+    },
+    "match_log": [
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "Uzbekistan vs Russia",
+        "score": "0-0",
+        "delta_classic": 1.24,
+        "delta_adaptive": 0.23
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "North Macedonia vs Azerbaijan",
+        "score": "1-3",
+        "delta_classic": 28.63,
+        "delta_adaptive": 13.45
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "Austria vs Italy",
+        "score": "2-0",
+        "delta_classic": 26.62,
+        "delta_adaptive": 5.38
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "Gambia vs Guinea-Bissau",
+        "score": "0-0",
+        "delta_classic": 1.93,
+        "delta_adaptive": 1.61
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "Hungary vs Greece",
+        "score": "2-1",
+        "delta_classic": 7.92,
+        "delta_adaptive": 10.43
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "Israel vs Cyprus",
+        "score": "2-3",
+        "delta_classic": 20.8,
+        "delta_adaptive": 8.08
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "Luxembourg vs Bulgaria",
+        "score": "0-0",
+        "delta_classic": 2.52,
+        "delta_adaptive": 5.83
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "Qatar vs Ecuador",
+        "score": "0-2",
+        "delta_classic": 15.37,
+        "delta_adaptive": 10.34
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "Malta vs Republic of Ireland",
+        "score": "0-1",
+        "delta_classic": 3.7,
+        "delta_adaptive": 2.2
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "Moldova vs Romania",
+        "score": "0-5",
+        "delta_classic": 7.72,
+        "delta_adaptive": 5.44
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "Norway vs Finland",
+        "score": "1-1",
+        "delta_classic": 4.81,
+        "delta_adaptive": 5.05
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "Oman vs Belarus",
+        "score": "2-0",
+        "delta_classic": 11.58,
+        "delta_adaptive": 7.89
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "Slovakia vs Chile",
+        "score": "0-0",
+        "delta_classic": 0.71,
+        "delta_adaptive": 3.63
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "Slovenia vs Montenegro",
+        "score": "1-0",
+        "delta_classic": 6.9,
+        "delta_adaptive": 7.36
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "South Africa vs Angola",
+        "score": "1-1",
+        "delta_classic": 6.42,
+        "delta_adaptive": 5.93
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "Saint Lucia vs San Marino",
+        "score": "1-0",
+        "delta_classic": 2.04,
+        "delta_adaptive": 1.83
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "Syria vs Venezuela",
+        "score": "1-2",
+        "delta_classic": 5.81,
+        "delta_adaptive": 7.82
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-20",
+        "match": "Niger vs Gabon",
+        "score": "1-3",
+        "delta_classic": 8.84,
+        "delta_adaptive": 6.68
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-21",
+        "match": "England vs Iran",
+        "score": "6-2",
+        "delta_classic": 16.39,
+        "delta_adaptive": 14.32
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-21",
+        "match": "Senegal vs Netherlands",
+        "score": "0-2",
+        "delta_classic": 7.51,
+        "delta_adaptive": 9.53
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-21",
+        "match": "United States vs Wales",
+        "score": "1-1",
+        "delta_classic": 2.25,
+        "delta_adaptive": 5.1
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-22",
+        "match": "Argentina vs Saudi Arabia",
+        "score": "1-2",
+        "delta_classic": 21.79,
+        "delta_adaptive": 8.03
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-22",
+        "match": "Mexico vs Poland",
+        "score": "0-0",
+        "delta_classic": 1.03,
+        "delta_adaptive": 2.96
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-22",
+        "match": "Denmark vs Tunisia",
+        "score": "0-0",
+        "delta_classic": 5.08,
+        "delta_adaptive": 3.9
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-22",
+        "match": "France vs Australia",
+        "score": "4-1",
+        "delta_classic": 10.68,
+        "delta_adaptive": 10.76
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-23",
+        "match": "Belgium vs Canada",
+        "score": "1-0",
+        "delta_classic": 6.28,
+        "delta_adaptive": 5.34
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-23",
+        "match": "Germany vs Japan",
+        "score": "1-2",
+        "delta_classic": 16.0,
+        "delta_adaptive": 8.63
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-23",
+        "match": "Spain vs Costa Rica",
+        "score": "7-0",
+        "delta_classic": 9.27,
+        "delta_adaptive": 5.67
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-23",
+        "match": "Morocco vs Croatia",
+        "score": "0-0",
+        "delta_classic": 2.65,
+        "delta_adaptive": 2.31
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-24",
+        "match": "Switzerland vs Cameroon",
+        "score": "1-0",
+        "delta_classic": 5.97,
+        "delta_adaptive": 6.85
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-24",
+        "match": "Brazil vs Serbia",
+        "score": "2-0",
+        "delta_classic": 5.7,
+        "delta_adaptive": 3.21
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-24",
+        "match": "Uruguay vs South Korea",
+        "score": "0-0",
+        "delta_classic": 3.14,
+        "delta_adaptive": 2.92
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-24",
+        "match": "Portugal vs Ghana",
+        "score": "3-2",
+        "delta_classic": 3.44,
+        "delta_adaptive": 3.94
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-25",
+        "match": "England vs United States",
+        "score": "0-0",
+        "delta_classic": 4.17,
+        "delta_adaptive": 3.84
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-25",
+        "match": "Qatar vs Senegal",
+        "score": "1-3",
+        "delta_classic": 18.22,
+        "delta_adaptive": 9.43
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-25",
+        "match": "Netherlands vs Ecuador",
+        "score": "1-1",
+        "delta_classic": 5.18,
+        "delta_adaptive": 5.74
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-25",
+        "match": "Wales vs Iran",
+        "score": "0-2",
+        "delta_classic": 15.04,
+        "delta_adaptive": 5.74
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-26",
+        "match": "Tunisia vs Australia",
+        "score": "0-1",
+        "delta_classic": 11.61,
+        "delta_adaptive": 10.22
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-26",
+        "match": "France vs Denmark",
+        "score": "2-1",
+        "delta_classic": 9.52,
+        "delta_adaptive": 7.29
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-26",
+        "match": "Poland vs Saudi Arabia",
+        "score": "2-0",
+        "delta_classic": 12.96,
+        "delta_adaptive": 7.28
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-26",
+        "match": "Argentina vs Mexico",
+        "score": "2-0",
+        "delta_classic": 7.71,
+        "delta_adaptive": 8.23
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-27",
+        "match": "Spain vs Germany",
+        "score": "1-1",
+        "delta_classic": 3.37,
+        "delta_adaptive": 2.9
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-27",
+        "match": "Japan vs Costa Rica",
+        "score": "0-1",
+        "delta_classic": 15.46,
+        "delta_adaptive": 8.13
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-27",
+        "match": "Croatia vs Canada",
+        "score": "4-1",
+        "delta_classic": 15.66,
+        "delta_adaptive": 14.41
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-27",
+        "match": "Belgium vs Morocco",
+        "score": "0-2",
+        "delta_classic": 26.38,
+        "delta_adaptive": 8.27
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-28",
+        "match": "Portugal vs Uruguay",
+        "score": "2-0",
+        "delta_classic": 14.85,
+        "delta_adaptive": 5.03
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-28",
+        "match": "South Korea vs Ghana",
+        "score": "2-3",
+        "delta_classic": 17.43,
+        "delta_adaptive": 6.05
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-28",
+        "match": "Brazil vs Switzerland",
+        "score": "1-0",
+        "delta_classic": 3.86,
+        "delta_adaptive": 3.45
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-28",
+        "match": "Cameroon vs Serbia",
+        "score": "3-3",
+        "delta_classic": 5.96,
+        "delta_adaptive": 2.47
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-29",
+        "match": "Wales vs England",
+        "score": "0-3",
+        "delta_classic": 10.18,
+        "delta_adaptive": 7.52
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-29",
+        "match": "Iran vs United States",
+        "score": "0-1",
+        "delta_classic": 12.25,
+        "delta_adaptive": 9.72
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-29",
+        "match": "Ecuador vs Senegal",
+        "score": "1-2",
+        "delta_classic": 14.49,
+        "delta_adaptive": 11.15
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-29",
+        "match": "Qatar vs Netherlands",
+        "score": "0-2",
+        "delta_classic": 6.73,
+        "delta_adaptive": 7.08
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-30",
+        "match": "Poland vs Argentina",
+        "score": "0-2",
+        "delta_classic": 6.95,
+        "delta_adaptive": 5.6
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-30",
+        "match": "Saudi Arabia vs Mexico",
+        "score": "1-2",
+        "delta_classic": 7.62,
+        "delta_adaptive": 5.43
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-30",
+        "match": "Australia vs Denmark",
+        "score": "1-0",
+        "delta_classic": 15.81,
+        "delta_adaptive": 13.53
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-11-30",
+        "match": "Tunisia vs France",
+        "score": "1-0",
+        "delta_classic": 19.2,
+        "delta_adaptive": 13.39
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-01",
+        "match": "Costa Rica vs Germany",
+        "score": "2-4",
+        "delta_classic": 9.45,
+        "delta_adaptive": 7.46
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-01",
+        "match": "Canada vs Morocco",
+        "score": "1-2",
+        "delta_classic": 9.96,
+        "delta_adaptive": 7.92
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-01",
+        "match": "Croatia vs Belgium",
+        "score": "0-0",
+        "delta_classic": 2.07,
+        "delta_adaptive": 3.12
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-01",
+        "match": "Japan vs Spain",
+        "score": "2-1",
+        "delta_classic": 18.26,
+        "delta_adaptive": 8.04
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-02",
+        "match": "South Korea vs Portugal",
+        "score": "2-1",
+        "delta_classic": 17.72,
+        "delta_adaptive": 11.51
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-02",
+        "match": "Ghana vs Uruguay",
+        "score": "0-2",
+        "delta_classic": 7.78,
+        "delta_adaptive": 8.14
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-02",
+        "match": "Serbia vs Switzerland",
+        "score": "2-3",
+        "delta_classic": 11.42,
+        "delta_adaptive": 8.65
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-02",
+        "match": "Cameroon vs Brazil",
+        "score": "1-0",
+        "delta_classic": 22.64,
+        "delta_adaptive": 13.14
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-03",
+        "match": "Netherlands vs United States",
+        "score": "3-1",
+        "delta_classic": 10.34,
+        "delta_adaptive": 10.17
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-03",
+        "match": "Argentina vs Australia",
+        "score": "2-1",
+        "delta_classic": 4.29,
+        "delta_adaptive": 4.24
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-04",
+        "match": "France vs Poland",
+        "score": "3-1",
+        "delta_classic": 9.89,
+        "delta_adaptive": 8.06
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-04",
+        "match": "England vs Senegal",
+        "score": "3-0",
+        "delta_classic": 11.33,
+        "delta_adaptive": 11.04
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-05",
+        "match": "Brazil vs South Korea",
+        "score": "4-1",
+        "delta_classic": 6.31,
+        "delta_adaptive": 5.59
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-05",
+        "match": "Japan vs Croatia",
+        "score": "1-1",
+        "delta_classic": 1.59,
+        "delta_adaptive": 0.09
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-06",
+        "match": "Morocco vs Spain",
+        "score": "0-0",
+        "delta_classic": 5.5,
+        "delta_adaptive": 6.74
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-06",
+        "match": "Portugal vs Switzerland",
+        "score": "6-1",
+        "delta_classic": 16.99,
+        "delta_adaptive": 10.22
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-09",
+        "match": "Malaysia vs Cambodia",
+        "score": "4-0",
+        "delta_classic": 4.44,
+        "delta_adaptive": 4.01
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-09",
+        "match": "Croatia vs Brazil",
+        "score": "1-1",
+        "delta_classic": 7.29,
+        "delta_adaptive": 8.09
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-09",
+        "match": "Netherlands vs Argentina",
+        "score": "2-2",
+        "delta_classic": 2.19,
+        "delta_adaptive": 3.74
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-10",
+        "match": "Morocco vs Portugal",
+        "score": "1-0",
+        "delta_classic": 16.78,
+        "delta_adaptive": 15.86
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-10",
+        "match": "England vs France",
+        "score": "1-2",
+        "delta_classic": 11.39,
+        "delta_adaptive": 9.17
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-11",
+        "match": "Thailand vs Myanmar",
+        "score": "6-0",
+        "delta_classic": 3.33,
+        "delta_adaptive": 3.83
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-13",
+        "match": "Argentina vs Croatia",
+        "score": "3-0",
+        "delta_classic": 11.31,
+        "delta_adaptive": 7.37
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-14",
+        "match": "Vietnam vs Philippines",
+        "score": "1-0",
+        "delta_classic": 3.63,
+        "delta_adaptive": 4.25
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-14",
+        "match": "France vs Morocco",
+        "score": "2-0",
+        "delta_classic": 11.28,
+        "delta_adaptive": 6.38
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-14",
+        "match": "Thailand vs Taiwan",
+        "score": "0-1",
+        "delta_classic": 22.35,
+        "delta_adaptive": 8.52
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-14",
+        "match": "Malaysia vs Maldives",
+        "score": "3-0",
+        "delta_classic": 6.8,
+        "delta_adaptive": 7.2
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-17",
+        "match": "Singapore vs Maldives",
+        "score": "3-1",
+        "delta_classic": 8.7,
+        "delta_adaptive": 4.88
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-17",
+        "match": "Croatia vs Morocco",
+        "score": "2-1",
+        "delta_classic": 10.71,
+        "delta_adaptive": 10.43
+      },
+      {
+        "tournament": "2022 FIFA World Cup",
+        "date": "2022-12-18",
+        "match": "Argentina vs France",
+        "score": "3-3",
+        "delta_classic": 2.54,
+        "delta_adaptive": 2.46
+      }
+    ]
+  }
+]

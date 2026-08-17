@@ -1,0 +1,49 @@
+team,elo,top_5_players,avg_xi_ovr,top_5_ovr,attack_rating,midfield_rating,defence_rating,gk_rating,chemistry
+Argentina,2150,"Nahuel Molina (92), Marcos Nicolás Senesi (91), Julián Alvarez (91), Lautaro Javier Martinez (91), Enzo Jeremías Fernandez (91)",88.64,91.2,67.11,88.04,80.28,75.55,0.182
+Spain,2120,"Lamine Yamal Yamal (94), Pedro Pedri (93), Daniel Olmo (92), Unai Simon (92), Alejandro Grimaldo (91)",90.55,92.4,67.33,90.63,80.84,89.6,0.26
+France,2100,"Kylian Mbappe (94), Masour Ousmane Dembele (92), Michael Akpovie Olise (92), William Alain André Gabriel Saliba (91), Désiré Nonka-Maho Doue (91)",89.45,92.0,69.08,88.5,79.57,86.52,0.16
+England,2050,"Declan Rice (93), Jude Victor William Bellingham (93), Bukayo Ayoyinka Saka (92), Harry Edward Kane (91), Morgan Elliot Rogers (90)",88.55,91.8,66.55,90.82,78.02,81.45,0.171
+Brazil,2030,"Raphael Raphinha (89), Lucas Lucas Paqueta (89), GUIMARAESBruno Bruno (88), Ramsés Alisson (87), MARQUINHOSMarcos (87)",86.45,88.0,65.38,86.62,76.29,97.29,0.16
+Portugal,2010,"Vitor Vitinha (93), Pedro Joao Neves (92), Rúben Ruben Dias (90), Alexandre Nuno (89), Diogo Diogo Dalot (88)",87.82,90.4,65.69,88.45,78.38,79.71,0.182
+Colombia,1990,"Luis Fernando Diaz (89), Jefferson Andrés Lerma (86), Richard Rios (85), Jhon Adolfo Arias (85), Yerry Fernando Mina (85)",83.91,86.0,62.53,84.52,75.41,80.17,0.16
+Netherlands,1980,"Ryan Jiro Gravenberch (90), Cody Mathès Gakpo (89), Tijjani Martinus Jan Reijnders (88), Donyell Malen (88), Bart Verbruggen (87)",86.55,88.4,65.48,86.67,76.77,84.69,0.182
+Germany,1970,"Jamal Musiala (91), Florian Richard Wirtz (91), Aleksandar Pavlovic (90), Kai Lukas Havertz (89), Joshua Walter Kimmich (88)",87.27,89.8,65.49,88.86,78.07,81.21,0.215
+Uruguay,1960,"Diego Nicolás De La Cruz (84), Federico Santiago Valverde (84), Darwin Gabriel Nunez (84), Mathías Olivera (84), José María Gimenez (83)",82.64,83.8,61.33,82.8,74.41,77.39,0.149
+Belgium,1950,"Jeremy Baffour Doku (90), Axel Laurent Witsel (88), Thomas Andre Meunier (87), Arthur Nicolas Theate (86), Romelu Lukaku (86)",85.0,87.4,64.11,84.38,75.68,79.32,0.16
+Croatia,1940,"Joško Gvardiol (90), Luka Vuskovic (88), Josip Stanisic (87), Petar Sucic (86), Martin Baturina (85)",82.73,87.2,60.56,82.97,76.29,69.32,0.149
+Morocco,1920,"Achraf Hakimi (92), Ayyoub Bouaddi (87), Brahim Diaz (87), Ismael Saibari (87), Bilal El Khannouss (86)",82.09,87.8,60.38,84.83,74.49,66.42,0.149
+Japan,1880,"Kaishu Sano (86), Takefusa Kubo (84), Ritsu Doan (84), Yuito Suzuki (84), Zion Suzuki (83)",81.36,84.2,58.74,84.12,71.76,81.12,0.16
+Ecuador,1870,"Moisés Isaac Caicedo (83), Félix Eduardo Torres (82), Willian Joel Pacho (82), Pervis Josue Estupinan (82), Enner Remberto Valencia (82)",80.64,82.2,58.88,80.51,73.19,74.6,0.149
+Switzerland,1860,"Johan Kula Manzambi (87), Gregor Kobel (86), Dan Ndoye (86), Manuel Obafemi Akanji (84), Denis Lemi Zakaria (84)",83.0,85.4,63.18,83.43,72.03,85.7,0.149
+USA,1850,"Christian Mate Pulisic (88), Folarin Jolaoluwa Balogun (87), Christopher Jeffrey Richards (85), Tyler Shaan Adams (85), Antonee Robinson (85)",84.18,86.0,64.88,84.56,75.57,72.85,0.149
+Senegal,1840,"Iliman Cheikh Baroy Ndiaye (88), Ismaila Sarr (88), Lamine Camara (87), Nicolas Jackson (87), Pape Alassane Gueye (87)",84.55,87.4,65.43,85.88,73.58,79.96,0.16
+Austria,1830,"Konrad Laimer (86), Nicolas Seiwald (85), David Leopold Affengruber (83), Kevin Danso (83), Paul Wanner (83)",80.82,84.0,55.3,82.69,73.09,71.13,0.169
+IR Iran,1820,"Ehsan Hajisafi (85), Ali Reza Beiranvand (83), Saeid Ezatolahi (83), Mohammadhossein Kanani (83), Milad Mohammadi (82)",81.45,83.2,59.77,81.04,72.67,79.56,0.193
+Sweden,1815,"Alexander Isak (91), Viktor Einar Gyokeres (89), Anthony David Junior Elanga (86), Yasin Ayari (86), Lucas Erik Holger Bergvall (85)",83.73,87.4,66.42,81.58,73.77,75.06,0.149
+Mexico,1810,"Jesús Daniel Gallardo (86), Jorge Eduardo Sanchez (85), Israel Reyes (85), Erik Antonio Lira (84), Raúl Alonso Jimenez (84)",83.73,84.8,62.24,83.0,75.94,87.67,0.16
+South Korea,1800,"Minjae Kim (85), Kangin Lee (85), Heung Min Son (84), Hyeongyu Oh (82), Inbeom Hwang (80)",79.09,83.2,60.15,81.1,71.24,70.32,0.16
+Canada,1795,"Jonathan Christian David (87), Alphonso Boyle Davies (87), Ismaël Kenneth Jordan Kone (85), Tajon Trevor Buchanan (82), Promise Oluwatobi Emmanuel David (82)",81.09,84.6,62.3,80.01,72.72,79.48,0.149
+Australia,1790,"Alessandro Circati (81), Jordan Jacob Bos (81), Nestory Irankunda (79), Cristian Volpato (79), Aiden Connor Oneill (78)",76.0,79.6,57.58,73.57,70.24,59.82,0.16
+Türkiye,1780,"Arda Guler (90), Kenan Yildiz (89), Ferdi Erenay Kadioglu (86), Can Yılmaz Uzun (86), Orkun Kokcu (85)",84.36,87.2,65.55,82.36,74.95,78.77,0.182
+Norway,1775,"Erling Braut Haaland (94), Sander Gard Bolin Berge (86), Antonio Eromonsele Nordby Nusa (85), Oscar Bobb (85), Julian Ryerson (85)",82.73,87.0,64.47,83.1,72.6,68.19,0.171
+Algeria,1760,"Rayan Ait-Nouri (87), Ibrahim Maza (87), Anis Hadj Moussa (84), Mohammed Elamine Amoura (84), Fares Chaibi (82)",80.91,84.8,61.48,82.43,72.91,72.52,0.149
+Côte d'Ivoire,1750,"Yan Diomande (90), Amad Diallo (87), Ousmane Diomande (86), Obite Evan Ndicka (86), Bazoumana Toure (86)",83.0,87.0,63.56,81.71,75.07,75.52,0.149
+Czechia,1740,"Ladislav Krejci (84), Patrik Schick (84), Pavel Sulc (83), Tomáš Soucek (82), Lukáš Hornicek (82)",80.91,83.0,61.79,79.16,72.0,82.15,0.193
+Egypt,1730,"Hamed Mahrous Mohamed Salah (86), Abdelaziz Moustafa Ramy Rabia (81), Ahmed Ibrahim Trezeguet (81), Mohamed Aboelfetouh Ahmed Fatouh (81), Fathy Abdelhalim Hamdy Fathy (81)",79.45,82.0,59.16,79.02,71.84,79.39,0.215
+Paraguay,1725,"Miguel Angel Almiron (80), Matias Galarza (79), Omar Federico Alderete (78), Júnior Osmar Ignacio Alonso (78), Ramón Sosa (78)",77.73,78.6,57.65,77.74,69.67,77.38,0.149
+Scotland,1720,"Aaron Buchanan Hickey (82), Lewis Ferguson (82), Andrew Henry Robertson (81), Mc (81), Mc (80)",78.82,81.2,57.77,80.4,72.38,70.7,0.149
+Tunisia,1710,"Hannibal Mejbri (83), Ali Abdi (80), Montassar Omar Talbi (80), Ellyes Joris Skhiri (79), Ismael Seifallah Gharbi (77)",76.18,79.8,54.78,78.8,69.02,65.78,0.149
+Ghana,1690,"Antoine Serlom Semenyo (90), Kamal Deen Sulemana (83), Caleb Marfo Yirenkyi (80), Abdul Fatawu Fatawu (79), Kojo Peprah Oppong (79)",78.45,82.2,59.34,80.97,68.52,71.04,0.182
+Panama,1680,"Luis Ricardo Mejia (82), Alberto Abdiel Quintero (82), Fidel Escobar (81), Jiovany Javier Ramos (81), Cesar Augusto Yanis (81)",79.45,81.4,57.36,79.99,72.35,80.63,0.171
+Congo DR,1670,"Noah Junior Sadiki (86), Yoane Wissa (85), Ngal’ayel Mukau (82), Simon Bokote Banza (80), Gaël Roméo Kakuta (78)",78.64,82.2,60.35,80.07,67.35,79.95,0.149
+Saudi Arabia,1660,"Mohammed Salem Aldawsari (80), Essa Nasser Aldawsari (79), Khalid Saleh (79), Abdulrahman Abdullah Alhamddan (79), Mohammed Hassan Altambakti (78)",77.36,79.0,58.46,76.61,69.91,78.29,0.271
+Uzbekistan,1650,"Abdukodir Khusanov (88), Eldor Shomurodov (81), Abbosbek Fayzullaev (79), Otabek Shukurov (73), Oston Urunov (73)",74.09,78.8,54.38,74.35,66.81,69.22,0.171
+Bosnia and Herzegovina,1645,"Tarik Muharemovic (84), Ermedin Demirovic (84), Kerim Alajbegovic (83), Amar Dedic (82), Esmir Bajraktarevic (79)",78.09,82.4,60.94,74.88,69.96,80.19,0.149
+Cabo Verde,1640,"José Vozinha (80), Paulo Joao Paulo (79), Gregory Jamiro Monteiro (79), Johnson Willy (79), Ianique Stopira (77)",76.27,78.8,52.71,76.74,67.99,75.84,0.158
+Iraq,1630,"Hussein Ghadhban Aymen (81), Fouad Aboud Amir Alammari (80), Wali Faeq Youssef Amyn (79), Ali Kadhim Mohanad Ali (78), Hasan Maknazi Ahmed Maknazi (78)",77.27,79.2,58.8,77.4,69.44,74.07,0.171
+South Africa,1620,"Lyle Brent Foster (79), Teboho Mokoena (75), Mbekezeli Mfanufikile Mbokazi (75), Oswin Reagan Appollis (74), Relebohile Mofokeng (74)",73.45,75.4,56.54,72.69,65.19,78.48,0.326
+Jordan,1610,"Mohammad Mousa Mousa Altamari (80), Iyad Ali Ali Olwan (78), Ayed Fadel Rajaei Ayed (78), Mohammad Sami Ibrahim (78), Majed Jamil Mohammad Abualnadi (78)",77.36,78.4,58.45,77.53,69.07,74.55,0.16
+Qatar,1600,"Miguel Pedro (80), Karim Karim Boudiaf (80), Elamin Homam (80), Aissa Meshaal Barsham (80), Omer Assim Madibo (80)",77.64,80.0,58.68,75.58,70.11,79.98,0.204
+Haiti,1530,"Jean Ricner Bellegarde (82), Wilson Isidor (82), Hannes Piterson Delcroix (76), Don Deedson Deedson (75), Danley Jean Jacques (75)",72.36,78.0,57.13,71.79,65.46,64.62,0.149
+Curaçao,1520,"Tahith Jose Girigorio Djorkaef Chong (77), Trevor Irving Doornbusch (77), Jainel Archenir Martha (76), Armando Maria Obispo (75), Juniffer Naigelino Hansen (74)",72.91,75.8,53.1,74.76,64.15,79.14,0.149
+New Zealand,1510,"Christopher Grant Wood (79), Joe Zen Robert Bell (76), Mc (76), Tyler Grant Bindon (75), Marko Seufatu Nikola Stamenic (75)",72.09,76.2,52.67,75.12,64.82,67.46,0.182

@@ -1,0 +1,3 @@
+Experiment,Train Range,Val Range,Test Range,Test N,Rich Coverage,Filters
+Data Expansion Phase 14 (Pop A),1872-11-30 to 2019-03-22,2019-03-22 to 2024-03-21,2024-03-21 to 2026-07-19,2476,44.3% (1096/2476),"Fold 3 Test Slice Only (Last 20% chunk, 2022-2024), year >= 2015"
+Era-Aware Hybrid Phase D (Pop B),1872-11-30 to 2019-03-22,2012-02-29 to 2024-03-21,2016-03-29 to 2026-07-19,4328,100.0% (4328/4328),"All 4 Temporal Test Folds (2014-2024), year >= 2015 AND is_rich_mask == 1"

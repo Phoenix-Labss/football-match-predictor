@@ -1,0 +1,10 @@
+tournament,engine,matches,accuracy_pct,log_loss,normalized_rps,brier_score,scoreline_nll,extreme_score_nll_4plus,actual_champion_rank
+2018 FIFA World Cup,Engine A (Legacy Poisson),64,54.69,0.9831,0.2084,0.5861,2.8416,3.784,2
+2018 FIFA World Cup,Engine B (MDS Poisson),64,54.69,0.983,0.2084,0.5861,2.8417,3.78,2
+2018 FIFA World Cup,Engine C (MDS NegBin + DC),64,54.69,0.987,0.2099,0.5888,2.8646,3.612,2
+UEFA Euro 2020,Engine A (Legacy Poisson),51,56.86,0.9988,0.2064,0.5987,2.9626,3.82,4
+UEFA Euro 2020,Engine B (MDS Poisson),51,58.82,0.9988,0.2065,0.5987,2.9627,3.818,3
+UEFA Euro 2020,Engine C (MDS NegBin + DC),51,58.82,1.0029,0.2079,0.6013,2.9735,3.654,3
+2022 FIFA World Cup,Engine A (Legacy Poisson),64,56.25,1.0281,0.4325,0.6148,3.0158,3.81,3
+2022 FIFA World Cup,Engine B (MDS Poisson),64,56.25,1.0281,0.4325,0.6147,3.0157,3.805,3
+2022 FIFA World Cup,Engine C (MDS NegBin + DC),64,56.25,1.029,0.4338,0.6161,2.997,3.621,3

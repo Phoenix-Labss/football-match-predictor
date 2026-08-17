@@ -1,0 +1,6 @@
+tournament_runs,total_matches_simulated,most_likely_champion,champ_p1,champ_p2,champ_p3,champ_p4,p_brazil_champ,p_france_champ,p_argentina_champ,p_england_champ,elapsed_seconds
+1000,64000,Italy,Italy (14.2%),France (13.5%),Spain (13.5%),England (9.6%),1.9,13.5,3.3,9.6,14.67
+5000,320000,Italy,Italy (14.5%),France (14.2%),Spain (11.5%),England (8.8%),1.86,14.16,3.66,8.78,16.82
+10000,640000,Italy,Italy (14.9%),France (13.9%),Spain (11.7%),England (9.2%),1.48,13.94,3.91,9.19,19.25
+25000,1600000,Italy,Italy (14.1%),France (13.7%),Spain (11.8%),England (9.1%),1.756,13.74,3.688,9.124,22.98
+50000,3200000,Italy,Italy (14.5%),France (12.5%),Spain (11.8%),England (9.0%),1.554,12.526,4.136,8.986,29.19

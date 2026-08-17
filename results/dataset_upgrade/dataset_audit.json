@@ -1,0 +1,97 @@
+{
+  "dataset_name": "Kaggle International Football Results (1872-2024)",
+  "source_file": "data/raw/results.csv",
+  "total_records": 49520,
+  "date_range": {
+    "min": "1872-11-30",
+    "max": "2026-07-19"
+  },
+  "is_chronologically_sorted": true,
+  "unique_teams": 337,
+  "unique_tournaments": 202,
+  "data_quality_breakdown": {
+    "VALID": 48517,
+    "QUESTIONABLE": 1003,
+    "INVALID": 0
+  },
+  "duplicate_records": {
+    "exact_duplicates": 2,
+    "reversed_duplicates": 30,
+    "total_pair_duplicates": 32
+  },
+  "invalid_scores_count": 0,
+  "neutral_venue_anomalies": 971,
+  "historical_team_renames_identified": 24,
+  "temporal_eras": [
+    {
+      "era": "Pioneer Era (1872-1949)",
+      "year_range": "1872-1949",
+      "match_count": 3338,
+      "pct_of_total": 6.74,
+      "home_win_pct": 52.67,
+      "draw_pct": 16.24,
+      "away_win_pct": 31.1,
+      "avg_total_goals": 4.237,
+      "friendly_pct": 56.92,
+      "elo_available": true,
+      "fifa_rankings_available": false,
+      "fifa_video_game_ratings_available": false
+    },
+    {
+      "era": "Post-War Classical Era (1950-1989)",
+      "year_range": "1950-1989",
+      "match_count": 13780,
+      "pct_of_total": 27.83,
+      "home_win_pct": 49.36,
+      "draw_pct": 22.5,
+      "away_win_pct": 28.13,
+      "avg_total_goals": 3.043,
+      "friendly_pct": 41.07,
+      "elo_available": true,
+      "fifa_rankings_available": false,
+      "fifa_video_game_ratings_available": false
+    },
+    {
+      "era": "Modern Pre-FIFA-Ranking (1990-1992)",
+      "year_range": "1990-1992",
+      "match_count": 1590,
+      "pct_of_total": 3.21,
+      "home_win_pct": 46.92,
+      "draw_pct": 27.23,
+      "away_win_pct": 25.85,
+      "avg_total_goals": 2.533,
+      "friendly_pct": 38.87,
+      "elo_available": true,
+      "fifa_rankings_available": false,
+      "fifa_video_game_ratings_available": false
+    },
+    {
+      "era": "FIFA Official Ranking Era (1993-2014)",
+      "year_range": "1993-2014",
+      "match_count": 19709,
+      "pct_of_total": 39.8,
+      "home_win_pct": 49.0,
+      "draw_pct": 23.46,
+      "away_win_pct": 27.54,
+      "avg_total_goals": 2.796,
+      "friendly_pct": 35.82,
+      "elo_available": true,
+      "fifa_rankings_available": true,
+      "fifa_video_game_ratings_available": false
+    },
+    {
+      "era": "Modern Player-Tracking Era (2015-Present)",
+      "year_range": "2015-2026",
+      "match_count": 11103,
+      "pct_of_total": 22.42,
+      "home_win_pct": 47.74,
+      "draw_pct": 23.04,
+      "away_win_pct": 29.22,
+      "avg_total_goals": 2.734,
+      "friendly_pct": 28.35,
+      "elo_available": true,
+      "fifa_rankings_available": true,
+      "fifa_video_game_ratings_available": true
+    }
+  ]
+}

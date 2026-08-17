@@ -1,0 +1,5 @@
+metric,static_mean,mds_mean,mean_difference_mds_minus_static,median_difference,ci_95_low,ci_95_high,ci_99_low,ci_99_high,p_mds_superior,statistically_significant_05
+Log Loss,0.968291,0.968241,-5e-05,0.0,-0.00031,0.0002,-0.000389,0.000284,0.6494,False
+Normalized RPS,0.197191,0.197185,-7e-06,0.0001,-7.8e-05,6.2e-05,-0.000102,8.3e-05,0.5722,False
+Multi-Class Brier,0.576554,0.576487,-6.7e-05,-5e-05,-0.00024,9.9e-05,-0.000294,0.00015,0.7826,False
+Scoreline NLL,3.125134,3.123747,-0.001387,0.00025,-0.002612,-0.000358,-0.003051,-8.1e-05,0.9978,True

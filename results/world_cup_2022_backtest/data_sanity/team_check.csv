@@ -1,0 +1,33 @@
+team,fifa_player_count,has_duplicates,gk_count,avg_ovr,max_ovr,data_status
+Qatar,25,False,1,71.68,74.0,VALID
+Ecuador,178,False,18,64.34,79.0,VALID
+Senegal,127,False,9,68.34,89.0,VALID
+Netherlands,439,False,62,67.46,89.0,VALID
+England,1719,False,180,63.93,90.0,VALID
+IR Iran,25,False,5,70.16,79.0,VALID
+USA,28,False,3,61.93,71.0,VALID
+Wales,137,False,14,63.36,82.0,VALID
+Argentina,960,False,96,68.72,93.0,VALID
+Saudi Arabia,355,False,44,59.61,76.0,VALID
+Mexico,352,False,44,66.07,83.0,VALID
+Poland,403,False,62,63.12,92.0,VALID
+France,980,False,97,67.54,91.0,VALID
+Australia,266,False,32,61.41,77.0,VALID
+Denmark,307,False,28,65.01,85.0,VALID
+Tunisia,30,False,0,66.8,77.0,VALID
+Spain,1086,False,118,69.56,88.0,VALID
+Costa Rica,23,False,1,68.65,88.0,VALID
+Germany,1214,False,167,65.63,90.0,VALID
+Japan,546,False,68,64.41,79.0,VALID
+Belgium,321,False,46,67.15,91.0,VALID
+Canada,76,False,10,64.05,82.0,VALID
+Morocco,101,False,5,69.49,85.0,VALID
+Croatia,154,False,17,69.08,87.0,VALID
+Brazil,897,False,70,70.85,91.0,VALID
+Serbia,123,False,14,69.11,85.0,VALID
+Switzerland,192,False,27,65.94,85.0,VALID
+Cameroon,65,False,2,68.25,83.0,VALID
+Portugal,373,False,38,69.73,91.0,VALID
+Ghana,128,False,3,66.55,83.0,VALID
+Uruguay,280,False,26,67.28,88.0,VALID
+South Korea,325,False,42,62.82,89.0,VALID

@@ -1,0 +1,4 @@
+System,Dataset,Features,Model,Split,Accuracy,LogLoss,RPS,Brier,ECE
+Berrar et al. (2024) Base Paper (M0),"International Football (49,520)","M0 Rolling Windows (5, 10, 20) + Elo (63 feats)",HistGBDT Baseline,4 Temporal Folds,"59.81% (5,924 / 9,904)",0.8728,0.1703,0.5130,0.0092
+Current Champion (Dynamic Oracle R1),"Raw Results.csv (49,520)","Advanced 217 Feats (Elo, Form, Dixon-Coles)",5-Model LogLoss Ensemble,4 Temporal Folds,"60.14% (5,956 / 9,904)",0.8687,0.1696,0.5112,0.0143
+Upgraded Dataset Canonical Pipeline,"Canonical matches_clean.csv (49,519)",F9 Contextual Stakes & Pre-Match Features (46 feats),Upgraded 5-Model Ensemble,4 Temporal Folds,"60.03% (5,945 / 9,904)",0.8705,0.1700,0.5121,0.0153

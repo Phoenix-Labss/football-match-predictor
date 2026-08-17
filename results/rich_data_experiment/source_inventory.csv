@@ -1,0 +1,9 @@
+source_name,type,licensing,matches_available,event_level,joinability
+StatsBomb Open Data,Event & xG Logs,Open Data (CC BY-NC-SA 4.0),"3,000+ matches","Granular (passes, shots, pressures)",High for major tournaments
+Kaggle International Results,Match Outcomes (1872-Present),CC0 Public Domain,"49,520 matches",Match Score & Shootout,Master Dataset
+FIFA Multi-Year (EA Sports),Player Skill & Attributes,Open / Research,FIFA 15 - FIFA 23,Individual Player (110 features),High via National/Club rosters
+Wyscout Open Dataset,Event & Spatial Actions,Academic Open Data,"1,826 matches (Top 5 Leagues)","Passes, duels, shots",Moderate (Club matches)
+Football-Data.co.uk,Match Stats & Betting Odds,Public,"100,000+ matches","Match-level (shots, fouls, corners)",High for European leagues
+Berrar et al. (2024) Challenge,Soccer Prediction Benchmark,Academic (Springer),"300,000+ matches (51 leagues)",Match-level,Club league format
+Stübinger et al. (2020) Dataset,Player Characteristics & Betting,Academic (MDPI),"47,856 matches (2006-2018)",Player-season (40 features),European club leagues
+Ievoli et al. Passing Networks,UCL Passing Networks,Academic,125 UCL matches,Player-to-player passing matrix,UCL tournament focus

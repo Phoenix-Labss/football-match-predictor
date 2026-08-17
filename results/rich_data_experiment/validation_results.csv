@@ -1,0 +1,8 @@
+tier,n_features,val_accuracy_pct,val_log_loss,val_normalized_rps,val_brier_score,val_ece,val_draw_recall_pct,delta_accuracy_pct,delta_log_loss,delta_rps,status
+R0 (Champion Baseline),217,59.2,0.8804,0.1739,0.5186,0.0093,1.95,0.0,0.0,0.0,Baseline
+R1 (Rich Player Attributes),223,59.28,0.8802,0.1737,0.5182,0.0107,1.92,0.08,0.0002,0.0002,Positive
+R2 (Player Performance History),220,59.19,0.8801,0.1738,0.5184,0.0108,1.95,-0.01,0.0003,0.0001,Negative
+R3 (Event & xG Statistics),223,59.36,0.8779,0.1732,0.517,0.0102,2.05,0.16,0.0025,0.0007,Positive
+R4 (Player Interaction Networks),222,59.25,0.8785,0.1734,0.5175,0.0069,2.07,0.05,0.0019,0.0005,Positive
+R5 (Contextual & Environmental),222,59.17,0.8805,0.1739,0.5186,0.0127,1.85,-0.03,-0.0001,0.0,Negative
+R6 (All Rich Data Combined),242,59.45,0.8781,0.173,0.517,0.0075,2.15,0.25,0.0023,0.0009,Positive

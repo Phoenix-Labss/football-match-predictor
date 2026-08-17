@@ -1,0 +1,50 @@
+{
+  "test_matches": 9904,
+  "champion_baseline": {
+    "accuracy_pct": 59.84,
+    "correct_matches": 5927,
+    "log_loss": 0.8736,
+    "normalized_rps": 0.171,
+    "brier_score": 0.5142,
+    "ece": 0.0169
+  },
+  "best_feature_enhanced_model": {
+    "accuracy_pct": 59.75,
+    "correct_matches": 5918,
+    "log_loss": 0.8742,
+    "normalized_rps": 0.1713,
+    "brier_score": 0.5146,
+    "ece": 0.0172,
+    "added_features": [
+      "f6_month_sin",
+      "f1_elo_min_gap",
+      "f6_away_congestion_14d",
+      "f2_away_unbeaten_streak",
+      "f4_att_a_vs_def_h",
+      "f5_home_fts_rate",
+      "f4_att_h_vs_def_a",
+      "f5_home_goal_var",
+      "f5_goal_var_diff",
+      "f7_squad_experience_proxy",
+      "f2_streak_diff",
+      "f4_h2h_draw_sq",
+      "f3_opp_adj_gd_5_diff",
+      "f5_away_goal_var",
+      "f3_opp_adj_gf_ratio",
+      "f5_blowout_potential",
+      "f1_elo_percentile_diff",
+      "f5_away_clean_sheet_rate",
+      "f3_goal_efficiency_diff",
+      "f2_home_unbeaten_streak",
+      "f7_age_balance_proxy"
+    ]
+  },
+  "delta_accuracy_pct": -0.09,
+  "additional_correct_matches": -9,
+  "mcnemar_p_value": 0.470703,
+  "bootstrap_log_loss_ci": [
+    -0.000394,
+    0.00158
+  ],
+  "verdict": "MATCHES CHAMPION"
+}

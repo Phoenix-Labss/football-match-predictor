@@ -1,0 +1,35 @@
+{
+  "test_matches": 9904,
+  "champion_baseline": {
+    "accuracy_pct": 59.84,
+    "correct_matches": 5927,
+    "log_loss": 0.8736,
+    "normalized_rps": 0.171,
+    "brier_score": 0.5142,
+    "ece": 0.0169
+  },
+  "gnn_alone": {
+    "accuracy_pct": 59.45,
+    "correct_matches": 5888,
+    "log_loss": 0.8954,
+    "normalized_rps": 0.1759,
+    "brier_score": 0.5273,
+    "ece": 0.0168
+  },
+  "champion_plus_gnn": {
+    "accuracy_pct": 59.76,
+    "correct_matches": 5919,
+    "log_loss": 0.8734,
+    "normalized_rps": 0.171,
+    "brier_score": 0.514,
+    "ece": 0.014
+  },
+  "delta_accuracy_pct": -0.08,
+  "additional_correct_matches": -8,
+  "mcnemar_p_value": 0.229949,
+  "bootstrap_log_loss_ci": [
+    -0.000475,
+    -5.4e-05
+  ],
+  "verdict": "GNN DOES NOT HELP"
+}

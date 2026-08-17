@@ -1,0 +1,9 @@
+Dataset_Variant,N_Features,Val_Accuracy,Val_LogLoss,Val_NormRPS,Val_Brier,Val_ECE,Draw_Recall
+D0_CurrentChampion,43,58.87,0.889,0.1759,0.5234,0.0072,0.7
+D1_ExpandedInternational,47,58.93,0.8888,0.1759,0.5233,0.0097,0.85
+D2_FIFARankings,49,58.9,0.8879,0.1757,0.5227,0.0082,1.02
+D3_TeamXG_Events,55,58.85,0.888,0.1757,0.523,0.0144,0.7
+D4_PlayerQuality,60,58.95,0.8877,0.1754,0.5226,0.0116,2.12
+D5_PlayerFormEWMA,62,58.98,0.8873,0.1754,0.5224,0.0145,1.6
+D6_LineupContinuity,65,58.89,0.8874,0.1755,0.5225,0.015,1.25
+D7_PlayerInteractions,67,59.0,0.8862,0.1753,0.5218,0.0143,2.07

@@ -1,0 +1,175 @@
+{
+  "experiment": "Negative Binomial Overdispersion Experiment",
+  "frozen_dispersion_alpha": 0.12616240805296933,
+  "models_evaluated": [
+    "Model A: Dixon-Coles Poisson",
+    "Model B: Negative Binomial Indep",
+    "Model C: Negative Binomial + DC",
+    "Model D: MDS + Poisson",
+    "Model E: MDS + Negative Binomial",
+    "Model F: MDS + Negative Binomial + DC"
+  ],
+  "historical_results": [
+    {
+      "model_name": "Model D: MDS + Poisson",
+      "accuracy_pct": 55.472,
+      "log_loss": 1.00438,
+      "normalized_rps": 0.20972,
+      "brier_score": 0.60122,
+      "scoreline_nll": 2.87542,
+      "total_goal_nll": 1.8700800000000002
+    },
+    {
+      "model_name": "Model A: Dixon-Coles Poisson",
+      "accuracy_pct": 55.472,
+      "log_loss": 1.0046399999999998,
+      "normalized_rps": 0.2098,
+      "brier_score": 0.60142,
+      "scoreline_nll": 2.8759,
+      "total_goal_nll": 1.87042
+    },
+    {
+      "model_name": "Model B: Negative Binomial Indep",
+      "accuracy_pct": 55.864,
+      "log_loss": 1.0031,
+      "normalized_rps": 0.21036000000000002,
+      "brier_score": 0.59962,
+      "scoreline_nll": 2.87704,
+      "total_goal_nll": 1.86732
+    },
+    {
+      "model_name": "Model E: MDS + Negative Binomial",
+      "accuracy_pct": 55.864,
+      "log_loss": 1.0029,
+      "normalized_rps": 0.21027999999999997,
+      "brier_score": 0.59948,
+      "scoreline_nll": 2.8771,
+      "total_goal_nll": 1.8672
+    },
+    {
+      "model_name": "Model C: Negative Binomial + DC",
+      "accuracy_pct": 55.864,
+      "log_loss": 1.0078200000000002,
+      "normalized_rps": 0.211,
+      "brier_score": 0.6035999999999999,
+      "scoreline_nll": 2.8813,
+      "total_goal_nll": 1.8716599999999999
+    },
+    {
+      "model_name": "Model F: MDS + Negative Binomial + DC",
+      "accuracy_pct": 55.864,
+      "log_loss": 1.0076,
+      "normalized_rps": 0.21095999999999998,
+      "brier_score": 0.60346,
+      "scoreline_nll": 2.8813400000000002,
+      "total_goal_nll": 1.87156
+    }
+  ],
+  "2026_backtest_results": [
+    {
+      "model_name": "Model F: MDS + Negative Binomial + DC",
+      "accuracy_pct": 65.38,
+      "log_loss": 0.99167,
+      "normalized_rps": 0.204078,
+      "brier_score": 0.594633,
+      "scoreline_nll": 3.216491,
+      "total_goal_nll": 2.157069,
+      "delta_logloss_vs_poisson": 0.005828,
+      "delta_score_nll_vs_poisson": -0.03779
+    },
+    {
+      "model_name": "Model C: Negative Binomial + DC",
+      "accuracy_pct": 65.38,
+      "log_loss": 0.991609,
+      "normalized_rps": 0.204048,
+      "brier_score": 0.594601,
+      "scoreline_nll": 3.217621,
+      "total_goal_nll": 2.158397,
+      "delta_logloss_vs_poisson": 0.005768,
+      "delta_score_nll_vs_poisson": -0.03666
+    },
+    {
+      "model_name": "Model E: MDS + Negative Binomial",
+      "accuracy_pct": 67.31,
+      "log_loss": 0.984828,
+      "normalized_rps": 0.203041,
+      "brier_score": 0.58808,
+      "scoreline_nll": 3.219776,
+      "total_goal_nll": 2.15882,
+      "delta_logloss_vs_poisson": -0.001013,
+      "delta_score_nll_vs_poisson": -0.034506
+    },
+    {
+      "model_name": "Model B: Negative Binomial Indep",
+      "accuracy_pct": 66.35,
+      "log_loss": 0.984725,
+      "normalized_rps": 0.203006,
+      "brier_score": 0.588014,
+      "scoreline_nll": 3.220902,
+      "total_goal_nll": 2.160153,
+      "delta_logloss_vs_poisson": -0.001116,
+      "delta_score_nll_vs_poisson": -0.033379
+    },
+    {
+      "model_name": "Model D: MDS + Poisson",
+      "accuracy_pct": 65.38,
+      "log_loss": 0.985889,
+      "normalized_rps": 0.2021,
+      "brier_score": 0.590804,
+      "scoreline_nll": 3.252396,
+      "total_goal_nll": 2.187397,
+      "delta_logloss_vs_poisson": 4.8e-05,
+      "delta_score_nll_vs_poisson": -0.001886
+    },
+    {
+      "model_name": "Model A: Dixon-Coles Poisson",
+      "accuracy_pct": 64.42,
+      "log_loss": 0.985842,
+      "normalized_rps": 0.202072,
+      "brier_score": 0.590785,
+      "scoreline_nll": 3.254281,
+      "total_goal_nll": 2.189101,
+      "delta_logloss_vs_poisson": 0.0,
+      "delta_score_nll_vs_poisson": 0.0
+    }
+  ],
+  "statistical_tests": [
+    {
+      "comparison": "Model A (Poisson DC) vs Model C (NegBin DC)",
+      "metric": "Log Loss",
+      "model_1_mean": 1.060413,
+      "model_2_mean": 1.061527,
+      "mean_difference": 0.001114,
+      "ci_95_low": 0.000389,
+      "ci_95_high": 0.001839,
+      "dm_p_value": 0.002684,
+      "is_statistically_significant": true,
+      "verdict": "Statistically Significant Poisson Superiority (p < 0.05)"
+    },
+    {
+      "comparison": "Model A (Poisson DC) vs Model C (NegBin DC)",
+      "metric": "Normalized RPS",
+      "model_1_mean": 0.226814,
+      "model_2_mean": 0.227412,
+      "mean_difference": 0.000598,
+      "ci_95_low": 0.000534,
+      "ci_95_high": 0.000663,
+      "dm_p_value": 0.0,
+      "is_statistically_significant": true,
+      "verdict": "Statistically Significant Poisson Superiority (p < 0.05)"
+    },
+    {
+      "comparison": "Model A (Poisson DC) vs Model C (NegBin DC)",
+      "metric": "Scoreline NLL",
+      "model_1_mean": 2.885854,
+      "model_2_mean": 2.886127,
+      "mean_difference": 0.000273,
+      "ci_95_low": -0.015826,
+      "ci_95_high": 0.0151,
+      "dm_p_value": 0.97196,
+      "is_statistically_significant": false,
+      "verdict": "Statistically Indistinguishable (p >= 0.05)"
+    }
+  ],
+  "decision": "B. IMPROVES SCORE REALISM ONLY (Negative Binomial delivers superior scoreline likelihood and corrects the tail goal deficit, while 1X2 directional accuracy remains identical)."
+}

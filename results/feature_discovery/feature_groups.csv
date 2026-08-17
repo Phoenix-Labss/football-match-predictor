@@ -1,0 +1,9 @@
+group_id,name,n_features,description
+F0,Current Champion Baseline,217,Production 217 features
+F1,Strength Enhancements,4,"Tanh Elo gap, strength asymmetry, Elo percentiles"
+F2,Form Enhancements,8,"Venue win rates, scoring streaks, unbeaten streaks"
+F3,Opponent-Adjusted Form,3,"Opponent-weighted GD, goal efficiency ratios"
+F4,Matchup / H2H,4,"Attack vs Defense mismatch, squared H2H draw tendency"
+F5,Consistency / Variance,9,"Goal variance, clean sheet rate, blowout potential"
+F6,Context & Congestion,6,"14-day match congestion, competition weight, seasonality"
+F7,Player & Squad,2,"Age dispersion proxy, experience depth"

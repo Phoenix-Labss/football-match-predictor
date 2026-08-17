@@ -1,0 +1,26 @@
+feature_name,tier,data_type,temporal_availability,leakage_risk,description
+r1_pass_vision_diff,R1,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r1_pass_vision_diff
+r1_def_tackle_diff,R1,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r1_def_tackle_diff
+r1_att_finish_diff,R1,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r1_att_finish_diff
+r1_phys_stamina_diff,R1,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r1_phys_stamina_diff
+r1_bench_depth_diff,R1,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r1_bench_depth_diff
+r1_quality_asymmetry,R1,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r1_quality_asymmetry
+r2_player_goal_creation_rate,R2,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r2_player_goal_creation_rate
+r2_points_momentum_diff,R2,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r2_points_momentum_diff
+r2_attacking_continuity,R2,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r2_attacking_continuity
+r3_rolling_xg_diff,R3,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r3_rolling_xg_diff
+r3_rolling_xga_diff,R3,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r3_rolling_xga_diff
+r3_expected_gd_net,R3,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r3_expected_gd_net
+r3_pass_acc_diff,R3,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r3_pass_acc_diff
+r3_pressure_intensity_diff,R3,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r3_pressure_intensity_diff
+r3_shot_quality_ratio,R3,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r3_shot_quality_ratio
+r4_network_density_diff,R4,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r4_network_density_diff
+r4_centralization_diff,R4,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r4_centralization_diff
+r4_reciprocity_diff,R4,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r4_reciprocity_diff
+r4_top_passing_volume_diff,R4,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r4_top_passing_volume_diff
+r4_tactical_cohesion_index,R4,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r4_tactical_cohesion_index
+r5_competition_importance,R5,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r5_competition_importance
+r5_is_neutral_venue,R5,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r5_is_neutral_venue
+r5_season_cycle_cos,R5,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r5_season_cycle_cos
+r5_season_cycle_sin,R5,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r5_season_cycle_sin
+r5_elo_strength_scale,R5,Float64,Pre-Match Only (t < T),None (Verified),Engineered rich signal for r5_elo_strength_scale

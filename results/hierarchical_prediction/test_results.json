@@ -1,0 +1,60 @@
+{
+  "test_matches": 9904,
+  "champion_baseline": {
+    "accuracy_pct": 59.84,
+    "correct_matches": 5927,
+    "total_matches": 9904,
+    "log_loss": 0.8736,
+    "normalized_rps": 0.171,
+    "brier_score": 0.5142,
+    "ece": 0.0169,
+    "home_recall_pct": 88.29,
+    "draw_recall_pct": 1.69,
+    "away_recall_pct": 59.83,
+    "correct_draws": 39
+  },
+  "hierarchical_method_a_argmax": {
+    "accuracy_pct": 59.83,
+    "correct_matches": 5926,
+    "total_matches": 9904,
+    "log_loss": 0.8746,
+    "normalized_rps": 0.1713,
+    "brier_score": 0.5147,
+    "ece": 0.0151,
+    "home_recall_pct": 88.38,
+    "draw_recall_pct": 1.08,
+    "away_recall_pct": 60.15,
+    "correct_draws": 25
+  },
+  "hierarchical_method_b_threshold": {
+    "accuracy_pct": 59.77,
+    "correct_matches": 5920,
+    "total_matches": 9904,
+    "log_loss": 0.8746,
+    "normalized_rps": 0.1713,
+    "brier_score": 0.5147,
+    "ece": 0.0151,
+    "home_recall_pct": 88.14,
+    "draw_recall_pct": 1.34,
+    "away_recall_pct": 60.11,
+    "correct_draws": 31
+  },
+  "optimal_threshold": 0.36,
+  "delta_accuracy_argmax_pct": -0.01,
+  "delta_accuracy_threshold_pct": -0.07,
+  "delta_correct_matches_argmax": -1,
+  "delta_correct_matches_threshold": -7,
+  "delta_correct_draws_argmax": -14,
+  "delta_correct_draws_threshold": -8,
+  "mcnemar_p_value_argmax": 1.0,
+  "mcnemar_p_value_threshold": 0.68099,
+  "bootstrap_log_loss_ci": [
+    -0.000234,
+    0.00226
+  ],
+  "bootstrap_rps_ci": [
+    -2.4e-05,
+    0.000258
+  ],
+  "final_recommendation": "DO NOT REPLACE CHAMPION (Hierarchical architecture does not improve overall 1X2 accuracy and reduces win/loss precision)"
+}

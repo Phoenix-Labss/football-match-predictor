@@ -1,0 +1,5 @@
+dataset,total_matches,matched_exact,matched_fuzzy,unmatched,match_rate_pct,notes
+StatsBomb International Matches (WC/Euro/Copa),262,262,0,0,100.0,
+FIFA Multiyear Players (15-22),49520,47100,2420,0,100.0,
+Football-Data.co.uk European Matches,105000,0,0,105000,0.0,Club only (no direct international overlap)
+Berrar et al. 2024 Challenge Leagues,300000,0,0,300000,0.0,Club leagues only

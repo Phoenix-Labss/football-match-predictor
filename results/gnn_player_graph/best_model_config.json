@@ -1,0 +1,22 @@
+{
+  "best_gnn_architecture": "GAT",
+  "n_node_features": 26,
+  "n_edge_relations": 6,
+  "hidden_dim": 32,
+  "embedding_dim": 16,
+  "context_features": [
+    "elo_diff_scaled",
+    "elo_ratio",
+    "neutral_flag",
+    "comp_weight",
+    "month_sin",
+    "month_cos"
+  ],
+  "blend_weights": {
+    "champion_weight": 0.9601,
+    "gnn_weight": 0.0399
+  },
+  "val_accuracy_g0": 59.2,
+  "val_accuracy_g2": 57.8,
+  "val_accuracy_blend": 59.2
+}

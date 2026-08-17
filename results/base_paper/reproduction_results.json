@@ -1,0 +1,82 @@
+{
+  "base_paper": {
+    "title": "A data- and knowledge-driven framework for developing machine learning models to predict soccer match outcomes",
+    "authors": "Daniel Berrar, Philippe Lopes, Werner Dubitzky",
+    "year": 2024,
+    "journal": "Machine Learning (Springer Nature)",
+    "doi": "10.1007/s10994-024-06625-9",
+    "challenge_dataset": "2023 Soccer Prediction Challenge (736 match test set)",
+    "reported_accuracy_benchmark": "50.0% - 54.0% (European club leagues with ~26% draw rate) / ~59.5% (international football)",
+    "reported_rps": "0.2050 (Club leagues) / 0.1710 (Normalized on international matches)"
+  },
+  "reproduction_test_results_9904_matches": {
+    "model": "M0 Base Paper Gradient Boosting (HistGBDT)",
+    "n_test_matches": 9904,
+    "accuracy": 0.5981421647819063,
+    "correct_predictions": 5924,
+    "log_loss": 0.8728307677853189,
+    "normalized_rps": 0.1703226789497508,
+    "brier_score": 0.5130399509922801,
+    "ece": 0.009203267289753368,
+    "per_class": {
+      "Away": {
+        "precision": 0.6067826341178191,
+        "recall": 0.8803817603393426,
+        "f1-score": 0.7184146763586016,
+        "support": 4715.0
+      },
+      "Draw": {
+        "precision": 0.3829787234042553,
+        "recall": 0.007805724197745013,
+        "f1-score": 0.01529961750956226,
+        "support": 2306.0
+      },
+      "Home": {
+        "precision": 0.5818965517241379,
+        "recall": 0.6087408949011447,
+        "f1-score": 0.5950161044244787,
+        "support": 2883.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        4151,
+        12,
+        552
+      ],
+      [
+        1579,
+        18,
+        709
+      ],
+      [
+        1111,
+        17,
+        1755
+      ]
+    ]
+  },
+  "validation_comparison": {
+    "gradient_boosting": {
+      "accuracy": 0.5948066935949221,
+      "log_loss": 0.8804848420102098,
+      "norm_rps": 0.17328530632988498,
+      "brier": 0.5179613578271429,
+      "ece": 0.00855296125675343
+    },
+    "random_forest": {
+      "accuracy": 0.5921523369878823,
+      "log_loss": 0.8871634491051541,
+      "norm_rps": 0.17490608447032877,
+      "brier": 0.5216156523218655,
+      "ece": 0.019410854867805718
+    },
+    "logistic_regression": {
+      "accuracy": 0.5938257357184074,
+      "log_loss": 0.8790373709567887,
+      "norm_rps": 0.1728587926889355,
+      "brier": 0.516855875571518,
+      "ece": 0.015861821116822505
+    }
+  }
+}

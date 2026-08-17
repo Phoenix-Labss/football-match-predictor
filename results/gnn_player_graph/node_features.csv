@@ -1,0 +1,27 @@
+feature_index,name,category,range,description
+0,overall,Core FIFA Rating,0-100,Overall player ability score
+1,potential,Core FIFA Rating,0-100,Future potential rating
+2,pace,Base Athleticism,0-100,Acceleration and sprint speed
+3,shooting,Technical Finishing,0-100,"Finishing, long shots, shot power"
+4,passing,Technical Playmaking,0-100,"Short passing, vision, crossing"
+5,dribbling,Technical Agility,0-100,"Ball control, agility, reactions"
+6,defending,Defensive Ability,0-100,"Marking, tackles, interceptions"
+7,physic,Physical Engine,0-100,"Strength, stamina, jumping"
+8,age_normalized,Demographics,0.0-1.0,Normalized player age (18-38)
+9,height_normalized,Demographics,0.0-1.0,Normalized height (160-200cm)
+10,pos_GK,Positional Encoding,0 or 1,Goalkeeper indicator
+11,pos_CB,Positional Encoding,0 or 1,Center-back indicator
+12,pos_FB,Positional Encoding,0 or 1,Fullback / Wingback indicator
+13,pos_CDM,Positional Encoding,0 or 1,Defensive midfielder indicator
+14,pos_CM,Positional Encoding,0 or 1,Central midfielder indicator
+15,pos_CAM,Positional Encoding,0 or 1,Attacking midfielder indicator
+16,pos_WING,Positional Encoding,0 or 1,Winger / wide midfielder
+17,pos_ST,Positional Encoding,0 or 1,Striker / center-forward
+18,style_playmaking,Derived Playing Style,0.0-1.0,Passing + vision + curve weighted score
+19,style_creativity,Derived Playing Style,0.0-1.0,Dribbling + ball control + agility score
+20,style_finishing,Derived Playing Style,0.0-1.0,Finishing + shot power + positioning score
+21,style_ball_carrying,Derived Playing Style,0.0-1.0,Pace + acceleration + balance score
+22,style_defensive_anchor,Derived Playing Style,0.0-1.0,Marking + tackling + aggression score
+23,style_physical_engine,Derived Playing Style,0.0-1.0,Stamina + strength + work rate score
+24,style_aerial,Derived Playing Style,0.0-1.0,Height + jumping + heading accuracy score
+25,quality_scalar,Overall Quality,0.0-1.0,Combined (OVR + Potential) / 200

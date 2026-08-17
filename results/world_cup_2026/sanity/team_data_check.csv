@@ -1,0 +1,49 @@
+group,team,alias_in_data,player_data_available,elo_available,elo_rating,squad_size,status
+Group A,Mexico,Mexico,True,True,1810,26,VALID
+Group A,South Africa,South Africa,True,True,1620,26,VALID
+Group A,South Korea,South Korea,True,True,1800,26,VALID
+Group A,Czechia,Czechia,True,True,1740,26,VALID
+Group B,Canada,Canada,True,True,1795,26,VALID
+Group B,Bosnia and Herzegovina,Bosnia and Herzegovina,True,True,1645,26,VALID
+Group B,Qatar,Qatar,True,True,1600,26,VALID
+Group B,Switzerland,Switzerland,True,True,1860,26,VALID
+Group C,Brazil,Brazil,True,True,2030,26,VALID
+Group C,Morocco,Morocco,True,True,1920,26,VALID
+Group C,Haiti,Haiti,True,True,1530,26,VALID
+Group C,Scotland,Scotland,True,True,1720,26,VALID
+Group D,USA,USA,True,True,1850,26,VALID
+Group D,Paraguay,Paraguay,True,True,1725,26,VALID
+Group D,Australia,Australia,True,True,1790,26,VALID
+Group D,Türkiye,Türkiye,True,True,1780,26,VALID
+Group E,Germany,Germany,True,True,1970,26,VALID
+Group E,Curaçao,Curaçao,True,True,1520,26,VALID
+Group E,Côte d'Ivoire,Côte d'Ivoire,True,True,1750,26,VALID
+Group E,Ecuador,Ecuador,True,True,1870,26,VALID
+Group F,Netherlands,Netherlands,True,True,1980,26,VALID
+Group F,Japan,Japan,True,True,1880,26,VALID
+Group F,Sweden,Sweden,True,True,1815,26,VALID
+Group F,Tunisia,Tunisia,True,True,1710,26,VALID
+Group G,Belgium,Belgium,True,True,1950,26,VALID
+Group G,Egypt,Egypt,True,True,1730,26,VALID
+Group G,IR Iran,IR Iran,True,True,1820,26,VALID
+Group G,New Zealand,New Zealand,True,True,1510,26,VALID
+Group H,Spain,Spain,True,True,2120,26,VALID
+Group H,Cabo Verde,Cabo Verde,True,True,1640,26,VALID
+Group H,Saudi Arabia,Saudi Arabia,True,True,1660,26,VALID
+Group H,Uruguay,Uruguay,True,True,1960,26,VALID
+Group I,France,France,True,True,2100,26,VALID
+Group I,Senegal,Senegal,True,True,1840,26,VALID
+Group I,Iraq,Iraq,True,True,1630,26,VALID
+Group I,Norway,Norway,True,True,1775,26,VALID
+Group J,Argentina,Argentina,True,True,2150,26,VALID
+Group J,Algeria,Algeria,True,True,1760,26,VALID
+Group J,Austria,Austria,True,True,1830,26,VALID
+Group J,Jordan,Jordan,True,True,1610,26,VALID
+Group K,Portugal,Portugal,True,True,2010,26,VALID
+Group K,Congo DR,Congo DR,True,True,1670,26,VALID
+Group K,Uzbekistan,Uzbekistan,True,True,1650,26,VALID
+Group K,Colombia,Colombia,True,True,1990,26,VALID
+Group L,England,England,True,True,2050,26,VALID
+Group L,Croatia,Croatia,True,True,1940,26,VALID
+Group L,Ghana,Ghana,True,True,1690,26,VALID
+Group L,Panama,Panama,True,True,1680,26,VALID

@@ -1,0 +1,21 @@
+stage,fixture,favorite,underdog,fav_prob_a,fav_prob_b,fav_prob_c,actual_result,loss_engine_a,loss_engine_b,loss_engine_c
+Group Stage,USA 1 - 1 Wales,Wales,USA,0.54,0.539,0.523,D,2.037,2.037,2.161
+Group Stage,Argentina 1 - 2 Saudi Arabia,Argentina,Saudi Arabia,0.53,0.53,0.514,A,2.973,2.973,3.077
+Group Stage,Denmark 0 - 0 Tunisia,Denmark,Tunisia,0.524,0.524,0.509,D,2.455,2.455,2.217
+Group Stage,Germany 1 - 2 Japan,Germany,Japan,0.513,0.514,0.499,A,2.903,2.905,3.015
+Group Stage,Uruguay 0 - 0 Ecuador,Uruguay,Ecuador,0.438,0.439,0.431,D,2.272,2.273,2.075
+Group Stage,Netherlands 1 - 1 Ecuador,Netherlands,Ecuador,0.502,0.501,0.489,D,2.011,2.011,2.137
+Group Stage,England 0 - 0 USA,England,USA,0.676,0.676,0.647,D,2.407,2.409,2.15
+Group Stage,Japan 0 - 1 Costa Rica,Japan,Costa Rica,0.424,0.423,0.419,A,2.484,2.484,2.436
+Group Stage,Belgium 0 - 2 Morocco,Belgium,Morocco,0.409,0.409,0.405,A,2.941,2.94,2.907
+Group Stage,Cameroon 3 - 3 Serbia,Serbia,Cameroon,0.413,0.413,0.409,D,4.872,4.874,4.873
+Group Stage,IR Iran 0 - 1 USA,IR Iran,USA,0.525,0.525,0.509,A,2.676,2.677,2.6
+Group Stage,Australia 1 - 0 Denmark,Denmark,Australia,0.45,0.45,0.442,H,2.523,2.522,2.469
+Group Stage,Tunisia 1 - 0 France,France,Tunisia,0.615,0.615,0.591,H,3.159,3.156,2.993
+Group Stage,Japan 2 - 1 Spain,Spain,Japan,0.498,0.498,0.485,H,2.85,2.85,2.969
+Group Stage,Qatar 2 - 1 Portugal,Portugal,Qatar,0.575,0.575,0.555,H,3.199,3.2,3.278
+Group Stage,Cameroon 1 - 0 Brazil,Brazil,Cameroon,0.506,0.507,0.493,H,2.72,2.721,2.635
+Round of 16,Japan 1 - 1 Croatia,Croatia,Japan,0.418,0.418,0.414,D,1.957,1.958,2.093
+Round of 16,Morocco 0 - 0 Spain,Spain,Morocco,0.428,0.429,0.423,D,2.244,2.245,2.052
+Quarter-Finals,Croatia 1 - 1 Brazil,Brazil,Croatia,0.422,0.422,0.417,D,1.946,1.946,2.083
+Quarter-Finals,Morocco 1 - 0 Portugal,Portugal,Morocco,0.403,0.403,0.4,H,2.435,2.436,2.395

@@ -1,0 +1,7 @@
+model_name,accuracy_pct,log_loss,normalized_rps,brier_score,scoreline_nll,total_goal_nll,delta_logloss_vs_poisson,delta_score_nll_vs_poisson
+Model F: MDS + Negative Binomial + DC,65.38,0.99167,0.204078,0.594633,3.216491,2.157069,0.005828,-0.03779
+Model C: Negative Binomial + DC,65.38,0.991609,0.204048,0.594601,3.217621,2.158397,0.005768,-0.03666
+Model E: MDS + Negative Binomial,67.31,0.984828,0.203041,0.58808,3.219776,2.15882,-0.001013,-0.034506
+Model B: Negative Binomial Indep,66.35,0.984725,0.203006,0.588014,3.220902,2.160153,-0.001116,-0.033379
+Model D: MDS + Poisson,65.38,0.985889,0.2021,0.590804,3.252396,2.187397,4.8e-05,-0.001886
+Model A: Dixon-Coles Poisson,64.42,0.985842,0.202072,0.590785,3.254281,2.189101,0.0,0.0

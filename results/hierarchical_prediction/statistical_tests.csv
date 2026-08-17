@@ -1,0 +1,5 @@
+test_type,metric,stat,p_value,n_hier_better,n_champ_better,is_significant,verdict,mean_difference,ci_95_low,ci_95_high
+McNemar (Champion vs Hierarchical Argmax),Categorical Accuracy,0.0,1.0,96.0,97.0,False,Statistically Equivalent (p >= 0.05),,,
+McNemar (Champion vs Hierarchical Threshold),Categorical Accuracy,0.169,0.68099,103.0,110.0,False,Statistically Equivalent,,,
+"Paired Bootstrap (B=10,000)",Log Loss Difference (Hier - Champ),,,,,False,Statistically Indistinguishable,0.001008,-0.000234,0.00226
+"Paired Bootstrap (B=10,000)",Normalized RPS Difference (Hier - Champ),,,,,False,Statistically Indistinguishable,0.000116,-2.4e-05,0.000258

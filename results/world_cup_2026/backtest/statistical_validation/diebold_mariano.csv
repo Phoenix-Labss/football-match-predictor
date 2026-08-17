@@ -1,0 +1,5 @@
+metric,mean_differential,dm_hln_statistic,p_value,ci_95_low,ci_95_high,is_statistically_significant,interpretation
+Log Loss,-5e-05,-0.3715,0.710999,-0.000317,0.000217,False,Statistically Indistinguishable (p >= 0.05)
+Normalized RPS,-7e-06,-0.1909,0.848952,-7.7e-05,6.3e-05,False,Statistically Indistinguishable (p >= 0.05)
+Multi-Class Brier,-6.7e-05,-0.759,0.449558,-0.000243,0.000109,False,Statistically Indistinguishable (p >= 0.05)
+Scoreline NLL,-0.001387,-2.4025,0.018073,-0.002531,-0.000242,True,Statistically Significant MDS Improvement

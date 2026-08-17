@@ -1,0 +1,14 @@
+{
+  "sample_size": 104,
+  "contingency_table": {
+    "static_correct_mds_correct (n11)": 68,
+    "static_correct_mds_wrong (b / n10)": 0,
+    "static_wrong_mds_correct (c / n01)": 0,
+    "static_wrong_mds_wrong (n00)": 36
+  },
+  "discordant_pairs_count": 0,
+  "mcnemar_chi2_statistic": 0.0,
+  "exact_binomial_p_value": 1.0,
+  "is_statistically_significant": false,
+  "verdict": "No difference in classification accuracy (Exact p = 1.000000; zero discordant predictions)."
+}

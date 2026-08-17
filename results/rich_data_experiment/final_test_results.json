@@ -1,0 +1,36 @@
+{
+  "test_matches": 9904,
+  "champion_baseline_R0": {
+    "accuracy_pct": 59.84,
+    "correct_matches": 5927,
+    "log_loss": 0.8736,
+    "normalized_rps": 0.171,
+    "brier_score": 0.5142,
+    "ece": 0.0169
+  },
+  "rich_player_data_R1": {
+    "accuracy_pct": 59.84
+  },
+  "rich_event_data_R3": {
+    "accuracy_pct": 59.96
+  },
+  "rich_interaction_data_R4": {
+    "accuracy_pct": 59.86
+  },
+  "all_rich_data_R6": {
+    "accuracy_pct": 59.94,
+    "correct_matches": 5936,
+    "log_loss": 0.8709,
+    "normalized_rps": 0.1702,
+    "brier_score": 0.5124,
+    "ece": 0.0131
+  },
+  "delta_accuracy_pct": 0.09,
+  "additional_correct_predictions": 9,
+  "mcnemar_p_value": 0.600211,
+  "bootstrap_log_loss_ci": [
+    -0.004366,
+    -0.001049
+  ],
+  "verdict": "NO USEFUL NEW DATA"
+}

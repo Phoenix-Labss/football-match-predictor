@@ -1,0 +1,93 @@
+# Default experiment configuration for the soccer prediction research project.
+# Baseline paper: Berrar, Lopes & Dubitzky (2024), Machine Learning, Springer.
+# DOI: 10.1007/s10994-024-06625-9
+
+data:
+  # Path to Kaggle Dataset A (international football results CSV).
+  # If missing, the pipeline falls back to the synthetic data generator.
+  international_results_csv: "data/raw/results.csv"
+  # Path to Kaggle Dataset B (European Soccer Database sqlite).
+  european_soccer_sqlite: "data/raw/soccer.sqlite"
+  synthetic:
+    n_teams: 40
+    n_matches: 12000
+    start_date: "2000-01-01"
+    seed: 42
+
+features:
+  # Team-level feature settings (M0 baseline, Springer-style).
+  form_windows: [5, 10, 20]        # recent-form windows (matches)
+  elo:
+    initial_rating: 1500.0
+    home_advantage: 65.0           # Elo points added to home team
+    goal_diff_scale: 1.0           # multiplier on goal-difference-based K scaling
+
+updater:
+  # Confidence-controlled strength update mechanism (core contribution).
+  # Modes:
+  #   fixed_k  : standard Elo-style update, S' = S + K*(Shat - S)
+  #   bounded  : clip the update to +/- cap (fraction of current strength)
+  #   adaptive : cap_t = f(evidence_t), evidence from recent results
+  #   frozen   : no update at all (control)
+  mode: "adaptive"
+  k: 24.0                          # base learning rate K
+  cap: 0.05                        # bounded-mode cap (fraction)
+  adaptive:
+    # delta_t = base_cap * (1 + consistency_weight * consistency
+    #                          + surprise_weight * surprise)
+    base_cap: 0.01
+    consistency_weight: 3.0        # weight on directional consistency of last N results
+    surprise_weight: 1.0           # weight on surprise magnitude |Shat - S| / scale
+    evidence_window: 7             # recent matches used to compute evidence
+
+model:
+  # M0 predictor: gradient-boosted trees on team-strength + form features.
+  type: "gradient_boosting"
+  random_state: 42
+  gradient_boosting:
+    n_estimators: 300
+    learning_rate: 0.05
+    max_depth: 3
+
+validation:
+  # Rolling-origin temporal evaluation. Never split randomly.
+  method: "rolling_origin"
+  train_start: "2000-01-01"
+  test_fractions: [0.2]            # fraction of matches reserved for evaluation
+  n_folds: 4                       # rolling-origin folds over the test region
+  min_train_matches: 1000
+
+evaluation:
+  primary_metrics: ["log_loss", "ece", "rps"]
+  bootstrap_samples: 1000
+  calibration_bins: 15
+
+track3:
+  # Track 3: FIFA-style match engine + World Cup Monte Carlo simulator.
+  fifa_data_dir: "data/raw/fifa"   # Kaggle 'FIFA complete player dataset' CSVs
+  target_year: 2022
+  n_simulations: 1000              # Monte Carlo tournament runs
+  teams: []                        # optional: restrict to specific nations
+  player_model:
+    form_volatility: 0.02
+    availability_floor: 0.5
+  squad_model:
+    formation: "4-3-3"
+    manager_attack_bias: 0.0       # learnable manager effect (proxy)
+    manager_defence_bias: 0.0
+    manager_aggression: 0.0
+  chemistry:
+    club_weight: 0.5
+    minutes_weight: 0.3
+    position_weight: 0.2
+  match_engine:
+    home_advantage: 0.30
+    chemistry_attack_weight: 0.15
+    chemistry_defence_weight: 0.10
+    form_noise: 0.05
+    rating_scale: 0.02
+    baseline_goals: 0.60
+
+output:
+  results_dir: "results"
+  figures_dir: "results/figures"

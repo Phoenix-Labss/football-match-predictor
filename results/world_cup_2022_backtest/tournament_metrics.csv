@@ -1,0 +1,4 @@
+tournament,engine,accuracy_pct,log_loss,normalized_rps,brier_score,ece,home_recall_pct,draw_recall_pct,away_recall_pct,exact_score_hit_pct,scoreline_nll
+2022 FIFA World Cup,Engine A (Legacy Poisson),56.25,1.0281,0.4325,0.6148,0.1479,78.57,0.0,66.67,6.25,3.0158
+2022 FIFA World Cup,Engine B (MDS Poisson),56.25,1.0281,0.4325,0.6147,0.1478,78.57,0.0,66.67,6.25,3.0157
+2022 FIFA World Cup,Engine C (MDS NegBin + DC),56.25,1.029,0.4338,0.6161,0.1383,78.57,0.0,66.67,9.38,2.997

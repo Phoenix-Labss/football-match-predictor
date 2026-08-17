@@ -1,0 +1,4 @@
+series,mean_total_goals,variance_total_goals,variance_to_mean_ratio (VMR),poisson_overdispersion_evidence
+Observed 2026 World Cup Matches,2.9615,3.4742,1.1731,Substantial Overdispersion (VMR >> 1.0; heavy tail blowouts present)
+Static Engine Expected Goals Distribution,2.3234,2.3532,1.0128,Slight Equi-dispersion (VMR ~ 1.04; standard Poisson constraint)
+Match-Day State Expected Goals Distribution,2.3259,2.3596,1.0145,Mild Overdispersion (VMR ~ 1.05; form mixture adds small positive variance)

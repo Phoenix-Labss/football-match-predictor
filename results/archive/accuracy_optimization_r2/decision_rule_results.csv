@@ -1,0 +1,6 @@
+rule_system,val_accuracy,learned_parameters,delta_vs_argmax
+Standard_Argmax,0.6,{},0.003058280438545835
+Draw_Threshold,0.5992182410423452,"{'tau_d': 0.34, 'delta_margin': 0.1}",0.0022765214808910805
+Elo_Gap_Draw,0.5986319218241042,"{'max_elo_gap': 25.0, 'tau_d': 0.32}",0.0016902022626500424
+Combined_Draw_Asymmetry,0.5985016286644951,"{'b_a': 1.0, 'b_d': 1.0, 'b_h': 1.0, 'tau_d': 0.34}",0.001559909103040935
+Class_Multipliers,0.5978501628664495,"{'b_a': 1.0, 'b_d': 1.0, 'b_h': 1.0}",0.0009084433049953988

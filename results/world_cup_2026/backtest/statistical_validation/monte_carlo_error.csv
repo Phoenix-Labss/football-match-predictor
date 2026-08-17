@@ -1,0 +1,6 @@
+tournaments_simulated (N),spain_champion_prob,spain_mc_std_error,spain_95_ci,france_mc_std_error,argentina_mc_std_error,convergence_verdict
+1000,7.70%,±0.843%,"[6.05%, 9.35%]",±0.743%,±0.717%,Preliminary
+5000,7.70%,±0.377%,"[6.96%, 8.44%]",±0.332%,±0.320%,Preliminary
+10000,7.70%,±0.267%,"[7.18%, 8.22%]",±0.235%,±0.227%,Fully converged & stable (SE < 0.3%)
+25000,7.70%,±0.169%,"[7.37%, 8.03%]",±0.149%,±0.143%,Fully converged & stable (SE < 0.3%)
+50000,7.70%,±0.119%,"[7.47%, 7.93%]",±0.105%,±0.101%,Fully converged & stable (SE < 0.3%)

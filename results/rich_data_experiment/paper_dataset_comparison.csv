@@ -1,0 +1,5 @@
+paper,focus,matches,competitions,player_data,event_data,network_data,model,reported_acc,our_status
+Berrar et al. (2024) Springer ML,League Match Outcome Prediction,"300,000+",51 domestic leagues,No,No,No,GBDT / Ensembles,~52.8% (Leagues),Benchmarked & Contrasted
+Stübinger et al. (2020) Applied Sciences,Player Characteristics & Betting,"47,856",Top 5 European Leagues,40 attributes,No,No,Random Forest / SVM,~54.5%,Replicated in Tier R1
+"Ievoli et al. (2021, 2023)",Passing Network Structure in UCL,125,UEFA Champions League,Positions,Passing matrix,"Density, Centralization, Reciprocity",Network Regression / GBDT,Descriptive / ~58%,Replicated in Tier R4
+Dynamic Oracle (Our System),International Football (All Eras),"49,520",All International Tournaments,26 features,"xG, Pass Acc, Pressures","Density, Centrality, Pairwise",Convex GBDT Ensemble,60.14% / 59.84%,Production Champion

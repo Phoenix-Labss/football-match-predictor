@@ -1,0 +1,2 @@
+match_category,count,reason,imputation_strategy
+Historical International Matches (1872-1999),24062,Pre-dates commercial online digital betting markets,Canonical pre-match prior & missingness flag (Zero temporal leakage)

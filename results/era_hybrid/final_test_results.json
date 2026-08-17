@@ -1,0 +1,30 @@
+{
+  "verified_champion_status": "MAINTAINED (Round 1 60.14% Champion Preserved)",
+  "current_champion": {
+    "accuracy": 0.601373182552504,
+    "correct": 5956,
+    "test_matches": 9904,
+    "log_loss": 0.8686729682766596,
+    "normalized_rps": 0.16958174400886017
+  },
+  "era_aware_hybrid_results": {
+    "optimal_fusion_weight": 0.8,
+    "full_history_test_accuracy": 0.5992999999999999,
+    "full_history_test_correct": 5935,
+    "full_history_log_loss": 0.8714,
+    "full_history_norm_rps": 0.1704,
+    "modern_test_accuracy": 0.57,
+    "modern_test_correct": 2467,
+    "modern_test_matches": 4328
+  },
+  "gated_hybrid_results": {
+    "full_history_test_accuracy": 0.5985,
+    "full_history_test_correct": 5928,
+    "modern_test_accuracy": 0.5684
+  },
+  "delta_vs_champion": {
+    "full_history_delta_acc": -0.0020731825525041048,
+    "full_history_delta_correct": -21,
+    "modern_delta_vs_core": 0.14000000000000057
+  }
+}

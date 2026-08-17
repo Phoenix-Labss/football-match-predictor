@@ -1,0 +1,33 @@
+group,team,advance_prob_a,advance_prob_b,advance_prob_c,group_winner_prob_a,group_winner_prob_b,group_winner_prob_c,actual_advanced
+Group A,Qatar,24.76,25.75,27.77,8.65,8.81,10.18,False
+Group A,Ecuador,43.14,41.83,42.54,18.0,17.13,18.08,False
+Group A,Senegal,60.27,60.74,59.24,30.92,30.53,30.2,True
+Group A,Netherlands,71.83,71.68,70.45,42.43,43.53,41.54,True
+Group B,England,78.55,79.32,77.33,50.99,51.54,49.78,True
+Group B,IR Iran,49.37,49.42,49.48,20.68,20.18,20.89,False
+Group B,USA,18.15,18.0,20.33,5.22,5.18,6.54,True
+Group B,Wales,53.93,53.26,52.86,23.11,23.1,22.79,False
+Group C,Argentina,65.46,64.67,64.37,37.66,37.37,36.53,True
+Group C,Saudi Arabia,29.07,30.9,31.69,11.0,11.64,12.24,False
+Group C,Mexico,55.2,54.49,54.08,28.3,26.84,26.94,False
+Group C,Poland,50.27,49.94,49.86,23.04,24.15,24.29,True
+Group D,France,74.98,75.5,73.68,46.37,46.51,44.95,True
+Group D,Australia,37.41,37.61,38.45,14.88,14.33,15.51,True
+Group D,Denmark,61.13,60.23,59.54,29.65,29.92,29.56,False
+Group D,Tunisia,26.48,26.66,28.33,9.1,9.24,9.98,False
+Group E,Spain,67.5,67.6,65.64,36.71,36.76,35.69,True
+Group E,Costa Rica,24.67,25.27,27.18,8.64,8.45,9.67,False
+Group E,Germany,70.32,69.97,67.63,39.38,39.85,38.71,False
+Group E,Japan,37.51,37.16,39.55,15.27,14.94,15.93,True
+Group F,Belgium,63.29,64.44,62.33,36.13,36.0,35.41,False
+Group F,Canada,31.67,30.94,33.29,12.63,12.23,13.45,False
+Group F,Morocco,51.47,51.5,50.9,25.29,25.29,24.65,True
+Group F,Croatia,53.57,53.12,53.48,25.95,26.48,26.49,True
+Group G,Brazil,66.46,66.95,65.52,39.66,39.49,38.1,True
+Group G,Serbia,49.4,49.47,48.68,23.28,22.95,22.98,False
+Group G,Switzerland,48.01,47.92,47.9,22.0,22.67,22.68,True
+Group G,Cameroon,36.13,35.66,37.9,15.06,14.89,16.24,False
+Group H,Portugal,64.3,63.64,62.79,37.16,36.47,35.67,True
+Group H,Ghana,43.89,43.02,43.38,19.63,19.76,20.02,False
+Group H,Uruguay,51.54,53.52,52.52,25.61,26.24,25.83,False
+Group H,South Korea,40.27,39.82,41.31,17.6,17.53,18.48,True

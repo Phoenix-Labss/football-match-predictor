@@ -1,0 +1,7 @@
+metric,static_value,mds_value,delta,interpretation
+Mean Max Probability (Confidence),0.42181,0.421901,9.1e-05,MDS retains near-identical confidence without excessive flattening
+Mean Shannon Entropy (bits),1.551033,1.551062,2.9e-05,Marginal increase in distribution entropy (+0.0003 bits)
+Mean Top-1 vs Top-2 Probability Margin,0.115166,0.115483,0.000316,Preserves competitive discrimination margin
+Variance of P(Home),0.006957,0.006933,-2.4e-05,Slight variance dampening due to integration
+Variance of P(Draw),9.3e-05,9.2e-05,-1e-06,Draw dispersion stability preserved
+Variance of P(Away),0.006502,0.006483,-1.9e-05,Away probability dispersion stable

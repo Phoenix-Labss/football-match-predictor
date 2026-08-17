@@ -1,0 +1,6 @@
+system_name,val_accuracy,val_log_loss,val_norm_rps,delta_vs_champion,description
+Best_Meta_Classifier,0.6028664495114007,0.8651509940541705,0.16977073876176055,0.007309611657967285,OOF Stacking with Meta_HistGBDT
+Best_Decision_Rule_System,0.6,0.8830576596127342,0.17353806934197133,0.004443162146566593,Decision Rule: Standard_Argmax
+Accuracy_Optimized_Ensemble_F2,0.5969417195614541,0.8759543594463983,0.1724304225149886,0.0013848817080207576,"Direct accuracy weight optimization on F_opt2 (['LightGBM', 'XGBoost', 'CatBoost', 'HistGBDT', 'Dixon_Coles'])"
+Best_Standalone_Model,0.5960184650894402,0.8758103212298044,0.17240189852084,0.0004616272360068452,Best single model: Single_XGBoost
+Current_Ensemble_Baseline,0.5955568378534334,0.8830576596127342,0.17353806934197133,0.0,LogLoss-weighted ensemble on F1 features

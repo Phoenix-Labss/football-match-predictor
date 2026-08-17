@@ -1,0 +1,6 @@
+feature_group,source,temporal_rule,leakage_status
+R1: Rich Player Attributes,Pre-match FIFA edition,Edition year <= match year,PASSED (Zero Leakage)
+R2: Player Performance History,Pre-match match buffer,Match history t < T,PASSED (Zero Leakage)
+R3: Event-Derived Team Stats (xG),Pre-match event buffer,Rolling window strictly t < T,PASSED (Zero Leakage)
+R4: Passing Network Metrics,Pre-match interaction buffer,Cumulative network t < T,PASSED (Zero Leakage)
+R5: Context & Importance,Schedule & calendar metadata,Pre-match fixed schedule,PASSED (Zero Leakage)

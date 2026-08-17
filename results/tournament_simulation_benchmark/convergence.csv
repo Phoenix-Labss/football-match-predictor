@@ -1,0 +1,5 @@
+simulation_runs,runtime_seconds,argentina_champ_pct,argentina_monte_carlo_se_pct,brazil_champ_pct,france_champ_pct,convergence_status
+1000,0.784,4.4,0.649,7.1,9.4,Approximating
+5000,2.701,5.48,0.322,6.46,8.06,Stabilized (< 0.35% error)
+10000,5.098,5.07,0.219,6.67,7.76,Stabilized (< 0.35% error)
+25000,12.228,5.04,0.138,6.56,8.11,Stabilized (< 0.35% error)

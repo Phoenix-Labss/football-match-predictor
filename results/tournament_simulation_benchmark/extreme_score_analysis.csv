@@ -1,0 +1,60 @@
+tournament,matchup,actual_score,total_goals,legacy_score_nll,mds_poi_score_nll,mds_nb_score_nll,nb_likelihood_advantage
+2018 FIFA World Cup,Russia vs Saudi Arabia,5 - 0,5,5.463,5.4529,5.0398,0.4232
+2018 FIFA World Cup,Portugal vs Spain,3 - 3,6,5.0932,5.0958,5.0663,0.0269
+2018 FIFA World Cup,Russia vs Egypt,3 - 1,4,3.1648,3.1618,3.2563,-0.0915
+2018 FIFA World Cup,Belgium vs Tunisia,5 - 2,7,5.8162,5.7995,5.5831,0.2331
+2018 FIFA World Cup,England vs Panama,6 - 1,7,6.4737,6.4618,5.9226,0.5511
+2018 FIFA World Cup,Japan vs Senegal,2 - 2,4,3.0907,3.093,3.2452,-0.1545
+2018 FIFA World Cup,Spain vs Morocco,2 - 2,4,3.2261,3.2284,3.3675,-0.1414
+2018 FIFA World Cup,Switzerland vs Costa Rica,2 - 2,4,3.2442,3.2464,3.3814,-0.1372
+2018 FIFA World Cup,France vs Argentina,4 - 3,7,5.9601,5.9506,5.7891,0.171
+2018 FIFA World Cup,Belgium vs Japan,3 - 2,5,3.7784,3.7763,3.8868,-0.1084
+2018 FIFA World Cup,Russia vs Croatia,2 - 2,4,3.1385,3.1407,3.2868,-0.1483
+2018 FIFA World Cup,France vs Croatia,4 - 2,6,5.2274,5.2216,5.1179,0.1095
+UEFA Euro 2020 (2021),Austria vs North Macedonia,3 - 1,4,3.1536,3.1553,3.2483,-0.0947
+UEFA Euro 2020 (2021),Netherlands vs Ukraine,3 - 2,5,3.8632,3.8628,3.9544,-0.0912
+UEFA Euro 2020 (2021),Germany vs Portugal,4 - 2,6,5.2046,5.2041,5.1043,0.1003
+UEFA Euro 2020 (2021),Switzerland vs Turkey,3 - 1,4,3.5789,3.5844,3.6218,-0.0429
+UEFA Euro 2020 (2021),Denmark vs Russia,4 - 1,5,4.7613,4.7586,4.629,0.1323
+UEFA Euro 2020 (2021),Scotland vs Croatia,1 - 3,4,3.3622,3.3639,3.4284,-0.0662
+UEFA Euro 2020 (2021),Spain vs Slovakia,5 - 0,5,5.3023,5.2871,4.906,0.3963
+UEFA Euro 2020 (2021),Sweden vs Poland,3 - 2,5,4.1498,4.1491,4.2013,-0.0515
+UEFA Euro 2020 (2021),Germany vs Hungary,2 - 2,4,3.359,3.3646,3.4917,-0.1327
+UEFA Euro 2020 (2021),Portugal vs France,2 - 2,4,3.0995,3.104,3.2509,-0.1514
+UEFA Euro 2020 (2021),Wales vs Denmark,0 - 4,4,4.571,4.5669,4.3478,0.2232
+UEFA Euro 2020 (2021),Croatia vs Spain,3 - 5,8,7.3057,7.2931,6.8937,0.412
+UEFA Euro 2020 (2021),France vs Switzerland,3 - 3,6,5.2085,5.2086,5.1705,0.038
+UEFA Euro 2020 (2021),Ukraine vs England,0 - 4,4,4.1178,4.1189,3.9619,0.1559
+2022 FIFA World Cup,England vs Iran,6 - 2,8,7.1215,7.1116,6.6129,0.5086
+2022 FIFA World Cup,France vs Australia,4 - 1,5,3.9099,3.9071,3.8951,0.0148
+2022 FIFA World Cup,Spain vs Costa Rica,7 - 0,7,7.4146,7.3949,6.5031,0.9115
+2022 FIFA World Cup,Portugal vs Ghana,3 - 2,5,3.9215,3.9222,4.0014,-0.0799
+2022 FIFA World Cup,Qatar vs Senegal,1 - 3,4,3.1686,3.1718,3.2582,-0.0896
+2022 FIFA World Cup,Croatia vs Canada,4 - 1,5,4.203,4.1971,4.1427,0.0603
+2022 FIFA World Cup,Cameroon vs Serbia,3 - 3,6,4.7772,4.7837,4.7908,-0.0136
+2022 FIFA World Cup,South Korea vs Ghana,2 - 3,5,3.883,3.8831,3.9626,-0.0796
+2022 FIFA World Cup,Costa Rica vs Germany,2 - 4,6,4.855,4.8461,4.8177,0.0373
+2022 FIFA World Cup,Serbia vs Switzerland,2 - 3,5,4.0058,4.0072,4.072,-0.0662
+2022 FIFA World Cup,Netherlands vs United States,3 - 1,4,2.9024,2.9006,3.0352,-0.1328
+2022 FIFA World Cup,France vs Poland,3 - 1,4,3.1875,3.1838,3.2675,-0.08
+2022 FIFA World Cup,Brazil vs South Korea,4 - 1,5,3.9606,3.9633,3.9421,0.0185
+2022 FIFA World Cup,Portugal vs Switzerland,6 - 1,7,7.4361,7.4098,6.7729,0.6632
+2022 FIFA World Cup,Netherlands vs Argentina,2 - 2,4,3.0829,3.0883,3.2289,-0.146
+2022 FIFA World Cup,Argentina vs France,3 - 3,6,4.908,4.9051,4.8977,0.0103
+2014 FIFA World Cup,Brazil vs Croatia,3 - 1,4,3.3624,3.3644,3.4217,-0.0593
+2014 FIFA World Cup,Chile vs Australia,3 - 1,4,3.1111,3.1099,3.1992,-0.0881
+2014 FIFA World Cup,Spain vs Netherlands,1 - 5,6,6.1336,6.1197,5.7735,0.3601
+2014 FIFA World Cup,Uruguay vs Costa Rica,1 - 3,4,3.8554,3.8494,3.8531,0.0023
+2014 FIFA World Cup,Germany vs Portugal,4 - 0,4,4.4719,4.4637,4.2775,0.1944
+2014 FIFA World Cup,Australia vs Netherlands,2 - 3,5,3.6709,3.6719,3.7826,-0.1117
+2014 FIFA World Cup,Cameroon vs Croatia,0 - 4,4,4.8811,4.8712,4.6385,0.2426
+2014 FIFA World Cup,Switzerland vs France,2 - 5,7,6.4428,6.4243,6.1229,0.3199
+2014 FIFA World Cup,Germany vs Ghana,2 - 2,4,3.1738,3.1722,3.3034,-0.1296
+2014 FIFA World Cup,South Korea vs Algeria,2 - 4,6,4.9175,4.9024,4.8442,0.0733
+2014 FIFA World Cup,United States vs Portugal,2 - 2,4,3.2271,3.2253,3.3546,-0.1275
+2014 FIFA World Cup,Brazil vs Cameroon,4 - 1,5,4.4394,4.4392,4.3557,0.0837
+2014 FIFA World Cup,Croatia vs Mexico,1 - 3,4,3.5183,3.5236,3.5629,-0.0446
+2014 FIFA World Cup,Japan vs Colombia,1 - 4,5,4.1329,4.1299,4.0861,0.0468
+2014 FIFA World Cup,Bosnia and Herzegovina vs Iran,3 - 1,4,3.3492,3.3502,3.409,-0.0598
+2014 FIFA World Cup,Nigeria vs Argentina,2 - 3,5,3.6776,3.6852,3.7913,-0.1137
+2014 FIFA World Cup,Brazil vs Germany,1 - 7,8,9.3566,9.3436,8.338,1.0186

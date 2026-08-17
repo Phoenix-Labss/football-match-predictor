@@ -1,0 +1,7 @@
+team,metric,mean,std,min,p5,p50,p95,max
+Brazil (Team A),Attack,84.124,2.141,76.144,80.694,84.091,87.727,93.335
+Brazil (Team A),Defence,81.737,1.988,74.053,78.501,81.719,85.02,89.034
+Brazil (Team A),Expected Goals (xG),1.434,0.1,1.113,1.276,1.43,1.603,1.829
+France (Team B),Attack,83.864,2.168,76.131,80.354,83.877,87.404,92.838
+France (Team B),Defence,80.884,2.011,73.866,77.573,80.873,84.26,89.216
+France (Team B),Expected Goals (xG),1.453,0.101,1.122,1.296,1.449,1.623,1.843

@@ -1,0 +1,6 @@
+era,year_range,match_count,pct_of_total,home_win_pct,draw_pct,away_win_pct,avg_total_goals,friendly_pct,elo_available,fifa_rankings_available,fifa_video_game_ratings_available
+Pioneer Era (1872-1949),1872-1949,3338,6.74,52.67,16.24,31.1,4.237,56.92,True,False,False
+Post-War Classical Era (1950-1989),1950-1989,13780,27.83,49.36,22.5,28.13,3.043,41.07,True,False,False
+Modern Pre-FIFA-Ranking (1990-1992),1990-1992,1590,3.21,46.92,27.23,25.85,2.533,38.87,True,False,False
+FIFA Official Ranking Era (1993-2014),1993-2014,19709,39.8,49.0,23.46,27.54,2.796,35.82,True,True,False
+Modern Player-Tracking Era (2015-Present),2015-2026,11103,22.42,47.74,23.04,29.22,2.734,28.35,True,True,True

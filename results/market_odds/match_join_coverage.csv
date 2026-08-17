@@ -1,0 +1,4 @@
+dataset,total_international_matches,modern_matches_2000_2026,matched_exact,matched_fuzzy,unmatched_historical_pre_2000,match_rate_modern_pct,match_rate_total_pct
+Oddsportal + Beat The Bookie International Base,49520,25458,25180,2130,24062,100.0,51.41
+Football-Data.co.uk Tournament Odds,1450,1450,1450,0,0,100.0,100.0
+Kaggle Football Matches Odds (pablomgomez21),3400,3400,3310,90,0,100.0,100.0

@@ -1,0 +1,2280 @@
+upset_match_idx,favorite,upset_date,recovery_step,subsequent_match_idx,opponent,fav_won_subsequent
+150,Scotland,1903-03-21,1,152,England,True
+150,Scotland,1903-03-21,3,161,Northern Ireland,False
+150,Scotland,1903-03-21,5,168,Wales,False
+168,Scotland,1905-03-06,1,169,Northern Ireland,True
+168,Scotland,1905-03-06,3,182,Wales,False
+168,Scotland,1905-03-06,5,189,England,True
+182,Scotland,1906-03-03,1,183,Northern Ireland,True
+182,Scotland,1906-03-03,3,200,Wales,False
+182,Scotland,1906-03-03,5,205,England,False
+269,Scotland,1910-03-19,1,270,England,True
+269,Scotland,1910-03-19,3,302,Northern Ireland,True
+269,Scotland,1910-03-19,5,335,Wales,True
+386,England,1913-02-15,1,392,Wales,True
+386,England,1913-02-15,3,425,Northern Ireland,False
+386,England,1913-02-15,5,433,Scotland,False
+425,England,1914-02-14,1,430,Wales,True
+425,England,1914-02-14,3,592,Northern Ireland,False
+425,England,1914-02-14,5,604,Scotland,True
+534,Denmark,1918-06-16,1,543,Norway,True
+534,Denmark,1918-06-16,3,564,Sweden,True
+534,Denmark,1918-06-16,5,587,Norway,False
+600,England,1920-03-15,1,604,Scotland,True
+600,England,1920-03-15,3,655,Wales,False
+600,England,1920-03-15,5,672,Belgium,True
+606,Guernsey,1920-04-29,1,657,Alderney,True
+606,Guernsey,1920-04-29,3,718,Alderney,True
+606,Guernsey,1920-04-29,5,724,Jersey,True
+852,England,1923-10-20,1,858,Belgium,False
+852,England,1923-10-20,3,892,Scotland,False
+852,England,1923-10-20,5,972,Northern Ireland,True
+882,England,1924-03-03,1,892,Scotland,False
+882,England,1924-03-03,3,972,Northern Ireland,True
+882,England,1924-03-03,5,988,Wales,True
+895,Guernsey,1924-04-21,1,897,Jersey,False
+895,Guernsey,1924-04-21,3,999,Alderney,True
+895,Guernsey,1924-04-21,5,1066,Alderney,True
+1036,Uruguay,1925-07-14,1,1037,Paraguay,False
+1036,Uruguay,1925-07-14,3,1041,Paraguay,True
+1036,Uruguay,1925-07-14,5,1142,Chile,True
+1081,England,1926-03-01,1,1089,Scotland,False
+1081,England,1926-03-01,3,1144,Northern Ireland,False
+1081,England,1926-03-01,5,1169,Scotland,True
+1223,England,1927-10-22,1,1241,Wales,False
+1223,England,1927-10-22,3,1275,France,True
+1223,England,1927-10-22,5,1331,Northern Ireland,True
+1241,England,1927-11-28,1,1254,Scotland,False
+1241,England,1927-11-28,3,1276,Belgium,True
+1241,England,1927-11-28,5,1339,Wales,True
+1249,Scotland,1928-02-25,1,1254,England,True
+1249,Scotland,1928-02-25,3,1344,Northern Ireland,True
+1249,Scotland,1928-02-25,5,1373,Norway,True
+1313,Uruguay,1928-08-15,1,1315,Paraguay,False
+1313,Uruguay,1928-08-15,3,1323,Argentina,False
+1313,Uruguay,1928-08-15,5,1382,Argentina,False
+1384,Denmark,1929-06-23,1,1406,Finland,True
+1384,Denmark,1929-06-23,3,1486,Sweden,True
+1384,Denmark,1929-06-23,5,1521,Norway,False
+1577,England,1931-05-14,1,1579,Belgium,True
+1577,England,1931-05-14,3,1632,Wales,True
+1577,England,1931-05-14,5,1653,Scotland,True
+1589,Denmark,1931-06-14,1,1595,Sweden,False
+1589,Denmark,1931-06-14,3,1624,Finland,False
+1589,Denmark,1931-06-14,5,1687,Sweden,True
+1624,Denmark,1931-10-11,1,1680,Belgium,False
+1624,Denmark,1931-10-11,3,1708,Finland,False
+1624,Denmark,1931-10-11,5,1772,Norway,False
+1659,Czechoslovakia,1932-04-17,1,1675,Austria,False
+1659,Czechoslovakia,1932-04-17,3,1712,Hungary,False
+1659,Czechoslovakia,1932-04-17,5,1723,Italy,True
+1722,Scotland,1932-10-26,1,1746,England,True
+1722,Scotland,1932-10-26,3,1801,Wales,False
+1722,Scotland,1932-10-26,5,1856,England,False
+1750,Austria,1933-04-09,1,1753,Hungary,False
+1750,Austria,1933-04-09,3,1795,Czechoslovakia,False
+1750,Austria,1933-04-09,5,1823,Scotland,False
+1752,Spain,1933-04-23,1,1754,Yugoslavia,False
+1752,Spain,1933-04-23,3,1833,Catalonia,True
+1752,Spain,1933-04-23,5,1845,Portugal,True
+1765,Poland,1933-06-04,1,1793,Yugoslavia,True
+1765,Poland,1933-06-04,3,1806,Czechoslovakia,False
+1765,Poland,1933-06-04,5,1874,Denmark,False
+1794,Scotland,1933-09-16,1,1801,Wales,False
+1794,Scotland,1933-09-16,3,1856,England,False
+1794,Scotland,1933-09-16,5,1932,Wales,True
+1820,England,1933-11-15,1,1826,France,True
+1820,England,1933-11-15,3,1865,Hungary,False
+1820,England,1933-11-15,5,1922,Wales,True
+2053,Sweden,1935-11-17,1,2097,Denmark,False
+2053,Sweden,1935-11-17,3,2105,Norway,True
+2053,Sweden,1935-11-17,5,2122,Finland,True
+2066,England,1936-02-05,1,2078,Scotland,False
+2066,England,1936-02-05,3,2087,Belgium,False
+2066,England,1936-02-05,5,2136,Northern Ireland,True
+2087,England,1936-05-09,1,2129,Wales,False
+2087,England,1936-05-09,3,2137,Hungary,True
+2087,England,1936-05-09,5,2188,Norway,True
+2116,Norway,1936-09-06,1,2119,Denmark,False
+2116,Norway,1936-09-06,3,2188,England,False
+2116,Norway,1936-09-06,5,2204,Denmark,False
+2138,Scotland,1936-12-02,1,2175,England,True
+2138,Scotland,1936-12-02,3,2247,Wales,False
+2138,Scotland,1936-12-02,5,2263,Czechoslovakia,True
+2153,Uruguay,1937-01-10,1,2158,Brazil,False
+2153,Uruguay,1937-01-10,3,2235,Argentina,False
+2153,Uruguay,1937-01-10,5,2348,Argentina,False
+2259,Spain,1937-11-28,1,2272,Portugal,False
+2259,Spain,1937-11-28,3,2583,Portugal,True
+2259,Spain,1937-11-28,5,2641,France,True
+2271,Israel,1938-01-22,1,2285,Greece,False
+2271,Israel,1938-01-22,3,3149,United States,False
+2271,Israel,1938-01-22,5,3282,Yugoslavia,False
+2320,England,1938-05-21,1,2324,France,True
+2320,England,1938-05-21,3,2409,Norway,True
+2320,England,1938-05-21,5,2446,Scotland,True
+2360,Trinidad and Tobago,1938-07-16,1,2361,Suriname,False
+2360,Trinidad and Tobago,1938-07-16,3,2643,Barbados,False
+2360,Trinidad and Tobago,1938-07-16,5,2724,Guyana,False
+2444,Germany,1939-03-26,1,2460,Republic of Ireland,False
+2444,Germany,1939-03-26,3,2475,Denmark,True
+2444,Germany,1939-03-26,5,2486,Slovakia,False
+2487,China,1939-09-02,1,2536,Japan,False
+2487,China,1939-09-02,3,3185,South Korea,True
+2487,China,1939-09-02,5,3652,Silesia,False
+2500,Italy,1939-11-12,1,2502,Germany,False
+2500,Italy,1939-11-12,3,2526,Romania,True
+2500,Italy,1939-11-12,5,2560,Hungary,False
+2515,Argentina,1940-03-10,1,2517,Brazil,True
+2515,Argentina,1940-03-10,3,2542,Uruguay,True
+2515,Argentina,1940-03-10,5,2563,Chile,True
+2522,Netherlands,1940-03-31,1,2528,Belgium,True
+2522,Netherlands,1940-03-31,3,2846,Belgium,True
+2522,Netherlands,1940-03-31,5,2892,England,False
+2527,Germany,1940-04-14,1,2532,Italy,False
+2527,Germany,1940-04-14,3,2544,Finland,True
+2527,Germany,1940-04-14,5,2552,Hungary,False
+2577,Uganda,1941-02-22,1,2652,Kenya,False
+2577,Uganda,1941-02-22,3,2734,Kenya,False
+2577,Uganda,1941-02-22,5,2762,Kenya,True
+2635,Germany,1942-02-01,1,2644,Spain,False
+2635,Germany,1942-02-01,3,2653,Bulgaria,True
+2635,Germany,1942-02-01,5,2663,Sweden,False
+2682,Argentina,1943-07-11,1,2736,Paraguay,True
+2682,Argentina,1943-07-11,3,2739,Bolivia,True
+2682,Argentina,1943-07-11,5,2747,Colombia,True
+2695,Costa Rica,1943-12-07,1,2696,El Salvador,False
+2695,Costa Rica,1943-12-07,3,2703,Guatemala,False
+2695,Costa Rica,1943-12-07,5,2822,Nicaragua,True
+2703,Costa Rica,1943-12-16,1,2705,El Salvador,True
+2703,Costa Rica,1943-12-16,3,2823,Panama,True
+2703,Costa Rica,1943-12-16,5,2829,Guatemala,False
+2716,Curaçao,1944-07-29,1,2717,Aruba,False
+2716,Curaçao,1944-07-29,3,2720,Aruba,True
+2716,Curaçao,1944-07-29,5,2722,Aruba,True
+2768,Latvia,1945-06-30,1,2999,Lithuania,True
+2768,Latvia,1945-06-30,3,3148,Lithuania,False
+2768,Latvia,1945-06-30,5,3312,Estonia,True
+2770,Argentina,1945-07-07,1,2771,Paraguay,True
+2770,Argentina,1945-07-07,3,2774,Uruguay,True
+2770,Argentina,1945-07-07,5,2799,Brazil,False
+2829,Costa Rica,1946-03-10,1,2833,El Salvador,True
+2829,Costa Rica,1946-03-10,3,2901,Venezuela,True
+2829,Costa Rica,1946-03-10,5,2909,Colombia,False
+2947,Scotland,1947-05-18,1,2948,Luxembourg,True
+2947,Scotland,1947-05-18,3,3021,Wales,False
+2947,Scotland,1947-05-18,5,3094,Belgium,True
+3000,Scotland,1947-10-04,1,3021,Wales,False
+3000,Scotland,1947-10-04,3,3094,Belgium,True
+3000,Scotland,1947-10-04,5,3101,France,False
+3015,Trinidad and Tobago,1947-11-05,1,3017,Jamaica,True
+3015,Trinidad and Tobago,1947-11-05,3,3022,Guyana,True
+3015,Trinidad and Tobago,1947-11-05,5,3073,Suriname,False
+3171,Hungary,1948-11-07,1,3204,Czechoslovakia,False
+3171,Hungary,1948-11-07,3,3261,Italy,False
+3171,Hungary,1948-11-07,5,3274,Poland,True
+3201,England,1949-04-09,1,3247,Sweden,False
+3201,England,1949-04-09,3,3255,France,True
+3201,England,1949-04-09,5,3307,Wales,True
+3209,Uruguay,1949-04-17,1,3212,Paraguay,True
+3209,Uruguay,1949-04-17,3,3228,Brazil,False
+3209,Uruguay,1949-04-17,5,3239,Chile,False
+3283,Czechoslovakia,1949-09-04,1,3295,Austria,False
+3283,Czechoslovakia,1949-09-04,3,3322,France,False
+3283,Czechoslovakia,1949-09-04,5,3377,Romania,False
+3288,Denmark,1949-09-11,1,3311,Sweden,True
+3288,Denmark,1949-09-11,3,3379,Yugoslavia,False
+3288,Denmark,1949-09-11,5,3396,Norway,False
+3293,England,1949-09-21,1,3307,Wales,True
+3293,England,1949-09-21,3,3330,Italy,True
+3293,England,1949-09-21,5,3371,Portugal,True
+3401,England,1950-06-29,1,3407,Spain,False
+3401,England,1950-06-29,3,3459,Wales,True
+3401,England,1950-06-29,5,3495,Scotland,False
+3430,Yugoslavia,1950-09-07,1,3432,Denmark,True
+3430,Yugoslavia,1950-09-07,3,3454,Norway,True
+3430,Yugoslavia,1950-09-07,5,3473,France,False
+3522,Germany,1951-06-17,1,3541,Austria,True
+3522,Germany,1951-06-17,3,3568,Turkey,True
+3522,Germany,1951-06-17,5,3611,Luxembourg,True
+3540,New Caledonia,1951-09-22,1,3542,New Zealand,True
+3540,New Caledonia,1951-09-22,3,3818,Tahiti,True
+3540,New Caledonia,1951-09-22,5,3824,Tahiti,True
+3547,New Caledonia,1951-09-30,1,3818,Tahiti,True
+3547,New Caledonia,1951-09-30,3,3824,Tahiti,True
+3547,New Caledonia,1951-09-30,5,4556,Tahiti,False
+3548,Sweden,1951-09-30,1,3559,Denmark,False
+3548,Sweden,1951-09-30,3,3564,Turkey,False
+3548,Sweden,1951-09-30,5,3619,Netherlands,False
+3566,Scotland,1951-11-14,1,3601,England,False
+3566,Scotland,1951-11-14,3,3626,Denmark,True
+3566,Scotland,1951-11-14,5,3675,Wales,True
+3628,Hungary,1952-05-27,1,3637,Poland,True
+3628,Hungary,1952-05-27,3,3660,Switzerland,True
+3628,Hungary,1952-05-27,5,3760,Austria,False
+3634,Norway,1952-06-10,1,3641,Yugoslavia,False
+3634,Norway,1952-06-10,3,3672,Sweden,False
+3634,Norway,1952-06-10,5,3788,Saarland,False
+3636,Sweden,1952-06-13,1,3639,Denmark,True
+3636,Sweden,1952-06-13,3,3672,Norway,True
+3636,Sweden,1952-06-13,5,3764,Scotland,True
+3699,Peru,1953-02-22,1,3702,Ecuador,True
+3699,Peru,1953-02-22,3,3708,Paraguay,False
+3699,Peru,1953-02-22,5,3745,Uruguay,False
+3934,Yugoslavia,1954-05-09,1,3936,England,True
+3934,Yugoslavia,1954-05-09,3,3965,Brazil,False
+3934,Yugoslavia,1954-05-09,5,4005,Wales,True
+3989,Suriname,1954-08-01,1,3990,Netherlands,False
+3989,Suriname,1954-08-01,3,4187,Trinidad and Tobago,True
+3989,Suriname,1954-08-01,5,4339,Guyana,False
+4018,Germany,1954-10-16,1,4035,England,False
+4018,Germany,1954-10-16,3,4066,Italy,False
+4018,Germany,1954-10-16,5,4127,Russia,False
+4089,England,1955-05-22,1,4154,Denmark,True
+4089,England,1955-05-22,3,4170,Northern Ireland,True
+4089,England,1955-05-22,5,4251,Scotland,False
+4111,Mauritius,1955-07-14,1,4293,Réunion,True
+4111,Mauritius,1955-07-14,3,4443,Réunion,True
+4111,Mauritius,1955-07-14,5,4587,Réunion,True
+4202,Brazil,1956-01-24,1,4204,Paraguay,False
+4202,Brazil,1956-01-24,3,4208,Argentina,True
+4202,Brazil,1956-01-24,5,4221,Chile,True
+4216,Hungary,1956-02-19,1,4220,Lebanon,True
+4216,Hungary,1956-02-19,3,4271,Czechoslovakia,False
+4216,Hungary,1956-02-19,5,4279,Portugal,False
+4235,Germany,1956-03-14,1,4274,England,False
+4235,Germany,1956-03-14,3,4294,Sweden,False
+4235,Germany,1956-03-14,5,4376,Switzerland,False
+4255,Yugoslavia,1956-04-22,1,4259,Hungary,False
+4255,Yugoslavia,1956-04-22,3,4310,China,True
+4255,Yugoslavia,1956-04-22,5,4335,Hungary,False
+4271,Hungary,1956-05-20,1,4277,Belgium,False
+4271,Hungary,1956-05-20,3,4302,Poland,True
+4271,Hungary,1956-05-20,5,4338,Russia,True
+4277,Hungary,1956-06-03,1,4279,Portugal,False
+4277,Hungary,1956-06-03,3,4335,Yugoslavia,True
+4277,Hungary,1956-06-03,5,4349,France,True
+4306,Brazil,1956-08-05,1,4308,Czechoslovakia,True
+4306,Brazil,1956-08-05,3,4421,Ecuador,True
+4306,Brazil,1956-08-05,5,4428,Uruguay,False
+4376,Germany,1956-11-21,1,4379,Republic of Ireland,False
+4376,Germany,1956-11-21,3,4411,Austria,True
+4376,Germany,1956-11-21,5,4465,Scotland,False
+4418,Uruguay,1957-03-17,1,4419,Argentina,False
+4418,Uruguay,1957-03-17,3,4428,Brazil,True
+4418,Uruguay,1957-03-17,5,4467,Argentina,False
+4437,Argentina,1957-04-06,1,4439,Peru,True
+4437,Argentina,1957-04-06,3,4479,Uruguay,False
+4437,Argentina,1957-04-06,5,4510,Brazil,False
+4483,Hungary,1957-06-12,1,4489,Sweden,False
+4483,Hungary,1957-06-12,3,4557,Bulgaria,True
+4483,Hungary,1957-06-12,5,4576,France,True
+4484,Paraguay,1957-06-13,1,4494,Colombia,True
+4484,Paraguay,1957-06-13,3,4507,Colombia,True
+4484,Paraguay,1957-06-13,5,4517,Uruguay,False
+4564,Hungary,1957-09-22,1,4576,France,True
+4564,Hungary,1957-09-22,3,4611,Germany,False
+4564,Hungary,1957-09-22,5,4652,Scotland,False
+4575,Argentina,1957-10-06,1,4579,Chile,True
+4575,Argentina,1957-10-06,3,4591,Bolivia,True
+4575,Argentina,1957-10-06,5,4637,Paraguay,False
+4597,England,1957-11-06,1,4607,France,True
+4597,England,1957-11-06,3,4651,Portugal,True
+4597,England,1957-11-06,5,4668,Russia,False
+4675,Japan,1958-05-26,1,4683,Hong Kong,False
+4675,Japan,1958-05-26,3,4801,Malaysia,False
+4675,Japan,1958-05-26,5,4803,Singapore,True
+4723,Hungary,1958-06-17,1,4755,Poland,True
+4723,Hungary,1958-06-17,3,4767,Yugoslavia,False
+4723,Hungary,1958-06-17,5,4792,Belgium,True
+4929,Uganda,1959-10-09,1,5151,Tanzania,True
+4929,Uganda,1959-10-09,3,5162,Kenya,False
+4929,Uganda,1959-10-09,5,5336,Kenya,False
+4967,Brazil,1959-12-12,1,4982,Ecuador,True
+4967,Brazil,1959-12-12,3,4988,Ecuador,True
+4967,Brazil,1959-12-12,5,5006,Costa Rica,False
+4987,Paraguay,1959-12-25,1,5082,Brazil,False
+4987,Paraguay,1959-12-25,3,5094,Uruguay,False
+4987,Paraguay,1959-12-25,5,5205,Chile,False
+5044,Scotland,1960-05-04,1,5064,Austria,False
+5044,Scotland,1960-05-04,3,5071,Turkey,False
+5044,Scotland,1960-05-04,5,5185,Northern Ireland,True
+5176,Hungary,1960-10-30,1,5187,Poland,True
+5176,Hungary,1960-10-30,3,5216,Egypt,True
+5176,Hungary,1960-10-30,5,5259,Netherlands,True
+5342,Uganda,1961-10-03,1,5346,Kenya,False
+5342,Uganda,1961-10-03,3,5401,Zanzibar,True
+5342,Uganda,1961-10-03,5,5443,Egypt,False
+5637,Vietnam Republic,1962-10-28,1,5639,Malaysia,True
+5637,Vietnam Republic,1962-10-28,3,5878,Taiwan,False
+5637,Vietnam Republic,1962-10-28,5,5883,Japan,False
+5659,Czechoslovakia,1962-11-21,1,5759,German DR,False
+5659,Czechoslovakia,1962-11-21,3,5829,Bulgaria,False
+5659,Czechoslovakia,1962-11-21,5,5853,Hungary,False
+5722,Argentina,1963-03-13,1,5728,Ecuador,True
+5722,Argentina,1963-03-13,3,5748,Bolivia,False
+5722,Argentina,1963-03-13,5,5794,Brazil,True
+5726,Brazil,1963-03-17,1,5735,Argentina,False
+5726,Brazil,1963-03-17,3,5761,Bolivia,False
+5726,Brazil,1963-03-17,5,5813,Argentina,True
+5748,Argentina,1963-03-28,1,5765,Paraguay,False
+5748,Argentina,1963-03-28,3,5813,Brazil,False
+5748,Argentina,1963-03-28,5,5943,Paraguay,False
+5761,Brazil,1963-03-31,1,5794,Argentina,False
+5761,Brazil,1963-03-31,3,5821,Portugal,False
+5761,Brazil,1963-03-31,5,5830,France,True
+5821,Brazil,1963-04-21,1,5823,Belgium,False
+5821,Brazil,1963-04-21,3,5833,Netherlands,False
+5821,Brazil,1963-04-21,5,5838,England,False
+5901,Costa Rica,1963-09-04,1,6203,Suriname,True
+5901,Costa Rica,1963-09-04,3,6206,Trinidad and Tobago,True
+5901,Costa Rica,1963-09-04,5,6213,Trinidad and Tobago,True
+5906,Mauritius,1963-09-08,1,7084,Tanzania,False
+5906,Mauritius,1963-09-08,3,7232,Zimbabwe,True
+5906,Mauritius,1963-09-08,5,7250,Ethiopia,False
+5943,Argentina,1963-10-29,1,6068,Portugal,True
+5943,Argentina,1963-10-29,3,6075,England,True
+5943,Argentina,1963-10-29,5,6146,Chile,False
+5945,Netherlands,1963-10-30,1,6024,Belgium,False
+5945,Netherlands,1963-10-30,3,6042,Sweden,False
+5945,Netherlands,1963-10-30,5,6133,Belgium,False
+6078,Yugoslavia,1964-06-17,1,6127,Austria,False
+6078,Yugoslavia,1964-06-17,3,6155,Hungary,False
+6078,Yugoslavia,1964-06-17,5,6176,Russia,False
+6095,Sweden,1964-08-02,1,6123,Norway,False
+6095,Sweden,1964-08-02,3,6159,Germany,False
+6095,Sweden,1964-08-02,5,6307,England,False
+6130,Uganda,1964-09-27,1,6134,Kenya,True
+6130,Uganda,1964-09-27,3,6140,Zanzibar,True
+6130,Uganda,1964-09-27,5,6148,Kenya,True
+6218,Honduras,1965-03-11,1,6224,El Salvador,False
+6218,Honduras,1965-03-11,3,6235,United States,False
+6218,Honduras,1965-03-11,5,6915,Guatemala,False
+6258,Costa Rica,1965-04-08,1,6275,Mexico,False
+6258,Costa Rica,1965-04-08,3,6303,Mexico,False
+6258,Costa Rica,1965-04-08,5,6348,Honduras,False
+6336,Yugoslavia,1965-06-16,1,6437,Russia,False
+6336,Yugoslavia,1965-06-16,3,6468,France,False
+6336,Yugoslavia,1965-06-16,5,6610,England,False
+6401,South Korea,1965-08-14,1,6409,Malaysia,True
+6401,South Korea,1965-08-14,3,6422,India,True
+6401,South Korea,1965-08-14,5,6430,Taiwan,False
+6637,Sweden,1966-06-04,1,6678,Yugoslavia,False
+6637,Sweden,1966-06-04,3,6776,Norway,True
+6637,Sweden,1966-06-04,5,6816,Denmark,True
+6794,Russia,1966-10-16,1,6802,German DR,False
+6794,Russia,1966-10-16,3,7034,Scotland,True
+6794,Russia,1966-10-16,5,7053,France,True
+6905,Mexico,1967-01-08,1,6975,Nicaragua,True
+6905,Mexico,1967-01-08,3,6985,Trinidad and Tobago,True
+6905,Mexico,1967-01-08,5,6999,Honduras,True
+7020,England,1967-04-15,1,7046,Spain,True
+7020,England,1967-04-15,3,7175,Wales,True
+7020,England,1967-04-15,5,7249,Russia,False
+7226,Czechoslovakia,1967-11-22,1,7326,Yugoslavia,True
+7226,Czechoslovakia,1967-11-22,3,7451,Denmark,True
+7226,Czechoslovakia,1967-11-22,5,7641,Netherlands,False
+7638,Mexico,1969-04-10,1,7644,Belgium,False
+7638,Mexico,1969-04-10,3,7657,Sweden,False
+7638,Mexico,1969-04-10,5,7668,Norway,True
+7640,Portugal,1969-04-16,1,7662,Greece,False
+7640,Portugal,1969-04-16,3,7868,Switzerland,False
+7640,Portugal,1969-04-16,5,8047,Italy,False
+7713,Spain,1969-06-25,1,7837,Finland,True
+7713,Spain,1969-06-25,3,7988,Italy,False
+7713,Spain,1969-06-25,5,8207,Greece,True
+7864,Mexico,1969-11-02,1,7876,Belgium,True
+7864,Mexico,1969-11-02,3,7924,Jamaica,True
+7864,Mexico,1969-11-02,5,7936,Guatemala,False
+7906,Indonesia,1969-11-19,1,7912,Vietnam Republic,True
+7906,Indonesia,1969-11-19,3,7922,Laos,True
+7906,Indonesia,1969-11-19,5,8094,Hong Kong,True
+7996,Brazil,1970-03-04,1,7998,Argentina,True
+7996,Brazil,1970-03-04,3,8006,Chile,True
+7996,Brazil,1970-03-04,5,8036,Austria,True
+8117,Japan,1970-07-31,1,8124,South Korea,False
+8117,Japan,1970-07-31,3,8138,Indonesia,True
+8117,Japan,1970-07-31,5,8155,Taiwan,True
+8314,Ghana,1971-01-31,1,8319,Sierra Leone,False
+8314,Ghana,1971-01-31,3,8594,Togo,False
+8314,Ghana,1971-01-31,5,8800,Ivory Coast,False
+8319,Ghana,1971-02-07,1,8360,Ivory Coast,True
+8319,Ghana,1971-02-07,3,8610,Togo,False
+8319,Ghana,1971-02-07,5,8860,Sierra Leone,False
+8328,Basque Country,1971-02-21,1,11285,Russia,False
+8328,Basque Country,1971-02-21,3,12329,Hungary,False
+8328,Basque Country,1971-02-21,5,19494,Bolivia,True
+8494,Myanmar,1971-08-07,1,8500,Indonesia,False
+8494,Myanmar,1971-08-07,3,8512,Philippines,True
+8494,Myanmar,1971-08-07,5,8523,Indonesia,True
+8518,Thailand,1971-08-17,1,8528,Philippines,True
+8518,Thailand,1971-08-17,3,8612,Singapore,True
+8518,Thailand,1971-08-17,5,8617,Singapore,False
+8532,Indonesia,1971-08-27,1,8626,Malaysia,True
+8532,Indonesia,1971-08-27,3,8631,Thailand,False
+8532,Indonesia,1971-08-27,5,8943,Singapore,False
+8556,Tahiti,1971-09-16,1,8558,Papua New Guinea,True
+8556,Tahiti,1971-09-16,3,9181,New Caledonia,True
+8556,Tahiti,1971-09-16,5,9189,Vanuatu,True
+8610,Ghana,1971-10-27,1,8800,Ivory Coast,False
+8610,Ghana,1971-10-27,3,8900,Benin,True
+8610,Ghana,1971-10-27,5,9134,Togo,False
+8774,Italy,1972-03-04,1,8809,Belgium,False
+8774,Italy,1972-03-04,3,8892,Romania,False
+8774,Italy,1972-03-04,5,9002,Yugoslavia,True
+8846,England,1972-05-23,1,8853,Scotland,True
+8846,England,1972-05-23,3,9073,Wales,True
+8846,England,1972-05-23,5,9176,Scotland,True
+8901,Myanmar,1972-06-19,1,9004,Philippines,True
+8901,Myanmar,1972-06-19,3,9011,Singapore,True
+8901,Myanmar,1972-06-19,5,9018,Indonesia,True
+9087,Indonesia,1972-11-20,1,9090,South Korea,False
+9087,Indonesia,1972-11-20,3,9100,Malaysia,False
+9087,Indonesia,1972-11-20,5,9207,New Zealand,False
+9160,Haiti,1973-02-01,1,9162,Trinidad and Tobago,False
+9160,Haiti,1973-02-01,3,9167,Barbados,False
+9160,Haiti,1973-02-01,5,9280,Ecuador,False
+9175,Germany,1973-02-14,1,9223,Czechoslovakia,True
+9175,Germany,1973-02-14,3,9279,Bulgaria,True
+9175,Germany,1973-02-14,5,9477,Russia,True
+9197,DR Congo,1973-02-25,1,9202,Cameroon,True
+9197,DR Congo,1973-02-25,3,9253,Burkina Faso,True
+9197,DR Congo,1973-02-25,5,9346,Cameroon,True
+9280,Haiti,1973-05-12,1,9289,Ecuador,True
+9280,Haiti,1973-05-12,3,9326,Colombia,True
+9280,Haiti,1973-05-12,5,9545,United States,True
+9319,Haiti,1973-05-27,1,9326,Colombia,True
+9319,Haiti,1973-05-27,3,9545,United States,True
+9319,Haiti,1973-05-27,5,9556,Canada,True
+9337,Faroe Islands,1973-06-08,1,9802,Iceland,False
+9337,Faroe Islands,1973-06-08,3,10582,Iceland,False
+9337,Faroe Islands,1973-06-08,5,12304,Greenland,True
+9366,Uruguay,1973-07-05,1,9368,Ecuador,True
+9366,Uruguay,1973-07-05,3,9686,Haiti,True
+9366,Uruguay,1973-07-05,5,9694,Jamaica,True
+9385,North Korea,1973-07-25,1,9747,Bulgaria,False
+9385,North Korea,1973-07-25,3,9848,Iraq,False
+9385,North Korea,1973-07-25,5,9875,Kuwait,True
+9436,Poland,1973-08-12,1,9456,Bulgaria,True
+9436,Poland,1973-08-12,3,9524,Netherlands,False
+9436,Poland,1973-08-12,5,9536,Republic of Ireland,False
+9536,Poland,1973-10-21,1,9705,Haiti,False
+9536,Poland,1973-10-21,3,9710,Belgium,False
+9536,Poland,1973-10-21,5,9773,Argentina,True
+9591,Myanmar,1973-12-03,1,9607,Thailand,False
+9591,Myanmar,1973-12-03,3,9614,Laos,True
+9591,Myanmar,1973-12-03,5,9622,Thailand,False
+9732,Chile,1974-05-12,1,9769,Germany,False
+9732,Chile,1974-05-12,3,9784,Australia,False
+9732,Chile,1974-05-12,5,9957,Argentina,False
+9733,South Korea,1974-05-13,1,9739,Myanmar,True
+9733,South Korea,1974-05-13,3,9850,Thailand,True
+9733,South Korea,1974-05-13,5,9873,Iraq,False
+9802,Faroe Islands,1974-07-03,1,10172,Iceland,False
+9802,Faroe Islands,1974-07-03,3,12301,Iceland,False
+9802,Faroe Islands,1974-07-03,5,13363,Iceland,False
+9999,Suriname,1974-12-26,1,10001,Bermuda,True
+9999,Suriname,1974-12-26,3,10067,Guadeloupe,False
+9999,Suriname,1974-12-26,5,10393,Bermuda,True
+10141,German DR,1975-06-05,1,10217,Canada,True
+10141,German DR,1975-06-05,3,10225,Mexico,True
+10141,German DR,1975-06-05,5,10249,Mexico,False
+10313,Brazil,1975-09-30,1,10315,Peru,True
+10313,Brazil,1975-09-30,3,10436,Argentina,True
+10313,Brazil,1975-09-30,5,10523,Uruguay,True
+10390,South Korea,1975-12-23,1,10402,Singapore,True
+10390,South Korea,1975-12-23,3,10406,Myanmar,True
+10390,South Korea,1975-12-23,5,10615,India,True
+10419,Israel,1976-02-04,1,10446,Northern Ireland,False
+10419,Israel,1976-02-04,3,10740,Australia,False
+10419,Israel,1976-02-04,5,10818,Greece,False
+10539,Sweden,1976-05-11,1,10560,Finland,True
+10539,Sweden,1976-05-11,3,10620,Finland,True
+10539,Sweden,1976-05-11,5,10676,Norway,False
+10555,Poland,1976-05-26,1,10715,Portugal,True
+10555,Poland,1976-05-26,3,10954,Hungary,False
+10555,Poland,1976-05-26,5,10971,Denmark,True
+10617,Australia,1976-08-11,1,10634,Hong Kong,True
+10617,Australia,1976-08-11,3,10724,Singapore,True
+10617,Australia,1976-08-11,5,10740,Israel,False
+10676,Sweden,1976-09-22,1,10695,Switzerland,True
+10676,Sweden,1976-09-22,3,10983,Norway,True
+10676,Sweden,1976-09-22,5,11024,Denmark,False
+10791,South Korea,1976-12-15,1,10792,Singapore,True
+10791,South Korea,1976-12-15,3,10850,Singapore,True
+10791,South Korea,1976-12-15,5,10857,Bahrain,False
+10879,Tunisia,1977-03-05,1,10892,Qatar,False
+10879,Tunisia,1977-03-05,3,10923,Russia,False
+10879,Tunisia,1977-03-05,5,11002,Guinea,False
+10917,Australia,1977-03-19,1,10940,New Zealand,True
+10917,Australia,1977-03-19,3,11046,Hong Kong,True
+10917,Australia,1977-03-19,5,11089,South Korea,True
+10950,Turkey,1977-04-06,1,10957,Austria,False
+10950,Turkey,1977-04-06,3,11119,Bulgaria,False
+10950,Turkey,1977-04-06,5,11215,German DR,False
+10992,England,1977-05-31,1,10999,Scotland,False
+10992,England,1977-05-31,3,11015,Argentina,False
+10992,England,1977-05-31,5,11100,Switzerland,False
+11025,Zambia,1977-06-16,1,11036,Algeria,True
+11025,Zambia,1977-06-16,3,11081,Egypt,False
+11025,Zambia,1977-06-16,5,11151,India,True
+11072,China,1977-07-27,1,11108,Thailand,True
+11072,China,1977-07-27,3,11152,United States,False
+11072,China,1977-07-27,5,11177,Jamaica,True
+11218,Malaysia,1977-11-19,1,11221,Philippines,True
+11218,Malaysia,1977-11-19,3,11229,Myanmar,True
+11218,Malaysia,1977-11-19,5,11343,Singapore,False
+11319,German DR,1978-04-04,1,11334,Belgium,False
+11319,German DR,1978-04-04,3,11510,Czechoslovakia,True
+11319,German DR,1978-04-04,5,11586,Netherlands,False
+11336,Martinique,1978-04-20,1,11513,French Guiana,False
+11336,Martinique,1978-04-20,3,11535,Haiti,False
+11336,Martinique,1978-04-20,5,11695,Trinidad and Tobago,False
+11343,Malaysia,1978-04-26,1,11407,Indonesia,False
+11343,Malaysia,1978-04-26,3,11421,Thailand,False
+11343,Malaysia,1978-04-26,5,11441,South Korea,False
+11404,Australia,1978-06-11,1,11411,Greece,False
+11404,Australia,1978-06-11,3,12099,Czechoslovakia,False
+11404,Australia,1978-06-11,5,12109,Czechoslovakia,False
+11495,Trinidad and Tobago,1978-08-20,1,11503,French Guiana,True
+11495,Trinidad and Tobago,1978-08-20,3,11556,Suriname,False
+11495,Trinidad and Tobago,1978-08-20,5,11689,Barbados,False
+11526,Hungary,1978-09-20,1,11542,Russia,True
+11526,Hungary,1978-09-20,3,11583,Germany,False
+11526,Hungary,1978-09-20,5,11722,Poland,False
+11690,South Korea,1979-03-04,1,11810,Japan,True
+11690,South Korea,1979-03-04,3,11954,Sri Lanka,True
+11690,South Korea,1979-03-04,5,11963,Bangladesh,True
+11818,Malawi,1979-06-26,1,11836,Kenya,True
+11818,Malawi,1979-06-26,3,11854,Tanzania,True
+11818,Malawi,1979-06-26,5,11859,Tanzania,False
+11856,Argentina,1979-07-18,1,11881,Brazil,False
+11856,Argentina,1979-07-18,3,11896,Brazil,False
+11856,Argentina,1979-07-18,5,11966,Yugoslavia,False
+11857,Peru,1979-07-18,1,11868,Colombia,True
+11857,Peru,1979-07-18,3,11918,Uruguay,True
+11857,Peru,1979-07-18,5,11998,Paraguay,False
+11869,Brazil,1979-07-26,1,11881,Argentina,True
+11869,Brazil,1979-07-26,3,11896,Argentina,False
+11869,Brazil,1979-07-26,5,12030,Paraguay,False
+11974,Myanmar,1979-09-26,1,11985,Indonesia,False
+11974,Myanmar,1979-09-26,3,12450,Malaysia,False
+11974,Myanmar,1979-09-26,5,12460,Kuwait,False
+12019,Brazil,1979-10-24,1,12030,Paraguay,False
+12019,Brazil,1979-10-24,3,12276,Russia,False
+12019,Brazil,1979-10-24,5,12297,Poland,False
+12023,Hungary,1979-10-26,1,12179,Poland,True
+12023,Hungary,1979-10-26,3,12242,Scotland,True
+12023,Hungary,1979-10-26,5,12329,Basque Country,True
+12055,Spain,1979-11-14,1,12086,Cyprus,True
+12055,Spain,1979-11-14,3,12116,German DR,False
+12055,Spain,1979-11-14,5,12197,Czechoslovakia,False
+12113,Mali,1980-02-12,1,12121,Guinea-Bissau,True
+12113,Mali,1980-02-12,3,12437,Mauritania,False
+12113,Mali,1980-02-12,5,12565,Togo,False
+12193,Grenada,1980-04-13,1,12979,Trinidad and Tobago,False
+12193,Grenada,1980-04-13,3,14451,Dominica,True
+12193,Grenada,1980-04-13,5,14665,Saint Vincent and the Grenadines,False
+12209,Thailand,1980-05-01,1,12342,Indonesia,False
+12209,Thailand,1980-05-01,3,12358,Malaysia,True
+12209,Thailand,1980-05-01,5,12451,Morocco,False
+12214,South Korea,1980-05-09,1,12223,Luxembourg,True
+12214,South Korea,1980-05-09,3,12347,Indonesia,True
+12214,South Korea,1980-05-09,5,12357,Bahrain,True
+12396,China,1980-09-23,1,12406,Bangladesh,True
+12396,China,1980-09-23,3,12591,Macau,True
+12396,China,1980-09-23,5,12601,Hong Kong,False
+12397,Turkey,1980-09-24,1,12411,Northern Cyprus,True
+12397,Turkey,1980-09-24,3,12423,Saudi Arabia,True
+12397,Turkey,1980-09-24,5,12554,Czechoslovakia,False
+12439,South Korea,1980-10-15,1,12449,Indonesia,True
+12439,South Korea,1980-10-15,3,12458,Morocco,False
+12439,South Korea,1980-10-15,5,12464,Thailand,False
+12469,Kuwait,1980-10-25,1,12476,Morocco,False
+12469,Kuwait,1980-10-25,3,12733,Thailand,True
+12469,Kuwait,1980-10-25,5,12748,South Korea,True
+12535,Kenya,1980-11-22,1,12563,Zambia,False
+12535,Kenya,1980-11-22,3,12573,Zambia,True
+12535,Kenya,1980-11-22,5,12708,Ethiopia,False
+12666,Paraguay,1981-03-15,1,12773,Ecuador,False
+12666,Paraguay,1981-03-15,3,12801,Chile,False
+12666,Paraguay,1981-03-15,5,13683,Uruguay,False
+12676,Czechoslovakia,1981-03-24,1,12712,Turkey,True
+12676,Czechoslovakia,1981-03-24,3,12786,Iceland,True
+12676,Czechoslovakia,1981-03-24,5,12968,Iceland,False
+12718,Malaysia,1981-04-17,1,12732,South Korea,False
+12718,Malaysia,1981-04-17,3,12743,Thailand,False
+12718,Malaysia,1981-04-17,5,12814,Japan,False
+12911,Nigeria,1981-08-22,1,12975,Uganda,False
+12911,Nigeria,1981-08-22,3,12987,Algeria,False
+12911,Nigeria,1981-08-22,5,13175,Ethiopia,True
+12945,England,1981-09-09,1,13058,Hungary,True
+12945,England,1981-09-09,3,13237,Wales,True
+12945,England,1981-09-09,5,13284,Scotland,True
+12951,New Zealand,1981-09-10,1,12953,Japan,True
+12951,New Zealand,1981-09-10,3,12982,China,True
+12951,New Zealand,1981-09-10,5,13079,Saudi Arabia,False
+12954,Malaysia,1981-09-12,1,12959,India,False
+12954,Malaysia,1981-09-12,3,13042,Pakistan,False
+12954,Malaysia,1981-09-12,5,13086,Myanmar,True
+13007,Tunisia,1981-10-24,1,13030,Cameroon,False
+13007,Tunisia,1981-10-24,3,13114,Algeria,False
+13007,Tunisia,1981-10-24,5,13179,Libya,False
+13134,Cape Verde,1982-02-15,1,13142,Guinea,False
+13134,Cape Verde,1982-02-15,3,13744,Mauritania,False
+13134,Cape Verde,1982-02-15,5,14019,Sierra Leone,False
+13139,Nepal,1982-02-17,1,13222,Bhutan,True
+13139,Nepal,1982-02-17,3,13252,Singapore,False
+13139,Nepal,1982-02-17,5,13482,Iraq,False
+13225,Kuwait,1982-04-04,1,13310,Czechoslovakia,False
+13225,Kuwait,1982-04-04,3,13336,England,False
+13225,Kuwait,1982-04-04,5,13473,Nepal,True
+13241,France,1982-04-28,1,13286,Wales,False
+13241,France,1982-04-28,3,13323,Kuwait,True
+13241,France,1982-04-28,5,13340,Austria,True
+13307,Germany,1982-06-16,1,13319,Chile,True
+13307,Germany,1982-06-16,3,13342,England,False
+13307,Germany,1982-06-16,5,13353,France,False
+13362,Zimbabwe,1982-07-25,1,13385,Mauritius,False
+13362,Zimbabwe,1982-07-25,3,13396,Malawi,False
+13362,Zimbabwe,1982-07-25,5,13454,Tanzania,True
+13429,Yugoslavia,1982-10-13,1,13457,Bulgaria,True
+13429,Yugoslavia,1982-10-13,3,13580,Romania,True
+13429,Yugoslavia,1982-10-13,5,13681,Romania,True
+13435,Italy,1982-10-27,1,13449,Czechoslovakia,False
+13435,Italy,1982-10-27,3,13536,Cyprus,False
+13435,Italy,1982-10-27,5,13670,Sweden,False
+13460,Germany,1982-11-17,1,13551,Portugal,False
+13460,Germany,1982-11-17,3,13617,Turkey,True
+13460,Germany,1982-11-17,5,13695,Yugoslavia,True
+13465,Sudan,1982-11-18,1,13600,Zambia,True
+13465,Sudan,1982-11-18,3,13702,New Zealand,False
+13465,Sudan,1982-11-18,5,13731,Qatar,False
+13628,Algeria,1983-04-26,1,13780,Bulgaria,False
+13628,Algeria,1983-04-26,3,13819,Ivory Coast,True
+13628,Algeria,1983-04-26,5,13959,Switzerland,False
+13655,Hungary,1983-05-15,1,13678,Denmark,False
+13655,Hungary,1983-05-15,3,13893,England,False
+13655,Hungary,1983-05-15,5,13961,Greece,False
+13867,England,1983-09-21,1,13893,Hungary,True
+13867,England,1983-09-21,3,14048,France,False
+13867,England,1983-09-21,5,14125,Wales,False
+13939,Germany,1983-11-16,1,13949,Albania,True
+13939,Germany,1983-11-16,3,14046,Belgium,True
+13939,Germany,1983-11-16,5,14119,France,False
+14002,Egypt,1984-01-22,1,14044,Iraq,False
+14002,Egypt,1984-01-22,3,14051,Cameroon,True
+14002,Egypt,1984-01-22,5,14063,Togo,False
+14065,Kuwait,1984-03-10,1,14071,Bahrain,True
+14065,Kuwait,1984-03-10,3,14087,Saudi Arabia,False
+14065,Kuwait,1984-03-10,5,14095,Oman,False
+14079,Kuwait,1984-03-16,1,14087,Saudi Arabia,False
+14079,Kuwait,1984-03-16,3,14095,Oman,False
+14079,Kuwait,1984-03-16,5,14460,Qatar,True
+14094,Iraq,1984-03-25,1,14100,Qatar,False
+14094,Iraq,1984-03-25,3,14714,Qatar,False
+14094,Iraq,1984-03-25,5,14800,Qatar,True
+14138,Northern Ireland,1984-05-27,1,14289,Romania,True
+14138,Northern Ireland,1984-05-27,3,14417,Finland,True
+14138,Northern Ireland,1984-05-27,5,14673,Spain,False
+14264,Argentina,1984-08-24,1,14276,Switzerland,True
+14264,Argentina,1984-08-24,3,14292,Germany,True
+14264,Argentina,1984-08-24,5,14385,Mexico,False
+14290,Russia,1984-09-12,1,14338,Norway,False
+14290,Russia,1984-09-12,3,14539,Yugoslavia,False
+14290,Russia,1984-09-12,5,14551,Morocco,True
+14476,South Korea,1984-12-07,1,14492,Qatar,False
+14476,South Korea,1984-12-07,3,14641,Malaysia,False
+14476,South Korea,1984-12-07,5,14820,Malaysia,True
+14521,Belgium,1984-12-22,1,14679,Greece,True
+14521,Belgium,1984-12-22,3,14968,Poland,False
+14521,Belgium,1984-12-22,5,15075,Netherlands,False
+14552,German DR,1985-02-03,1,14561,Ecuador,True
+14552,German DR,1985-02-03,3,14644,Algeria,False
+14552,German DR,1985-02-03,5,14745,Norway,True
+14772,Brazil,1985-04-28,1,14791,Uruguay,True
+14772,Brazil,1985-04-28,3,14815,Colombia,False
+14772,Brazil,1985-04-28,5,14841,Bolivia,True
+14815,Brazil,1985-05-15,1,14822,Chile,False
+14815,Brazil,1985-05-15,3,14854,Chile,True
+14815,Brazil,1985-05-15,5,14873,Paraguay,False
+14986,Italy,1985-09-25,1,15064,Poland,False
+14986,Italy,1985-09-25,3,15249,Austria,True
+14986,Italy,1985-09-25,5,15319,Bulgaria,False
+14992,Iraq,1985-09-27,1,15063,Syria,False
+14992,Iraq,1985-09-27,3,15226,Romania,False
+14992,Iraq,1985-09-27,5,15239,United Arab Emirates,False
+15024,Germany,1985-10-16,1,15069,Czechoslovakia,False
+15024,Germany,1985-10-16,3,15219,Brazil,True
+15024,Germany,1985-10-16,5,15302,Yugoslavia,False
+15281,South Korea,1986-04-26,1,15286,Nepal,True
+15281,South Korea,1986-04-26,3,15294,China,False
+15281,South Korea,1986-04-26,5,15336,Bulgaria,False
+15480,Malawi,1986-09-30,1,15718,Zimbabwe,False
+15480,Malawi,1986-09-30,3,15745,Ivory Coast,False
+15480,Malawi,1986-09-30,5,15755,Burundi,False
+15606,Kuwait,1987-02-28,1,15853,Egypt,False
+15606,Kuwait,1987-02-28,3,16023,United Arab Emirates,False
+15606,Kuwait,1987-02-28,5,16034,Bahrain,False
+15644,Ghana,1987-03-30,1,15658,Sierra Leone,False
+15644,Ghana,1987-03-30,3,15852,Liberia,True
+15644,Ghana,1987-03-30,5,15905,Cuba,False
+15757,Argentina,1987-07-11,1,15926,Germany,True
+15757,Argentina,1987-07-11,3,16082,Germany,False
+15757,Argentina,1987-07-11,5,16234,Brazil,False
+15777,Algeria,1987-08-04,1,15785,South Korea,True
+15777,Algeria,1987-08-04,3,15909,Tunisia,False
+15777,Algeria,1987-08-04,5,15955,Congo,True
+15943,Tanzania,1987-12-19,1,16181,Seychelles,False
+15943,Tanzania,1987-12-19,3,16348,Eswatini,False
+15943,Tanzania,1987-12-19,5,16396,Kenya,False
+15961,Czechoslovakia,1988-01-12,1,15965,German DR,True
+15961,Czechoslovakia,1988-01-12,3,16067,Bulgaria,False
+15961,Czechoslovakia,1988-01-12,5,16166,Denmark,True
+16031,Qatar,1988-03-10,1,16038,Iraq,False
+16031,Qatar,1988-03-10,3,16326,Indonesia,True
+16031,Qatar,1988-03-10,5,16332,Singapore,True
+16034,Kuwait,1988-03-12,1,16042,Oman,True
+16034,Kuwait,1988-03-12,3,16087,Japan,True
+16034,Kuwait,1988-03-12,5,16094,Pakistan,True
+16175,Italy,1988-06-04,1,16182,Germany,False
+16175,Italy,1988-06-04,3,16201,Denmark,True
+16175,Italy,1988-06-04,5,16354,Norway,True
+16199,South Korea,1988-06-17,1,16206,Zambia,True
+16199,South Korea,1988-06-17,3,16211,Indonesia,True
+16199,South Korea,1988-06-17,5,16446,United Arab Emirates,True
+16462,Cameroon,1988-12-08,1,16503,Angola,False
+16462,Cameroon,1988-12-08,3,16786,Nigeria,False
+16462,Cameroon,1988-12-08,5,16909,Gabon,True
+16655,Trinidad and Tobago,1989-04-18,1,16662,Aruba,True
+16655,Trinidad and Tobago,1989-04-18,3,16707,United States,False
+16655,Trinidad and Tobago,1989-04-18,5,16744,Costa Rica,False
+16729,Paraguay,1989-05-25,1,16757,Bolivia,True
+16729,Paraguay,1989-05-25,3,16841,Colombia,True
+16729,Paraguay,1989-05-25,5,16862,Brazil,False
+16745,Senegal,1989-05-30,1,16878,Tunisia,True
+16745,Senegal,1989-05-30,3,17084,Central African Republic,True
+16745,Senegal,1989-05-30,5,17117,Algeria,False
+16833,Uruguay,1989-07-02,1,16839,Bolivia,True
+16833,Uruguay,1989-07-02,3,16854,Argentina,False
+16833,Uruguay,1989-07-02,5,16874,Argentina,True
+16859,Malawi,1989-07-09,1,16867,Mozambique,False
+16859,Malawi,1989-07-09,3,16891,Kenya,False
+16859,Malawi,1989-07-09,5,16903,Egypt,False
+16949,Uruguay,1989-09-03,1,16970,Bolivia,True
+16949,Uruguay,1989-09-03,3,17137,Colombia,True
+16949,Uruguay,1989-09-03,5,17206,Mexico,False
+17088,Zambia,1989-12-01,1,17097,Zanzibar,True
+17088,Zambia,1989-12-01,3,17107,Uganda,False
+17088,Zambia,1989-12-01,5,17179,Cameroon,True
+17267,Mexico,1990-05-13,1,17316,Belgium,False
+17267,Mexico,1990-05-13,3,17620,Colombia,False
+17267,Mexico,1990-05-13,5,17653,Argentina,False
+17272,Russia,1990-05-16,1,17325,Romania,False
+17272,Russia,1990-05-16,3,17348,Cameroon,True
+17272,Russia,1990-05-16,5,17459,Norway,True
+17455,Malaysia,1990-09-08,1,17468,Singapore,False
+17455,Malaysia,1990-09-08,3,17480,North Korea,False
+17455,Malaysia,1990-09-08,5,17742,Hong Kong,False
+17506,Poland,1990-10-10,1,17520,England,False
+17506,Poland,1990-10-10,3,17594,Greece,True
+17506,Poland,1990-10-10,5,17654,Finland,False
+17532,New Caledonia,1990-11-01,1,17534,Papua New Guinea,True
+17532,New Caledonia,1990-11-01,3,17542,Solomon Islands,True
+17532,New Caledonia,1990-11-01,5,17948,Tahiti,False
+17695,Congo,1991-04-17,1,17706,Malawi,True
+17695,Congo,1991-04-17,3,17894,Zimbabwe,False
+17695,Congo,1991-04-17,5,18124,Algeria,False
+17746,Martinique,1991-05-15,1,17752,Guadeloupe,True
+17746,Martinique,1991-05-15,3,17766,Trinidad and Tobago,False
+17746,Martinique,1991-05-15,5,18182,Cayman Islands,True
+17808,Uruguay,1991-06-12,1,17819,Peru,False
+17808,Uruguay,1991-06-12,3,17863,Bolivia,False
+17808,Uruguay,1991-06-12,5,17878,Brazil,False
+17835,Jersey,1991-06-26,1,17839,Åland Islands,True
+17835,Jersey,1991-06-26,3,18995,Guernsey,True
+17835,Jersey,1991-06-26,5,19215,Greenland,True
+17936,Greece,1991-09-04,1,17995,Finland,False
+17936,Greece,1991-09-04,3,18039,Portugal,False
+17936,Greece,1991-09-04,5,18095,Malta,False
+18055,Libya,1991-11-27,1,18345,Kazakhstan,False
+18055,Libya,1991-11-27,3,18400,Mali,False
+18055,Libya,1991-11-27,5,21898,Lebanon,False
+18168,Dominican Republic,1992-03-21,1,18180,Puerto Rico,False
+18168,Dominican Republic,1992-03-21,3,18873,Saint Kitts and Nevis,False
+18168,Dominican Republic,1992-03-21,5,20329,Puerto Rico,True
+18309,Faroe Islands,1992-06-16,1,18390,Israel,False
+18309,Faroe Islands,1992-06-16,3,18502,Czechoslovakia,False
+18309,Faroe Islands,1992-06-16,5,19042,Belgium,False
+18397,Australia,1992-08-11,1,18403,Indonesia,True
+18397,Australia,1992-08-11,3,18484,Tahiti,True
+18397,Australia,1992-08-11,5,18507,Solomon Islands,True
+18464,Greece,1992-09-02,1,18525,Iceland,True
+18464,Greece,1992-09-02,3,18780,Luxembourg,True
+18464,Greece,1992-09-02,5,18859,Hungary,True
+18631,Tanzania,1992-11-18,1,18645,Ethiopia,True
+18631,Tanzania,1992-11-18,3,18695,Namibia,True
+18631,Tanzania,1992-11-18,5,18719,Uganda,False
+19072,China,1993-05-28,1,19079,Iraq,False
+19072,China,1993-05-28,3,19150,Jordan,True
+19072,China,1993-05-28,5,19170,Iraq,True
+19234,Malawi,1993-07-10,1,19240,Mali,False
+19234,Malawi,1993-07-10,3,19284,Eswatini,True
+19234,Malawi,1993-07-10,5,19556,Zambia,False
+19279,Brazil,1993-07-25,1,19289,Venezuela,True
+19279,Brazil,1993-07-25,3,19301,Uruguay,False
+19279,Brazil,1993-07-25,5,19326,Bolivia,True
+19348,Ecuador,1993-09-12,1,19352,Bolivia,False
+19348,Ecuador,1993-09-12,3,19749,South Korea,True
+19348,Ecuador,1993-09-12,5,19908,Peru,False
+19386,France,1993-10-13,1,19444,Bulgaria,False
+19386,France,1993-10-13,3,19601,Chile,True
+19386,France,1993-10-13,5,19728,Japan,True
+19411,Liechtenstein,1993-10-26,1,19676,Northern Ireland,False
+19411,Liechtenstein,1993-10-26,3,19894,Austria,False
+19411,Liechtenstein,1993-10-26,5,20030,Latvia,False
+19449,Ghana,1993-11-26,1,19453,Sierra Leone,True
+19449,Ghana,1993-11-26,3,19501,Egypt,False
+19449,Ghana,1993-11-26,5,19504,Egypt,True
+19559,Belgium,1994-02-16,1,19751,Hungary,True
+19559,Belgium,1994-02-16,3,19786,Netherlands,True
+19559,Belgium,1994-02-16,5,19803,Germany,False
+19635,Colombia,1994-04-07,1,19654,Nigeria,True
+19635,Colombia,1994-04-07,3,19693,El Salvador,True
+19635,Colombia,1994-04-07,5,19747,Greece,True
+19746,Republic of Ireland,1994-06-05,1,19769,Italy,True
+19746,Republic of Ireland,1994-06-05,3,19797,Norway,False
+19746,Republic of Ireland,1994-06-05,5,19889,Latvia,True
+19884,Ukraine,1994-09-07,1,19899,South Korea,False
+19884,Ukraine,1994-09-07,3,19957,Slovenia,False
+19884,Ukraine,1994-09-07,5,20201,Croatia,False
+19898,Qatar,1994-09-10,1,19905,Yemen,True
+19898,Qatar,1994-09-10,3,19928,Japan,False
+19898,Qatar,1994-09-10,5,19999,United Arab Emirates,False
+20039,Italy,1994-11-16,1,20104,Turkey,True
+20039,Italy,1994-11-16,3,20219,Ukraine,True
+20039,Italy,1994-11-16,5,20403,Switzerland,True
+20083,Ivory Coast,1994-12-10,1,20134,Togo,False
+20083,Ivory Coast,1994-12-10,3,20287,Sierra Leone,True
+20083,Ivory Coast,1994-12-10,5,20340,Liberia,False
+20113,Mali,1995-01-02,1,20119,Botswana,True
+20113,Mali,1995-01-02,3,20254,Mozambique,False
+20113,Mali,1995-01-02,5,20302,Kuwait,False
+20174,Malta,1995-02-22,1,20211,Netherlands,False
+20174,Malta,1995-02-22,3,20370,Norway,False
+20174,Malta,1995-02-22,5,20564,Luxembourg,False
+20191,Uzbekistan,1995-03-14,1,20194,Thailand,True
+20191,Uzbekistan,1995-03-14,3,20639,Nigeria,False
+20191,Uzbekistan,1995-03-14,5,21166,Tajikistan,True
+20276,Switzerland,1995-04-26,1,20403,Italy,False
+20276,Switzerland,1995-04-26,3,20522,Iceland,True
+20276,Switzerland,1995-04-26,5,20596,Hungary,True
+20371,Northern Ireland,1995-06-07,1,20553,Portugal,False
+20371,Northern Ireland,1995-06-07,3,20651,Austria,True
+20371,Northern Ireland,1995-06-07,5,20956,Sweden,False
+20374,Czech Republic,1995-06-07,1,20519,Norway,False
+20374,Czech Republic,1995-06-07,3,20585,Belarus,True
+20374,Czech Republic,1995-06-07,5,20755,Kuwait,True
+20380,Netherlands,1995-06-07,1,20562,Belarus,True
+20380,Netherlands,1995-06-07,3,20652,Norway,True
+20380,Netherlands,1995-06-07,5,20955,Germany,False
+20393,Republic of Ireland,1995-06-11,1,20574,Austria,False
+20393,Republic of Ireland,1995-06-11,3,20650,Portugal,False
+20393,Republic of Ireland,1995-06-11,5,20925,Russia,False
+20666,Mexico,1995-11-16,1,20706,Colombia,False
+20666,Mexico,1995-11-16,3,20764,Jamaica,False
+20666,Mexico,1995-11-16,5,20800,Guatemala,True
+20701,Rwanda,1995-11-29,1,20710,Kenya,False
+20701,Rwanda,1995-11-29,3,21145,Tunisia,False
+20701,Rwanda,1995-11-29,5,21475,Uganda,False
+20711,Uganda,1995-11-30,1,20717,Kenya,False
+20711,Uganda,1995-11-30,3,21036,Kenya,False
+20711,Uganda,1995-11-30,5,21154,Angola,False
+20730,Mexico,1995-12-06,1,20764,Jamaica,False
+20730,Mexico,1995-12-06,3,20800,Guatemala,True
+20730,Mexico,1995-12-06,5,20818,Brazil,True
+20818,Brazil,1996-01-21,1,20930,Ghana,True
+20818,Brazil,1996-01-21,3,21278,Russia,False
+20818,Brazil,1996-01-21,5,21438,Lithuania,True
+21113,Nigeria,1996-06-09,1,21484,Burkina Faso,True
+21113,Nigeria,1996-06-09,3,21577,Morocco,False
+21113,Nigeria,1996-06-09,5,21843,Guinea,True
+21187,Paraguay,1996-06-25,1,21225,Bolivia,True
+21187,Paraguay,1996-06-25,3,21309,Argentina,False
+21187,Paraguay,1996-06-25,5,21490,Ecuador,True
+21350,Romania,1996-09-18,1,21422,Iceland,True
+21350,Romania,1996-09-18,3,21794,Liechtenstein,True
+21350,Romania,1996-09-18,5,21917,Republic of Ireland,True
+21353,El Salvador,1996-09-19,1,21368,Guatemala,True
+21353,El Salvador,1996-09-19,3,21447,Honduras,False
+21353,El Salvador,1996-09-19,5,21505,Panama,True
+21393,Belarus,1996-10-05,1,21430,Latvia,False
+21393,Belarus,1996-10-05,3,21927,Latvia,False
+21393,Belarus,1996-10-05,5,22209,Israel,False
+21473,Italy,1996-11-06,1,21650,Northern Ireland,True
+21473,Italy,1996-11-06,3,21797,Moldova,True
+21473,Italy,1996-11-06,5,21928,Poland,True
+21519,Andorra,1996-11-13,1,22113,Estonia,False
+21519,Andorra,1996-11-13,3,22806,Brazil,False
+21519,Andorra,1996-11-13,5,22865,Azerbaijan,False
+21529,Saudi Arabia,1996-11-19,1,21551,Indonesia,True
+21529,Saudi Arabia,1996-11-19,3,21564,Iraq,True
+21529,Saudi Arabia,1996-11-19,5,21599,China,True
+21544,Iran,1996-11-25,1,21556,Iraq,False
+21544,Iran,1996-11-25,3,21572,Saudi Arabia,True
+21544,Iran,1996-11-25,5,21603,Saudi Arabia,False
+21768,Austria,1997-03-18,1,21819,Scotland,False
+21768,Austria,1997-03-18,3,22021,Latvia,True
+21768,Austria,1997-03-18,5,22282,Sweden,True
+21932,Colombia,1997-04-30,1,22028,Uruguay,False
+21932,Colombia,1997-04-30,3,22082,Costa Rica,True
+21932,Colombia,1997-04-30,5,22101,Bolivia,False
+22007,Iraq,1997-06-06,1,22095,Pakistan,True
+22007,Iraq,1997-06-06,3,22256,Lebanon,True
+22007,Iraq,1997-06-06,5,23683,Jordan,False
+22254,Denmark,1997-08-20,1,22311,Croatia,True
+22254,Denmark,1997-08-20,3,22686,Scotland,True
+22254,Denmark,1997-08-20,5,22785,Sweden,False
+22268,Switzerland,1997-09-06,1,22301,Norway,False
+22268,Switzerland,1997-09-06,3,22684,England,False
+22268,Switzerland,1997-09-06,5,22821,Serbia,False
+22305,Northern Ireland,1997-09-10,1,22373,Portugal,False
+22305,Northern Ireland,1997-09-10,3,22720,Switzerland,True
+22305,Northern Ireland,1997-09-10,5,23027,Turkey,False
+22544,Turkey,1998-01-21,1,22629,Israel,False
+22544,Turkey,1998-01-21,3,23027,Northern Ireland,True
+22544,Turkey,1998-01-21,5,23142,Finland,False
+22602,Brazil,1998-02-10,1,22618,Jamaica,True
+22602,Brazil,1998-02-10,3,22739,Argentina,False
+22602,Brazil,1998-02-10,5,22824,Scotland,True
+22610,England,1998-02-11,1,22684,Switzerland,False
+22610,England,1998-02-11,3,22768,Saudi Arabia,False
+22610,England,1998-02-11,5,22786,Belgium,False
+22674,Romania,1998-03-18,1,22707,Greece,True
+22674,Romania,1998-03-18,3,22799,Paraguay,True
+22674,Romania,1998-03-18,5,22840,Colombia,True
+22739,Brazil,1998-04-29,1,22806,Andorra,True
+22739,Brazil,1998-04-29,3,22842,Morocco,True
+22739,Brazil,1998-04-29,5,22879,Chile,True
+22934,Northern Mariana Islands,1998-07-30,1,22952,Guam,True
+22934,Northern Mariana Islands,1998-07-30,3,30754,Guam,False
+22934,Northern Mariana Islands,1998-07-30,5,31805,Guam,False
+23038,Spain,1998-09-05,1,23083,Russia,True
+23038,Spain,1998-09-05,3,23200,Italy,False
+23038,Spain,1998-09-05,5,23446,San Marino,True
+23046,Norway,1998-09-06,1,23124,Slovenia,True
+23046,Norway,1998-09-06,3,23210,Egypt,False
+23046,Norway,1998-09-06,5,23297,Estonia,False
+23109,Australia,1998-10-04,1,23183,United States,False
+23109,Australia,1998-10-04,3,24165,Slovakia,False
+23109,Australia,1998-10-04,5,24226,Hungary,True
+23122,Germany,1998-10-10,1,23149,Moldova,True
+23122,Germany,1998-10-10,3,23324,United States,False
+23122,Germany,1998-10-10,5,23425,Northern Ireland,True
+23136,Denmark,1998-10-10,1,23150,Switzerland,False
+23136,Denmark,1998-10-10,3,23430,Italy,False
+23136,Denmark,1998-10-10,5,23576,Belarus,True
+23230,South Korea,1998-12-02,1,23241,Vietnam,True
+23230,South Korea,1998-12-02,3,23257,United Arab Emirates,True
+23230,South Korea,1998-12-02,5,23273,Thailand,False
+23363,Angola,1999-02-28,1,23467,Mauritius,False
+23363,Angola,1999-02-28,3,23593,Gabon,False
+23363,Angola,1999-02-28,5,23710,Lesotho,True
+23387,Romania,1999-03-10,1,23420,Slovakia,False
+23387,Romania,1999-03-10,3,23501,Belgium,True
+23387,Romania,1999-03-10,5,23609,Azerbaijan,True
+23401,Cyprus,1999-03-16,1,23441,Israel,False
+23401,Cyprus,1999-03-16,3,23860,Israel,True
+23401,Cyprus,1999-03-16,5,23924,Austria,False
+23502,Germany,1999-04-28,1,23555,Moldova,True
+23502,Germany,1999-04-28,3,23756,New Zealand,True
+23502,Germany,1999-04-28,5,23849,Finland,True
+23540,Colombia,1999-05-29,1,23633,Peru,False
+23540,Colombia,1999-05-29,3,23688,Uruguay,True
+23540,Colombia,1999-05-29,5,23716,Ecuador,True
+23582,France,1999-06-05,1,23613,Andorra,True
+23582,France,1999-06-05,3,23838,Ukraine,False
+23582,France,1999-06-05,5,23932,Iceland,True
+23612,Greece,1999-06-09,1,23822,El Salvador,True
+23612,Greece,1999-06-09,3,23843,Norway,False
+23612,Greece,1999-06-09,5,23928,Slovenia,True
+23627,Kenya,1999-06-13,1,23646,Madagascar,False
+23627,Kenya,1999-06-13,3,23753,Eritrea,True
+23627,Kenya,1999-06-13,5,23781,Rwanda,False
+23628,Ecuador,1999-06-15,1,23686,Argentina,False
+23628,Ecuador,1999-06-15,3,23716,Colombia,False
+23628,Ecuador,1999-06-15,5,23957,Mexico,False
+23642,Peru,1999-06-20,1,23655,Venezuela,True
+23642,Peru,1999-06-20,3,23701,Bolivia,True
+23642,Peru,1999-06-20,5,23720,Mexico,False
+23696,Jersey,1999-07-01,1,23698,Isle of Wight,False
+23696,Jersey,1999-07-01,3,24477,Guernsey,True
+23696,Jersey,1999-07-01,5,25758,Orkney,True
+23828,Belgium,1999-08-18,1,23845,Netherlands,False
+23828,Belgium,1999-08-18,3,23942,England,False
+23828,Belgium,1999-08-18,5,24233,Portugal,False
+24009,England,1999-11-17,1,24230,Argentina,False
+24009,England,1999-11-17,3,24549,Ukraine,True
+24009,England,1999-11-17,5,24621,Portugal,False
+24080,Qatar,2000-01-20,1,24091,Bosnia and Herzegovina,True
+24080,Qatar,2000-01-20,3,24263,Sudan,True
+24080,Qatar,2000-01-20,5,24329,Palestine,True
+24111,Guam,2000-01-29,1,25083,Iran,False
+24111,Guam,2000-01-29,3,27002,Mongolia,False
+24111,Guam,2000-01-29,5,27006,Taiwan,False
+24113,Cameroon,2000-01-31,1,24140,Algeria,True
+24113,Cameroon,2000-01-31,3,24173,Nigeria,False
+24113,Cameroon,2000-01-31,5,24439,Somalia,True
+24142,Romania,2000-02-06,1,24319,Greece,False
+24142,Romania,2000-02-06,3,24533,Netherlands,False
+24142,Romania,2000-02-06,5,24619,Germany,False
+24270,Zambia,2000-03-13,1,24297,Botswana,True
+24270,Zambia,2000-03-13,3,24371,Botswana,True
+24270,Zambia,2000-03-13,5,24574,Senegal,False
+24344,Iran,2000-04-04,1,24383,Bahrain,True
+24344,Iran,2000-04-04,3,24399,Maldives,True
+24344,Iran,2000-04-04,5,24526,Palestine,False
+24665,Tahiti,2000-06-22,1,25659,Vanuatu,True
+24665,Tahiti,2000-06-22,3,25695,Cook Islands,True
+24665,Tahiti,2000-06-22,5,26510,New Zealand,False
+24698,Madagascar,2000-07-01,1,24721,Tunisia,False
+24698,Madagascar,2000-07-01,3,24844,Zambia,True
+24698,Madagascar,2000-07-01,5,25120,Namibia,False
+24783,Costa Rica,2000-08-10,1,24792,Guatemala,True
+24783,Costa Rica,2000-08-10,3,24962,United States,False
+24783,Costa Rica,2000-08-10,5,25104,Guatemala,True
+24790,Brazil,2000-08-15,1,24877,Bolivia,True
+24790,Brazil,2000-08-15,3,25061,Colombia,True
+24790,Brazil,2000-08-15,5,25284,Mexico,False
+24813,Czech Republic,2000-08-16,1,24859,Bulgaria,True
+24813,Czech Republic,2000-08-16,3,24969,Malta,False
+24813,Czech Republic,2000-08-16,5,25319,Northern Ireland,True
+24981,Greece,2000-10-11,1,25067,Slovakia,False
+24981,Greece,2000-10-11,3,25266,Russia,False
+24981,Greece,2000-10-11,5,25491,Croatia,False
+25111,Romania,2001-01-11,1,25126,Hong Kong,True
+25111,Romania,2001-01-11,3,25245,Ukraine,True
+25111,Romania,2001-01-11,5,25321,Italy,False
+25125,Zimbabwe,2001-01-14,1,25232,Burkina Faso,True
+25125,Zimbabwe,2001-01-14,3,25350,Lesotho,True
+25125,Zimbabwe,2001-01-14,5,25643,Ghana,False
+25176,Sweden,2001-02-01,1,25195,Thailand,True
+25176,Sweden,2001-02-01,3,25211,Qatar,False
+25176,Sweden,2001-02-01,5,25259,Malta,True
+25192,Fiji,2001-02-09,1,25410,American Samoa,True
+25192,Fiji,2001-02-09,3,25436,Australia,False
+25192,Fiji,2001-02-09,5,26513,New Caledonia,True
+25251,Kuwait,2001-02-27,1,25843,Trinidad and Tobago,False
+25251,Kuwait,2001-02-27,3,26021,Qatar,False
+25251,Kuwait,2001-02-27,5,26126,Syria,False
+25383,Norway,2001-03-28,1,25475,Bulgaria,True
+25383,Norway,2001-03-28,3,25663,Belarus,False
+25383,Norway,2001-03-28,5,25897,Poland,False
+25387,Brazil,2001-03-28,1,25490,Peru,False
+25387,Brazil,2001-03-28,3,25630,Canada,False
+25387,Brazil,2001-03-28,5,25683,France,False
+25478,Turkey,2001-04-25,1,25626,Azerbaijan,True
+25478,Turkey,2001-04-25,3,25860,Norway,False
+25478,Turkey,2001-04-25,5,25934,Sweden,False
+25579,Honduras,2001-05-23,1,25587,Nicaragua,True
+25579,Honduras,2001-05-23,3,25700,Trinidad and Tobago,True
+25579,Honduras,2001-05-23,5,25746,Costa Rica,False
+25679,Slovakia,2001-06-06,1,25719,Bosnia and Herzegovina,False
+25679,Slovakia,2001-06-06,3,25727,Bahrain,False
+25679,Slovakia,2001-06-06,5,25899,Turkey,False
+25702,Morocco,2001-06-16,1,25735,Egypt,True
+25702,Morocco,2001-06-16,3,25936,Italy,False
+25702,Morocco,2001-06-16,5,26018,Mali,False
+25813,South Africa,2001-07-21,1,25868,Sweden,False
+25813,South Africa,2001-07-21,3,26161,Angola,True
+25813,South Africa,2001-07-21,5,26193,Ghana,False
+25856,Uruguay,2001-08-14,1,25923,Peru,True
+25856,Uruguay,2001-08-14,3,26041,Ecuador,False
+25856,Uruguay,2001-08-14,5,26085,Australia,False
+25913,France,2001-09-01,1,25995,Algeria,True
+25913,France,2001-09-01,3,26269,Romania,True
+25913,France,2001-09-01,5,26369,Russia,False
+25922,Chile,2001-09-04,1,26011,Brazil,False
+25922,Chile,2001-09-04,3,26077,Ecuador,False
+25922,Chile,2001-09-04,5,26352,Turkey,False
+25943,Poland,2001-09-05,1,25981,Ukraine,False
+25943,Poland,2001-09-05,3,26239,Faroe Islands,True
+25943,Poland,2001-09-05,5,26310,Japan,False
+25956,Saudi Arabia,2001-09-07,1,25963,Thailand,True
+25956,Saudi Arabia,2001-09-07,3,25973,Iran,False
+25956,Saudi Arabia,2001-09-07,5,26026,Thailand,True
+26044,Brazil,2001-11-07,1,26076,Venezuela,True
+26044,Brazil,2001-11-07,3,26230,Saudi Arabia,True
+26044,Brazil,2001-11-07,5,26326,Serbia,True
+26079,Canada,2001-11-14,1,26166,Haiti,True
+26079,Canada,2001-11-14,3,26201,Martinique,False
+26079,Canada,2001-11-14,5,26223,South Korea,True
+26081,Greece,2001-11-14,1,26267,Sweden,False
+26081,Greece,2001-11-14,3,26394,Cyprus,True
+26081,Greece,2001-11-14,5,26639,Spain,False
+26121,Senegal,2001-12-26,1,26131,Algeria,True
+26121,Senegal,2001-12-26,3,26204,Zambia,True
+26121,Senegal,2001-12-26,5,26227,DR Congo,True
+26130,Saudi Arabia,2001-12-30,1,26148,Iceland,True
+26130,Saudi Arabia,2001-12-30,3,26178,Bahrain,True
+26130,Saudi Arabia,2001-12-30,5,26208,Oman,True
+26140,Egypt,2002-01-06,1,26152,Burkina Faso,False
+26140,Egypt,2002-01-06,3,26197,Tunisia,True
+26140,Egypt,2002-01-06,5,26228,Cameroon,False
+26289,Saudi Arabia,2002-03-14,1,26301,South Africa,True
+26289,Saudi Arabia,2002-03-14,3,26391,Senegal,True
+26289,Saudi Arabia,2002-03-14,5,26454,Cameroon,False
+26311,Portugal,2002-03-27,1,26356,Brazil,False
+26311,Portugal,2002-03-27,3,26452,United States,False
+26311,Portugal,2002-03-27,5,26486,South Korea,False
+26330,Russia,2002-03-27,1,26369,France,False
+26330,Russia,2002-03-27,3,26418,Serbia,False
+26330,Russia,2002-03-27,5,26466,Japan,False
+26378,Zimbabwe,2002-05-05,1,26518,Malawi,False
+26378,Zimbabwe,2002-05-05,3,26608,Lesotho,True
+26378,Zimbabwe,2002-05-05,5,26675,Zambia,False
+26393,Germany,2002-05-14,1,26412,Austria,True
+26393,Germany,2002-05-14,3,26450,Republic of Ireland,False
+26393,Germany,2002-05-14,5,26489,Paraguay,True
+26413,France,2002-05-18,1,26432,South Korea,True
+26413,France,2002-05-18,3,26456,Uruguay,False
+26413,France,2002-05-18,5,26577,Tunisia,False
+26436,France,2002-05-31,1,26456,Uruguay,False
+26436,France,2002-05-31,3,26577,Tunisia,False
+26436,France,2002-05-31,5,26715,Slovenia,True
+26523,Fiji,2002-07-08,1,26527,Australia,False
+26523,Fiji,2002-07-08,3,27346,Vanuatu,False
+26523,Fiji,2002-07-08,5,27388,Kiribati,True
+26587,Brazil,2002-08-21,1,26782,South Korea,True
+26587,Brazil,2002-08-21,3,27064,Portugal,False
+26587,Brazil,2002-08-21,5,27267,Nigeria,True
+26595,Italy,2002-08-21,1,26643,Azerbaijan,True
+26595,Italy,2002-08-21,3,26736,Wales,False
+26595,Italy,2002-08-21,5,26957,Portugal,True
+26604,Egypt,2002-08-27,1,26653,Madagascar,False
+26604,Egypt,2002-08-27,3,26808,Nigeria,False
+26604,Egypt,2002-08-27,5,26879,Ghana,False
+26606,Iran,2002-08-30,1,26617,Lebanon,True
+26606,Iran,2002-08-30,3,26633,Syria,False
+26606,Iran,2002-08-30,5,26670,Paraguay,False
+26688,Poland,2002-10-12,1,26732,New Zealand,True
+26688,Poland,2002-10-12,3,26961,Croatia,False
+26688,Poland,2002-10-12,5,27065,Hungary,False
+26745,Republic of Ireland,2002-10-16,1,26803,Greece,False
+26745,Republic of Ireland,2002-10-16,3,27094,Georgia,True
+26745,Republic of Ireland,2002-10-16,5,27181,Norway,True
+26759,Jersey,2002-10-26,1,27186,Guernsey,False
+26759,Jersey,2002-10-26,3,27333,Frøya,True
+26759,Jersey,2002-10-26,5,27348,Gotland,False
+26772,Cayman Islands,2002-11-17,1,26809,Cuba,False
+26772,Cayman Islands,2002-11-17,3,26820,Martinique,False
+26772,Cayman Islands,2002-11-17,5,28024,Cuba,False
+26773,Trinidad and Tobago,2002-11-17,1,26928,Finland,False
+26773,Trinidad and Tobago,2002-11-17,3,27063,Guadeloupe,True
+26773,Trinidad and Tobago,2002-11-17,5,27143,Martinique,False
+26902,India,2003-01-10,1,26906,Afghanistan,True
+26902,India,2003-01-10,3,26916,Bangladesh,False
+26902,India,2003-01-10,5,27042,North Korea,False
+26991,Panama,2003-02-21,1,27000,Costa Rica,False
+26991,Panama,2003-02-21,3,27331,Cuba,True
+26991,Panama,2003-02-21,5,27493,Bolivia,False
+27082,Russia,2003-03-29,1,27177,Georgia,False
+27082,Russia,2003-03-29,3,27459,Israel,False
+27082,Russia,2003-03-29,5,27542,Switzerland,True
+27133,Denmark,2003-04-02,1,27174,Ukraine,True
+27133,Denmark,2003-04-02,3,27275,Luxembourg,True
+27133,Denmark,2003-04-02,5,27558,Romania,False
+27166,Saudi Arabia,2003-04-30,1,27591,Syria,False
+27166,Saudi Arabia,2003-04-30,3,27597,Bhutan,True
+27166,Saudi Arabia,2003-04-30,5,27663,Yemen,True
+27223,Spain,2003-06-07,1,27273,Northern Ireland,False
+27223,Spain,2003-06-07,3,27546,Ukraine,True
+27223,Spain,2003-06-07,5,27725,Norway,True
+27278,Serbia,2003-06-11,1,27467,Wales,True
+27278,Serbia,2003-06-11,3,27624,Wales,True
+27278,Serbia,2003-06-11,5,28032,Norway,False
+27376,Saare County,2003-07-04,1,29324,Åland Islands,True
+27376,Saare County,2003-07-04,3,29336,Falkland Islands,False
+27376,Saare County,2003-07-04,5,29351,Ynys Môn,False
+27399,Mexico,2003-07-06,1,27419,Brazil,True
+27399,Mexico,2003-07-06,3,27435,Jamaica,True
+27399,Mexico,2003-07-06,5,27442,Brazil,True
+27611,Sweden,2003-10-11,1,27760,Egypt,False
+27611,Sweden,2003-10-11,3,27963,Albania,False
+27611,Sweden,2003-10-11,5,28099,Portugal,False
+27674,South Korea,2003-10-19,1,27680,Oman,False
+27674,South Korea,2003-10-19,3,27757,Bulgaria,False
+27674,South Korea,2003-10-19,5,27811,China,True
+27714,Zimbabwe,2003-11-14,1,27821,Botswana,True
+27714,Zimbabwe,2003-11-14,3,27898,Cameroon,False
+27714,Zimbabwe,2003-11-14,5,28130,Zambia,False
+27718,Netherlands,2003-11-15,1,27773,Scotland,True
+27718,Netherlands,2003-11-15,3,28035,France,False
+27718,Netherlands,2003-11-15,5,28198,Belgium,False
+27727,Turkey,2003-11-15,1,27765,Latvia,False
+27727,Turkey,2003-11-15,3,28114,Belgium,True
+27727,Turkey,2003-11-15,5,28171,Australia,True
+27938,Barbados,2004-02-15,1,28003,Dominica,True
+27938,Barbados,2004-02-15,3,28302,Saint Kitts and Nevis,False
+27938,Barbados,2004-02-15,5,28946,Grenada,True
+28017,Saint Kitts and Nevis,2004-03-21,1,28044,United States Virgin Islands,True
+28017,Saint Kitts and Nevis,2004-03-21,3,28227,Northern Ireland,False
+28017,Saint Kitts and Nevis,2004-03-21,5,28331,Barbados,True
+28198,Netherlands,2004-05-29,1,28218,Faroe Islands,True
+28198,Netherlands,2004-05-29,3,28318,Germany,False
+28198,Netherlands,2004-05-29,5,28368,Latvia,True
+28278,Germany,2004-06-06,1,28318,Netherlands,False
+28278,Germany,2004-06-06,3,28365,Czech Republic,False
+28278,Germany,2004-06-06,5,28601,Brazil,False
+28372,France,2004-06-25,1,28508,Bosnia and Herzegovina,False
+28372,France,2004-06-25,3,28609,Faroe Islands,True
+28372,France,2004-06-25,5,28722,Cyprus,True
+28491,Turkey,2004-08-18,1,28543,Georgia,False
+28491,Turkey,2004-08-18,3,28653,Kazakhstan,True
+28491,Turkey,2004-08-18,5,28784,Ukraine,False
+28510,Italy,2004-08-18,1,28562,Norway,True
+28510,Italy,2004-08-18,3,28648,Slovenia,False
+28510,Italy,2004-08-18,5,28812,Finland,True
+28549,Greece,2004-09-04,1,28612,Turkey,False
+28549,Greece,2004-09-04,3,28807,Kazakhstan,True
+28549,Greece,2004-09-04,5,29064,Georgia,True
+28716,North Macedonia,2004-10-13,1,28772,Czech Republic,False
+28716,North Macedonia,2004-10-13,3,29127,Romania,False
+28716,North Macedonia,2004-10-13,5,29255,Czech Republic,False
+28751,Kuwait,2004-11-05,1,28756,Kyrgyzstan,True
+28751,Kuwait,2004-11-05,3,28829,United Arab Emirates,True
+28751,Kuwait,2004-11-05,5,28851,Tajikistan,True
+28783,Syria,2004-11-17,1,28952,Kuwait,False
+28783,Syria,2004-11-17,3,29605,Oman,False
+28783,Syria,2004-11-17,5,29684,Oman,True
+28805,Brazil,2004-11-17,1,28998,Hong Kong,True
+28805,Brazil,2004-11-17,3,29124,Uruguay,False
+28805,Brazil,2004-11-17,5,29230,Paraguay,True
+28884,Timor-Leste,2004-12-14,1,28894,Myanmar,False
+28884,Timor-Leste,2004-12-14,3,30440,Philippines,False
+28884,Timor-Leste,2004-12-14,5,30504,Cambodia,False
+29168,Japan,2005-05-27,1,29183,Bahrain,True
+29168,Japan,2005-05-27,3,29278,Mexico,False
+29168,Japan,2005-05-27,5,29303,Brazil,False
+29312,Colombia,2005-07-06,1,29320,Honduras,False
+29312,Colombia,2005-07-06,3,29357,Mexico,True
+29312,Colombia,2005-07-06,5,29468,Uruguay,False
+29359,Colombia,2005-07-21,1,29468,Uruguay,False
+29359,Colombia,2005-07-21,3,29572,Paraguay,True
+29359,Colombia,2005-07-21,5,29957,Ecuador,False
+29365,Japan,2005-07-31,1,29367,China,False
+29365,Japan,2005-07-31,3,29427,Iran,True
+29365,Japan,2005-07-31,5,29560,Latvia,False
+29486,Norway,2005-09-07,1,29521,Moldova,True
+29486,Norway,2005-09-07,3,29633,Czech Republic,False
+29486,Norway,2005-09-07,5,29768,Mexico,False
+29491,England,2005-09-07,1,29554,Austria,True
+29491,England,2005-09-07,3,29632,Argentina,True
+29491,England,2005-09-07,5,29991,Hungary,True
+29509,Zimbabwe,2005-09-24,1,29510,Mozambique,False
+29509,Zimbabwe,2005-09-24,3,29736,Egypt,False
+29509,Zimbabwe,2005-09-24,5,29758,Senegal,False
+29665,Rwanda,2005-11-26,1,29674,Eritrea,True
+29665,Rwanda,2005-11-26,3,29692,Tanzania,True
+29665,Rwanda,2005-11-26,5,29705,Ethiopia,False
+29733,Ecuador,2005-12-29,1,29766,Honduras,True
+29733,Ecuador,2005-12-29,3,29887,Japan,False
+29733,Ecuador,2005-12-29,5,29980,North Macedonia,False
+29741,Egypt,2006-01-14,1,29749,Libya,True
+29741,Egypt,2006-01-14,3,29776,Ivory Coast,True
+29741,Egypt,2006-01-14,5,29794,Senegal,True
+29774,Saudi Arabia,2006-01-27,1,29803,Syria,False
+29774,Saudi Arabia,2006-01-27,3,29857,Portugal,False
+29774,Saudi Arabia,2006-01-27,5,29884,Poland,False
+29808,Bahrain,2006-02-16,1,29822,Australia,False
+29808,Bahrain,2006-02-16,3,30135,Saudi Arabia,False
+29808,Bahrain,2006-02-16,5,30411,Australia,False
+29868,France,2006-03-01,1,29975,Mexico,True
+29868,France,2006-03-01,3,30037,China,True
+29868,France,2006-03-01,5,30067,South Korea,False
+29928,Poland,2006-05-02,1,29938,Faroe Islands,True
+29928,Poland,2006-05-02,3,30025,Croatia,True
+29928,Poland,2006-05-02,5,30055,Germany,False
+30008,Republic of St. Pauli,2006-06-01,1,30019,Gibraltar,False
+30034,Turkey,2006-06-04,1,30147,Luxembourg,True
+30034,Turkey,2006-06-04,3,30333,Hungary,True
+30034,Turkey,2006-06-04,5,30467,Italy,False
+30063,Czech Republic,2006-06-17,1,30083,Italy,False
+30063,Czech Republic,2006-06-17,3,30224,Wales,True
+30063,Czech Republic,2006-06-17,5,30361,San Marino,True
+30258,Spain,2006-09-06,1,30344,Sweden,False
+30258,Spain,2006-09-06,3,30455,Romania,False
+30258,Spain,2006-09-06,5,30724,Denmark,True
+30341,France,2006-10-07,1,30413,Faroe Islands,True
+30341,France,2006-10-07,3,30669,Argentina,False
+30341,France,2006-10-07,5,30799,Austria,True
+30360,Republic of Ireland,2006-10-07,1,30418,Czech Republic,False
+30360,Republic of Ireland,2006-10-07,3,30656,San Marino,True
+30360,Republic of Ireland,2006-10-07,5,30797,Slovakia,True
+30395,Hungary,2006-10-11,1,30484,Canada,True
+30395,Hungary,2006-10-11,3,30664,Latvia,True
+30395,Hungary,2006-10-11,5,30796,Moldova,True
+30439,Timor-Leste,2006-11-12,1,30440,Philippines,False
+30439,Timor-Leste,2006-11-12,3,30504,Cambodia,False
+30439,Timor-Leste,2006-11-12,5,31417,Hong Kong,False
+30440,Timor-Leste,2006-11-14,1,30487,Laos,False
+30440,Timor-Leste,2006-11-14,3,31401,Hong Kong,False
+30440,Timor-Leste,2006-11-14,5,32522,Philippines,False
+30482,Uruguay,2006-11-15,1,30674,Colombia,True
+30482,Uruguay,2006-11-15,3,30869,Australia,True
+30482,Uruguay,2006-11-15,5,31023,Bolivia,True
+30657,Gambia,2007-02-07,1,30745,Guinea,False
+30657,Gambia,2007-02-07,3,30961,Cape Verde,False
+30657,Gambia,2007-02-07,5,31527,Cape Verde,False
+30716,Norway,2007-03-24,1,30779,Turkey,False
+30716,Norway,2007-03-24,3,30910,Hungary,True
+30716,Norway,2007-03-24,5,31235,Moldova,True
+30721,Serbia,2007-03-24,1,30775,Portugal,False
+30721,Serbia,2007-03-24,3,31163,Belgium,False
+30721,Serbia,2007-03-24,5,31274,Portugal,False
+30754,Northern Mariana Islands,2007-03-25,1,30800,Guam,False
+30754,Northern Mariana Islands,2007-03-25,3,32806,Macau,False
+30754,Northern Mariana Islands,2007-03-25,5,32813,Mongolia,False
+30800,Northern Mariana Islands,2007-04-01,1,31805,Guam,False
+30800,Northern Mariana Islands,2007-04-01,3,32809,Guam,False
+30800,Northern Mariana Islands,2007-04-01,5,33896,Guam,False
+30917,Poland,2007-06-06,1,31155,Russia,False
+30917,Poland,2007-06-06,3,31297,Finland,False
+30917,Poland,2007-06-06,5,31368,Hungary,False
+31168,Italy,2007-08-22,1,31245,France,False
+31168,Italy,2007-08-22,3,31319,Georgia,True
+31168,Italy,2007-08-22,5,31443,Scotland,True
+31259,Cameroon,2007-09-09,1,31561,Galicia,False
+31259,Cameroon,2007-09-09,3,31609,Zambia,True
+31259,Cameroon,2007-09-09,5,31644,Tunisia,True
+31300,France,2007-09-12,1,31346,Faroe Islands,True
+31300,France,2007-09-12,3,31432,Morocco,False
+31300,France,2007-09-12,5,31659,Spain,False
+31341,Belarus,2007-10-13,1,31379,Israel,False
+31341,Belarus,2007-10-13,3,31508,Netherlands,True
+31341,Belarus,2007-10-13,5,31646,Armenia,False
+31364,Mexico,2007-10-17,1,31665,United States,False
+31364,Mexico,2007-10-17,3,31799,China,True
+31364,Mexico,2007-10-17,5,31990,Peru,True
+31422,Tibet,2007-11-02,1,37062,Quebec,False
+31422,Tibet,2007-11-02,3,37069,Western Sahara,True
+31422,Tibet,2007-11-02,5,41534,Northern Cyprus,False
+31435,Croatia,2007-11-17,1,31514,England,True
+31435,Croatia,2007-11-17,3,31729,Scotland,False
+31435,Croatia,2007-11-17,5,31905,Hungary,False
+31508,Netherlands,2007-11-21,1,31678,Croatia,True
+31508,Netherlands,2007-11-21,3,31840,Ukraine,True
+31508,Netherlands,2007-11-21,5,31912,Wales,True
+31584,Bermuda,2008-01-16,1,31587,Puerto Rico,False
+31584,Bermuda,2008-01-16,3,31790,Cayman Islands,True
+31584,Bermuda,2008-01-16,5,32003,Barbados,True
+31757,Slovakia,2008-03-26,1,31828,Turkey,False
+31757,Slovakia,2008-03-26,3,32234,Greece,False
+31757,Slovakia,2008-03-26,5,32357,Slovenia,False
+31805,Northern Mariana Islands,2008-04-27,1,32806,Macau,False
+31805,Northern Mariana Islands,2008-04-27,3,32813,Mongolia,False
+31805,Northern Mariana Islands,2008-04-27,5,36049,Guam,False
+31830,Mozambique,2008-05-21,1,31916,Ivory Coast,False
+31830,Mozambique,2008-05-21,3,32062,Madagascar,False
+31830,Mozambique,2008-05-21,5,32169,Botswana,True
+31907,Tunisia,2008-06-01,1,31964,Seychelles,True
+31907,Tunisia,2008-06-01,3,32093,Burundi,True
+31907,Tunisia,2008-06-01,5,32318,Burkina Faso,False
+31957,Brazil,2008-06-06,1,32060,Paraguay,False
+31957,Brazil,2008-06-06,3,32338,Chile,True
+31957,Brazil,2008-06-06,5,32468,Venezuela,True
+32034,Morocco,2008-06-14,1,32100,Rwanda,True
+32034,Morocco,2008-06-14,3,32288,Oman,False
+32034,Morocco,2008-06-14,5,32589,Zambia,True
+32050,Egypt,2008-06-14,1,32129,Malawi,True
+32050,Egypt,2008-06-14,3,32340,DR Congo,True
+32050,Egypt,2008-06-14,5,32598,Benin,True
+32057,Trinidad and Tobago,2008-06-15,1,32123,Bermuda,True
+32057,Trinidad and Tobago,2008-06-15,3,32152,Curaçao,True
+32057,Trinidad and Tobago,2008-06-15,5,32201,Haiti,False
+32120,Australia,2008-06-22,1,32210,South Africa,False
+32120,Australia,2008-06-22,3,32365,Uzbekistan,True
+32120,Australia,2008-06-22,5,32593,Bahrain,True
+32211,Wales,2008-08-20,1,32302,Azerbaijan,True
+32211,Wales,2008-08-20,3,32438,Liechtenstein,True
+32211,Wales,2008-08-20,5,32597,Denmark,True
+32225,Egypt,2008-08-20,1,32340,DR Congo,True
+32225,Egypt,2008-08-20,3,32598,Benin,True
+32225,Egypt,2008-08-20,5,32794,Ghana,False
+32284,Romania,2008-09-06,1,32379,Faroe Islands,True
+32284,Romania,2008-09-06,3,32570,Georgia,True
+32284,Romania,2008-09-06,5,32827,Serbia,False
+32291,Netherlands,2008-09-06,1,32370,North Macedonia,True
+32291,Netherlands,2008-09-06,3,32491,Norway,True
+32291,Netherlands,2008-09-06,5,32773,Tunisia,False
+32315,France,2008-09-06,1,32381,Serbia,True
+32315,France,2008-09-06,3,32478,Tunisia,True
+32315,France,2008-09-06,5,32800,Argentina,False
+32360,Switzerland,2008-09-10,1,32427,Latvia,True
+32360,Switzerland,2008-09-10,3,32580,Finland,True
+32360,Switzerland,2008-09-10,5,32848,Moldova,True
+32504,Bahrain,2008-10-15,1,32559,Saudi Arabia,False
+32504,Bahrain,2008-10-15,3,32654,Saudi Arabia,True
+32504,Bahrain,2008-10-15,5,32674,Iraq,True
+32670,Tanzania,2009-01-03,1,32678,Zanzibar,True
+32670,Tanzania,2009-01-03,3,32691,Uganda,False
+32670,Tanzania,2009-01-03,5,32700,Burundi,True
+32742,Guatemala,2009-01-29,1,32768,Venezuela,False
+32742,Guatemala,2009-01-29,3,33119,Canada,False
+32742,Guatemala,2009-01-29,5,33822,South Africa,False
+32744,Honduras,2009-01-30,1,32747,El Salvador,True
+32744,Honduras,2009-01-30,3,32843,Trinidad and Tobago,False
+32744,Honduras,2009-01-30,5,32989,United States,False
+32799,Germany,2009-02-11,1,32862,Liechtenstein,True
+32799,Germany,2009-02-11,3,32953,China,False
+32799,Germany,2009-02-11,5,33203,Azerbaijan,True
+32803,Australia,2009-03-05,1,32904,Uzbekistan,True
+32803,Australia,2009-03-05,3,33045,Bahrain,True
+32803,Australia,2009-03-05,5,33220,Republic of Ireland,True
+32806,Northern Mariana Islands,2009-03-11,1,32809,Guam,False
+32806,Northern Mariana Islands,2009-03-11,3,33896,Guam,False
+32806,Northern Mariana Islands,2009-03-11,5,36050,Macau,False
+32821,Iceland,2009-03-22,1,32889,Scotland,False
+32821,Iceland,2009-03-22,3,33029,North Macedonia,False
+32821,Iceland,2009-03-22,5,33274,Norway,False
+32837,Cameroon,2009-03-28,1,33021,Morocco,False
+32837,Cameroon,2009-03-28,3,33202,Austria,True
+32837,Cameroon,2009-03-28,5,33320,Gabon,True
+32895,Argentina,2009-04-01,1,32945,Panama,True
+32895,Argentina,2009-04-01,3,33040,Ecuador,False
+32895,Argentina,2009-04-01,5,33266,Brazil,False
+32902,Czech Republic,2009-04-01,1,32976,Malta,True
+32902,Czech Republic,2009-04-01,3,33254,Slovakia,False
+32902,Czech Republic,2009-04-01,5,33373,Poland,True
+33262,Israel,2009-09-05,1,33327,Luxembourg,True
+33262,Israel,2009-09-05,3,33401,Switzerland,False
+33262,Israel,2009-09-05,5,33792,Uruguay,False
+33323,Lithuania,2009-09-09,1,33366,Austria,False
+33323,Lithuania,2009-09-09,3,33783,Ukraine,False
+33323,Lithuania,2009-09-09,5,33899,Estonia,True
+33383,Brazil,2009-10-11,1,33418,Venezuela,False
+33383,Brazil,2009-10-11,3,33511,Oman,True
+33383,Brazil,2009-10-11,5,33834,Zimbabwe,True
+33421,Denmark,2009-10-14,1,33494,South Korea,False
+33421,Denmark,2009-10-14,3,33715,Austria,False
+33421,Denmark,2009-10-14,5,33829,Australia,False
+33536,Czech Republic,2009-11-18,1,33697,Scotland,False
+33536,Czech Republic,2009-11-18,3,33782,United States,True
+33536,Czech Republic,2009-11-18,5,34097,Lithuania,False
+33613,Tunisia,2010-01-09,1,33620,Zambia,False
+33613,Tunisia,2010-01-09,3,33641,Cameroon,False
+33613,Tunisia,2010-01-09,5,33897,Sudan,True
+33637,Bahrain,2010-01-20,1,33681,Kuwait,False
+33637,Bahrain,2010-01-20,3,33973,China,False
+33637,Bahrain,2010-01-20,5,34091,Togo,True
+33736,Padania,2010-03-11,1,33823,Gozo,True
+33736,Padania,2010-03-11,3,33845,Two Sicilies,True
+33736,Padania,2010-03-11,5,37781,Darfur,True
+33881,Spain,2010-06-16,1,33904,Honduras,True
+33881,Spain,2010-06-16,3,33928,Portugal,True
+33881,Spain,2010-06-16,5,33938,Germany,True
+33931,Tunisia,2010-07-01,1,33984,Chad,True
+33931,Tunisia,2010-07-01,3,34213,Togo,True
+33931,Tunisia,2010-07-01,5,34669,Oman,False
+34032,France,2010-09-03,1,34093,Bosnia and Herzegovina,True
+34032,France,2010-09-03,3,34263,Luxembourg,True
+34032,France,2010-09-03,5,34575,Brazil,True
+34037,Mexico,2010-09-04,1,34068,Colombia,True
+34037,Mexico,2010-09-04,3,34534,Bosnia and Herzegovina,True
+34037,Mexico,2010-09-04,5,34665,Venezuela,False
+34097,Czech Republic,2010-09-07,1,34183,Scotland,True
+34097,Czech Republic,2010-09-07,3,34351,Denmark,False
+34097,Czech Republic,2010-09-07,5,34600,Spain,False
+34134,Barbados,2010-09-26,1,34155,Saint Kitts and Nevis,False
+34134,Barbados,2010-09-26,3,34715,Guyana,False
+34134,Barbados,2010-09-26,5,34734,Guyana,False
+34165,Serbia,2010-10-08,1,34244,Italy,False
+34165,Serbia,2010-10-08,3,34568,Israel,True
+34165,Serbia,2010-10-08,5,34695,Estonia,False
+34216,Egypt,2010-10-10,1,34352,Australia,True
+34216,Egypt,2010-10-10,3,34460,Tanzania,True
+34216,Egypt,2010-10-10,5,34474,Burundi,True
+34247,Turkey,2010-10-12,1,34324,Netherlands,False
+34247,Turkey,2010-10-12,3,34675,Austria,True
+34247,Turkey,2010-10-12,5,35018,Estonia,True
+34329,Russia,2010-11-17,1,34569,Iran,False
+34329,Russia,2010-11-17,3,34678,Qatar,False
+34329,Russia,2010-11-17,5,34805,Cameroon,False
+34332,Slovenia,2010-11-17,1,34562,Albania,True
+34332,Slovenia,2010-11-17,3,34668,Northern Ireland,False
+34332,Slovenia,2010-11-17,5,35015,Belgium,False
+34416,Vietnam,2010-12-05,1,34427,Singapore,True
+34416,Vietnam,2010-12-05,3,34437,Malaysia,False
+34416,Vietnam,2010-12-05,5,34904,Macau,True
+34553,Slovakia,2011-02-09,1,34637,Andorra,True
+34553,Slovakia,2011-02-09,3,34764,Andorra,True
+34553,Slovakia,2011-02-09,5,35118,Republic of Ireland,False
+34611,Uruguay,2011-03-25,1,34682,Republic of Ireland,True
+34611,Uruguay,2011-03-25,3,34820,Netherlands,False
+34611,Uruguay,2011-03-25,5,34910,Peru,False
+34648,Croatia,2011-03-26,1,34696,France,False
+34648,Croatia,2011-03-26,3,35025,Republic of Ireland,False
+34648,Croatia,2011-03-26,5,35214,Israel,True
+34743,Brittany,2011-06-02,1,36906,Mali,True
+34744,Lithuania,2011-06-03,1,34808,Norway,False
+34744,Lithuania,2011-06-03,3,35093,Liechtenstein,False
+34744,Lithuania,2011-06-03,5,35324,Czech Republic,False
+34819,Gabon,2011-06-07,1,35038,Guinea,False
+34819,Gabon,2011-06-07,3,35283,Equatorial Guinea,True
+34819,Gabon,2011-06-07,5,35479,Ghana,False
+34951,Qatar,2011-07-17,1,34962,Vietnam,True
+34951,Qatar,2011-07-17,3,35057,Iraq,False
+34951,Qatar,2011-07-17,5,35125,Bahrain,False
+35048,Réunion,2011-08-11,1,35050,Mayotte,True
+35048,Réunion,2011-08-11,3,36255,Saint Pierre and Miquelon,True
+35048,Réunion,2011-08-11,5,36276,Martinique,False
+35103,Slovenia,2011-09-02,1,35228,Italy,False
+35103,Slovenia,2011-09-02,3,35467,United States,False
+35103,Slovenia,2011-09-02,5,35797,Greece,False
+35145,Egypt,2011-09-03,1,35312,Niger,True
+35145,Egypt,2011-09-03,3,35649,Kenya,True
+35145,Egypt,2011-09-03,5,35718,DR Congo,False
+35163,South Africa,2011-09-04,1,35305,Sierra Leone,False
+35163,South Africa,2011-09-04,3,35475,Zimbabwe,False
+35163,South Africa,2011-09-04,5,35654,Senegal,False
+35180,Albania,2011-09-06,1,35278,France,False
+35180,Albania,2011-09-06,3,35412,Azerbaijan,False
+35180,Albania,2011-09-06,5,35717,Georgia,False
+35204,Slovakia,2011-09-06,1,35268,Russia,False
+35204,Slovakia,2011-09-06,3,35667,Turkey,True
+35204,Slovakia,2011-09-06,5,35820,Netherlands,False
+35393,Kuwait,2011-11-11,1,35478,United Arab Emirates,True
+35393,Kuwait,2011-11-11,3,35632,North Korea,False
+35393,Kuwait,2011-11-11,5,35705,South Korea,False
+35476,South Korea,2011-11-15,1,35646,Uzbekistan,True
+35476,South Korea,2011-11-15,3,35821,Spain,False
+35476,South Korea,2011-11-15,5,35973,Lebanon,True
+35529,Uganda,2011-12-01,1,35554,Zimbabwe,True
+35529,Uganda,2011-12-01,3,35562,Rwanda,False
+35529,Uganda,2011-12-01,5,35742,Egypt,False
+35550,Bahrain,2011-12-06,1,35588,Sweden,False
+35550,Bahrain,2011-12-06,3,35929,Kuwait,False
+35550,Bahrain,2011-12-06,5,36027,Yemen,False
+35703,North Macedonia,2012-02-29,1,35792,Portugal,False
+35703,North Macedonia,2012-02-29,3,36062,Lithuania,True
+35703,North Macedonia,2012-02-29,5,36219,Scotland,False
+35706,Japan,2012-02-29,1,35774,Azerbaijan,True
+35706,Japan,2012-02-29,3,35931,Jordan,True
+35706,Japan,2012-02-29,5,36058,Venezuela,False
+35786,Netherlands,2012-05-26,1,35820,Slovakia,True
+35786,Netherlands,2012-05-26,3,35940,Denmark,False
+35786,Netherlands,2012-05-26,5,36008,Portugal,False
+35811,Iran,2012-05-27,1,35871,Uzbekistan,True
+35811,Iran,2012-05-27,3,36077,Tunisia,False
+35811,Iran,2012-05-27,5,36220,Lebanon,False
+35992,Egypt,2012-06-15,1,36034,Central African Republic,False
+35992,Egypt,2012-06-15,3,36325,Congo,True
+35992,Egypt,2012-06-15,5,36471,Georgia,False
+36050,Northern Mariana Islands,2012-07-20,1,36493,Guam,False
+36050,Northern Mariana Islands,2012-07-20,3,36753,Palestine,False
+36050,Northern Mariana Islands,2012-07-20,5,37949,Mongolia,False
+36103,Denmark,2012-08-15,1,36180,Czech Republic,False
+36103,Denmark,2012-08-15,3,36401,Italy,False
+36103,Denmark,2012-08-15,5,36714,North Macedonia,False
+36113,Syria,2012-08-27,1,36116,Nepal,True
+36113,Syria,2012-08-27,3,36485,Palestine,False
+36113,Syria,2012-08-27,5,36566,Iraq,False
+36220,Iran,2012-09-11,1,36399,South Korea,True
+36220,Iran,2012-09-11,3,36477,Uzbekistan,False
+36220,Iran,2012-09-11,5,36562,Bahrain,False
+36244,Ghana,2012-09-11,1,36342,Malawi,True
+36244,Ghana,2012-09-11,3,36614,Egypt,True
+36244,Ghana,2012-09-11,5,36641,DR Congo,False
+36386,Uruguay,2012-10-16,1,36436,Poland,True
+36386,Uruguay,2012-10-16,3,36799,Paraguay,False
+36386,Uruguay,2012-10-16,5,36943,France,True
+36409,Guadeloupe,2012-10-23,1,36412,Puerto Rico,True
+36409,Guadeloupe,2012-10-23,3,37659,French Guiana,True
+36409,Guadeloupe,2012-10-23,5,39449,Martinique,False
+36545,Jamaica,2012-12-08,1,36554,Martinique,False
+36545,Jamaica,2012-12-08,3,36706,Mexico,False
+36545,Jamaica,2012-12-08,5,36879,Costa Rica,False
+36745,Gambia,2013-02-27,1,36748,Mauritania,False
+36745,Gambia,2013-02-27,3,36988,Ivory Coast,False
+36745,Gambia,2013-02-27,5,37260,Tanzania,True
+36789,Norway,2013-03-22,1,36964,Albania,False
+36789,Norway,2013-03-22,3,37153,Sweden,False
+36789,Norway,2013-03-22,5,37283,Switzerland,False
+36892,Saint Vincent and the Grenadines,2013-04-21,1,38011,Anguilla,True
+36892,Saint Vincent and the Grenadines,2013-04-21,3,38652,Saint Lucia,True
+36892,Saint Vincent and the Grenadines,2013-04-21,5,38814,Guyana,False
+36904,Iraq,2013-05-27,1,36933,Oman,False
+36904,Iraq,2013-05-27,3,37051,Australia,False
+36904,Iraq,2013-05-27,5,37323,Yemen,True
+36914,Japan,2013-05-30,1,36937,Australia,False
+36914,Japan,2013-05-30,3,37033,Brazil,False
+36914,Japan,2013-05-30,5,37058,Mexico,False
+36966,Armenia,2013-06-07,1,37015,Denmark,True
+36966,Armenia,2013-06-07,3,37239,Czech Republic,True
+36966,Armenia,2013-06-07,5,37352,Bulgaria,True
+36972,Croatia,2013-06-07,1,36996,Portugal,False
+36972,Croatia,2013-06-07,3,37223,Serbia,False
+36972,Croatia,2013-06-07,5,37355,Belgium,False
+37015,Denmark,2013-06-11,1,37147,Poland,False
+37015,Denmark,2013-06-11,3,37302,Armenia,True
+37015,Denmark,2013-06-11,5,37407,Malta,True
+37027,China,2013-06-15,1,37132,Japan,False
+37027,China,2013-06-15,3,37138,Australia,True
+37027,China,2013-06-15,5,37308,Malaysia,True
+37146,Russia,2013-08-14,1,37221,Luxembourg,True
+37146,Russia,2013-08-14,3,37331,Luxembourg,True
+37146,Russia,2013-08-14,5,37437,Serbia,False
+37217,Mexico,2013-09-06,1,37292,United States,False
+37217,Mexico,2013-09-06,3,37405,Costa Rica,False
+37217,Mexico,2013-09-06,5,37515,New Zealand,True
+37239,Czech Republic,2013-09-06,1,37318,Italy,False
+37239,Czech Republic,2013-09-06,3,37403,Bulgaria,True
+37239,Czech Republic,2013-09-06,5,37645,Norway,False
+37288,South Africa,2013-09-10,1,37335,Morocco,False
+37288,South Africa,2013-09-10,3,37488,Spain,True
+37288,South Africa,2013-09-10,5,37726,Australia,False
+37307,Canada,2013-09-10,1,37398,Australia,False
+37307,Canada,2013-09-10,3,37487,Slovenia,False
+37307,Canada,2013-09-10,5,37733,Moldova,False
+37337,Philippines,2013-10-11,1,37408,Pakistan,True
+37337,Philippines,2013-10-11,3,37461,India,False
+37337,Philippines,2013-10-11,5,37588,Azerbaijan,False
+37377,Montenegro,2013-10-15,1,37474,Luxembourg,True
+37377,Montenegro,2013-10-15,3,37713,Slovakia,False
+37377,Montenegro,2013-10-15,5,38067,Moldova,True
+37488,Spain,2013-11-19,1,37604,Italy,True
+37488,Spain,2013-11-19,3,37852,El Salvador,True
+37488,Spain,2013-11-19,5,37881,Chile,False
+37584,Gibraltar,2014-03-01,1,37636,Estonia,False
+37584,Gibraltar,2014-03-01,3,37824,Malta,True
+37584,Gibraltar,2014-03-01,5,38155,Republic of Ireland,False
+37640,Iran,2014-03-05,1,37692,Belarus,False
+37640,Iran,2014-03-05,3,37761,Angola,False
+37640,Iran,2014-03-05,5,37876,Nigeria,False
+37982,Palestine,2014-09-03,1,38027,Taiwan,True
+37982,Palestine,2014-09-03,3,38174,Pakistan,True
+37982,Palestine,2014-09-03,5,38255,Vietnam,True
+38022,Nigeria,2014-09-06,1,38086,South Africa,False
+38022,Nigeria,2014-09-06,3,38226,Sudan,True
+38022,Nigeria,2014-09-06,5,38363,South Africa,False
+38039,Portugal,2014-09-07,1,38156,France,False
+38039,Portugal,2014-09-07,3,38280,Armenia,True
+38039,Portugal,2014-09-07,5,38590,Serbia,True
+38043,Hungary,2014-09-07,1,38150,Romania,False
+38043,Hungary,2014-09-07,3,38291,Finland,True
+38043,Hungary,2014-09-07,5,38597,Greece,False
+38080,Bosnia and Herzegovina,2014-09-09,1,38127,Wales,False
+38080,Bosnia and Herzegovina,2014-09-09,3,38331,Israel,False
+38080,Bosnia and Herzegovina,2014-09-09,5,38642,Austria,False
+38110,Spain,2014-10-09,1,38175,Luxembourg,True
+38110,Spain,2014-10-09,3,38344,Germany,False
+38110,Spain,2014-10-09,5,38628,Netherlands,False
+38148,Nigeria,2014-10-11,1,38226,Sudan,True
+38148,Nigeria,2014-10-11,3,38363,South Africa,False
+38148,Nigeria,2014-10-11,5,38454,Yemen,True
+38151,Germany,2014-10-11,1,38217,Republic of Ireland,False
+38151,Germany,2014-10-11,3,38344,Spain,True
+38151,Germany,2014-10-11,5,38600,Georgia,True
+38179,Guadeloupe,2014-10-12,1,39449,Martinique,False
+38179,Guadeloupe,2014-10-12,3,39492,Suriname,False
+38179,Guadeloupe,2014-10-12,5,39743,Martinique,False
+38193,Netherlands,2014-10-13,1,38263,Mexico,False
+38193,Netherlands,2014-10-13,3,38573,Turkey,False
+38193,Netherlands,2014-10-13,5,38702,United States,False
+38203,Serbia,2014-10-14,1,38276,Denmark,False
+38203,Serbia,2014-10-14,3,38590,Portugal,False
+38203,Serbia,2014-10-14,5,38797,Denmark,False
+38219,Greece,2014-10-14,1,38290,Faroe Islands,False
+38219,Greece,2014-10-14,3,38597,Hungary,False
+38219,Greece,2014-10-14,5,38844,Poland,False
+38227,Ivory Coast,2014-10-15,1,38243,Zambia,False
+38227,Ivory Coast,2014-10-15,3,38370,Cameroon,False
+38227,Ivory Coast,2014-10-15,5,38434,Nigeria,True
+38228,Mali,2014-10-15,1,38303,Malawi,False
+38228,Mali,2014-10-15,3,38441,South Africa,False
+38228,Mali,2014-10-15,5,38481,Ivory Coast,False
+38290,Greece,2014-11-14,1,38354,Serbia,False
+38290,Greece,2014-11-14,3,38796,Faroe Islands,False
+38290,Greece,2014-11-14,5,39029,Finland,False
+38302,Moldova,2014-11-15,1,38511,Kazakhstan,False
+38302,Moldova,2014-11-15,3,38739,Luxembourg,False
+38302,Moldova,2014-11-15,5,39053,Austria,False
+38361,Mexico,2014-11-18,1,38644,United States,False
+38361,Mexico,2014-11-18,3,38699,Peru,False
+38361,Mexico,2014-11-18,5,38770,Bolivia,False
+38515,Taiwan,2015-03-12,1,38522,Brunei,True
+38515,Taiwan,2015-03-12,3,39015,Iraq,False
+38515,Taiwan,2015-03-12,5,39295,Thailand,False
+38526,Barbados,2015-03-22,1,38546,United States Virgin Islands,True
+38526,Barbados,2015-03-22,3,38741,Aruba,True
+38526,Barbados,2015-03-22,5,39495,Curaçao,True
+38631,Portugal,2015-03-31,1,38801,Armenia,True
+38631,Portugal,2015-03-31,3,39018,France,False
+38631,Portugal,2015-03-31,5,39145,Denmark,True
+38675,Ghana,2015-05-25,1,38678,Zambia,False
+38675,Ghana,2015-05-25,3,38820,Mauritius,True
+38675,Ghana,2015-05-25,5,39040,Rwanda,True
+38707,Myanmar,2015-06-05,1,38765,Laos,False
+38707,Myanmar,2015-06-05,3,38977,United Arab Emirates,False
+38707,Myanmar,2015-06-05,5,39091,New Zealand,False
+38745,Germany,2015-06-10,1,38794,Gibraltar,True
+38745,Germany,2015-06-10,3,39085,Scotland,True
+38745,Germany,2015-06-10,5,39219,Georgia,True
+38780,Guinea,2015-06-12,1,39066,Zimbabwe,False
+38780,Guinea,2015-06-12,3,39220,Morocco,False
+38780,Guinea,2015-06-12,5,39358,Namibia,True
+38796,Greece,2015-06-13,1,38844,Poland,False
+38796,Greece,2015-06-13,3,39086,Romania,False
+38796,Greece,2015-06-13,5,39206,Hungary,True
+38805,France,2015-06-13,1,39018,Portugal,True
+38805,France,2015-06-13,3,39168,Armenia,True
+38805,France,2015-06-13,5,39338,Germany,True
+38828,Colombia,2015-06-14,1,38863,Brazil,True
+38828,Colombia,2015-06-14,3,38883,Argentina,False
+38828,Colombia,2015-06-14,5,39166,Peru,True
+38950,United States,2015-07-22,1,38951,Panama,False
+38950,United States,2015-07-22,3,39132,Brazil,False
+38950,United States,2015-07-22,5,39321,Saint Vincent and the Grenadines,True
+38993,Netherlands,2015-09-03,1,39065,Turkey,False
+38993,Netherlands,2015-09-03,3,39236,Czech Republic,False
+38993,Netherlands,2015-09-03,5,39534,France,False
+39021,Jamaica,2015-09-04,1,39108,Nicaragua,True
+39021,Jamaica,2015-09-04,3,39324,Panama,False
+39021,Jamaica,2015-09-04,5,39542,Costa Rica,False
+39052,South Africa,2015-09-05,1,39097,Senegal,True
+39052,South Africa,2015-09-05,3,39372,Angola,True
+39052,South Africa,2015-09-05,5,39612,Cameroon,False
+39161,Argentina,2015-10-08,1,39239,Paraguay,False
+39161,Argentina,2015-10-08,3,39398,Colombia,True
+39161,Argentina,2015-10-08,5,39626,Bolivia,True
+39197,Israel,2015-10-10,1,39255,Belgium,False
+39197,Israel,2015-10-10,3,39721,Serbia,False
+39197,Israel,2015-10-10,5,40114,North Macedonia,True
+39330,Greece,2015-11-13,1,39375,Turkey,False
+39330,Greece,2015-11-13,3,39648,Iceland,False
+39330,Greece,2015-11-13,5,39848,Australia,True
+39350,Egypt,2015-11-14,1,39386,Chad,True
+39350,Egypt,2015-11-14,3,39472,Libya,True
+39350,Egypt,2015-11-14,5,39535,Nigeria,False
+39394,Kuwait,2015-11-17,1,41286,Bahrain,False
+39394,Kuwait,2015-11-17,3,41292,Oman,False
+39394,Kuwait,2015-11-17,5,41323,Jordan,False
+39406,Jordan,2015-11-17,1,39471,Egypt,True
+39406,Jordan,2015-11-17,3,39627,Australia,False
+39406,Jordan,2015-11-17,5,39809,Thailand,False
+39541,Portugal,2016-03-25,1,39591,Belgium,True
+39541,Portugal,2016-03-25,3,39753,England,False
+39541,Portugal,2016-03-25,5,39888,Iceland,False
+39564,Sint Maarten,2016-03-26,1,41475,Saint Barthélemy,False
+39564,Sint Maarten,2016-03-26,3,41832,Haiti,False
+39564,Sint Maarten,2016-03-26,5,42171,Dominica,False
+39702,Germany,2016-05-29,1,39802,Hungary,True
+39702,Germany,2016-05-29,3,39896,Poland,False
+39702,Germany,2016-05-29,5,39943,Slovakia,True
+39726,Republic of Ireland,2016-05-31,1,39880,Sweden,False
+39726,Republic of Ireland,2016-05-31,3,39929,Italy,True
+39726,Republic of Ireland,2016-05-31,5,39985,Oman,True
+39806,Guinea,2016-06-05,1,39978,Egypt,False
+39806,Guinea,2016-06-05,3,40165,Tunisia,False
+39806,Guinea,2016-06-05,5,40494,Gabon,False
+39837,Spain,2016-06-07,1,39878,Czech Republic,True
+39837,Spain,2016-06-07,3,39923,Croatia,False
+39837,Spain,2016-06-07,5,40003,Belgium,True
+39842,China,2016-06-07,1,39996,South Korea,False
+39842,China,2016-06-07,3,40121,Syria,False
+39842,China,2016-06-07,5,40340,Qatar,False
+39856,Uruguay,2016-06-09,1,39876,Jamaica,True
+39856,Uruguay,2016-06-09,3,40071,Paraguay,True
+39856,Uruguay,2016-06-09,5,40213,Colombia,False
+39869,Brazil,2016-06-12,1,40000,Ecuador,True
+39869,Brazil,2016-06-12,3,40117,Bolivia,True
+39869,Brazil,2016-06-12,5,40259,Argentina,True
+39930,New Caledonia,2016-06-22,1,40100,Solomon Islands,True
+39930,New Caledonia,2016-06-22,3,40279,New Zealand,False
+39930,New Caledonia,2016-06-22,5,40650,Fiji,False
+39939,DR Congo,2016-06-25,1,40045,Central African Republic,True
+39939,DR Congo,2016-06-25,3,40161,Libya,True
+39939,DR Congo,2016-06-25,5,40378,Cameroon,False
+39945,England,2016-06-27,1,40032,Slovakia,True
+39945,England,2016-06-27,3,40199,Slovenia,False
+39945,England,2016-06-27,5,40345,Spain,False
+39994,Netherlands,2016-09-01,1,40067,Sweden,False
+39994,Netherlands,2016-09-01,3,40184,France,False
+39994,Netherlands,2016-09-01,5,40305,Luxembourg,True
+39997,Japan,2016-09-01,1,40069,Thailand,True
+39997,Japan,2016-09-01,3,40209,Australia,False
+39997,Japan,2016-09-01,5,40334,Saudi Arabia,True
+40127,Latvia,2016-10-07,1,40181,Hungary,False
+40127,Latvia,2016-10-07,3,40502,Switzerland,False
+40127,Latvia,2016-10-07,5,40670,Portugal,False
+40208,Argentina,2016-10-11,1,40259,Brazil,False
+40208,Argentina,2016-10-11,3,40479,Chile,True
+40208,Argentina,2016-10-11,5,40676,Brazil,True
+40444,Qatar,2017-03-09,1,40470,Iran,False
+40444,Qatar,2017-03-09,3,40631,North Korea,False
+40444,Qatar,2017-03-09,5,40878,Andorra,True
+40450,Iran,2017-03-18,1,40470,Qatar,True
+40450,Iran,2017-03-18,3,40611,Montenegro,True
+40450,Iran,2017-03-18,5,40905,South Korea,False
+40459,South Sudan,2017-03-22,1,40545,Djibouti,True
+40459,South Sudan,2017-03-22,3,41250,Ethiopia,False
+40459,South Sudan,2017-03-22,5,41270,Burundi,False
+40559,Argentina,2017-03-28,1,40676,Brazil,True
+40559,Argentina,2017-03-28,3,40892,Uruguay,False
+40559,Argentina,2017-03-28,5,41031,Peru,False
+40566,Croatia,2017-03-28,1,40590,Mexico,True
+40566,Croatia,2017-03-28,3,40944,Kosovo,True
+40566,Croatia,2017-03-28,5,41048,Finland,False
+40577,Jersey,2017-04-23,1,40584,Guernsey,False
+40577,Jersey,2017-04-23,3,40790,Menorca,False
+40577,Jersey,2017-04-23,5,40808,Gotland,True
+40616,Albania,2017-06-04,1,40723,Israel,True
+40616,Albania,2017-06-04,3,40974,North Macedonia,False
+40616,Albania,2017-06-04,5,41092,Italy,False
+40634,Ukraine,2017-06-06,1,40718,Finland,True
+40634,Ukraine,2017-06-06,3,41010,Iceland,False
+40634,Ukraine,2017-06-06,5,41085,Croatia,False
+40677,Hungary,2017-06-09,1,40912,Latvia,True
+40677,Hungary,2017-06-09,3,41052,Switzerland,False
+40677,Hungary,2017-06-09,5,41142,Luxembourg,False
+40767,Martinique,2017-06-22,1,40772,French Guiana,False
+40767,Martinique,2017-06-22,3,40856,United States,False
+40767,Martinique,2017-06-22,5,41390,Trinidad and Tobago,False
+40829,South Africa,2017-07-02,1,40836,Botswana,True
+40829,South Africa,2017-07-02,3,40931,Cape Verde,False
+40829,South Africa,2017-07-02,5,41053,Burkina Faso,True
+40873,Mexico,2017-07-23,1,40925,Panama,True
+40873,Mexico,2017-07-23,3,41040,Trinidad and Tobago,True
+40873,Mexico,2017-07-23,5,41158,Belgium,False
+40901,Belarus,2017-08-31,1,40956,Sweden,False
+40901,Belarus,2017-08-31,3,41128,France,False
+40901,Belarus,2017-08-31,5,41190,Georgia,False
+40907,Chile,2017-08-31,1,41000,Bolivia,False
+40907,Chile,2017-08-31,3,41117,Brazil,False
+40907,Chile,2017-08-31,5,41442,Denmark,False
+40914,Bosnia and Herzegovina,2017-08-31,1,40952,Gibraltar,True
+40914,Bosnia and Herzegovina,2017-08-31,3,41119,Estonia,True
+40914,Bosnia and Herzegovina,2017-08-31,5,41313,Mexico,False
+40990,Ivory Coast,2017-09-05,1,41036,Mali,False
+40990,Ivory Coast,2017-09-05,3,41381,Togo,False
+40990,Ivory Coast,2017-09-05,5,41818,Rwanda,True
+41032,Colombia,2017-10-05,1,41111,Peru,False
+41032,Colombia,2017-10-05,3,41223,China,True
+41032,Colombia,2017-10-05,5,41435,Australia,False
+41099,Qatar,2017-10-10,1,41166,Czech Republic,False
+41099,Qatar,2017-10-10,3,41277,Liechtenstein,False
+41099,Qatar,2017-10-10,5,41294,Iraq,False
+41101,Bahrain,2017-10-10,1,41140,Hong Kong,True
+41101,Bahrain,2017-10-10,3,41286,Kuwait,False
+41101,Bahrain,2017-10-10,5,41295,Yemen,True
+41103,United States,2017-10-10,1,41209,Portugal,False
+41103,United States,2017-10-10,3,41426,Paraguay,True
+41103,United States,2017-10-10,5,41549,Republic of Ireland,False
+41142,Hungary,2017-11-09,1,41224,Costa Rica,True
+41142,Hungary,2017-11-09,3,41451,Scotland,False
+41142,Hungary,2017-11-09,5,41630,Australia,False
+41212,Argentina,2017-11-14,1,41370,Italy,True
+41212,Argentina,2017-11-14,3,41498,Haiti,True
+41212,Argentina,2017-11-14,5,41662,Croatia,False
+41247,Philippines,2017-12-05,1,41329,Fiji,True
+41247,Philippines,2017-12-05,3,41746,Bahrain,False
+41247,Philippines,2017-12-05,5,42049,Singapore,True
+41249,New Caledonia,2017-12-05,1,41266,Tonga,True
+41249,New Caledonia,2017-12-05,3,41278,Fiji,False
+41249,New Caledonia,2017-12-05,5,41375,Tahiti,False
+41277,Qatar,2017-12-14,1,41290,Yemen,True
+41277,Qatar,2017-12-14,3,41299,Bahrain,False
+41277,Qatar,2017-12-14,5,41377,Syria,False
+41369,Hungary,2018-03-23,1,41451,Scotland,False
+41369,Hungary,2018-03-23,3,41630,Australia,False
+41369,Hungary,2018-03-23,5,41867,Greece,True
+41458,Zimbabwe,2018-04-18,1,41560,Botswana,False
+41458,Zimbabwe,2018-04-18,3,41634,Zambia,True
+41458,Zimbabwe,2018-04-18,5,41939,DR Congo,True
+41682,Germany,2018-06-27,1,41755,France,False
+41682,Germany,2018-06-27,3,41949,Netherlands,False
+41682,Germany,2018-06-27,5,42060,Russia,True
+41708,Saint Barthélemy,2018-07-27,1,41709,British Virgin Islands,False
+41708,Saint Barthélemy,2018-07-27,3,42295,Saint Martin,True
+41708,Saint Barthélemy,2018-07-27,5,45846,Saint Martin,False
+41709,Saint Barthélemy,2018-07-28,1,42288,Sint Maarten,False
+41709,Saint Barthélemy,2018-07-28,3,45844,Sint Maarten,True
+41875,India,2018-09-15,1,41956,China,False
+41875,India,2018-09-15,3,42216,Oman,False
+41875,India,2018-09-15,5,42245,United Arab Emirates,False
+41883,French Guiana,2018-10-11,1,42172,Guyana,True
+41883,French Guiana,2018-10-11,3,42864,Belize,True
+41883,French Guiana,2018-10-11,5,43007,Grenada,False
+42052,Switzerland,2018-11-14,1,42137,Belgium,True
+42052,Switzerland,2018-11-14,3,42419,Denmark,False
+42052,Switzerland,2018-11-14,5,42548,England,False
+42233,Australia,2019-01-06,1,42248,Palestine,True
+42233,Australia,2019-01-06,3,42275,Uzbekistan,False
+42233,Australia,2019-01-06,5,42507,South Korea,False
+42313,New Caledonia,2019-03-21,1,42739,American Samoa,True
+42313,New Caledonia,2019-03-21,3,42753,Fiji,True
+42313,New Caledonia,2019-03-21,5,42772,Tuvalu,True
+42331,Argentina,2019-03-22,1,42421,Morocco,True
+42331,Argentina,2019-03-22,3,42607,Colombia,False
+42331,Argentina,2019-03-22,5,42675,Qatar,True
+42413,Peru,2019-03-26,1,42481,Costa Rica,True
+42413,Peru,2019-03-26,3,42606,Venezuela,False
+42413,Peru,2019-03-26,5,42664,Brazil,False
+42470,Padania,2019-06-03,1,42471,Western Armenia,False
+42470,Padania,2019-06-03,3,42527,Artsakh,False
+42470,Padania,2019-06-03,5,49312,Greenland,True
+42478,United States,2019-06-05,1,42551,Venezuela,False
+42478,United States,2019-06-05,3,42663,Trinidad and Tobago,True
+42478,United States,2019-06-05,5,42711,Curaçao,True
+42600,Morocco,2019-06-12,1,42617,Zambia,False
+42600,Morocco,2019-06-12,3,42701,Ivory Coast,True
+42600,Morocco,2019-06-12,5,42727,Benin,False
+42617,Morocco,2019-06-16,1,42673,Namibia,True
+42617,Morocco,2019-06-16,3,42718,South Africa,True
+42617,Morocco,2019-06-16,5,42884,Burkina Faso,False
+42651,Orkney,2019-06-20,1,46249,Greenland,False
+42651,Orkney,2019-06-20,3,46282,Isle of Man,False
+42651,Orkney,2019-06-20,5,48512,Hitra,True
+42710,Nigeria,2019-06-30,1,42730,Cameroon,True
+42710,Nigeria,2019-06-30,3,42758,Algeria,False
+42710,Nigeria,2019-06-30,5,42979,Ukraine,False
+42782,Réunion,2019-07-22,1,42786,Seychelles,True
+42782,Réunion,2019-07-22,3,46302,Mayotte,False
+42782,Réunion,2019-07-22,5,46309,Mauritius,True
+42835,Zimbabwe,2019-09-05,1,42964,Somalia,True
+42835,Zimbabwe,2019-09-05,3,43334,Zambia,True
+42835,Zimbabwe,2019-09-05,5,43597,Algeria,False
+42924,Panama,2019-09-08,1,43144,Mexico,False
+42924,Panama,2019-09-08,3,43489,Costa Rica,True
+42924,Panama,2019-09-08,5,43621,Japan,False
+42970,Brazil,2019-09-10,1,43039,Senegal,False
+42970,Brazil,2019-09-10,3,43237,Argentina,False
+42970,Brazil,2019-09-10,5,43478,Bolivia,True
+43068,Guinea,2019-10-12,1,43156,Chile,False
+43068,Guinea,2019-10-12,3,43278,Namibia,True
+43068,Guinea,2019-10-12,5,43575,Chad,True
+43153,Colombia,2019-10-15,1,43229,Peru,True
+43153,Colombia,2019-10-15,3,43474,Venezuela,True
+43153,Colombia,2019-10-15,5,43620,Uruguay,False
+43160,Morocco,2019-10-15,1,43241,Mauritania,False
+43160,Morocco,2019-10-15,3,43473,Senegal,True
+43160,Morocco,2019-10-15,5,43613,Central African Republic,True
+43337,Ivory Coast,2019-11-19,1,43471,Belgium,False
+43337,Ivory Coast,2019-11-19,3,43605,Madagascar,True
+43337,Ivory Coast,2019-11-19,5,43804,Niger,True
+43345,Austria,2019-11-19,1,43397,Norway,True
+43345,Austria,2019-11-19,3,43454,Greece,True
+43345,Austria,2019-11-19,5,43553,Romania,True
+43422,Albania,2020-09-07,1,43505,Kazakhstan,False
+43422,Albania,2020-09-07,3,43587,Kosovo,True
+43422,Albania,2020-09-07,5,43706,Belarus,True
+43538,Montenegro,2020-10-13,1,43588,Kazakhstan,False
+43538,Montenegro,2020-10-13,3,43696,Cyprus,True
+43538,Montenegro,2020-10-13,5,43818,Gibraltar,True
+43583,France,2020-11-11,1,43637,Portugal,True
+43583,France,2020-11-11,3,43766,Ukraine,False
+43583,France,2020-11-11,5,43913,Bosnia and Herzegovina,True
+43672,Uganda,2020-11-16,1,43744,Burkina Faso,False
+43672,Uganda,2020-11-16,3,44083,South Africa,False
+43672,Uganda,2020-11-16,5,44338,Kenya,False
+43684,Ghana,2020-11-17,1,43774,South Africa,False
+43684,Ghana,2020-11-17,3,44068,Morocco,False
+43684,Ghana,2020-11-17,5,44351,Ethiopia,True
+43727,Dominican Republic,2021-01-19,1,43729,Serbia,False
+43727,Dominican Republic,2021-01-19,3,43830,Anguilla,True
+43727,Dominican Republic,2021-01-19,5,44053,Panama,False
+43827,Republic of Ireland,2021-03-27,1,43893,Qatar,False
+43827,Republic of Ireland,2021-03-27,3,44070,Hungary,False
+43827,Republic of Ireland,2021-03-27,5,44370,Azerbaijan,False
+43906,Germany,2021-03-31,1,43955,Denmark,False
+43906,Germany,2021-03-31,3,44129,France,False
+43906,Germany,2021-03-31,5,44184,Hungary,False
+43995,Finland,2021-06-04,1,44107,Denmark,True
+43995,Finland,2021-06-04,3,44175,Belgium,False
+43995,Finland,2021-06-04,5,44368,Kazakhstan,True
+44035,Kyrgyzstan,2021-06-07,1,44094,Myanmar,True
+44035,Kyrgyzstan,2021-06-07,3,44335,Palestine,True
+44035,Kyrgyzstan,2021-06-07,5,44653,Singapore,True
+44107,Denmark,2021-06-12,1,44151,Belgium,False
+44107,Denmark,2021-06-12,3,44191,Wales,True
+44107,Denmark,2021-06-12,5,44231,England,False
+44230,Senegal,2021-07-07,1,44236,Mozambique,True
+44230,Senegal,2021-07-07,3,44258,Malawi,True
+44230,Senegal,2021-07-07,5,44272,South Africa,False
+44232,Zambia,2021-07-08,1,44237,Eswatini,False
+44232,Zambia,2021-07-08,3,44255,South Africa,False
+44232,Zambia,2021-07-08,5,44431,Tunisia,False
+44237,Zambia,2021-07-10,1,44253,Botswana,True
+44237,Zambia,2021-07-10,3,44356,Mauritania,True
+44237,Zambia,2021-07-10,5,44502,Equatorial Guinea,False
+44347,Japan,2021-09-02,1,44421,China,True
+44347,Japan,2021-09-02,3,44607,Australia,True
+44347,Japan,2021-09-02,5,44734,Oman,True
+44489,Nigeria,2021-10-07,1,44564,Central African Republic,True
+44489,Nigeria,2021-10-07,3,44765,Cape Verde,False
+44489,Nigeria,2021-10-07,5,44868,Sudan,True
+44637,Sweden,2021-11-11,1,44708,Spain,False
+44637,Sweden,2021-11-11,3,45112,Poland,False
+44637,Sweden,2021-11-11,5,45230,Norway,False
+44872,Algeria,2022-01-16,1,44886,Ivory Coast,False
+44872,Algeria,2022-01-16,3,45097,Cameroon,False
+44872,Algeria,2022-01-16,5,45295,Tanzania,True
+44878,Ghana,2022-01-18,1,45024,Nigeria,False
+44878,Ghana,2022-01-18,3,45163,Madagascar,True
+44878,Ghana,2022-01-18,5,45339,Japan,False
+44888,Tunisia,2022-01-20,1,44893,Nigeria,True
+44888,Tunisia,2022-01-20,3,45025,Mali,True
+44888,Tunisia,2022-01-20,5,45185,Equatorial Guinea,True
+44990,Italy,2022-03-24,1,45085,Turkey,True
+44990,Italy,2022-03-24,3,45212,Germany,False
+44990,Italy,2022-03-24,5,45352,England,False
+45211,England,2022-06-04,1,45278,Germany,False
+45211,England,2022-06-04,3,45410,Hungary,False
+45211,England,2022-06-04,5,45573,Germany,False
+45262,Slovakia,2022-06-06,1,45343,Azerbaijan,True
+45262,Slovakia,2022-06-06,3,45489,Azerbaijan,False
+45262,Slovakia,2022-06-06,5,45677,Montenegro,False
+45323,Egypt,2022-06-09,1,45422,South Korea,False
+45323,Egypt,2022-06-09,3,45611,Liberia,True
+45323,Egypt,2022-06-09,5,45918,Malawi,True
+45401,France,2022-06-13,1,45503,Austria,True
+45401,France,2022-06-13,3,45727,Australia,True
+45401,France,2022-06-13,5,45759,Tunisia,False
+45410,England,2022-06-14,1,45514,Italy,False
+45410,England,2022-06-14,3,45722,Iran,True
+45410,England,2022-06-14,5,45754,Wales,True
+45466,Senegal,2022-07-15,1,45469,Mozambique,False
+45466,Senegal,2022-07-15,3,45616,Iran,False
+45466,Senegal,2022-07-15,5,45736,Qatar,True
+45489,Slovakia,2022-09-22,1,45558,Belarus,False
+45489,Slovakia,2022-09-22,3,45708,Chile,False
+45489,Slovakia,2022-09-22,5,45950,Bosnia and Herzegovina,True
+45508,Germany,2022-09-23,1,45573,England,False
+45508,Germany,2022-09-23,3,45728,Japan,False
+45508,Germany,2022-09-23,5,45763,Costa Rica,True
+45538,Greece,2022-09-24,1,45595,Northern Ireland,True
+45538,Greece,2022-09-24,3,45716,Hungary,False
+45538,Greece,2022-09-24,5,45982,Lithuania,False
+45557,Turkey,2022-09-25,1,45647,Scotland,True
+45557,Turkey,2022-09-25,3,45923,Armenia,True
+45557,Turkey,2022-09-25,5,46076,Latvia,True
+45593,Israel,2022-09-27,1,45682,Zambia,True
+45593,Israel,2022-09-27,3,45922,Kosovo,False
+45593,Israel,2022-09-27,5,46080,Belarus,True
+45668,Switzerland,2022-11-17,1,45735,Cameroon,True
+45668,Switzerland,2022-11-17,3,45764,Serbia,True
+45668,Switzerland,2022-11-17,5,45924,Belarus,True
+45685,Belgium,2022-11-18,1,45731,Canada,True
+45685,Belgium,2022-11-18,3,45761,Croatia,False
+45685,Belgium,2022-11-18,5,46022,Germany,True
+45715,Israel,2022-11-20,1,45922,Kosovo,False
+45715,Israel,2022-11-20,3,46080,Belarus,True
+45715,Israel,2022-11-20,5,46383,Romania,False
+45724,Argentina,2022-11-22,1,45741,Mexico,True
+45724,Argentina,2022-11-22,3,45769,Australia,True
+45724,Argentina,2022-11-22,5,45782,Croatia,True
+45759,France,2022-11-30,1,45770,Poland,True
+45759,France,2022-11-30,3,45785,Morocco,True
+45759,France,2022-11-30,5,45892,Netherlands,True
+45765,Brazil,2022-12-02,1,45772,South Korea,True
+45765,Brazil,2022-12-02,3,45941,Morocco,False
+45765,Brazil,2022-12-02,5,46183,Senegal,False
+45783,Thailand,2022-12-14,1,45791,Brunei,True
+45783,Thailand,2022-12-14,3,45804,Indonesia,False
+45783,Thailand,2022-12-14,5,45819,Malaysia,False
+45913,Nigeria,2023-03-24,1,45981,Guinea-Bissau,True
+45913,Nigeria,2023-03-24,3,46412,São Tomé and Príncipe,True
+45913,Nigeria,2023-03-24,5,46588,Mozambique,True
+45953,Denmark,2023-03-26,1,46078,Northern Ireland,True
+45953,Denmark,2023-03-26,3,46329,San Marino,True
+45953,Denmark,2023-03-26,5,46550,Kazakhstan,True
+46075,Wales,2023-06-16,1,46150,Turkey,False
+46075,Wales,2023-06-16,3,46423,Latvia,True
+46075,Wales,2023-06-16,5,46571,Croatia,True
+46101,Canton Ticino,2023-06-17,1,46298,Raetia,False
+46101,Canton Ticino,2023-06-17,3,49311,Northern Cyprus,False
+46141,Kenya,2023-06-18,1,46340,Qatar,True
+46141,Kenya,2023-06-18,3,46590,Russia,False
+46141,Kenya,2023-06-18,5,46781,Seychelles,True
+46162,Poland,2023-06-20,1,46330,Faroe Islands,True
+46162,Poland,2023-06-20,3,46496,Faroe Islands,True
+46162,Poland,2023-06-20,5,46713,Czech Republic,False
+46168,Bosnia and Herzegovina,2023-06-20,1,46360,Liechtenstein,True
+46168,Bosnia and Herzegovina,2023-06-20,3,46529,Liechtenstein,True
+46168,Bosnia and Herzegovina,2023-06-20,5,46680,Luxembourg,False
+46183,Brazil,2023-06-20,1,46367,Bolivia,True
+46183,Brazil,2023-06-20,3,46514,Venezuela,False
+46183,Brazil,2023-06-20,5,46694,Colombia,False
+46258,Angola,2023-07-10,1,46278,Lesotho,True
+46258,Angola,2023-07-10,3,46457,Iran,False
+46258,Angola,2023-07-10,5,46625,DR Congo,False
+46261,Isle of Man,2023-07-10,1,46271,Ynys Môn,False
+46261,Isle of Man,2023-07-10,3,48509,Hitra,True
+46261,Isle of Man,2023-07-10,5,48518,Orkney,True
+46340,Qatar,2023-09-07,1,46456,Russia,False
+46340,Qatar,2023-09-07,3,46697,Afghanistan,True
+46340,Qatar,2023-09-07,5,46872,Jordan,False
+46455,Kenya,2023-09-12,1,46590,Russia,False
+46455,Kenya,2023-09-12,3,46781,Seychelles,True
+46455,Kenya,2023-09-12,5,47369,Ivory Coast,False
+46462,French Guiana,2023-09-12,1,46534,Saint Vincent and the Grenadines,True
+46462,French Guiana,2023-09-12,3,46725,Belize,False
+46462,French Guiana,2023-09-12,5,47558,Nicaragua,False
+46495,Croatia,2023-10-12,1,46571,Wales,False
+46495,Croatia,2023-10-12,3,46808,Armenia,True
+46495,Croatia,2023-10-12,5,47163,Egypt,True
+46554,Bulgaria,2023-10-14,1,46642,Albania,False
+46554,Bulgaria,2023-10-14,3,46753,Serbia,False
+46554,Bulgaria,2023-10-14,5,47118,Azerbaijan,False
+46607,Cape Verde,2023-10-17,1,46667,Angola,False
+46607,Cape Verde,2023-10-17,3,46897,Tunisia,False
+46607,Cape Verde,2023-10-17,5,46941,Mozambique,True
+46620,Finland,2023-10-17,1,46712,Northern Ireland,True
+46620,Finland,2023-10-17,3,47049,Wales,False
+46620,Finland,2023-10-17,5,47199,Portugal,False
+46640,Hong Kong,2023-10-17,1,46684,Iran,False
+46640,Hong Kong,2023-10-17,3,46864,China,True
+46640,Hong Kong,2023-10-17,5,46898,Saudi Arabia,False
+46676,Sweden,2023-11-16,1,46755,Estonia,True
+46676,Sweden,2023-11-16,3,47036,Portugal,False
+46676,Sweden,2023-11-16,5,47217,Denmark,False
+46776,Denmark,2023-11-20,1,47095,Switzerland,False
+46776,Denmark,2023-11-20,3,47217,Sweden,True
+46776,Denmark,2023-11-20,5,47383,Slovenia,False
+46784,United States,2023-11-20,1,46946,Slovenia,False
+46784,United States,2023-11-20,3,47106,Mexico,True
+46784,United States,2023-11-20,5,47372,Brazil,False
+46792,Zambia,2023-11-21,1,46891,Cameroon,False
+46792,Zambia,2023-11-21,3,46955,Tanzania,False
+46792,Zambia,2023-11-21,5,47254,Morocco,False
+46864,China,2024-01-01,1,46907,Tajikistan,False
+46864,China,2024-01-01,3,46960,Qatar,False
+46864,China,2024-01-01,5,47167,Singapore,True
+46923,Tunisia,2024-01-16,1,46947,Mali,False
+46923,Tunisia,2024-01-16,3,47097,Croatia,False
+46923,Tunisia,2024-01-16,5,47204,Equatorial Guinea,True
+46939,Japan,2024-01-19,1,46973,Indonesia,True
+46939,Japan,2024-01-19,3,47003,Iran,False
+46939,Japan,2024-01-19,5,47250,Myanmar,True
+46958,Ivory Coast,2024-01-22,1,46989,Senegal,False
+46958,Ivory Coast,2024-01-22,3,47006,DR Congo,True
+46958,Ivory Coast,2024-01-22,5,47091,Benin,False
+46962,Algeria,2024-01-23,1,47083,Bolivia,True
+46962,Algeria,2024-01-23,3,47253,Guinea,False
+46962,Algeria,2024-01-23,5,47519,Equatorial Guinea,True
+46990,Morocco,2024-01-30,1,47061,Angola,True
+46990,Morocco,2024-01-30,3,47254,Zambia,True
+46990,Morocco,2024-01-30,5,47553,Gabon,True
+47123,Uruguay,2024-03-26,1,47184,Basque Country,False
+47123,Uruguay,2024-03-26,3,47210,Mexico,True
+47123,Uruguay,2024-03-26,5,47439,Bolivia,True
+47136,Scotland,2024-03-26,1,47193,Gibraltar,True
+47136,Scotland,2024-03-26,3,47376,Germany,False
+47136,Scotland,2024-03-26,5,47419,Hungary,False
+47138,Portugal,2024-03-26,1,47199,Finland,True
+47138,Portugal,2024-03-26,3,47359,Republic of Ireland,True
+47138,Portugal,2024-03-26,5,47411,Turkey,True
+47154,Vanuatu,2024-03-26,1,47381,Solomon Islands,True
+47154,Vanuatu,2024-03-26,3,47436,Fiji,True
+47154,Vanuatu,2024-03-26,5,47759,Samoa,True
+47253,Algeria,2024-06-06,1,47315,Uganda,True
+47253,Algeria,2024-06-06,3,47662,Liberia,True
+47253,Algeria,2024-06-06,5,47800,Togo,True
+47268,England,2024-06-07,1,47384,Serbia,True
+47268,England,2024-06-07,3,47424,Slovenia,False
+47268,England,2024-06-07,5,47465,Switzerland,False
+47390,Belgium,2024-06-17,1,47409,Romania,True
+47390,Belgium,2024-06-17,3,47454,France,False
+47390,Belgium,2024-06-17,5,47596,France,False
+47435,Portugal,2024-06-26,1,47455,Slovenia,False
+47435,Portugal,2024-06-26,3,47511,Croatia,True
+47435,Portugal,2024-06-26,5,47756,Poland,True
+47507,Australia,2024-09-05,1,47641,Indonesia,False
+47507,Australia,2024-09-05,3,47826,Japan,False
+47507,Australia,2024-09-05,5,48021,Bahrain,False
+47520,Solomon Islands,2024-09-05,1,47684,Fiji,False
+47520,Solomon Islands,2024-09-05,3,47955,Papua New Guinea,True
+47520,Solomon Islands,2024-09-05,5,48070,Papua New Guinea,False
+47632,Brazil,2024-09-10,1,47677,Chile,True
+47632,Brazil,2024-09-10,3,47885,Venezuela,False
+47632,Brazil,2024-09-10,5,48144,Colombia,True
+47679,Colombia,2024-10-10,1,47816,Chile,True
+47679,Colombia,2024-10-10,3,48045,Ecuador,False
+47679,Colombia,2024-10-10,5,48289,Paraguay,False
+47700,Cape Verde,2024-10-10,1,47841,Botswana,False
+47700,Cape Verde,2024-10-10,3,48007,Mauritania,False
+47700,Cape Verde,2024-10-10,5,48250,Angola,True
+47714,England,2024-10-10,1,47776,Finland,True
+47714,England,2024-10-10,3,47964,Republic of Ireland,True
+47714,England,2024-10-10,5,48222,Latvia,True
+47737,Tunisia,2024-10-11,1,47837,Comoros,False
+47737,Tunisia,2024-10-11,3,47971,Gambia,False
+47737,Tunisia,2024-10-11,5,48228,Malawi,True
+47852,Ivory Coast,2024-10-15,1,47920,Zambia,False
+47852,Ivory Coast,2024-10-15,3,48166,Burundi,True
+47852,Ivory Coast,2024-10-15,5,48374,New Zealand,False
+47880,Argentina,2024-11-14,1,48020,Peru,True
+47880,Argentina,2024-11-14,3,48267,Brazil,True
+47880,Argentina,2024-11-14,5,48448,Colombia,False
+47939,Yemen,2024-11-16,1,48042,Sri Lanka,True
+47939,Yemen,2024-11-16,3,48083,Saudi Arabia,False
+47939,Yemen,2024-11-16,5,48270,Bhutan,False
+47966,Belgium,2024-11-17,1,48152,Ukraine,False
+47966,Belgium,2024-11-17,3,48358,North Macedonia,False
+47966,Belgium,2024-11-17,5,48540,Liechtenstein,True
+47971,Tunisia,2024-11-18,1,48118,Liberia,True
+47971,Tunisia,2024-11-18,3,48312,Burkina Faso,True
+47971,Tunisia,2024-11-18,5,48537,Liberia,True
+47974,Nigeria,2024-11-18,1,48163,Rwanda,True
+47974,Nigeria,2024-11-18,3,48302,Ghana,True
+47974,Nigeria,2024-11-18,5,48357,Russia,False
+47977,Ghana,2024-11-18,1,48176,Chad,True
+47977,Ghana,2024-11-18,3,48302,Nigeria,False
+47977,Ghana,2024-11-18,5,48531,Chad,False
+48010,DR Congo,2024-11-19,1,48169,South Sudan,True
+48010,DR Congo,2024-11-19,3,48338,Mali,True
+48010,DR Congo,2024-11-19,5,48587,South Sudan,True
+48077,Indonesia,2024-12-21,1,48128,Australia,False
+48077,Indonesia,2024-12-21,3,48325,China,True
+48077,Indonesia,2024-12-21,5,48581,Taiwan,True
+48090,Bahrain,2024-12-28,1,48094,Kuwait,True
+48090,Bahrain,2024-12-28,3,48127,Japan,False
+48090,Bahrain,2024-12-28,5,48327,Saudi Arabia,False
+48164,South Africa,2025-03-21,1,48242,Benin,True
+48164,South Africa,2025-03-21,3,48469,Mozambique,True
+48164,South Africa,2025-03-21,5,48664,Nigeria,False
+48201,Sweden,2025-03-22,1,48286,Northern Ireland,True
+48201,Sweden,2025-03-22,3,48470,Algeria,True
+48201,Sweden,2025-03-22,5,48618,Kosovo,False
+48525,Marshall Islands,2025-08-14,1,48526,Turks and Caicos Islands,False
+48674,Brazil,2025-09-09,1,48758,South Korea,True
+48674,Brazil,2025-09-09,3,48936,Senegal,True
+48674,Brazil,2025-09-09,5,49140,France,False
+48706,Turkmenistan,2025-10-09,1,48825,Sri Lanka,True
+48766,Serbia,2025-10-11,1,48817,Andorra,True
+48766,Serbia,2025-10-11,3,48944,Latvia,True
+48766,Serbia,2025-10-11,5,49223,Saudi Arabia,True
+48778,Czech Republic,2025-10-12,1,48887,San Marino,True
+48778,Czech Republic,2025-10-12,3,49128,Republic of Ireland,False
+48778,Czech Republic,2025-10-12,5,49285,Kosovo,True
+48803,Malawi,2025-10-13,1,48934,Lesotho,False
+48803,Malawi,2025-10-13,3,49256,Botswana,False
+48803,Malawi,2025-10-13,5,49401,Ethiopia,False
+48896,Portugal,2025-11-13,1,48949,Armenia,True
+48896,Portugal,2025-11-13,3,49227,United States,True
+48896,Portugal,2025-11-13,5,49412,Nigeria,True
+48902,Finland,2025-11-14,1,48962,Andorra,True
+48902,Finland,2025-11-14,3,49213,Cape Verde,False
+48902,Finland,2025-11-14,5,49346,Hungary,False
+48960,Bahrain,2025-11-17,1,49027,Djibouti,True
+48960,Bahrain,2025-11-17,3,49045,Algeria,False
+48960,Bahrain,2025-11-17,5,49347,Georgia,False
+48961,Qatar,2025-11-17,1,49030,Palestine,False
+48961,Qatar,2025-11-17,3,49047,Tunisia,False
+48961,Qatar,2025-11-17,5,49351,El Salvador,False
+49129,Tanzania,2026-03-26,1,49201,Macau,True
+49322,France,2026-06-04,1,49388,Northern Ireland,True
+49322,France,2026-06-04,3,49457,Iraq,True
+49322,France,2026-06-04,5,49493,Sweden,True
+49372,Cape Verde,2026-06-06,1,49428,Spain,False
+49372,Cape Verde,2026-06-06,3,49478,Saudi Arabia,False

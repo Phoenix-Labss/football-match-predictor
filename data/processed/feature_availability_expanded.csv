@@ -1,0 +1,11 @@
+Feature Group,Earliest Date,Latest Date,Match Coverage,Safe Pre-Match?
+Elo Rating Dynamics,1872-11-30,2026-07-19,100.0%,YES
+"Multi-Scale Form Windows (5, 10, 20)",1872-11-30,2026-07-19,100.0%,YES
+Tournament Tier & Venue Context,1872-11-30,2026-07-19,100.0%,YES
+Dixon-Coles Poisson Pre-Match Probs,1872-11-30,2026-07-19,100.0%,YES
+FIFA World Rankings,1993-08-01,2026-07-19,62.2%,YES
+Pre-Match Rolling Team xG Aggregates,1872-11-30,2026-07-19,100.0%,YES
+FIFA Player & Squad OVR Ratings,2014-08-01,2026-07-19,22.4%,YES
+Player EWMA Form Momentum,1872-11-30,2026-07-19,100.0%,YES
+Lineup & Squad Continuity,1872-11-30,2026-07-19,100.0%,YES
+Bayesian Head-to-Head & Chemistry,1872-11-30,2026-07-19,100.0%,YES

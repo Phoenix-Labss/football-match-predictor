@@ -1,0 +1,7 @@
+goal_count_bucket,historical_observed_pct,poisson_dixon_coles_pct,negative_binomial_dc_pct,poisson_error_pct,negative_binomial_error_pct
+0 Goals,10.43,8.68,10.52,-1.74,0.09
+1 Goals,22.42,16.8,17.49,-5.62,-4.93
+2 Goals,25.03,26.36,24.99,1.33,-0.03
+3 Goals,21.17,21.76,20.01,0.59,-1.15
+4 Goals,11.47,14.14,13.29,2.67,1.82
+5+ Goals,9.49,12.26,13.69,2.77,4.2

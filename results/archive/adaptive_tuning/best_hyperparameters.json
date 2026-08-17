@@ -1,0 +1,11 @@
+{
+  "best_params": {
+    "evidence_window": 3,
+    "consistency_weight": 3.0,
+    "surprise_weight": 1.0,
+    "base_cap": 0.02,
+    "max_cap": 0.075
+  },
+  "best_val_rps_norm": 0.17393709254176515,
+  "n_evaluated": 60
+}

@@ -1,0 +1,294 @@
+favorite,underdog,elo_gap,upset_count
+Germany,Sweden,155,28
+IR Iran,Jordan,210,28
+Brazil,Sweden,215,23
+Belgium,Jordan,340,23
+Belgium,Algeria,190,23
+Brazil,Japan,150,21
+France,Croatia,160,20
+France,Ghana,410,19
+Uruguay,Norway,185,19
+Spain,Iraq,490,18
+Colombia,Ghana,300,18
+Portugal,Panama,330,17
+Portugal,Ghana,320,17
+Spain,Senegal,280,15
+Ecuador,Tunisia,160,15
+France,Panama,420,14
+Uruguay,Iraq,330,13
+Spain,Norway,345,13
+Brazil,Tunisia,320,12
+Morocco,Tunisia,210,11
+Switzerland,Haiti,330,11
+Germany,Tunisia,260,10
+Canada,Haiti,265,9
+Senegal,Panama,160,8
+Senegal,Ghana,150,7
+Colombia,Panama,310,7
+Colombia,Saudi Arabia,330,7
+Switzerland,Uzbekistan,210,6
+Switzerland,Bosnia and Herzegovina,215,6
+Spain,Saudi Arabia,460,6
+Spain,Uruguay,160,6
+Spain,Germany,150,5
+Spain,Egypt,390,5
+Portugal,Bosnia and Herzegovina,365,5
+Colombia,Scotland,270,5
+Germany,Scotland,250,5
+Colombia,Congo DR,320,5
+Canada,Qatar,195,5
+Canada,Jordan,185,5
+Belgium,Australia,160,5
+Uruguay,Jordan,350,5
+Argentina,Algeria,390,5
+Algeria,Jordan,150,4
+Uruguay,Algeria,200,4
+Belgium,Qatar,350,4
+Canada,New Zealand,285,4
+Colombia,Haiti,460,4
+Germany,Canada,175,4
+Czechia,Haiti,210,4
+Germany,Côte d'Ivoire,220,4
+Germany,Egypt,240,4
+Portugal,Tunisia,300,4
+IR Iran,Qatar,220,4
+Uruguay,Scotland,240,4
+Spain,New Zealand,610,4
+Argentina,Mexico,340,4
+Argentina,IR Iran,330,4
+Argentina,Netherlands,170,4
+Uruguay,South Africa,340,4
+Uruguay,Tunisia,250,4
+Uruguay,Uzbekistan,310,4
+Spain,Croatia,180,4
+Spain,Qatar,520,4
+Portugal,Paraguay,285,4
+Spain,Congo DR,450,4
+Portugal,Scotland,290,4
+Belgium,Curaçao,430,3
+Argentina,Curaçao,630,3
+Uruguay,Mexico,150,3
+Austria,Curaçao,310,3
+Austria,Congo DR,160,3
+Germany,IR Iran,150,3
+Germany,Mexico,160,3
+Argentina,Scotland,430,3
+Germany,Norway,195,3
+Argentina,South Korea,350,3
+Argentina,South Africa,530,3
+Argentina,USA,300,3
+Germany,Curaçao,450,3
+Argentina,Sweden,335,3
+Switzerland,Ghana,170,3
+Spain,Côte d'Ivoire,370,3
+Spain,Ghana,430,3
+Portugal,Türkiye,230,3
+Portugal,Senegal,170,3
+Paraguay,Curaçao,205,3
+Belgium,Norway,175,3
+Belgium,Türkiye,170,3
+Belgium,Scotland,230,3
+Colombia,Côte d'Ivoire,240,3
+Colombia,Egypt,260,3
+Colombia,Algeria,230,3
+Belgium,South Korea,150,3
+Belgium,Czechia,210,3
+Argentina,Austria,320,3
+IR Iran,Bosnia and Herzegovina,175,3
+Austria,South Africa,210,3
+Argentina,Croatia,210,3
+Argentina,Czechia,410,3
+Uruguay,Paraguay,235,3
+Argentina,Belgium,200,3
+Portugal,Algeria,250,3
+Portugal,Congo DR,340,3
+Portugal,Czechia,270,3
+Portugal,IR Iran,190,3
+Mexico,New Zealand,300,3
+Spain,Curaçao,600,3
+Portugal,Iraq,380,3
+Portugal,Norway,235,3
+IR Iran,Congo DR,150,3
+Switzerland,Saudi Arabia,200,3
+Switzerland,Panama,180,3
+USA,Qatar,250,3
+Türkiye,Haiti,250,3
+Argentina,Ecuador,280,3
+Spain,Morocco,200,3
+Argentina,Iraq,520,3
+USA,Cabo Verde,210,3
+Spain,Tunisia,410,2
+Argentina,Côte d'Ivoire,400,2
+Argentina,Germany,180,2
+USA,Congo DR,180,2
+Türkiye,Qatar,180,2
+Argentina,Jordan,540,2
+Argentina,Egypt,420,2
+Spain,Scotland,400,2
+Spain,Haiti,590,2
+Argentina,Saudi Arabia,490,2
+Australia,Curaçao,270,2
+Côte d'Ivoire,Haiti,220,2
+Spain,Jordan,510,2
+Spain,Paraguay,395,2
+Spain,Japan,240,2
+Austria,New Zealand,320,2
+Austria,Cabo Verde,190,2
+Argentina,Tunisia,440,2
+Germany,Cabo Verde,330,2
+Ecuador,Iraq,240,2
+Ecuador,Bosnia and Herzegovina,225,2
+Colombia,Uzbekistan,340,2
+Colombia,Mexico,180,2
+Germany,Congo DR,300,2
+Ecuador,Panama,190,2
+Ecuador,Saudi Arabia,210,2
+Czechia,Curaçao,220,2
+Colombia,New Zealand,480,2
+Germany,South Africa,350,2
+Germany,Panama,290,2
+Congo DR,Curaçao,150,2
+Colombia,Czechia,250,2
+Colombia,Canada,195,2
+Belgium,Panama,270,2
+Colombia,Austria,160,2
+Belgium,Paraguay,225,2
+Belgium,Egypt,220,2
+Belgium,Bosnia and Herzegovina,305,2
+Belgium,Canada,155,2
+Uruguay,Cabo Verde,320,2
+USA,South Africa,230,2
+Uruguay,Panama,280,2
+Uruguay,Czechia,220,2
+Uruguay,Ghana,270,2
+Uruguay,Côte d'Ivoire,210,2
+Argentina,Cabo Verde,510,2
+Algeria,Qatar,160,2
+Switzerland,New Zealand,350,2
+USA,Panama,170,2
+USA,Saudi Arabia,190,2
+USA,Iraq,220,2
+USA,Bosnia and Herzegovina,205,2
+Switzerland,Curaçao,340,2
+Switzerland,Tunisia,150,2
+Switzerland,Congo DR,190,2
+Portugal,Saudi Arabia,350,2
+Portugal,South Africa,390,2
+IR Iran,Curaçao,300,2
+Portugal,Austria,180,2
+IR Iran,Uzbekistan,170,2
+Mexico,South Africa,190,2
+Spain,Cabo Verde,480,2
+USA,Haiti,320,2
+Portugal,Uzbekistan,360,2
+Spain,Australia,330,2
+Portugal,USA,160,2
+Spain,Panama,440,2
+South Korea,Cabo Verde,160,2
+Côte d'Ivoire,New Zealand,240,1
+Congo DR,New Zealand,160,1
+Côte d'Ivoire,Curaçao,230,1
+Germany,New Zealand,460,1
+Germany,Jordan,360,1
+Germany,Iraq,340,1
+Germany,Ghana,280,1
+Ecuador,Cabo Verde,230,1
+Egypt,Curaçao,210,1
+Germany,Algeria,210,1
+Colombia,Jordan,380,1
+Uruguay,New Zealand,450,1
+Argentina,Congo DR,480,1
+Uruguay,Australia,170,1
+Uruguay,Bosnia and Herzegovina,315,1
+Uruguay,Qatar,360,1
+Belgium,Cabo Verde,310,1
+Belgium,New Zealand,440,1
+Austria,Uzbekistan,180,1
+Belgium,Saudi Arabia,290,1
+Belgium,Ghana,260,1
+Algeria,Haiti,230,1
+Algeria,Curaçao,240,1
+Argentina,Australia,360,1
+Algeria,New Zealand,250,1
+Argentina,Bosnia and Herzegovina,505,1
+Argentina,Canada,355,1
+Colombia,Bosnia and Herzegovina,345,1
+Canada,South Africa,175,1
+Belgium,Tunisia,240,1
+Colombia,Iraq,360,1
+Colombia,Norway,215,1
+Colombia,Qatar,390,1
+Colombia,South Africa,370,1
+Colombia,South Korea,190,1
+Ecuador,New Zealand,360,1
+Ecuador,Jordan,260,1
+Ecuador,Ghana,180,1
+Ecuador,Haiti,340,1
+Germany,Czechia,230,1
+Colombia,Cabo Verde,350,1
+Colombia,Curaçao,470,1
+Colombia,IR Iran,170,1
+Germany,Türkiye,190,1
+Argentina,Türkiye,370,1
+Argentina,Uruguay,190,1
+Argentina,Uzbekistan,500,1
+Germany,Saudi Arabia,310,1
+Germany,Paraguay,245,1
+Germany,South Korea,170,1
+Argentina,Senegal,310,1
+Spain,Czechia,380,1
+Portugal,Switzerland,150,1
+Portugal,Qatar,410,1
+Portugal,South Korea,210,1
+Portugal,Sweden,195,1
+South Korea,Haiti,270,1
+South Korea,Bosnia and Herzegovina,155,1
+IR Iran,Haiti,290,1
+Mexico,Uzbekistan,160,1
+Mexico,Saudi Arabia,150,1
+Mexico,Iraq,180,1
+Mexico,Jordan,200,1
+Mexico,Haiti,280,1
+IR Iran,South Africa,200,1
+Mexico,Bosnia and Herzegovina,165,1
+Portugal,Cabo Verde,370,1
+Portugal,Curaçao,490,1
+Portugal,Canada,215,1
+Portugal,Australia,220,1
+Portugal,Côte d'Ivoire,260,1
+Portugal,Haiti,480,1
+Portugal,Egypt,280,1
+Portugal,Jordan,400,1
+Portugal,New Zealand,500,1
+Mexico,Curaçao,290,1
+Spain,Bosnia and Herzegovina,475,1
+South Korea,Qatar,200,1
+South Korea,Jordan,190,1
+South Korea,South Africa,180,1
+Spain,Algeria,360,1
+Spain,Austria,290,1
+Spain,Belgium,170,1
+South Korea,Iraq,170,1
+Spain,South Africa,500,1
+Spain,South Korea,320,1
+Spain,IR Iran,300,1
+Spain,Mexico,310,1
+Argentina,Haiti,620,1
+Argentina,Ghana,460,1
+Spain,Türkiye,340,1
+Spain,USA,270,1
+Argentina,Paraguay,425,1
+Argentina,Panama,470,1
+Argentina,Norway,375,1
+Argentina,New Zealand,640,1
+Switzerland,South Africa,240,1
+Spain,Uzbekistan,470,1
+Switzerland,Qatar,260,1
+Türkiye,South Africa,160,1
+Türkiye,New Zealand,270,1
+Türkiye,Jordan,170,1
+Türkiye,Curaçao,260,1
+USA,New Zealand,340,1
+USA,Ghana,160,1
+USA,Curaçao,330,1
+Uruguay,Saudi Arabia,300,1

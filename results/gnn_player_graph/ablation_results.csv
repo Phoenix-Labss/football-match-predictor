@@ -1,0 +1,5 @@
+experiment,description,val_accuracy_pct,val_log_loss,val_normalized_rps,val_brier_score,val_ece,delta_acc_vs_g0
+G0 (Champion Baseline),217-feature tabular ensemble (no GNN),59.2,0.8804,0.1739,0.5186,0.0093,0.0
+G1 (Player Relationship GNN),FIFA attributes + positions + club + shared experience,58.23,0.9088,0.1804,0.5352,0.0213,-0.97
+G2 (Relational + Playing Style GNN),G1 + continuous style profiles + style compatibility,57.8,0.9177,0.1824,0.5404,0.0269,-1.4
+Champion + GNN Blended Ensemble,Convex blend (Champion 0.96 + GNN 0.04),59.2,0.8804,0.1738,0.5185,0.0092,0.0

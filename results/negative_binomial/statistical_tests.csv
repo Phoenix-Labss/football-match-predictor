@@ -1,0 +1,4 @@
+comparison,metric,model_1_mean,model_2_mean,mean_difference,ci_95_low,ci_95_high,dm_p_value,is_statistically_significant,verdict
+Model A (Poisson DC) vs Model C (NegBin DC),Log Loss,1.060413,1.061527,0.001114,0.000389,0.001839,0.002684,True,Statistically Significant Poisson Superiority (p < 0.05)
+Model A (Poisson DC) vs Model C (NegBin DC),Normalized RPS,0.226814,0.227412,0.000598,0.000534,0.000663,0.0,True,Statistically Significant Poisson Superiority (p < 0.05)
+Model A (Poisson DC) vs Model C (NegBin DC),Scoreline NLL,2.885854,2.886127,0.000273,-0.015826,0.0151,0.97196,False,Statistically Indistinguishable (p >= 0.05)

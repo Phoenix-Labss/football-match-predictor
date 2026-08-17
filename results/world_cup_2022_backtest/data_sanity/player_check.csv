@@ -1,0 +1,353 @@
+team,slot,player_name,sofifa_id,age,ovr,ability,positional_fit,preferred_positions
+Qatar,GK,Qatar_pad_0,900000,26.0,74.0,74.0,1.0,GK
+Qatar,LB,A. Fadlalla,239861,23.0,66.0,64.59,1.0,"LB, LWB"
+Qatar,CB,Qatar_pad_1,900001,26.0,74.0,74.0,1.0,CB
+Qatar,CB,Qatar_pad_2,900002,26.0,74.0,74.0,1.0,CB
+Qatar,RB,Qatar_pad_3,900003,26.0,74.0,74.0,0.75,CB
+Qatar,CM,Qatar_pad_4,900004,26.0,74.0,74.0,1.0,CM
+Qatar,CM,Qatar_pad_5,900005,26.0,74.0,74.0,1.0,CM
+Qatar,CM,Qatar_pad_6,900006,26.0,74.0,74.0,1.0,CM
+Qatar,LW,Qatar_pad_7,900007,26.0,74.0,74.0,0.6,ST
+Qatar,ST,Qatar_pad_8,900008,26.0,74.0,74.0,1.0,ST
+Qatar,RW,Qatar_pad_9,900009,26.0,74.0,74.0,0.6,ST
+Ecuador,GK,P. Ortíz,250797,31.0,71.0,71.0,1.0,GK
+Ecuador,LB,P. Estupiñán,237942,23.0,79.0,77.31,1.0,"LB, LWB"
+Ecuador,CB,L. León,225681,28.0,71.0,71.0,1.0,CB
+Ecuador,CB,D. Aimar,236267,26.0,70.0,70.0,1.0,CB
+Ecuador,RB,P. Perlaza,253890,30.0,70.0,70.0,1.0,"RB, RM"
+Ecuador,CM,C. Gruezo,221860,26.0,72.0,72.0,1.0,"CDM, CM"
+Ecuador,CM,F. Gaibor,233529,29.0,70.0,70.0,1.0,"CAM, CM, CDM"
+Ecuador,CM,J. Intriago,241406,25.0,72.0,72.0,1.0,"CDM, CM"
+Ecuador,LW,F. Caicedo,175254,32.0,78.0,75.66,1.0,"CF, ST"
+Ecuador,ST,F. Martínez,191164,31.0,75.0,75.0,1.0,"ST, LM, RM"
+Ecuador,RW,R. Ibarra,204738,30.0,74.0,74.0,1.0,"RM, RW"
+Senegal,GK,É. Mendy,234642,29.0,83.0,83.0,1.0,GK
+Senegal,LB,A. Diallo,225711,25.0,78.0,78.0,1.0,"CB, LB"
+Senegal,CB,K. Koulibaly,201024,30.0,86.0,86.0,1.0,CB
+Senegal,CB,C. Kouyaté,186801,31.0,78.0,78.0,1.0,"CB, CDM"
+Senegal,RB,Y. Sabaly,215699,28.0,76.0,76.0,1.0,"RB, RM"
+Senegal,CM,I. Gueye,193474,31.0,82.0,82.0,1.0,"CDM, CM"
+Senegal,CM,N. Mendy,198861,29.0,75.0,75.0,1.0,"CDM, CM"
+Senegal,CM,Y. Sankharé,184271,31.0,70.0,70.0,1.0,"CM, CDM, CAM"
+Senegal,LW,S. Mané,208722,29.0,89.0,89.0,1.0,LW
+Senegal,ST,B. Dia,246242,24.0,77.0,77.0,1.0,ST
+Senegal,RW,I. Sarr,235353,23.0,78.0,76.33,1.0,"RW, RM, ST"
+Netherlands,GK,J. Drommel,228279,24.0,75.0,75.0,1.0,GK
+Netherlands,LB,D. Blind,190815,31.0,82.0,82.0,1.0,"CB, CDM, LB"
+Netherlands,CB,F. de Jong,228702,24.0,87.0,87.0,1.0,"CM, CDM, CB"
+Netherlands,CB,V. van Dijk,203376,29.0,89.0,89.0,1.0,CB
+Netherlands,RB,D. Dumfries,233096,25.0,82.0,82.0,1.0,RB
+Netherlands,CM,G. Wijnaldum,181291,30.0,84.0,84.0,1.0,"CM, CDM"
+Netherlands,CM,D. van de Beek,221363,24.0,81.0,81.0,1.0,"CM, CAM, CDM"
+Netherlands,CM,M. de Roon,208461,30.0,82.0,82.0,1.0,"CDM, CM"
+Netherlands,LW,M. Depay,202556,27.0,85.0,85.0,1.0,"CF, LW, CAM"
+Netherlands,ST,W. Weghorst,223689,28.0,83.0,83.0,1.0,ST
+Netherlands,RW,S. Berghuis,200260,29.0,81.0,81.0,1.0,RW
+England,GK,N. Pope,203841,29.0,83.0,83.0,1.0,GK
+England,LB,L. Shaw,205988,25.0,84.0,84.0,1.0,LB
+England,CB,K. Trippier,186345,30.0,84.0,84.0,1.0,"RB, RWB, RM"
+England,CB,B. Chilwell,229984,24.0,82.0,82.0,1.0,"LWB, LB"
+England,RB,K. Walker,188377,31.0,85.0,85.0,1.0,RB
+England,CM,J. Henderson,183711,31.0,84.0,84.0,1.0,"CDM, CM"
+England,CM,J. Ward-Prowse,205569,26.0,81.0,81.0,1.0,CM
+England,CM,D. Rice,234378,22.0,82.0,78.49,1.0,"CDM, CM"
+England,LW,R. Sterling,202652,26.0,88.0,88.0,1.0,"LW, RW"
+England,ST,H. Kane,202126,27.0,90.0,90.0,1.0,ST
+England,RW,J. Sancho,233049,21.0,87.0,81.41,1.0,"RM, CF, LM"
+IR Iran,GK,IR Iran_pad_0,900000,26.0,74.0,74.0,1.0,GK
+IR Iran,LB,E. Haji Safi,194354,31.0,72.0,72.0,1.0,"LB, LM, CAM"
+IR Iran,CB,IR Iran_pad_1,900001,26.0,74.0,74.0,1.0,CB
+IR Iran,CB,IR Iran_pad_2,900002,26.0,74.0,74.0,1.0,CB
+IR Iran,RB,S. Moharrami,244259,25.0,71.0,71.0,1.0,"RB, RM"
+IR Iran,CM,A. Gholizadeh,243551,25.0,74.0,74.0,1.0,"LM, RM, CM"
+IR Iran,CM,S. Ghoddos,231949,27.0,70.0,70.0,1.0,"CAM, CM, LW"
+IR Iran,CM,M. Pouraliganji,227921,29.0,69.0,69.0,1.0,"CB, CDM, CM"
+IR Iran,LW,M. Taremi,241788,28.0,79.0,79.0,1.0,"ST, CF"
+IR Iran,ST,K. Ansarifard,197136,31.0,74.0,74.0,1.0,ST
+IR Iran,RW,A. Jahanbakhsh,215871,27.0,73.0,73.0,1.0,RW
+USA,GK,M. Diaw,220820,28.0,70.0,70.0,1.0,GK
+USA,LB,T. Suzuki,246909,21.0,65.0,60.82,1.0,"LB, LM"
+USA,CB,S. Grippo,177684,32.0,70.0,67.9,1.0,CB
+USA,CB,Elton Monteiro,202801,27.0,62.0,62.0,1.0,CB
+USA,RB,F. Chafik,210434,34.0,69.0,62.79,1.0,RB
+USA,CM,C. Puertas,256688,22.0,71.0,67.96,1.0,"CM, CDM"
+USA,CM,S. Kukuruzović,199285,32.0,69.0,66.93,1.0,"CM, CDM"
+USA,CM,J. Geissmann,234912,28.0,61.0,61.0,1.0,"CM, CDM"
+USA,LW,M. George,229748,27.0,68.0,68.0,0.6,ST
+USA,ST,A. Turkeš,230687,25.0,67.0,67.0,1.0,ST
+USA,RW,H. Mahou,239003,21.0,64.0,59.89,0.6,"ST, RM"
+Wales,GK,D. Ward,207998,28.0,74.0,74.0,1.0,GK
+Wales,LB,B. Davies,205923,28.0,79.0,79.0,1.0,"LB, CB"
+Wales,CB,C. Roberts,225147,25.0,75.0,75.0,1.0,"RWB, RB"
+Wales,CB,P. Dummett,204355,29.0,74.0,74.0,1.0,"CB, LB"
+Wales,RB,A. Hughes,214906,29.0,69.0,69.0,1.0,"CB, LWB, LB"
+Wales,CM,A. Ramsey,186561,30.0,80.0,80.0,1.0,"CM, CAM, LM"
+Wales,CM,W. Vaulks,208769,27.0,71.0,71.0,1.0,"CDM, CM"
+Wales,CM,T. Roberts,228815,22.0,73.0,69.87,1.0,"CAM, CM, ST"
+Wales,LW,R. Hedges,218343,25.0,69.0,69.0,1.0,"RW, RM, CF"
+Wales,ST,K. Moore,216627,28.0,74.0,74.0,1.0,ST
+Wales,RW,G. Bale,173731,31.0,82.0,82.0,1.0,"RM, RW"
+Argentina,GK,E. Martínez,202811,28.0,84.0,84.0,1.0,GK
+Argentina,LB,M. Acuña,224334,29.0,84.0,84.0,1.0,"LB, LM"
+Argentina,CB,C. Romero,232488,23.0,82.0,80.24,1.0,CB
+Argentina,CB,G. Montiel,231340,24.0,78.0,78.0,1.0,"RB, RWB"
+Argentina,RB,F. Bustos,236441,25.0,77.0,77.0,1.0,"RB, RWB"
+Argentina,CM,G. Lo Celso,226226,25.0,81.0,81.0,1.0,"CM, CAM"
+Argentina,CM,R. De Paul,212616,27.0,82.0,82.0,1.0,"CM, CF"
+Argentina,CM,L. Paredes,207439,27.0,81.0,81.0,1.0,"CDM, CM"
+Argentina,LW,P. Dybala,211110,27.0,87.0,87.0,1.0,"CF, CAM"
+Argentina,ST,L. Messi,158023,34.0,93.0,84.63,1.0,"RW, ST, CF"
+Argentina,RW,L. Ocampos,205632,26.0,83.0,83.0,1.0,"LW, RW"
+Saudi Arabia,GK,M. Al Owais,210923,29.0,70.0,70.0,1.0,GK
+Saudi Arabia,LB,Y. Al Shahrani,210603,29.0,75.0,75.0,1.0,"LB, RB"
+Saudi Arabia,CB,A. Al Amri,241197,24.0,72.0,72.0,1.0,CB
+Saudi Arabia,CB,A. Sharahili,221658,27.0,68.0,68.0,1.0,CB
+Saudi Arabia,RB,M. Al Buraik,221370,28.0,72.0,72.0,1.0,RB
+Saudi Arabia,CM,S. Al Faraj,191269,31.0,73.0,73.0,1.0,"CM, CDM, CAM"
+Saudi Arabia,CM,A. Al Sulayhim,220895,27.0,69.0,69.0,1.0,"CM, CDM"
+Saudi Arabia,CM,A. Ateef,210926,28.0,71.0,71.0,1.0,"CDM, CM"
+Saudi Arabia,LW,Y. Al Shehri,209281,31.0,66.0,66.0,1.0,"RW, LW, CAM"
+Saudi Arabia,ST,S. Al Shehri,211173,27.0,68.0,68.0,1.0,ST
+Saudi Arabia,RW,A. Al Zaqan,210792,30.0,65.0,65.0,1.0,"LW, RW, RM"
+Mexico,GK,G. Alcalá,226721,28.0,74.0,74.0,1.0,GK
+Mexico,LB,R. López,213446,28.0,74.0,74.0,1.0,"RB, RWB"
+Mexico,CB,N. Araújo,192041,29.0,76.0,76.0,1.0,CB
+Mexico,CB,C. Montes,229980,24.0,75.0,75.0,1.0,CB
+Mexico,RB,J. Corona,193165,28.0,82.0,82.0,1.0,"RM, RB, RW"
+Mexico,CM,H. Herrera,156519,31.0,81.0,81.0,1.0,CM
+Mexico,CM,J. dos Santos,170370,31.0,77.0,77.0,1.0,"CM, CDM"
+Mexico,CM,O. Pineda,224574,25.0,77.0,77.0,1.0,"RM, RW, CM"
+Mexico,LW,H. Lozano,221992,25.0,81.0,81.0,1.0,"RW, LW"
+Mexico,ST,R. Jiménez,204838,30.0,83.0,83.0,1.0,ST
+Mexico,RW,C. Vela,169416,32.0,83.0,80.51,1.0,"RW, LW, CAM"
+Poland,GK,W. Szczęsny,186153,31.0,87.0,87.0,1.0,GK
+Poland,LB,M. Rybus,186347,31.0,75.0,75.0,1.0,LB
+Poland,CB,J. Bednarek,220570,25.0,76.0,76.0,1.0,CB
+Poland,CB,P. Dawidowicz,213404,26.0,75.0,75.0,1.0,CB
+Poland,RB,B. Bereszyński,199763,28.0,73.0,73.0,1.0,RB
+Poland,CM,P. Zieliński,210406,27.0,81.0,81.0,1.0,"CM, CAM"
+Poland,CM,G. Krychowiak,197242,31.0,80.0,80.0,1.0,"CDM, CM"
+Poland,CM,M. Klich,192955,31.0,75.0,75.0,1.0,CM
+Poland,LW,M. Cebula,211245,25.0,68.0,68.0,1.0,"CF, LM"
+Poland,ST,R. Lewandowski,188545,32.0,92.0,89.24,1.0,ST
+Poland,RW,B. Kapustka,216003,24.0,70.0,70.0,1.0,"CF, LM"
+France,GK,M. Maignan,215698,25.0,84.0,84.0,1.0,GK
+France,LB,T. Hernández,232656,23.0,84.0,82.2,1.0,LB
+France,CB,R. Varane,201535,28.0,86.0,86.0,1.0,CB
+France,CB,L. Hernández,220814,25.0,83.0,83.0,1.0,"LB, CB"
+France,RB,R. Aguilar,223597,28.0,79.0,79.0,1.0,RB
+France,CM,N. Kanté,215914,30.0,90.0,90.0,1.0,"CDM, CM"
+France,CM,P. Pogba,195864,28.0,87.0,87.0,1.0,"CM, LM"
+France,CM,F. Coquelin,189271,30.0,80.0,80.0,1.0,"CM, CDM, RM"
+France,LW,K. Mbappé,231747,22.0,91.0,87.1,1.0,"ST, LW"
+France,ST,A. Griezmann,194765,30.0,85.0,85.0,1.0,"ST, LW, RW"
+France,RW,O. Dembélé,231443,24.0,83.0,83.0,1.0,RW
+Australia,GK,M. Ryan,199005,29.0,77.0,77.0,1.0,GK
+Australia,LB,J. Risdon,202678,28.0,71.0,71.0,1.0,"RB, RWB"
+Australia,CB,M. Degenek,229585,27.0,73.0,73.0,1.0,"CB, CDM"
+Australia,CB,T. Sainsbury,199000,29.0,72.0,72.0,1.0,"CB, CDM"
+Australia,RB,M. Millar,231356,24.0,67.0,67.0,1.0,"RWB, RB"
+Australia,CM,A. Mooy,194958,30.0,77.0,77.0,1.0,"CM, CAM"
+Australia,CM,L. Brattan,199159,31.0,69.0,69.0,1.0,"CDM, CM"
+Australia,CM,S. Ugarković,232162,26.0,69.0,69.0,1.0,"CDM, CM"
+Australia,LW,A. Mabil,212830,25.0,69.0,69.0,1.0,"RW, LW"
+Australia,ST,J. Maclaren,212232,27.0,76.0,76.0,1.0,ST
+Australia,RW,M. Leckie,195033,30.0,71.0,71.0,1.0,"RW, LW"
+Denmark,GK,K. Schmeichel,163587,34.0,85.0,77.35,1.0,GK
+Denmark,LB,J. Mæhle,234678,24.0,77.0,77.0,1.0,"RWB, RB, RM"
+Denmark,CB,S. Kjær,179645,32.0,83.0,80.51,1.0,CB
+Denmark,CB,A. Christensen,213661,25.0,80.0,80.0,1.0,CB
+Denmark,RB,D. Wass,172522,32.0,80.0,77.6,1.0,"RB, RM, CM"
+Denmark,CM,C. Eriksen,190460,29.0,82.0,82.0,1.0,"CM, CAM"
+Denmark,CM,P. Højbjerg,213648,25.0,83.0,83.0,1.0,"CDM, CM"
+Denmark,CM,T. Delaney,193283,29.0,81.0,81.0,1.0,"CDM, CM"
+Denmark,LW,M. Braithwaite,193290,30.0,77.0,77.0,1.0,"ST, LW"
+Denmark,ST,Y. Poulsen,207791,27.0,77.0,77.0,1.0,ST
+Denmark,RW,P. Zinckernagel,215443,26.0,75.0,75.0,1.0,"RW, RM, CM"
+Tunisia,GK,D. Bronn,235565,26.0,75.0,75.0,0.3,"CB, RB"
+Tunisia,LB,A. Abdi,252711,27.0,70.0,70.0,1.0,"RB, LB, LM"
+Tunisia,CB,B. Srarfi,237600,24.0,67.0,67.0,1.0,"LM, LWB, RM"
+Tunisia,CB,Y. Meriah,241746,27.0,69.0,69.0,1.0,CB
+Tunisia,RB,M. Dräger,242041,25.0,69.0,69.0,1.0,RB
+Tunisia,CM,E. Skhiri,225126,26.0,77.0,77.0,1.0,"CDM, CM"
+Tunisia,CM,J. Dudziak,206463,25.0,72.0,72.0,1.0,"CAM, CM"
+Tunisia,CM,S. Khaoui,220029,26.0,71.0,71.0,1.0,"CAM, RM, CM"
+Tunisia,LW,A. Layouni,242166,28.0,69.0,69.0,1.0,LW
+Tunisia,ST,W. Khazri,194845,30.0,76.0,76.0,1.0,"ST, CAM"
+Tunisia,RW,I. Jebali,235236,29.0,66.0,66.0,1.0,"ST, CF, CAM"
+Spain,GK,De Gea,193080,30.0,84.0,84.0,1.0,GK
+Spain,LB,Mario Hermoso,229668,26.0,82.0,82.0,1.0,"CB, LB"
+Spain,CB,A. Laporte,212218,27.0,86.0,86.0,1.0,CB
+Spain,CB,Gayà,211688,26.0,83.0,83.0,1.0,"LB, LWB, LM"
+Spain,RB,Carvajal,204963,29.0,85.0,85.0,1.0,RB
+Spain,CM,Thiago,189509,30.0,86.0,86.0,1.0,"CM, CDM"
+Spain,CM,Sergio Busquets,189511,32.0,86.0,83.42,1.0,"CDM, CM"
+Spain,CM,Campaña,199823,28.0,82.0,82.0,1.0,"CM, LM, RM"
+Spain,LW,Luis Alberto,198706,28.0,84.0,84.0,1.0,"CAM, CM, CF"
+Spain,ST,Marcos Llorente,226161,26.0,86.0,86.0,1.0,"CM, RM, ST"
+Spain,RW,Gerard Moreno,208093,29.0,86.0,86.0,1.0,"ST, RM, RW"
+Costa Rica,GK,K. Navas,193041,34.0,88.0,80.08,1.0,GK
+Costa Rica,LB,R. Matarrita,232230,26.0,71.0,71.0,1.0,"LB, LM, LWB"
+Costa Rica,CB,Ó. Duarte,212772,32.0,73.0,70.81,1.0,CB
+Costa Rica,CB,F. Calvo,213064,28.0,70.0,70.0,1.0,CB
+Costa Rica,RB,C. Gamboa,198553,31.0,72.0,72.0,1.0,RB
+Costa Rica,CM,E. Aguilar,242737,29.0,72.0,72.0,1.0,"CM, CAM"
+Costa Rica,CM,U. Segura,241743,28.0,66.0,66.0,1.0,"RM, LM, CM"
+Costa Rica,CM,A. Cruz,247580,25.0,64.0,64.0,1.0,"CM, CDM"
+Costa Rica,LW,M. Ureña,202896,31.0,66.0,66.0,1.0,"ST, CF"
+Costa Rica,ST,J. Campbell,204713,29.0,75.0,75.0,1.0,"ST, RM"
+Costa Rica,RW,D. Vega,233467,28.0,62.0,62.0,1.0,"LW, RW"
+Germany,GK,M. ter Stegen,192448,29.0,90.0,90.0,1.0,GK
+Germany,LB,P. Max,212187,27.0,80.0,80.0,1.0,LB
+Germany,CB,M. Hummels,178603,32.0,86.0,83.42,1.0,CB
+Germany,CB,M. Ginter,207862,27.0,84.0,84.0,1.0,CB
+Germany,RB,J. Kimmich,212622,26.0,89.0,89.0,1.0,"CDM, RB"
+Germany,CM,T. Kroos,182521,31.0,88.0,88.0,1.0,CM
+Germany,CM,L. Goretzka,209658,26.0,87.0,87.0,1.0,"CM, CDM"
+Germany,CM,İ. Gündoğan,186942,30.0,85.0,85.0,1.0,"CM, CDM"
+Germany,LW,K. Volland,200610,28.0,83.0,83.0,1.0,"ST, CF"
+Germany,ST,T. Werner,212188,25.0,84.0,84.0,1.0,"ST, LW"
+Germany,RW,T. Müller,189596,31.0,87.0,87.0,1.0,"CAM, RM, RW"
+Japan,GK,D. Schmidt,237580,29.0,69.0,69.0,1.0,GK
+Japan,LB,H. Sakai,208520,31.0,75.0,75.0,1.0,"RB, LB"
+Japan,CB,K. Itakura,233152,24.0,74.0,74.0,1.0,CB
+Japan,CB,T. Tomiyasu,232938,22.0,75.0,71.79,1.0,"CB, RB"
+Japan,RB,M. Yamane,233169,27.0,72.0,72.0,1.0,RB
+Japan,CM,W. Endo,232487,28.0,78.0,78.0,1.0,"CDM, CM"
+Japan,CM,R. Morioka,232294,30.0,74.0,74.0,1.0,"CM, CAM, CDM"
+Japan,CM,K. Misao,232882,25.0,72.0,72.0,1.0,"CDM, CM"
+Japan,LW,D. Kamada,232730,24.0,79.0,79.0,1.0,"CAM, CF"
+Japan,ST,T. Minamino,226627,26.0,75.0,75.0,1.0,"RW, ST, LM"
+Japan,RW,J. Ito,232905,28.0,77.0,77.0,1.0,"RW, CF"
+Belgium,GK,T. Courtois,192119,29.0,89.0,89.0,1.0,GK
+Belgium,LB,R. De Laet,175932,32.0,75.0,72.75,1.0,"CB, LB, RM"
+Belgium,CB,T. Alderweireld,184087,32.0,83.0,80.51,1.0,CB
+Belgium,CB,J. Denayer,220182,26.0,80.0,80.0,1.0,CB
+Belgium,RB,T. Castagne,222501,25.0,79.0,79.0,1.0,"RB, RM"
+Belgium,CM,K. De Bruyne,192985,30.0,91.0,91.0,1.0,"CM, CAM"
+Belgium,CM,Y. Tielemans,216393,24.0,84.0,84.0,1.0,"CM, CDM"
+Belgium,CM,H. Vanaken,200155,28.0,78.0,78.0,1.0,"CM, CAM"
+Belgium,LW,E. Hazard,183277,30.0,85.0,85.0,1.0,LW
+Belgium,ST,R. Lukaku,192505,28.0,88.0,88.0,1.0,ST
+Belgium,RW,A. Januzaj,208330,26.0,81.0,81.0,1.0,"RW, RM"
+Canada,GK,M. Crépeau,213536,27.0,73.0,73.0,1.0,GK
+Canada,LB,A. Davies,234396,20.0,82.0,74.97,1.0,"LB, LM"
+Canada,CB,D. Henry,201208,28.0,70.0,70.0,1.0,CB
+Canada,CB,K. Miller,247648,24.0,68.0,68.0,1.0,"CB, LB"
+Canada,RB,R. Laryea,232081,26.0,71.0,71.0,1.0,"RB, LB, RM"
+Canada,CM,Stephen Eustáquio,242380,24.0,76.0,76.0,1.0,"CDM, CM"
+Canada,CM,S. Piette,213092,26.0,71.0,71.0,1.0,"CDM, CM, RM"
+Canada,CM,J. Osorio,213439,29.0,72.0,72.0,1.0,"CM, CDM, LM"
+Canada,LW,C. Larin,226777,26.0,75.0,75.0,1.0,"ST, LW, RW"
+Canada,ST,L. Cavallini,213095,28.0,73.0,73.0,1.0,ST
+Canada,RW,C. Elva,245898,24.0,67.0,67.0,1.0,"LM, ST, RW"
+Morocco,GK,Y. Bounou,209981,30.0,82.0,82.0,1.0,GK
+Morocco,LB,A. Hakimi,235212,22.0,85.0,81.36,1.0,"RB, RWB"
+Morocco,CB,Z. Feddal,205705,31.0,80.0,80.0,1.0,CB
+Morocco,CB,R. Saïss,208295,31.0,78.0,78.0,1.0,"CB, CM"
+Morocco,RB,N. Mazraoui,236401,23.0,80.0,78.29,1.0,RB
+Morocco,CM,S. Amrabat,224158,24.0,76.0,76.0,1.0,"CDM, CM"
+Morocco,CM,Y. Belhanda,193738,31.0,74.0,74.0,1.0,"CM, CAM"
+Morocco,CM,A. Taarabt,179605,32.0,77.0,74.69,1.0,"CM, CAM"
+Morocco,LW,Y. En-Nesyri,235410,24.0,82.0,82.0,1.0,"ST, LW"
+Morocco,ST,Munir,220253,25.0,79.0,79.0,1.0,"LW, RW, ST"
+Morocco,RW,H. Ziyech,208670,28.0,84.0,84.0,1.0,"RW, CAM"
+Croatia,GK,D. Livaković,241671,26.0,82.0,82.0,1.0,GK
+Croatia,LB,B. Barišić,241673,28.0,75.0,75.0,1.0,LB
+Croatia,CB,I. Perišić,181458,32.0,81.0,78.57,1.0,"LM, LW, LWB"
+Croatia,CB,D. Ćaleta-Car,225263,24.0,78.0,78.0,1.0,CB
+Croatia,RB,Š. Vrsaljko,203890,29.0,80.0,80.0,1.0,"RB, RM"
+Croatia,CM,M. Brozović,216352,28.0,84.0,84.0,1.0,"CDM, CM"
+Croatia,CM,M. Kovačić,207410,27.0,83.0,83.0,1.0,"CM, CDM"
+Croatia,CM,I. Rakitić,168651,33.0,82.0,77.08,1.0,CM
+Croatia,LW,M. Oršić,221174,28.0,77.0,77.0,1.0,"LM, LW, ST"
+Croatia,ST,A. Rebić,220018,27.0,82.0,82.0,1.0,"LM, ST"
+Croatia,RW,J. Brekalo,234711,23.0,76.0,74.37,1.0,"LM, CF"
+Brazil,GK,Ederson,210257,27.0,89.0,89.0,1.0,GK
+Brazil,LB,Alex Sandro,191043,30.0,83.0,83.0,1.0,"LB, LM"
+Brazil,CB,Marquinhos,207865,27.0,87.0,87.0,1.0,"CB, CDM"
+Brazil,CB,Fabinho,209499,27.0,86.0,86.0,1.0,"CDM, CB"
+Brazil,RB,Adryan Zonta,230256,29.0,81.0,81.0,1.0,"LWB, LB"
+Brazil,CM,Oscar,188152,29.0,82.0,82.0,1.0,"CAM, CM, LW"
+Brazil,CM,Arthur,230658,24.0,83.0,83.0,1.0,CM
+Brazil,CM,Coutinho,189242,29.0,82.0,82.0,1.0,"CAM, LW, CM"
+Brazil,LW,Neymar Jr,190871,29.0,91.0,91.0,1.0,"LW, CAM"
+Brazil,ST,Gabriel Jesus,230666,24.0,83.0,83.0,1.0,ST
+Brazil,RW,Roberto Firmino,201942,29.0,85.0,85.0,1.0,CF
+Serbia,GK,M. Dmitrović,227290,29.0,80.0,80.0,1.0,GK
+Serbia,LB,M. Ristić,240223,25.0,74.0,74.0,1.0,LB
+Serbia,CB,F. Kostić,208574,28.0,84.0,84.0,1.0,"LM, LWB"
+Serbia,CB,M. Nastasić,205362,28.0,74.0,74.0,1.0,CB
+Serbia,RB,N. Milenković,238095,23.0,76.0,74.37,1.0,"CB, RB"
+Serbia,CM,S. Milinković-Savić,223848,26.0,85.0,85.0,1.0,"CM, CDM, CAM"
+Serbia,CM,N. Maksimović,239433,26.0,79.0,79.0,1.0,"CDM, CM"
+Serbia,CM,U. Račić,244253,23.0,78.0,76.33,1.0,"CM, CDM"
+Serbia,LW,D. Tadić,199434,32.0,84.0,81.48,1.0,"LW, CF, CAM"
+Serbia,ST,L. Jović,232432,23.0,79.0,77.31,1.0,ST
+Serbia,RW,A. Živković,220746,24.0,76.0,76.0,1.0,"RW, LW, RM"
+Switzerland,GK,Y. Sommer,177683,32.0,85.0,82.45,1.0,GK
+Switzerland,LB,S. Janko,220172,25.0,73.0,73.0,1.0,"RB, RWB, RM"
+Switzerland,CB,N. Elvedi,221491,24.0,79.0,79.0,1.0,CB
+Switzerland,CB,M. Akanji,229237,25.0,80.0,80.0,1.0,CB
+Switzerland,RB,K. Mbabu,210625,26.0,79.0,79.0,1.0,RB
+Switzerland,CM,R. Freuler,202024,29.0,80.0,80.0,1.0,CM
+Switzerland,CM,D. Sow,229752,24.0,77.0,77.0,1.0,"CM, CDM"
+Switzerland,CM,G. Xhaka,199503,28.0,79.0,79.0,1.0,"CDM, CM"
+Switzerland,LW,A. Mehmedi,188770,30.0,74.0,74.0,1.0,"CF, LM, CAM"
+Switzerland,ST,H. Seferović,193408,29.0,78.0,78.0,1.0,ST
+Switzerland,RW,X. Shaqiri,193348,29.0,79.0,79.0,1.0,"RW, RM"
+Cameroon,GK,S. Ngapandouetnbu,255151,18.0,67.0,58.39,1.0,GK
+Cameroon,LB,A. Oyongo,218540,30.0,74.0,74.0,1.0,LB
+Cameroon,CB,J. Matip,197061,29.0,83.0,83.0,1.0,CB
+Cameroon,CB,H. Moukoudi,228732,23.0,75.0,73.39,1.0,CB
+Cameroon,RB,A. Nyom,192667,33.0,75.0,70.5,1.0,"RM, LB, RB"
+Cameroon,CM,A. Zambo Anguissa,227236,25.0,76.0,76.0,1.0,"CM, CDM"
+Cameroon,CM,Y. Neyou,237626,24.0,75.0,75.0,1.0,"CDM, CM, CAM"
+Cameroon,CM,K. Malong,240190,25.0,73.0,73.0,1.0,"CM, CDM"
+Cameroon,LW,K. Toko Ekambi,224069,28.0,78.0,78.0,1.0,"LW, ST"
+Cameroon,ST,J. Nsame,209973,28.0,78.0,78.0,1.0,ST
+Cameroon,RW,I. Ganago,241130,22.0,74.0,70.83,1.0,"ST, RW, LW"
+Portugal,GK,José Sá,212442,28.0,79.0,79.0,1.0,GK
+Portugal,LB,João Cancelo,210514,27.0,86.0,86.0,1.0,"RB, LB"
+Portugal,CB,Rúben Dias,239818,24.0,87.0,87.0,1.0,CB
+Portugal,CB,Cédric,201118,29.0,76.0,76.0,1.0,"RB, RWB, LB"
+Portugal,RB,Ricardo Pereira,210243,27.0,84.0,84.0,1.0,"RB, RM"
+Portugal,CM,Palhinha,229391,25.0,82.0,82.0,1.0,"CDM, CM"
+Portugal,CM,Rúben Neves,224293,24.0,82.0,82.0,1.0,CM
+Portugal,CM,Danilo Pereira,200888,29.0,81.0,81.0,1.0,"CDM, CM"
+Portugal,LW,Gonçalo Guedes,224411,24.0,81.0,81.0,1.0,"LM, ST, CF"
+Portugal,ST,André Silva,228941,25.0,84.0,84.0,1.0,ST
+Portugal,RW,Bernardo Silva,218667,26.0,86.0,86.0,1.0,"CAM, CM, RW"
+Ghana,GK,R. Ofori,257439,27.0,74.0,74.0,1.0,GK
+Ghana,LB,B. Rahman,209620,26.0,74.0,74.0,1.0,"LB, LWB"
+Ghana,CB,D. Amartey,212883,26.0,76.0,76.0,1.0,"CB, RB, CDM"
+Ghana,CB,A. Djiku,212219,26.0,76.0,76.0,1.0,CB
+Ghana,RB,A. Yiadom,208052,29.0,73.0,73.0,1.0,"RB, RWB, CB"
+Ghana,CM,T. Partey,209989,28.0,83.0,83.0,1.0,"CM, CDM"
+Ghana,CM,J. Schlupp,200759,28.0,75.0,75.0,1.0,"LM, CM"
+Ghana,CM,A. Duncan,208535,28.0,74.0,74.0,1.0,"CM, CDM"
+Ghana,LW,F. Acheampong,213013,27.0,77.0,77.0,1.0,"LW, ST"
+Ghana,ST,C. Ekuban,239795,27.0,75.0,75.0,1.0,"RM, CAM, ST"
+Ghana,RW,K. Boateng,173909,34.0,78.0,70.98,1.0,"CAM, CM, CF"
+Uruguay,GK,S. Rochet,223690,28.0,76.0,76.0,1.0,GK
+Uruguay,LB,L. Olaza,221832,26.0,78.0,78.0,1.0,"LB, LWB, CB"
+Uruguay,CB,J. Giménez,216460,26.0,84.0,84.0,1.0,CB
+Uruguay,CB,S. Coates,197655,30.0,83.0,83.0,1.0,CB
+Uruguay,RB,C. Mayada,225646,30.0,74.0,74.0,1.0,"RB, CM"
+Uruguay,CM,L. Torreira,223959,25.0,80.0,80.0,1.0,"CDM, CM"
+Uruguay,CM,R. Bentancur,227535,24.0,78.0,78.0,1.0,CM
+Uruguay,CM,N. De la Cruz,240699,24.0,78.0,78.0,1.0,"CM, CAM, LW"
+Uruguay,LW,J. Rodríguez,223816,27.0,80.0,80.0,1.0,"ST, LW"
+Uruguay,ST,M. Gómez,239207,24.0,80.0,80.0,1.0,ST
+Uruguay,RW,A. Silva,218868,31.0,75.0,75.0,1.0,"RW, RM"
+South Korea,GK,Jo Hyeon Woo,212432,29.0,75.0,75.0,1.0,GK
+South Korea,LB,Kang Sang Woo,222734,27.0,72.0,72.0,1.0,"LB, LW"
+South Korea,CB,Kim Min Jae,237086,24.0,74.0,74.0,1.0,CB
+South Korea,CB,Jang Hyeon Soo,211005,29.0,74.0,74.0,1.0,CB
+South Korea,RB,Kim Tae Hwan,199231,31.0,72.0,72.0,1.0,"RB, RW"
+South Korea,CM,Kim Bo Kyung,199183,31.0,72.0,72.0,1.0,"CM, CAM"
+South Korea,CM,Yoon Bit Garam,200601,31.0,73.0,73.0,1.0,"CM, LM"
+South Korea,CM,Paik Seung Ho,237424,24.0,69.0,69.0,1.0,"CM, RW, LW"
+South Korea,LW,H. Son,200104,28.0,89.0,89.0,1.0,"LM, CF, LW"
+South Korea,ST,Hwang Ui Jo,212260,28.0,76.0,76.0,1.0,"ST, LM"
+South Korea,RW,Lee Jae Sung,221671,28.0,75.0,75.0,1.0,"CM, CF, CAM"

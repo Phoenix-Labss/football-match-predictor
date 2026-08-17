@@ -1,0 +1,7 @@
+Model,Val_Accuracy,Val_LogLoss,Val_NormRPS,Val_ECE,Away_Recall,Draw_Recall,Home_Recall
+HistGBDT,59.2,0.8805,0.1734,0.0111,59.79,1.35,86.78
+LightGBM,59.12,0.8804,0.1733,0.0124,59.97,2.2,86.1
+XGBoost,59.37,0.8794,0.1731,0.0106,60.77,1.67,86.39
+CatBoost,59.36,0.8796,0.1731,0.0129,60.75,0.87,86.76
+RandomForest,59.13,0.8808,0.1736,0.0123,59.38,0.02,87.52
+Upgraded_5Model_Ensemble,59.32,0.8784,0.1729,0.0109,60.75,1.02,86.62

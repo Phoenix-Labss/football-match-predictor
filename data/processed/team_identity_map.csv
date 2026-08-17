@@ -1,0 +1,338 @@
+raw_name,standardized_name,is_standardized,first_match,last_match,match_count
+Abkhazia,Abkhazia,False,2012-09-25,2019-06-08,33
+Afghanistan,Afghanistan,False,1941-08-10,2026-06-10,147
+Albania,Albania,False,1946-08-22,2026-06-06,398
+Alderney,Alderney,False,1905-04-17,2022-04-23,135
+Algeria,Algeria,False,1963-01-06,2026-07-02,621
+Ambazonia,Ambazonia,False,2005-06-23,2007-06-07,6
+American Samoa,American Samoa,False,1983-08-20,2026-03-28,55
+Andalusia,Andalusia,False,1923-01-14,2013-06-07,13
+Andorra,Andorra,False,1996-11-13,2026-06-07,229
+Angola,Angola,False,1976-02-08,2026-06-09,415
+Anguilla,Anguilla,False,1985-11-05,2026-03-29,91
+Antigua and Barbuda,Antigua and Barbuda,False,1972-11-10,2025-11-18,231
+Arameans Suryoye,Arameans Suryoye,False,2008-07-09,2014-06-08,10
+Argentina,Argentina,False,1902-07-20,2026-07-19,1077
+Armenia,Armenia,False,1979-07-21,2026-06-09,272
+Artsakh,Artsakh,False,2012-09-25,2019-06-08,11
+Aruba,Aruba,False,1924-04-06,2026-06-06,152
+Asturias,Asturias,False,1923-02-25,1923-02-25,1
+Australia,Australia,False,1922-06-17,2026-07-03,585
+Austria,Austria,False,1902-10-12,2026-07-02,864
+Aymara,Aymara,False,2022-06-18,2022-06-19,2
+Azerbaijan,Azerbaijan,False,1979-07-24,2026-06-09,310
+Bahamas,Bahamas,False,1971-04-14,2026-03-29,67
+Bahrain,Bahrain,False,1966-04-02,2026-06-05,584
+Bangladesh,Bangladesh,False,1973-07-27,2026-06-05,305
+Barawa,Barawa,False,2016-08-25,2019-05-25,12
+Barbados,Barbados,False,1929-04-20,2026-03-29,302
+Basque Country,Basque Country,False,1915-01-03,2025-11-15,64
+Belarus,Belarus,False,1928-08-17,2026-06-09,315
+Belgium,Belgium,False,1904-05-01,2026-07-10,859
+Belize,Belize,False,1983-12-08,2026-03-30,121
+Benin,Benin,False,1959-11-08,2026-06-09,325
+Bermuda,Bermuda,False,1964-08-10,2026-06-06,198
+Bhutan,Bhutan,False,1982-04-01,2026-06-04,110
+Biafra,Biafra,False,2022-05-22,2022-05-25,3
+Bolivia,Bolivia,False,1926-10-12,2026-06-10,534
+Bonaire,Bonaire,False,2010-10-29,2026-06-06,44
+Bosnia and Herzegovina,Bosnia and Herzegovina,False,1995-11-30,2026-07-01,287
+Botswana,Botswana,False,1968-07-13,2026-03-31,332
+Brazil,Brazil,False,1914-09-20,2026-07-05,1064
+British Virgin Islands,British Virgin Islands,False,1985-11-05,2026-06-06,123
+Brittany,Brittany,False,1922-03-12,2013-05-28,12
+Brunei,Brunei,False,1971-05-22,2025-11-18,137
+Bulgaria,Bulgaria,False,1924-05-21,2026-06-05,736
+Burkina Faso,Burkina Faso,False,1960-04-14,2026-06-09,464
+Burundi,Burundi,False,1953-09-19,2026-05-26,218
+Cambodia,Cambodia,False,1954-11-01,2026-06-09,295
+Cameroon,Cameroon,False,1953-09-24,2026-03-31,616
+Canada,Canada,False,1885-11-28,2026-07-04,474
+Canary Islands,Canary Islands,False,1996-02-06,2007-12-29,4
+Canton Ticino,Canton Ticino,False,2023-06-17,2026-06-06,5
+Cape Verde,Cabo Verde,True,1959-12-20,2026-07-03,239
+Cascadia,Cascadia,False,2018-05-31,2019-05-25,7
+Catalonia,Catalonia,False,1912-02-10,2019-03-25,48
+Cayman Islands,Cayman Islands,False,1985-03-03,2026-06-06,119
+Central African Republic,Central African Republic,False,1960-04-14,2026-06-09,138
+Central Spain,Central Spain,False,1922-11-19,1923-11-25,2
+Chad,Chad,False,1961-12-25,2025-11-17,138
+Chagos Islands,Chagos Islands,False,2011-12-04,2019-12-29,16
+Chameria,Chameria,False,2019-06-02,2023-07-01,7
+Chechnya,Chechnya,False,2005-05-03,2006-02-18,3
+Chile,Chile,False,1910-05-27,2026-06-09,835
+China,China,False,1913-02-04,2026-06-09,702
+Cilento,Cilento,False,2011-12-29,2011-12-29,1
+Colombia,Colombia,False,1938-02-10,2026-07-07,643
+Comoros,Comoros,False,1979-08-26,2026-06-09,151
+Congo,Republic of the Congo,True,1960-04-14,2025-10-14,406
+Cook Islands,Cook Islands,False,1971-09-11,2024-09-06,53
+Corsica,Corsica,False,1967-02-28,2017-05-26,9
+Costa Rica,Costa Rica,False,1921-09-14,2026-06-10,724
+County of Nice,County of Nice,False,2014-06-02,2015-06-21,9
+Crimea,Crimea,False,2006-11-19,2006-11-25,5
+Croatia,Croatia,False,1940-04-02,2026-07-02,400
+Cuba,Cuba,False,1930-03-16,2026-03-29,397
+Curaçao,Curacao,True,1924-04-06,2026-06-25,388
+Cyprus,Cyprus,False,1949-07-30,2026-06-07,426
+Czech Republic,Czech Republic,False,1994-02-23,2026-06-24,363
+Czechoslovakia,Czechoslovakia,False,1903-04-05,1993-11-17,520
+DR Congo,DR Congo,False,1948-05-25,2026-07-01,528
+Darfur,Darfur,False,2012-06-04,2014-06-07,7
+Denmark,Denmark,False,1908-10-22,2026-06-07,874
+Djibouti,Djibouti,False,1947-12-05,2025-11-26,111
+Dominica,Dominica,False,1932-03-23,2026-03-30,215
+Dominican Republic,Dominican Republic,False,1949-05-14,2026-06-03,159
+Donetsk PR,Donetsk PR,False,2015-05-14,2017-08-31,6
+Délvidék,Délvidék,False,2016-08-01,2016-08-03,2
+East Turkestan,East Turkestan,False,2019-10-19,2025-07-04,5
+Ecuador,Ecuador,False,1938-08-08,2026-06-30,595
+Egypt,Egypt,False,1920-08-28,2026-07-07,761
+El Salvador,El Salvador,False,1921-09-14,2026-06-06,614
+Elba Island,Elba Island,False,2022-04-22,2022-07-16,2
+Ellan Vannin,Ellan Vannin,False,2014-04-06,2018-06-03,22
+England,England,False,1872-11-30,2026-07-18,1098
+Equatorial Guinea,Equatorial Guinea,False,1975-05-23,2026-06-09,179
+Eritrea,Eritrea,False,1992-06-26,2019-09-10,71
+Estonia,Estonia,False,1920-10-17,2026-06-09,550
+Eswatini,Eswatini,False,1968-05-01,2025-10-13,274
+Ethiopia,Ethiopia,False,1947-12-05,2026-06-09,409
+Falkland Islands,Falkland Islands,False,2001-07-08,2023-07-13,33
+Faroe Islands,Faroe Islands,False,1972-07-12,2026-06-09,287
+Felvidék,Felvidék,False,2015-05-30,2017-06-09,12
+Fiji,Fiji,False,1951-10-07,2026-06-06,268
+Finland,Finland,False,1911-10-22,2026-06-05,818
+France,France,False,1904-05-01,2026-07-18,943
+Franconia,Franconia,False,2014-05-29,2019-06-25,3
+French Guiana,French Guiana,False,1936-01-01,2024-11-19,179
+Frøya,Frøya,False,1997-06-29,2025-07-17,37
+Gabon,Gabon,False,1960-04-14,2026-03-30,405
+Galicia,Galicia,False,1922-11-19,2024-05-21,12
+Gambia,Gambia,False,1953-02-09,2026-05-29,266
+Georgia,Georgia,False,1979-07-22,2026-06-05,307
+German DR,German DR,False,1952-05-18,1990-09-12,298
+Germany,Germany,False,1908-04-05,2026-06-29,1035
+Ghana,Ghana,False,1950-05-28,2026-07-03,675
+Gibraltar,Gibraltar,False,1993-07-04,2026-06-06,159
+Gotland,Gotland,False,1999-06-27,2017-06-29,30
+Gozo,Gozo,False,2009-06-22,2025-07-17,14
+Greece,Greece,False,1919-06-25,2026-06-07,633
+Greenland,Greenland,False,1980-07-02,2026-06-06,80
+Grenada,Grenada,False,1938-08-17,2026-05-16,260
+Guadeloupe,Guadeloupe,False,1934-03-13,2025-06-24,271
+Guam,Guam,False,1975-08-02,2026-06-06,123
+Guatemala,Guatemala,False,1921-09-18,2026-06-07,554
+Guernsey,Guernsey,False,1905-04-17,2023-07-13,240
+Guinea,Guinea,False,1962-05-09,2026-06-04,539
+Guinea-Bissau,Guinea-Bissau,False,1953-06-02,2026-03-31,190
+Guyana,Guyana,False,1905-07-21,2026-03-30,313
+Găgăuzia,Găgăuzia,False,2006-11-19,2006-11-21,3
+Haiti,Haiti,False,1925-03-22,2026-06-24,513
+Hitra,Hitra,False,1997-06-29,2025-07-17,23
+Hmong,Hmong,False,2023-08-04,2023-08-08,3
+Honduras,Honduras,False,1927-11-07,2026-06-06,620
+Hong Kong,Hong Kong,False,1953-04-05,2026-06-09,447
+Hungary,Hungary,False,1902-10-12,2026-06-09,1006
+Iceland,Iceland,False,1946-07-17,2026-06-09,522
+India,India,False,1938-09-03,2026-06-09,534
+Indonesia,Indonesia,False,1934-05-13,2026-06-09,728
+Iran,Iran,False,1941-08-23,2026-06-26,615
+Iraq,Iraq,False,1960-06-05,2026-06-26,658
+Iraqi Kurdistan,Iraqi Kurdistan,False,2008-07-07,2016-06-04,27
+Isle of Man,Isle of Man,False,1993-07-04,2025-07-18,58
+Isle of Wight,Isle of Wight,False,1991-06-24,2023-07-13,48
+Israel,Israel,False,1934-03-16,2026-06-03,498
+Italy,Italy,False,1910-05-15,2026-06-07,893
+Ivory Coast,Ivory Coast,False,1960-04-14,2026-06-30,640
+Jamaica,Jamaica,False,1925-03-22,2026-06-06,663
+Japan,Japan,False,1917-05-07,2026-06-29,794
+Jersey,Jersey,False,1905-04-27,2025-07-18,235
+Jordan,Jordan,False,1963-01-06,2026-06-27,488
+Kabylia,Kabylia,False,2018-05-31,2018-06-09,6
+Kazakhstan,Kazakhstan,False,1979-08-04,2026-06-09,269
+Kenya,Kenya,False,1926-05-01,2026-06-04,706
+Kernow,Kernow,False,1953-09-26,2023-07-16,12
+Kiribati,Kiribati,False,1979-08-30,2011-09-05,11
+Kosovo,Kosovo,False,2005-11-02,2026-06-07,106
+Kurdistan,Kurdistan,False,2012-05-15,2013-06-28,5
+Kuwait,Kuwait,False,1963-01-06,2026-06-05,684
+Kyrgyzstan,Kyrgyzstan,False,1956-08-03,2026-06-09,191
+Kárpátalja,Kárpátalja,False,2016-08-01,2018-06-09,11
+Laos,Laos,False,1961-12-12,2025-11-19,224
+Latvia,Latvia,False,1922-09-24,2026-06-09,461
+Lebanon,Lebanon,False,1940-04-27,2025-11-26,333
+Lesotho,Lesotho,False,1970-08-08,2026-06-04,296
+Liberia,Liberia,False,1961-12-25,2026-06-09,302
+Libya,Libya,False,1957-06-02,2026-03-31,384
+Liechtenstein,Liechtenstein,False,1981-06-14,2026-06-07,259
+Lithuania,Lithuania,False,1923-06-24,2026-06-09,433
+Luhansk PR,Luhansk PR,False,2015-05-05,2019-12-08,6
+Luxembourg,Luxembourg,False,1911-10-29,2026-06-06,467
+Macau,Macau,False,1949-01-25,2026-03-29,148
+Madagascar,Madagascar,False,1947-02-15,2026-06-02,320
+Madrid,Madrid,False,2013-06-07,2013-06-07,1
+Malawi,Malawi,False,1957-08-28,2026-06-09,644
+Malaysia,Malaysia,False,1953-04-16,2025-11-18,835
+Maldives,Maldives,False,1979-08-27,2026-06-04,233
+Mali,Mali,False,1960-04-14,2026-06-04,569
+Malta,Malta,False,1957-02-24,2026-06-05,458
+Manchukuo,Manchukuo,False,1939-09-03,1942-08-09,3
+Mapuche,Mapuche,False,2022-06-17,2022-06-18,2
+Marshall Islands,Marshall Islands,False,2025-08-14,2025-08-16,2
+Martinique,Martinique,False,1931-02-11,2026-03-29,331
+Matabeleland,Matabeleland,False,2018-05-31,2022-05-25,8
+Maule Sur,Maule Sur,False,2022-06-17,2022-06-19,2
+Mauritania,Mauritania,False,1961-12-25,2026-06-08,273
+Mauritius,Mauritius,False,1947-02-15,2025-10-13,325
+Mayotte,Mayotte,False,2001-11-20,2023-08-26,38
+Menorca,Menorca,False,2007-06-30,2023-07-13,25
+Mexico,Mexico,False,1923-01-01,2026-07-05,1008
+Micronesia,Micronesia,False,1999-06-05,2003-07-07,7
+Moldova,Moldova,False,1956-08-12,2026-06-09,299
+Monaco,Monaco,False,2000-06-11,2017-04-29,24
+Mongolia,Mongolia,False,1942-08-10,2026-06-05,103
+Montenegro,Montenegro,False,1946-08-22,2026-06-05,170
+Montserrat,Montserrat,False,1991-05-10,2025-06-10,66
+Morocco,Morocco,False,1958-04-03,2026-07-09,623
+Mozambique,Mozambique,False,1975-06-25,2026-06-09,375
+Myanmar,Myanmar,False,1951-03-05,2026-06-09,512
+Namibia,Namibia,False,1989-05-16,2026-03-28,279
+Nepal,Nepal,False,1972-10-13,2025-11-18,268
+Netherlands,Netherlands,False,1905-04-30,2026-06-29,883
+New Caledonia,New Caledonia,False,1951-09-19,2026-03-26,264
+New Zealand,New Zealand,False,1922-06-17,2026-06-26,419
+Nicaragua,Nicaragua,False,1929-05-01,2026-06-05,222
+Niger,Niger,False,1961-12-25,2026-06-08,260
+Nigeria,Nigeria,False,1949-10-08,2026-06-10,661
+Niue,Niue,False,1983-08-20,1983-08-22,2
+North Korea,North Korea,False,1956-10-07,2025-06-10,390
+North Macedonia,North Macedonia,False,1993-10-13,2026-06-01,306
+North Vietnam,North Vietnam,False,1956-10-04,1970-09-20,24
+Northern Cyprus,Northern Cyprus,False,1977-01-05,2026-06-06,39
+Northern Ireland,Northern Ireland,False,1882-02-18,2026-06-08,707
+Northern Mariana Islands,Northern Mariana Islands,False,1998-07-30,2024-04-07,30
+Norway,Norway,False,1908-07-12,2026-07-11,878
+Occitania,Occitania,False,2005-02-12,2014-12-30,33
+Oman,Oman,False,1966-04-03,2026-06-05,543
+Orkney,Orkney,False,2001-07-08,2025-07-17,28
+Padania,Padania,False,2008-07-08,2026-06-06,48
+Pakistan,Pakistan,False,1952-03-18,2026-06-10,251
+Palau,Palau,False,1987-03-06,1998-08-01,2
+Palestine,Palestine,False,1966-04-01,2026-06-09,249
+Panama,Panama,False,1938-02-12,2026-06-27,542
+Panjab,Panjab,False,2015-05-30,2019-12-29,19
+Papua New Guinea,Papua New Guinea,False,1963-08-29,2025-11-23,155
+Paraguay,Paraguay,False,1919-05-11,2026-07-04,788
+Parishes of Jersey,Parishes of Jersey,False,2018-10-21,2019-06-02,3
+Peru,Peru,False,1927-11-01,2026-06-08,714
+Philippines,Philippines,False,1913-02-04,2026-06-09,342
+Poland,Poland,False,1921-12-18,2026-06-03,892
+Portugal,Portugal,False,1921-12-18,2026-07-06,700
+Provence,Provence,False,1921-04-03,2013-06-28,23
+Puerto Rico,Puerto Rico,False,1940-11-12,2026-06-05,163
+Qatar,Qatar,False,1970-03-27,2026-06-24,638
+Quebec,Quebec,False,2013-06-23,2013-06-27,3
+Raetia,Raetia,False,2011-12-04,2026-06-06,29
+Republic of Ireland,Republic of Ireland,False,1924-05-28,2026-06-05,633
+Republic of St. Pauli,Republic of St. Pauli,False,2006-05-29,2006-06-03,4
+Rhodes,Rhodes,False,1999-06-27,2011-06-27,18
+Romani people,Romani people,False,2007-06-07,2016-05-16,7
+Romania,Romania,False,1919-06-24,2026-06-06,766
+Rouet-Provence,Rouet-Provence,False,2026-06-02,2026-06-06,3
+Russia,Russia,False,1910-10-16,2026-06-09,749
+Rwanda,Rwanda,False,1976-07-03,2026-03-30,280
+Ryūkyū,Ryūkyū,False,2016-11-26,2016-11-26,1
+Réunion,Réunion,False,1947-05-15,2023-09-02,124
+Saare County,Saare County,False,1999-06-27,2017-06-29,35
+Saarland,Saarland,False,1953-06-24,1956-06-06,9
+Saint Barthélemy,Saint Barthélemy,False,2010-07-03,2023-03-10,10
+Saint Helena,Saint Helena,False,2019-06-12,2023-07-13,8
+Saint Kitts and Nevis,St. Kitts and Nevis,True,1938-08-17,2026-03-30,226
+Saint Lucia,St. Lucia,True,1938-01-09,2026-03-27,230
+Saint Martin,Saint Martin,False,1990-03-24,2026-03-29,68
+Saint Pierre and Miquelon,Saint Pierre and Miquelon,False,2010-09-22,2012-09-28,7
+Saint Vincent and the Grenadines,St. Vincent and the Grenadines,True,1961-01-16,2026-03-29,236
+Samoa,Samoa,False,1979-08-31,2024-11-18,71
+San Marino,San Marino,False,1990-11-14,2026-06-09,225
+Sark,Sark,False,2003-06-29,2003-07-03,4
+Saudi Arabia,Saudi Arabia,False,1963-11-18,2026-06-26,744
+Saugeais,Saugeais,False,2013-06-29,2013-06-29,1
+Scotland,Scotland,False,1872-11-30,2026-06-24,854
+Sealand,Sealand,False,2004-05-15,2014-08-10,12
+Seborga,Seborga,False,2014-08-10,2014-08-10,1
+Senegal,Senegal,False,1961-12-05,2026-07-01,642
+Serbia,Serbia,False,1950-02-26,2026-06-04,348
+Seychelles,Seychelles,False,1974-03-13,2025-10-14,176
+Shetland,Shetland,False,1989-07-06,2025-07-17,58
+Sierra Leone,Sierra Leone,False,1949-10-08,2026-06-09,301
+Silesia,Silesia,False,1933-10-04,2006-12-09,8
+Singapore,Singapore,False,1953-04-11,2026-06-05,696
+Sint Maarten,Sint Maarten,False,1989-05-07,2026-03-30,60
+Slovakia,Slovakia,False,1939-08-27,2026-06-05,367
+Slovenia,Slovenia,False,1991-06-19,2026-06-07,317
+Solomon Islands,Solomon Islands,False,1963-08-30,2026-03-30,214
+Somalia,Somalia,False,1963-11-11,2025-11-26,124
+Somaliland,Somaliland,False,2014-05-17,2019-05-04,6
+South Africa,South Africa,False,1906-07-09,2026-06-28,484
+South Korea,South Korea,False,1949-01-02,2026-06-24,1010
+South Ossetia,South Ossetia,False,2013-09-23,2019-12-08,17
+South Sudan,South Sudan,False,2012-07-10,2025-11-25,78
+South Yemen,South Yemen,False,1982-11-21,1982-11-25,3
+Spain,Spain,False,1920-08-28,2026-07-19,791
+Sri Lanka,Sri Lanka,False,1952-03-24,2025-11-18,251
+Sudan,Sudan,False,1956-11-16,2026-01-03,469
+Suriname,Suriname,False,1921-01-28,2026-03-26,399
+Surrey,Surrey,False,2018-05-06,2018-05-06,1
+Sweden,Sweden,False,1908-07-12,2026-06-30,1105
+Switzerland,Switzerland,False,1905-02-12,2026-07-11,890
+Syria,Syria,False,1949-11-20,2026-06-05,484
+Székely Land,Székely Land,False,2014-11-08,2023-07-02,27
+Sápmi,Sápmi,False,2005-11-03,2023-07-16,31
+São Tomé and Príncipe,Sao Tome and Principe,True,1976-05-02,2025-10-13,71
+Tahiti,Tahiti,False,1952-09-21,2025-03-21,241
+Taiwan,Taiwan,False,1950-04-16,2025-11-18,245
+Tajikistan,Tajikistan,False,1992-06-17,2026-06-09,201
+Tamil Eelam,Tamil Eelam,False,2012-06-05,2025-07-04,28
+Tanzania,Tanzania,False,1945-03-28,2026-03-29,599
+Thailand,Thailand,False,1954-11-01,2026-06-09,865
+Tibet,Tibet,False,2001-06-30,2025-07-03,21
+Timor-Leste,Timor-Leste,False,2003-03-21,2025-11-18,86
+Togo,Togo,False,1956-10-06,2026-06-09,447
+Tonga,Tonga,False,1979-08-29,2024-09-09,68
+Trinidad and Tobago,Trinidad and Tobago,False,1905-07-21,2026-06-09,753
+Tunisia,Tunisia,False,1957-06-02,2026-06-25,681
+Turkey,Turkey,False,1923-10-26,2026-06-25,645
+Turkmenistan,Turkmenistan,False,1992-06-01,2025-11-18,175
+Turks and Caicos Islands,Turks and Caicos Islands,False,1999-02-24,2025-08-16,52
+Tuvalu,Tuvalu,False,1979-08-30,2023-11-30,39
+Two Sicilies,Two Sicilies,False,2010-05-31,2023-07-02,6
+Uganda,Uganda,False,1926-05-01,2025-12-30,685
+Ukraine,Ukraine,False,1928-08-19,2026-06-07,338
+United Arab Emirates,United Arab Emirates,False,1972-03-17,2025-12-15,612
+United Koreans in Japan,United Koreans in Japan,False,2016-05-30,2018-06-09,12
+United States,United States,False,1885-11-28,2026-07-06,795
+United States Virgin Islands,United States Virgin Islands,False,1998-03-22,2026-03-28,78
+Uruguay,Uruguay,False,1902-07-20,2026-06-26,973
+Uzbekistan,Uzbekistan,False,1992-06-17,2026-06-27,357
+Vanuatu,Vanuatu,False,1951-10-04,2026-06-06,214
+Vatican City,Vatican City,False,2002-11-23,2022-04-22,8
+Venezuela,Venezuela,False,1938-02-12,2026-06-09,460
+Vietnam,Vietnam,False,1949-01-16,2026-03-26,297
+Vietnam Republic,Vietnam Republic,False,1956-05-03,1975-03-23,195
+Wales,Wales,False,1876-03-25,2026-06-06,726
+Wallis Islands and Futuna,Wallis Islands and Futuna,False,1966-12-11,1995-08-20,24
+West Papua,West Papua,False,2019-10-19,2022-11-13,2
+Western Armenia,Western Armenia,False,2016-05-30,2019-06-09,16
+Western Australia,Western Australia,False,1967-08-10,1980-11-25,32
+Western Isles,Western Isles,False,2005-07-11,2025-07-17,34
+Western Sahara,Western Sahara,False,2001-02-27,2013-06-28,9
+Yemen,Yemen,False,1966-04-02,2025-11-26,266
+Yemen DPR,Yemen DPR,False,1972-01-01,1989-11-05,25
+Ynys Môn,Ynys Môn,False,1989-07-06,2025-07-17,67
+Yorkshire,Yorkshire,False,2018-01-28,2019-06-01,7
+Yoruba Nation,Yoruba Nation,False,2022-05-21,2022-05-23,2
+Yugoslavia,Yugoslavia,False,1920-08-28,1992-03-25,483
+Zambia,Zambia,False,1946-06-16,2026-03-31,793
+Zanzibar,Zanzibar,False,1947-09-18,2025-01-13,209
+Zimbabwe,Zimbabwe,False,1946-06-16,2026-05-30,496
+Åland Islands,Åland Islands,False,1989-07-08,2023-07-13,51

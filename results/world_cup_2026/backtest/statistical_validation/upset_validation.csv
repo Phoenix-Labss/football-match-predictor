@@ -1,0 +1,5 @@
+favorite_prob_threshold,matching_fixtures_count,actual_upset_frequency,mean_pred_favorite_prob,favorite_overconfidence_gap,static_average_logloss,mds_average_logloss,delta_loss_mds_minus_static,ci_95_low,ci_95_high,verdict
+>= 0.40,69,0.2899,0.4478,-0.2623,0.921926,0.921964,3.8e-05,-0.000267,0.000328,Statistically indistinguishable difference on shocks
+>= 0.50,8,0.125,0.5236,-0.3514,0.731712,0.732187,0.000475,-0.0004,0.0013,Statistically indistinguishable difference on shocks
+>= 0.60,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Statistically indistinguishable difference on shocks
+>= 0.70,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Statistically indistinguishable difference on shocks

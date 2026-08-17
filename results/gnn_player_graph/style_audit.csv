@@ -1,0 +1,9 @@
+style_name,status,raw_availability,derivation_formula
+Creative Playmaker,Derived,Unavailable as raw string,Passing (0.5) + Dribbling (0.3) + OVR (0.2)
+Roaming Flank / Winger,Derived,Unavailable as raw string,Pace (0.5) + Dribbling (0.3) + Agility (0.2)
+Box-to-Box / Engine,Derived,Unavailable as raw string,Stamina (0.4) + Defense (0.3) + Passing (0.3)
+Destroyer / Anchor Man,Derived,Unavailable as raw string,Defending (0.7) + Physicality (0.3)
+Target Man / Aerial Threat,Derived,Unavailable as raw string,Height (0.4) + Heading (0.3) + Strength (0.3)
+Fox in the Box / Poacher,Derived,Unavailable as raw string,Finishing (0.7) + Positioning (0.3)
+Deep-Lying Playmaker,Derived,Unavailable as raw string,Long Passing (0.5) + Vision (0.3) + Short Passing (0.2)
+Offensive Fullback,Derived,Unavailable as raw string,Pace (0.4) + Crossing (0.3) + Stamina (0.3)

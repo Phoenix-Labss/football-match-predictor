@@ -1,0 +1,6 @@
+Population,Matches,Home Win %,Draw %,Away Win %,Avg Goal Diff,Friendly %,Major Tourn %
+A only (Fold 3 Non-Rich / Minor Tier),1380,48.84,21.23,29.93,1.78,21.23,35.65
+"B only (Folds 0-2 Rich Matches, 2015-2022)",3232,46.53,25.28,28.19,1.43,29.52,45.14
+"Shared (A ∩ B: Fold 3 Rich Matches, 2022-2024)",1096,46.35,25.82,27.83,1.49,29.29,41.51
+Full Population A (Fold 3 Total),2476,47.74,23.26,29.0,1.65,24.8,38.25
+Full Population B (All Folds Rich Total),4328,46.49,25.42,28.1,1.44,29.46,44.22

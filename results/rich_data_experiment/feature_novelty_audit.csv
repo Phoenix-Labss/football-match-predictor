@@ -1,0 +1,8 @@
+rich_feature,type,information_channel,novelty_vs_champion
+r1_pass_vision_diff,Player Attribute,Passing & Vision Differential,Granular technical sub-attribute vs generic OVR
+r1_bench_depth_diff,Squad Quality,Bench Quality & Substitution Depth,Substitutes strength (untapped in champion)
+r3_expected_gd_net,Event / xG,Expected Goal Differential (xG - xGA),Underlying shot quality vs raw goals
+r3_pressure_intensity_diff,Event / Defensive,Defensive Pressing Volume,Tactical intensity & work rate
+r4_network_density_diff,Network / Relational,Passing Network Connectivity,Passing volume & link density
+r4_centralization_diff,Network / Relational,Team Reliance on Key Playmaker Hub,Single-player dependence index
+r5_competition_importance,Context,Tournament Incentive Multiplier,Differential effort between friendlies & World Cup

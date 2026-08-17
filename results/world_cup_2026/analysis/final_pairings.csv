@@ -1,0 +1,31 @@
+team_a,team_b,occurrences,final_pairing_prob_pct,p_a_champion_given_final,p_b_champion_given_final
+Brazil,Spain,109,1.09,44.04,55.96
+Germany,Spain,105,1.05,45.71,54.29
+Netherlands,Spain,87,0.87,48.28,51.72
+Argentina,Germany,85,0.85,49.41,50.59
+Brazil,France,79,0.79,41.77,58.23
+Argentina,Netherlands,72,0.72,47.22,52.78
+France,Netherlands,72,0.72,55.56,44.44
+Brazil,England,68,0.68,41.18,58.82
+Mexico,Spain,66,0.66,40.91,59.09
+Spain,USA,66,0.66,51.52,48.48
+Argentina,Brazil,65,0.65,47.69,52.31
+France,Germany,65,0.65,50.77,49.23
+Brazil,Portugal,64,0.64,51.56,48.44
+Spain,Switzerland,63,0.63,65.08,34.92
+Côte d'Ivoire,Spain,63,0.63,31.75,68.25
+France,Sweden,63,0.63,58.73,41.27
+France,Mexico,63,0.63,49.21,50.79
+Argentina,USA,58,0.58,46.55,53.45
+England,Germany,58,0.58,51.72,48.28
+Netherlands,Portugal,58,0.58,50.0,50.0
+Germany,Portugal,58,0.58,48.28,51.72
+England,Netherlands,57,0.57,43.86,56.14
+Mexico,Portugal,56,0.56,51.79,48.21
+Spain,Türkiye,54,0.54,66.67,33.33
+England,USA,54,0.54,70.37,29.63
+France,USA,53,0.53,69.81,30.19
+Canada,Spain,52,0.52,30.77,69.23
+Spain,Sweden,51,0.51,58.82,41.18
+France,Switzerland,49,0.49,55.1,44.9
+Côte d'Ivoire,France,49,0.49,38.78,61.22

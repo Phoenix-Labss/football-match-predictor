@@ -1,0 +1,6 @@
+dataset_name,owner,rows,xG_available,passing_available,join_status
+International Football Results (1872-2024),martj42,49520,No,No,Master Match Base
+FIFA Complete Player Dataset (15-23),stefanoleone992,160000,No,Attributes only,Roster & Skill Mapping
+FIFA World Cup 2022 Complete Data,jovansandic,64,Yes,Yes,Direct Match Link
+European Soccer Database,hugomathien,25979,No,No,Club League Matches
+World Cup Match Events (1930-2022),piterfm,964,Partial,No,World Cup Tournament Link
