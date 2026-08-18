@@ -1,0 +1,80 @@
+{
+  "authoritative_production_benchmark": {
+    "accuracy": 0.601373182552504,
+    "correct_predictions": 5956,
+    "total_test_matches": 9904,
+    "status": "IMMUTABLE_PRODUCTION_CHAMPION"
+  },
+  "historical_experiment_results": {
+    "historical_r4_accuracy": 0.6019789983844911,
+    "historical_r4_correct": 5962,
+    "reproduced_r4_accuracy": 0.6010702746365105,
+    "reproduced_r4_correct": 5953
+  },
+  "within_experiment_baseline_champion": {
+    "accuracy": 0.6003634894991923,
+    "correct_predictions": 5946,
+    "log_loss": 0.867943404320134,
+    "norm_rps": 0.1693352575494768,
+    "brier": 0.510555447807813,
+    "ece": 0.01570953501217488
+  },
+  "selected_frozen_gate": {
+    "gate_id": "G1_Global_Temporal",
+    "description": "Global temporal replacement (g=1 everywhere)",
+    "soft_scale_c": 0.25,
+    "selection_mode": "STRICT_VALIDATION_ONLY_MINIMIZING_NORM_RPS",
+    "val_norm_rps": 0.17207309114276745,
+    "test_evaluation": {
+      "accuracy": 0.6008683360258481,
+      "correct_count": 5951,
+      "log_loss": 0.8671513079590232,
+      "norm_rps": 0.16904731440698487,
+      "brier": 0.5099391823829948,
+      "ece": 0.019997077734613383,
+      "draw_recall": 0.005203816131830009
+    },
+    "difference_matches_vs_exp_base": 5,
+    "difference_matches_vs_auth_champ": -5
+  },
+  "disagreement_counts": {
+    "category_A_both_correct": 5870,
+    "category_B_regression_gate_wrong": 76,
+    "category_C_rescued_gate_correct": 81,
+    "category_D_both_wrong": 3877,
+    "net_gain": 5
+  },
+  "statistical_tests": {
+    "mcnemar": {
+      "stat": 0.10191082802547771,
+      "p_value": 0.7495485048794944,
+      "n10": 76,
+      "n01": 81
+    },
+    "bootstrap": {
+      "log_loss": {
+        "baseline": 0.867943404320134,
+        "candidate": 0.8671513079590232,
+        "diff_mean": -0.0007920963611107723,
+        "ci_95": [
+          -0.0018691048981017361,
+          0.00027443085914982115
+        ],
+        "p_value": 0.1538,
+        "prob_better": 0.9231
+      },
+      "normalized_rps": {
+        "baseline": 0.1693352575494768,
+        "candidate": 0.16904731440698487,
+        "diff_mean": -0.0002879431424919199,
+        "ci_95": [
+          -0.0005713301351062142,
+          -1.7409193272561765e-06
+        ],
+        "p_value": 0.0494,
+        "prob_better": 0.9753
+      }
+    }
+  },
+  "final_classification": "DOES NOT HELP"
+}

@@ -1,0 +1,69 @@
+{
+  "authoritative_production_benchmark": {
+    "accuracy": 0.601373182552504,
+    "correct_predictions": 5956,
+    "total_test_matches": 9904,
+    "status": "IMMUTABLE_PRODUCTION_CHAMPION"
+  },
+  "historical_experiment_results": {
+    "historical_r4_accuracy": 0.6019789983844911,
+    "historical_r4_correct": 5962,
+    "historical_r4_total": 9904
+  },
+  "reproduced_evaluation": {
+    "reproduced_r0_accuracy": 0.6004644588045234,
+    "reproduced_r0_correct": 5947,
+    "reproduced_r4_accuracy": 0.6010702746365105,
+    "reproduced_r4_correct": 5953,
+    "reproduced_r4_total": 9904,
+    "reproduced_r4_log_loss": 0.8673706226776187,
+    "reproduced_r4_norm_rps": 0.16922771505134515,
+    "reproduced_r4_brier": 0.5103838720026082,
+    "reproduced_r4_ece": 0.017198124290107517,
+    "difference_matches": 6,
+    "difference_accuracy_pct": 0.06058158319871554
+  },
+  "selection_strategy": {
+    "winning_architecture": "TRANSFORMER",
+    "winning_sequence_length": 20,
+    "selection_mode": "STRICT_TWO_STAGE_VALIDATION_ONLY"
+  },
+  "disagreement_counts": {
+    "category_A_both_correct": 5787,
+    "category_B_regression_r4_wrong": 160,
+    "category_C_rescued_r4_correct": 166,
+    "category_D_both_wrong": 3791,
+    "net_gain": 6
+  },
+  "statistical_tests": {
+    "mcnemar": {
+      "stat": 0.07668711656441718,
+      "p_value": 0.7818381658644122,
+      "n10": 160,
+      "n01": 166
+    },
+    "bootstrap": {
+      "log_loss": {
+        "baseline": 0.8677316423496366,
+        "candidate": 0.8673706226776187,
+        "diff_mean": -0.00036101967201795926,
+        "ci_95": [
+          -0.0030082173905458297,
+          0.002342846533928911
+        ],
+        "p_value": 0.8082
+      },
+      "normalized_rps": {
+        "baseline": 0.16931012661815822,
+        "candidate": 0.16922771505134515,
+        "diff_mean": -8.241156681307316e-05,
+        "ci_95": [
+          -0.0008042093754317468,
+          0.000647595911909962
+        ],
+        "p_value": 0.8364
+      }
+    }
+  },
+  "final_classification": "R4 RESULT WAS LIKELY NOISE"
+}

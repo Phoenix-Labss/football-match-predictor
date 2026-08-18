@@ -1,0 +1,72 @@
+{
+  "authoritative_production_benchmark": {
+    "accuracy": 0.601373182552504,
+    "correct_predictions": 5956,
+    "total_test_matches": 9904,
+    "status": "IMMUTABLE_PRODUCTION_CHAMPION"
+  },
+  "within_experiment_baseline_champion": {
+    "accuracy": 0.5978392568659128,
+    "correct_predictions": 5921,
+    "log_loss": 0.8739994087474859,
+    "norm_rps": 0.17123769806592512,
+    "brier": 0.5145266131712972,
+    "ece": 0.013661559009816951
+  },
+  "winning_candidate_configuration": {
+    "tier_id": "S3_Champion_plus_Style",
+    "feature_count": 245,
+    "selection_criterion": "STRICT_VALIDATION_FOLDS_NORMALIZED_RPS",
+    "val_norm_rps": 0.17378662605876494,
+    "test_evaluation": {
+      "accuracy": 0.597435379644588,
+      "correct_count": 5917,
+      "total_count": 9904,
+      "log_loss": 0.8739217171150476,
+      "norm_rps": 0.17110478109564312,
+      "brier": 0.5144283807695288,
+      "ece": 0.018900478841446848,
+      "draw_recall": 0.01647875108412836
+    },
+    "difference_matches_vs_exp_base": -4,
+    "difference_matches_vs_auth_champ": -39
+  },
+  "disagreement_counts": {
+    "category_A_both_correct": 5861,
+    "category_B_regression_candidate_wrong": 60,
+    "category_C_rescued_candidate_correct": 56,
+    "category_D_both_wrong": 3927,
+    "net_gain": -4
+  },
+  "statistical_tests": {
+    "mcnemar": {
+      "stat": 0.07758620689655173,
+      "p_value": 0.7805955556973271,
+      "n10": 60,
+      "n01": 56
+    },
+    "bootstrap": {
+      "log_loss": {
+        "baseline": 0.8739994087474859,
+        "candidate": 0.8739217171150476,
+        "diff_mean": -7.769163243831478e-05,
+        "ci_95": [
+          -0.0010438526787750195,
+          0.0008540683919892279
+        ],
+        "p_value": 0.871
+      },
+      "normalized_rps": {
+        "baseline": 0.17123769806592512,
+        "candidate": 0.17110478109564312,
+        "diff_mean": -0.00013291697028200433,
+        "ci_95": [
+          -0.00037072795008662857,
+          0.00010202341641231901
+        ],
+        "p_value": 0.2674
+      }
+    }
+  },
+  "final_classification": "DOES NOT HELP"
+}

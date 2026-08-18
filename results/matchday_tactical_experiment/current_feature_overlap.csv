@@ -1,0 +1,100 @@
+feature_name,feature_group,classification,rationale
+home_lineup_changes,Interaction,B. Partially Redundant,Captures team quality interactions with minor form/Elo correlation.
+home_lineup_continuity_pct,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_returning_starters,Interaction,B. Partially Redundant,Captures team quality interactions with minor form/Elo correlation.
+home_defensive_continuity,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_midfield_continuity,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_attacking_continuity,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_gk_continuity,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_consecutive_starts_idx,Interaction,B. Partially Redundant,Captures team quality interactions with minor form/Elo correlation.
+home_replacement_mean_ovr_delta,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_replacement_max_ovr_delta,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_replacement_att_ovr_delta,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_replacement_mid_ovr_delta,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_replacement_def_ovr_delta,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_replacement_gk_ovr_delta,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_replacement_delta_pace,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_replacement_delta_shooting,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_replacement_delta_passing,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_replacement_delta_dribbling,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_replacement_delta_defending,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_replacement_delta_physical,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_squad_available_depth,Interaction,B. Partially Redundant,Captures team quality interactions with minor form/Elo correlation.
+home_has_worldclass_star,Interaction,B. Partially Redundant,Captures team quality interactions with minor form/Elo correlation.
+home_top_star_reliance_gap,Interaction,B. Partially Redundant,Captures team quality interactions with minor form/Elo correlation.
+home_missing_starter_count,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_missing_starter_ovr_sum,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+home_formation_backline_count,Formation,A. Genuinely New,"Encodes tactical formation structure, stability, and entropy."
+home_formation_midfield_count,Formation,A. Genuinely New,"Encodes tactical formation structure, stability, and entropy."
+home_formation_forward_count,Formation,A. Genuinely New,"Encodes tactical formation structure, stability, and entropy."
+home_formation_width_idx,Formation,A. Genuinely New,"Encodes tactical formation structure, stability, and entropy."
+home_formation_changed,Formation,A. Genuinely New,"Encodes tactical formation structure, stability, and entropy."
+home_formation_stability_5,Formation,A. Genuinely New,"Encodes tactical formation structure, stability, and entropy."
+home_formation_stability_10,Formation,A. Genuinely New,"Encodes tactical formation structure, stability, and entropy."
+home_formation_entropy,Formation,A. Genuinely New,"Encodes tactical formation structure, stability, and entropy."
+home_style_possession_5,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+home_style_pressing_5,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+home_style_directness_5,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+home_style_progression_5,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+home_style_tempo_5,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+home_style_crossing_5,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+home_style_def_compact_5,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+home_style_possession_10,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+home_style_directness_10,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+away_lineup_changes,Interaction,B. Partially Redundant,Captures team quality interactions with minor form/Elo correlation.
+away_lineup_continuity_pct,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_returning_starters,Interaction,B. Partially Redundant,Captures team quality interactions with minor form/Elo correlation.
+away_defensive_continuity,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_midfield_continuity,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_attacking_continuity,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_gk_continuity,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_consecutive_starts_idx,Interaction,B. Partially Redundant,Captures team quality interactions with minor form/Elo correlation.
+away_replacement_mean_ovr_delta,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_replacement_max_ovr_delta,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_replacement_att_ovr_delta,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_replacement_mid_ovr_delta,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_replacement_def_ovr_delta,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_replacement_gk_ovr_delta,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_replacement_delta_pace,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_replacement_delta_shooting,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_replacement_delta_passing,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_replacement_delta_dribbling,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_replacement_delta_defending,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_replacement_delta_physical,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_squad_available_depth,Interaction,B. Partially Redundant,Captures team quality interactions with minor form/Elo correlation.
+away_has_worldclass_star,Interaction,B. Partially Redundant,Captures team quality interactions with minor form/Elo correlation.
+away_top_star_reliance_gap,Interaction,B. Partially Redundant,Captures team quality interactions with minor form/Elo correlation.
+away_missing_starter_count,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_missing_starter_ovr_sum,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+away_formation_backline_count,Formation,A. Genuinely New,"Encodes tactical formation structure, stability, and entropy."
+away_formation_midfield_count,Formation,A. Genuinely New,"Encodes tactical formation structure, stability, and entropy."
+away_formation_forward_count,Formation,A. Genuinely New,"Encodes tactical formation structure, stability, and entropy."
+away_formation_width_idx,Formation,A. Genuinely New,"Encodes tactical formation structure, stability, and entropy."
+away_formation_changed,Formation,A. Genuinely New,"Encodes tactical formation structure, stability, and entropy."
+away_formation_stability_5,Formation,A. Genuinely New,"Encodes tactical formation structure, stability, and entropy."
+away_formation_stability_10,Formation,A. Genuinely New,"Encodes tactical formation structure, stability, and entropy."
+away_formation_entropy,Formation,A. Genuinely New,"Encodes tactical formation structure, stability, and entropy."
+away_style_possession_5,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+away_style_pressing_5,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+away_style_directness_5,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+away_style_progression_5,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+away_style_tempo_5,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+away_style_crossing_5,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+away_style_def_compact_5,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+away_style_possession_10,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+away_style_directness_10,Style,A. Genuinely New,"Continuous style trajectory vector (possession, pressing, directness)."
+matchup_possession_diff,Tactical_Matchup,A. Genuinely New,Opponent-specific tactical matchup compatibility interaction.
+matchup_directness_diff,Tactical_Matchup,A. Genuinely New,Opponent-specific tactical matchup compatibility interaction.
+matchup_pressing_diff,Tactical_Matchup,A. Genuinely New,Opponent-specific tactical matchup compatibility interaction.
+matchup_tempo_diff,Tactical_Matchup,A. Genuinely New,Opponent-specific tactical matchup compatibility interaction.
+matchup_width_diff,Tactical_Matchup,A. Genuinely New,Opponent-specific tactical matchup compatibility interaction.
+tactical_h_press_vs_a_possession,Tactical_Matchup,A. Genuinely New,Opponent-specific tactical matchup compatibility interaction.
+tactical_a_press_vs_h_possession,Tactical_Matchup,A. Genuinely New,Opponent-specific tactical matchup compatibility interaction.
+tactical_h_direct_vs_a_compact,Tactical_Matchup,A. Genuinely New,Opponent-specific tactical matchup compatibility interaction.
+tactical_a_direct_vs_h_compact,Tactical_Matchup,A. Genuinely New,Opponent-specific tactical matchup compatibility interaction.
+tactical_width_vs_backline_diff,Tactical_Matchup,A. Genuinely New,Opponent-specific tactical matchup compatibility interaction.
+squad_continuity_diff,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+squad_replacement_delta_diff,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+inter_continuity_x_tactical_stab,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+inter_replacement_x_formation_changed,Squad_Change,A. Genuinely New,Captures match-specific pre-kickoff squad/lineup change vs previous match.
+inter_star_reliance_x_possession,Interaction,B. Partially Redundant,Captures team quality interactions with minor form/Elo correlation.

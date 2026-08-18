@@ -1,0 +1,5 @@
+dataset_name,path,records,time_range,fields
+International Matches Clean,data/processed/matches_clean.csv,49520,1872-2026,"date, teams, scores, tournament, neutral"
+FIFA Multiyear Player Profiles,data/raw/fifa/multiyear/,142079,2015-2023,"overall, pace, shooting, passing, dribbling, defending, physical, age, positions"
+Matchday Lineups & Stats,data/raw/fifa/match_lineups.csv,5410,2018-2026,"lineup_id, player_id, is_starting_xi, tactical_position, minutes"
+Match Team Stats,data/raw/fifa/match_team_stats.csv,210,2022-2026,"possession_pct, total_shots, shots_on_target, corners, fouls"

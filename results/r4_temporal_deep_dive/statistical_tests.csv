@@ -1,0 +1,4 @@
+test_type,metric,test_statistic,p_value,diff_point_estimate,ci_95_lower,ci_95_upper,details
+McNemar_Paired_Test,Accuracy (0-1 Loss),0.07668711656441718,0.7818381658644122,0.0006058158319871554,,,"Champion_Correct_R4_Wrong(n10)=160, R4_Correct_Champion_Wrong(n01)=166, Net_Gain=6"
+Paired_Bootstrap_10k,Multiclass_Log_Loss,-0.00036101967201795926,0.8082,-0.00036101967201795926,-0.0030082173905458297,0.002342846533928911,"Mean_Diff=-0.000361, 95% CI=[-0.003008, 0.002343]"
+Paired_Bootstrap_10k,Normalized_RPS,-8.241156681307316e-05,0.8364,-8.241156681307316e-05,-0.0008042093754317468,0.000647595911909962,"Mean_Diff=-0.000082, 95% CI=[-0.000804, 0.000648]"

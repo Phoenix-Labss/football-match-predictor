@@ -232,7 +232,7 @@ class TemporalStatePredictor:
         weight_decay: float = 1e-4,
         batch_size: int = 128,
         epochs: int = 10,
-        device: str = "cpu",
+        device: str | None = None,
         random_state: int = 42,
     ):
         self.input_dim = input_dim
@@ -245,6 +245,8 @@ class TemporalStatePredictor:
         self.weight_decay = weight_decay
         self.batch_size = batch_size
         self.epochs = epochs
+        if device is None:
+            device = "cuda" if torch.cuda.is_available() else "cpu"
         self.device = torch.device(device)
         self.random_state = random_state
         self.model: TemporalMatchupNet | None = None
