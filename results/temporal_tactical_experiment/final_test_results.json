@@ -1,0 +1,207 @@
+{
+  "authoritative_production_benchmark": {
+    "accuracy": 0.601373182552504,
+    "correct_predictions": 5956,
+    "total_test_matches": 9904,
+    "status": "IMMUTABLE_PRODUCTION_CHAMPION"
+  },
+  "experiments_evaluated": [
+    {
+      "experiment_id": "R0_Champion_Baseline",
+      "description": "Official 217-Feature Production Champion",
+      "val_accuracy": 0.594402769763416,
+      "val_log_loss": 0.8760637597195606,
+      "val_norm_rps": 0.17239927622722492,
+      "test_accuracy": 0.6000605815831987,
+      "test_correct": 5943,
+      "test_total": 9904,
+      "test_log_loss": 0.8681971439769021,
+      "test_norm_rps": 0.16943352178748605,
+      "test_brier": 0.5107012750476579,
+      "test_ece": 0.014088324953161339,
+      "test_draw_recall": 0.010841283607979185
+    },
+    {
+      "experiment_id": "R1_Temporal_GRU_Only",
+      "description": "Temporal GRU Matchup Model Alone",
+      "val_accuracy": 0.590132717830352,
+      "val_log_loss": 0.8909540754031176,
+      "val_norm_rps": 0.17634114515909705,
+      "test_accuracy": 0.5964256865912763,
+      "test_correct": 5907,
+      "test_total": 9904,
+      "test_log_loss": 0.8829310858859527,
+      "test_norm_rps": 0.17279636556286798,
+      "test_brier": 0.5192990605053605,
+      "test_ece": 0.010938436661457284,
+      "test_draw_recall": 0.0008673026886383347
+    },
+    {
+      "experiment_id": "R2_Temporal_LSTM_Only",
+      "description": "Temporal LSTM Matchup Model Alone",
+      "val_accuracy": 0.5898442008078477,
+      "val_log_loss": 0.8895178104187659,
+      "val_norm_rps": 0.17597885626224133,
+      "test_accuracy": 0.5962237479806138,
+      "test_correct": 5905,
+      "test_total": 9904,
+      "test_log_loss": 0.8814521223490803,
+      "test_norm_rps": 0.17272205955264913,
+      "test_brier": 0.5190175697053007,
+      "test_ece": 0.01839256110292156,
+      "test_draw_recall": 0.0
+    },
+    {
+      "experiment_id": "R3_Temporal_Transformer_Only",
+      "description": "Temporal Transformer Matchup Model Alone",
+      "val_accuracy": 0.5869590305828044,
+      "val_log_loss": 0.8911807948115841,
+      "val_norm_rps": 0.17635685017643762,
+      "test_accuracy": 0.5956179321486268,
+      "test_correct": 5899,
+      "test_total": 9904,
+      "test_log_loss": 0.8836318091874303,
+      "test_norm_rps": 0.17346748667790096,
+      "test_brier": 0.5197898313416447,
+      "test_ece": 0.010490958869076349,
+      "test_draw_recall": 0.0008673026886383347
+    },
+    {
+      "experiment_id": "R4_Champion_plus_Temporal",
+      "description": "Champion (217) + Learned Temporal Latent Vectors",
+      "val_accuracy": 0.5972302365839585,
+      "val_log_loss": 0.8755370706849329,
+      "val_norm_rps": 0.1723030288352585,
+      "test_accuracy": 0.6019789983844911,
+      "test_correct": 5962,
+      "test_total": 9904,
+      "test_log_loss": 0.8691166809026575,
+      "test_norm_rps": 0.16960704453801612,
+      "test_brier": 0.5112707184607365,
+      "test_ece": 0.014235813845918118,
+      "test_draw_recall": 0.010841283607979185
+    },
+    {
+      "experiment_id": "R5_Tactical_Identity_Only",
+      "description": "Continuous Tactical Profiles & Matchups Alone",
+      "val_accuracy": 0.557934218118869,
+      "val_log_loss": 0.9383542253749773,
+      "val_norm_rps": 0.1908123540676424,
+      "test_accuracy": 0.561389337641357,
+      "test_correct": 5560,
+      "test_total": 9904,
+      "test_log_loss": 0.9368313083227837,
+      "test_norm_rps": 0.1896764564951772,
+      "test_brier": 0.554353967238439,
+      "test_ece": 0.011534563329465387,
+      "test_draw_recall": 0.003469210754553339
+    },
+    {
+      "experiment_id": "R6_Champion_plus_Tactical",
+      "description": "Champion (217) + Continuous Tactical Identity",
+      "val_accuracy": 0.5945181765724178,
+      "val_log_loss": 0.8768232241617132,
+      "val_norm_rps": 0.17258738589319117,
+      "test_accuracy": 0.599656704361874,
+      "test_correct": 5939,
+      "test_total": 9904,
+      "test_log_loss": 0.8690240371824283,
+      "test_norm_rps": 0.16958572016121426,
+      "test_brier": 0.5111934211532493,
+      "test_ece": 0.014347136210147283,
+      "test_draw_recall": 0.009540329575021683
+    },
+    {
+      "experiment_id": "R7_Champion_plus_Temporal_and_Tactical",
+      "description": "Champion + Temporal State + Tactical Identity",
+      "val_accuracy": 0.5979803808424697,
+      "val_log_loss": 0.8759735612443739,
+      "val_norm_rps": 0.17240649725535692,
+      "test_accuracy": 0.6014741518578353,
+      "test_correct": 5957,
+      "test_total": 9904,
+      "test_log_loss": 0.8699222012295186,
+      "test_norm_rps": 0.16973059805623306,
+      "test_brier": 0.5116526236435122,
+      "test_ece": 0.016916856800273324,
+      "test_draw_recall": 0.007805724197745013
+    },
+    {
+      "experiment_id": "R8_Champion_plus_Temporal_Tactical_Rich",
+      "description": "Full Unified System with Rich Event Dynamics",
+      "val_accuracy": 0.596999422965955,
+      "val_log_loss": 0.8759590818272895,
+      "val_norm_rps": 0.172409407067471,
+      "test_accuracy": 0.6011712439418416,
+      "test_correct": 5954,
+      "test_total": 9904,
+      "test_log_loss": 0.8695407207641282,
+      "test_norm_rps": 0.16964040968100624,
+      "test_brier": 0.5114402929678004,
+      "test_ece": 0.01318349954960516,
+      "test_draw_recall": 0.007372072853425846
+    }
+  ],
+  "statistical_tests": {
+    "mcnemar": {
+      "stat": 0.5121212121212121,
+      "p_value": 0.47422203857903167,
+      "n10": 158,
+      "n01": 172
+    },
+    "bootstrap": {
+      "log_loss": {
+        "baseline": 0.8681971439769021,
+        "candidate": 0.8699222012295186,
+        "diff_mean": 0.001725057252616513,
+        "ci_95": [
+          -0.0009197241355763378,
+          0.004330816848574608
+        ],
+        "p_value": 0.197
+      },
+      "normalized_rps": {
+        "baseline": 0.16943352178748605,
+        "candidate": 0.16973059805623306,
+        "diff_mean": 0.0002970762687470041,
+        "ci_95": [
+          -0.0004072819524287241,
+          0.001015462852794835
+        ],
+        "p_value": 0.407
+      }
+    }
+  },
+  "era_breakdown": [
+    {
+      "era": "2015\u20132018",
+      "match_count": 2613,
+      "champion_accuracy": 0.5729047072330654,
+      "candidate_accuracy": 0.5759663222349789,
+      "accuracy_difference": 0.003061615001913487,
+      "champion_log_loss": 0.9051330365600457,
+      "candidate_log_loss": 0.9049607444052905,
+      "log_loss_difference": 0.00017229215475522697
+    },
+    {
+      "era": "2019\u20132022",
+      "match_count": 3581,
+      "champion_accuracy": 0.6084892488131807,
+      "candidate_accuracy": 0.6135157777157219,
+      "accuracy_difference": 0.005026528902541183,
+      "champion_log_loss": 0.8552849396224574,
+      "candidate_log_loss": 0.8591248075885592,
+      "log_loss_difference": -0.0038398679661018065
+    },
+    {
+      "era": "2023\u20132026",
+      "match_count": 3710,
+      "champion_accuracy": 0.6110512129380054,
+      "candidate_accuracy": 0.6078167115902965,
+      "accuracy_difference": -0.0032345013477088624,
+      "champion_log_loss": 0.8546459624333738,
+      "candidate_log_loss": 0.8556660700462256,
+      "log_loss_difference": -0.0010201076128518727
+    }
+  ]
+}

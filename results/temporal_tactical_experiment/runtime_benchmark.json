@@ -1,0 +1,13 @@
+{
+  "total_runtime_seconds": 8974.94922208786,
+  "total_runtime_minutes": 149.58248703479768,
+  "device": "CPU (torch 2.13.0+cpu)",
+  "phases": {
+    "smoke_test_seconds": 4.7634992599487305,
+    "sequence_tensor_build_seconds": 20.856937646865845,
+    "tactical_feature_build_seconds": 30.21843409538269,
+    "champion_feature_build_seconds": 70.0384168624878,
+    "total_matches_processed": 49520,
+    "frozen_test_matches": 9904
+  }
+}

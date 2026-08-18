@@ -1,0 +1,6 @@
+source_name,records,features_extracted
+data/raw/results.csv,49520,"Historical scores, dates, tournaments"
+src/features/strength.py (Adaptive Elo),49520,Dynamic strength & volatility
+src/features/sequence_builder.py,49520,"Temporal Sequences (L=5..20, D=28)"
+src/features/tactical_identity.py,49520,Continuous Tactical Styles (166 features)
+src/optimization/features.py (Champion),49520,Engineered Tabular Features (227 features)

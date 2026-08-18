@@ -1,0 +1,8 @@
+metric,value
+Total Matches,49520.0
+Feature Dimension per Timestep,28.0
+Max Sequence Length L,20.0
+Mean Historical Length (Home),19.403594970703125
+Median Historical Length (Home),20.0
+Min Historical Length,0.0
+Fraction with Full History (L=20),0.9451332794830372
