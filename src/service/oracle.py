@@ -128,10 +128,13 @@ class DynamicOracle:
                 top_players = sorted(recs, key=lambda p: float(p.get("overall", 0)), reverse=True)[:3]
                 top_18 = sorted(recs, key=lambda p: float(p.get("overall", 0)), reverse=True)[:18]
                 avg_ovr = float(np.mean([float(p.get("overall", 65)) for p in top_18]))
+                club_leagues = [str(r.get("league")) for r in recs if r.get("league")]
+                club_league = max(set(club_leagues), key=club_leagues.count) if club_leagues else "Other"
                 team_meta_list.append({
                     "name": club,
                     "type": "club",
                     "year": year,
+                    "league": club_league,
                     "player_count": len(recs),
                     "avg_rating": round(avg_ovr, 1),
                     "star_rating": round(min(5.0, max(1.0, (avg_ovr - 60) / 6.0)), 1),
@@ -148,6 +151,7 @@ class DynamicOracle:
                     "name": nat,
                     "type": "national",
                     "year": year,
+                    "league": "International",
                     "player_count": len(recs),
                     "avg_rating": round(avg_ovr, 1),
                     "star_rating": round(min(5.0, max(1.0, (avg_ovr - 60) / 6.0)), 1),
@@ -181,6 +185,7 @@ class DynamicOracle:
                     "name": nat,
                     "type": "national",
                     "year": 2026,
+                    "league": "International",
                     "player_count": len(recs),
                     "avg_rating": round(avg_ovr, 1),
                     "star_rating": round(min(5.0, max(1.0, (avg_ovr - 60) / 6.0)), 1),

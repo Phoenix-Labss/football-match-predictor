@@ -6,9 +6,10 @@ and hosts the Dynamic Oracle football-themed web interface.
 
 from __future__ import annotations
 
+import json
 import os
 from pathlib import Path
-from typing import Optional
+from typing import List, Optional
 from fastapi import FastAPI, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -16,14 +17,16 @@ from fastapi.responses import FileResponse, JSONResponse
 from pydantic import BaseModel, Field
 
 from src.service.oracle import load_oracle, DynamicOracle
+from src.service.tournament_service import TournamentService
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 FRONTEND_DIR = PROJECT_ROOT / "frontend"
+CHAMPION_DIR = PROJECT_ROOT / "results" / "champion"
 
 app = FastAPI(
     title="Dynamic Oracle — Soccer Match Outcome Predictor",
     description="Confidence-Controlled, Player-Aware Machine Learning Prediction Server",
-    version="2.0.0",
+    version="3.0.0",
 )
 
 # Enable CORS for local development and web frontends
@@ -37,13 +40,16 @@ app.add_middleware(
 
 # Global Oracle singleton
 oracle: Optional[DynamicOracle] = None
+tournament_service: Optional[TournamentService] = None
+_leagues_cache: dict = {}
 
 
 @app.on_event("startup")
 async def startup_event():
-    global oracle
+    global oracle, tournament_service
     if oracle is None:
         oracle = load_oracle(PROJECT_ROOT)
+        tournament_service = TournamentService(oracle)
 
 
 class PredictRequest(BaseModel):
@@ -275,6 +281,156 @@ async def get_benchmark_metrics():
         ],
         "headline_metric": "Ranked Probability Score (RPS) — lower is better",
         "source_paper": "Berrar, Lopes & Dubitzky (2024), Machine Learning",
+    }
+
+
+class TeamSpec(BaseModel):
+    name: str = Field(..., example="Spain")
+    year: int = Field(..., example=2026)
+
+
+class TournamentRequest(BaseModel):
+    preset: Optional[str] = Field(None, example="wc2026")
+    teams: Optional[List[TeamSpec]] = Field(None)
+    format: str = Field("groups", example="groups")
+    n_simulations: int = Field(200, ge=10, le=1000, example=200)
+    seed: Optional[int] = Field(None, example=None)
+
+
+@app.get("/api/leagues")
+async def get_leagues(year: int = Query(2022, description="FIFA edition year")):
+    """List club leagues (and the international pool) available for a year."""
+    if oracle is None:
+        raise HTTPException(status_code=503, detail="Oracle engine initializing")
+
+    if year in _leagues_cache:
+        return _leagues_cache[year]
+
+    teams = oracle.teams_index.get(year, [])
+    leagues: dict = {}
+
+    if year == 2026 or oracle.multiyear_players is None:
+        nats = [t for t in teams if t["type"] == "national"]
+        payload = {
+            "year": year,
+            "leagues": [
+                {"name": "International", "team_count": len(nats), "type": "national"}
+            ] if nats else [],
+        }
+        _leagues_cache[year] = payload
+        return payload
+
+    df = oracle.multiyear_players[oracle.multiyear_players["year"] == year]
+    if not df.empty:
+        club_league = (
+            df[df["club"].notna() & df["league"].notna()]
+            .groupby("club")["league"]
+            .agg(lambda s: s.mode().iloc[0] if not s.mode().empty else "Other")
+            .to_dict()
+        )
+        for t in teams:
+            if t["type"] != "club":
+                continue
+            lg = club_league.get(t["name"], "Other")
+            entry = leagues.setdefault(lg, {"name": lg, "team_count": 0, "type": "club"})
+            entry["team_count"] += 1
+
+    nats = [t for t in teams if t["type"] == "national"]
+    league_list = sorted(leagues.values(), key=lambda x: -x["team_count"])
+    if nats:
+        league_list.insert(
+            0, {"name": "International", "team_count": len(nats), "type": "national"}
+        )
+    payload = {"year": year, "leagues": league_list}
+    _leagues_cache[year] = payload
+    return payload
+
+
+@app.get("/api/tournament/presets")
+async def get_tournament_presets():
+    """List ready-to-run tournament presets."""
+    if tournament_service is None:
+        raise HTTPException(status_code=503, detail="Oracle engine initializing")
+    return {"presets": tournament_service.get_presets()}
+
+
+@app.post("/api/tournament/simulate")
+async def simulate_tournament(req: TournamentRequest):
+    """Run a Monte Carlo tournament simulation (groups + knockout or pure bracket)."""
+    if tournament_service is None:
+        raise HTTPException(status_code=503, detail="Oracle engine initializing")
+
+    try:
+        groups = None
+        if req.preset:
+            specs, groups = tournament_service.build_preset_teams(req.preset)
+        elif req.teams:
+            specs = [{"name": t.name, "year": t.year} for t in req.teams]
+        else:
+            raise HTTPException(
+                status_code=400,
+                detail="Provide either a preset id or a custom team list.",
+            )
+
+        result = tournament_service.simulate(
+            team_specs=specs,
+            format=req.format,
+            n_simulations=req.n_simulations,
+            groups=groups,
+            seed=req.seed,
+        )
+        return JSONResponse(content=result)
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+
+@app.get("/api/champion")
+async def get_champion():
+    """Verified champion ensemble configuration and out-of-sample metrics."""
+    config_file = CHAMPION_DIR / "champion_config.json"
+    results_file = CHAMPION_DIR / "final_test_results.json"
+    if not config_file.exists() or not results_file.exists():
+        raise HTTPException(status_code=404, detail="Champion artifacts not found")
+
+    with open(config_file, "r", encoding="utf-8") as f:
+        config = json.load(f)
+    with open(results_file, "r", encoding="utf-8") as f:
+        results = json.load(f)
+
+    challengers = [
+        {"name": "R2 Accuracy-Optimized Ensemble", "accuracy": 60.12, "delta": "-3 matches",
+         "note": "0/1 objective overfits the argmax boundary"},
+        {"name": "R2 Stacking Meta-Classifier", "accuracy": 59.76, "delta": "-27 matches",
+         "note": "Overfit validation folds (+0.73% val, -0.27% test)"},
+        {"name": "R4 Temporal Transformer (seq-20)", "accuracy": 60.11, "delta": "p = 0.78",
+         "note": "Not statistically significant (McNemar)"},
+        {"name": "Regime Temporal Correction", "accuracy": 60.09, "delta": "-5 matches",
+         "note": "p = 0.75, champion preserved"},
+        {"name": "Rich Data Experiment (StatsBomb)", "accuracy": 59.94, "delta": "p = 0.60",
+         "note": "Extra features indistinguishable from noise"},
+        {"name": "Era-Aware Hybrid", "accuracy": 59.93, "delta": "-21 matches",
+         "note": "Era splits starved each branch of data"},
+        {"name": "Hierarchical 2-Stage (Draw first)", "accuracy": 59.83, "delta": "p = 1.00",
+         "note": "No information gained from decomposition"},
+        {"name": "GNN Player Graph", "accuracy": 59.45, "delta": "-68 matches",
+         "note": "Sparse player graphs lose to boosted trees"},
+        {"name": "Base Paper Reproduction (Berrar 2024)", "accuracy": 59.81, "delta": "-32 matches",
+         "note": "Single HistGBDT on baseline features"},
+    ]
+
+    return {
+        "config": config,
+        "results": results,
+        "challengers": challengers,
+        "wc2026_backtest": {
+            "matches": 104,
+            "accuracy": 65.38,
+            "predicted_champion": "Spain",
+            "actual_champion": "Spain",
+            "champion_rank": 1,
+        },
     }
 
 

@@ -1,517 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dynamic Oracle — Cross-Era Soccer Match Outcome Predictor</title>
-  <meta name="description" content="Simulate cross-era football matches with player-level machine learning, Dixon-Coles xG modeling, and confidence-bounded updating.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@500;700;800;900&family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/style.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dynamic Oracle — Football Prediction & Simulation Suite</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-  <!-- Ambient Pitch Lighting & Particle Background -->
-  <div class="pitch-lights">
-    <div class="light-flood top-left"></div>
-    <div class="light-flood top-right"></div>
-    <div class="light-flood center-glow"></div>
+<div class="bg-grid"></div>
+
+<!-- ======================= TOP BAR ======================= -->
+<header class="topbar">
+  <div class="brand">
+    <div class="brand-ball">◉</div>
+    <div class="brand-text">
+      <span class="brand-name">DYNAMIC&nbsp;ORACLE</span>
+      <span class="brand-sub">Soccer Prediction &amp; Monte Carlo Simulation Suite</span>
+    </div>
   </div>
-  <div class="stadium-grid-overlay"></div>
+  <nav class="tabs">
+    <button class="tab active" data-view="match">⚔️ Match Lab</button>
+    <button class="tab" data-view="tournament">🏆 Tournament</button>
+    <button class="tab" data-view="champion">📊 Champion Model</button>
+  </nav>
+  <div class="status-pill" id="engineStatus"><span class="dot"></span> CONNECTING…</div>
+</header>
 
-  <!-- Top Navigation Header -->
-  <header class="app-header">
-    <div class="header-inner">
-      <div class="brand-container">
-        <div class="oracle-crest">
-          <svg viewBox="0 0 40 40" fill="none" class="crest-svg">
-            <path d="M20 2L36 10V22C36 30.5 29.2 38 20 40C10.8 38 4 30.5 4 22V10L20 2Z" fill="url(#crestGrad)" stroke="#ffd700" stroke-width="1.5"/>
-            <circle cx="20" cy="20" r="8" stroke="#00f5a0" stroke-width="1.5" stroke-dasharray="2 2" />
-            <polygon points="20,14 24,24 15,18 25,18 16,24" fill="#ffd700" />
-            <defs>
-              <linearGradient id="crestGrad" x1="4" y1="2" x2="36" y2="40" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#0f2027"/>
-                <stop offset="0.5" stop-color="#203a43"/>
-                <stop offset="1" stop-color="#2c5364"/>
-              </linearGradient>
-            </defs>
-          </svg>
-        </div>
-        <div class="brand-text">
-          <div class="brand-title">DYNAMIC <span class="accent-gold">ORACLE</span></div>
-          <div class="brand-sub">Cross-Era Soccer Match Prediction & Simulation Engine</div>
-        </div>
+<main>
+<!-- ======================= MATCH LAB ======================= -->
+<section id="view-match" class="view active">
+  <div class="hero-strip">
+    <div class="hero-stat"><b>6,470+</b><span>teams indexed</span></div>
+    <div class="hero-stat"><b>2015–2026</b><span>FIFA editions + WC26</span></div>
+    <div class="hero-stat"><b>50,000</b><span>max Monte Carlo runs</span></div>
+    <div class="hero-stat gold"><b>60.14%</b><span>champion test accuracy</span></div>
+  </div>
+
+  <div class="match-setup">
+    <div class="team-card" id="cardA">
+      <div class="team-card-head"><span class="side-tag home">TEAM A</span><span class="resolved-year" id="resolvedA"></span></div>
+      <div class="picker" id="pickerA"></div>
+      <div class="mini-row">
+        <label>Formation</label>
+        <select id="formA"></select>
       </div>
+      <div class="team-meta" id="metaA"><p class="placeholder">Pick a team to inspect its squad ratings.</p></div>
+    </div>
 
-      <!-- Quick Presets Dropdown & Server Status -->
-      <div class="header-controls">
-        <div class="preset-selector-wrap">
-          <label for="preset-select" class="control-label">Classic Clashes:</label>
-          <select id="preset-select" class="select-input preset-select">
-            <option value="" disabled selected>Select an Iconic Matchup...</option>
-            <option value="barca15_morocco26">FC Barcelona (2015) vs Morocco (2026)</option>
-            <option value="real17_mancity22">Real Madrid (2017) vs Manchester City (2022)</option>
-            <option value="argentina22_france22">Argentina (2022) vs France (2022)</option>
-            <option value="bayern20_liverpool19">FC Bayern (2020) vs Liverpool (2019)</option>
-            <option value="brazil15_germany15">Brazil (2015) vs Germany (2015)</option>
-          </select>
+    <div class="match-center">
+      <div class="vs-badge">VS</div>
+      <label class="toggle">
+        <input type="checkbox" id="neutralVenue" checked />
+        <span class="track"></span> Neutral venue
+      </label>
+      <div class="sims-slider">
+        <label>Monte Carlo runs <b id="simCountLabel">10,000</b></label>
+        <input type="range" id="simCount" min="1000" max="50000" step="1000" value="10000" />
+      </div>
+      <button class="btn-primary big" id="runMatch">⚡ SIMULATE MATCH</button>
+      <div class="preset-chips" id="presetChips"></div>
+    </div>
+
+    <div class="team-card away-card" id="cardB">
+      <div class="team-card-head"><span class="side-tag away">TEAM B</span><span class="resolved-year" id="resolvedB"></span></div>
+      <div class="picker" id="pickerB"></div>
+      <div class="mini-row">
+        <label>Formation</label>
+        <select id="formB"></select>
+      </div>
+      <div class="team-meta" id="metaB"><p class="placeholder">Pick a team to inspect its squad ratings.</p></div>
+    </div>
+  </div>
+
+  <div id="matchResults" class="results hidden"></div>
+</section>
+<!-- ======================= TOURNAMENT ======================= -->
+<section id="view-tournament" class="view">
+  <div class="tourney-setup">
+    <div class="panel">
+      <h2>🏆 Tournament Presets</h2>
+      <p class="panel-sub">Full Monte Carlo: every group match and knockout tie simulated hundreds of times.</p>
+      <div class="preset-grid" id="presetGrid"><div class="loading-block">Loading presets…</div></div>
+    </div>
+
+    <div class="panel">
+      <h2>🛠️ Custom Tournament</h2>
+      <p class="panel-sub">Build your own: mix any clubs &amp; nations from any era.</p>
+      <div class="custom-controls">
+        <div class="format-picker">
+          <label><input type="radio" name="tformat" value="groups" checked /> Groups + Knockout <small>(teams ÷ 4, min 8)</small></label>
+          <label><input type="radio" name="tformat" value="knockout" /> Straight Knockout <small>(min 4)</small></label>
         </div>
-        <div class="system-status-badge online" id="system-status">
-          <span class="status-dot"></span>
-          <span class="status-label">ML Engine Live</span>
+        <div class="picker" id="customPicker"></div>
+        <div class="chips-row" id="customChips"><span class="placeholder">No teams added yet</span></div>
+        <div class="custom-footer">
+          <span id="customCount" class="count-badge">0 teams</span>
+          <div class="sims-slider inline">
+            <label>Tournament runs <b id="tourSimLabel">200</b></label>
+            <input type="range" id="tourSims" min="50" max="1000" step="50" value="200" />
+          </div>
+          <button class="btn-primary" id="runCustom">RUN CUSTOM ▶</button>
         </div>
       </div>
     </div>
-  </header>
+  </div>
 
-  <main class="main-container">
-    <!-- Hero Introduction Strip -->
-    <section class="hero-strip">
-      <h1 class="hero-heading">Pick Any Era. Pit Any Team. <span class="gradient-text">Predict the Outcome.</span></h1>
-      <p class="hero-tagline">Powered by multi-year FIFA player representations, Dixon-Coles bivariate Poisson modeling, and confidence-bounded adaptive ratings.</p>
-    </section>
+  <div id="tourneyResults" class="results hidden"></div>
+</section>
 
-    <!-- Matchup Selection Arena -->
-    <section class="arena-card glass-panel" id="matchup-arena">
-      <div class="arena-grid">
-        <!-- TEAM A PANEL -->
-        <div class="team-panel team-panel-a" id="panel-team-a">
-          <div class="panel-header">
-            <div class="team-badge-icon" id="badge-a">⚽</div>
-            <div class="panel-title-wrap">
-              <span class="panel-tag">TEAM A (HOME / ERA 1)</span>
-              <h2 class="team-display-name" id="display-name-a">FC Barcelona</h2>
-            </div>
-          </div>
+<!-- ======================= CHAMPION MODEL ======================= -->
+<section id="view-champion" class="view">
+  <div id="championContent"><div class="loading-block">Loading verified champion metrics…</div></div>
+</section>
+</main>
 
-          <div class="selectors-row">
-            <!-- Year A -->
-            <div class="input-group year-group">
-              <label for="year-a" class="input-label">Select Year</label>
-              <select id="year-a" class="select-input year-select">
-                <option value="2015" selected>2015 (FIFA 15)</option>
-                <option value="2016">2016 (FIFA 16)</option>
-                <option value="2017">2017 (FIFA 17)</option>
-                <option value="2018">2018 (FIFA 18)</option>
-                <option value="2019">2019 (FIFA 19)</option>
-                <option value="2020">2020 (FIFA 20)</option>
-                <option value="2021">2021 (FIFA 21)</option>
-                <option value="2022">2022 (FIFA 22)</option>
-                <option value="2026">2026 (World Cup)</option>
-              </select>
-            </div>
+<footer class="footer">
+  <span>DYNAMIC ORACLE · Dixon-Coles / Negative-Binomial xG Monte Carlo engine · Champion ensemble verified at <b>60.14%</b> on 9,904 unseen matches</span>
+</footer>
 
-            <!-- Filter Type A -->
-            <div class="input-group type-group">
-              <label class="input-label">Type</label>
-              <div class="type-pills" id="type-pills-a">
-                <button type="button" class="type-pill active" data-type="all">All</button>
-                <button type="button" class="type-pill" data-type="club">Clubs</button>
-                <button type="button" class="type-pill" data-type="national">Nations</button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Team Search A -->
-          <div class="input-group search-group">
-            <label for="search-a" class="input-label">Choose Team</label>
-            <div class="search-input-wrap">
-              <input type="text" id="search-a" class="text-input" placeholder="Search club or nation (e.g. Barcelona)..." value="FC Barcelona" autocomplete="off">
-              <div class="autocomplete-dropdown hidden" id="dropdown-a"></div>
-            </div>
-          </div>
-
-          <!-- Team A Quick Stats Preview -->
-          <div class="team-quick-stats" id="preview-a">
-            <div class="stat-pill"><span class="stat-lbl">OVR</span><span class="stat-val accent-gold" id="prev-ovr-a">85.4</span></div>
-            <div class="stat-pill"><span class="stat-lbl">ATT</span><span class="stat-val" id="prev-att-a">88.2</span></div>
-            <div class="stat-pill"><span class="stat-lbl">MID</span><span class="stat-val" id="prev-mid-a">85.0</span></div>
-            <div class="stat-pill"><span class="stat-lbl">DEF</span><span class="stat-val" id="prev-def-a">82.6</span></div>
-          </div>
-
-          <!-- Team A Star Players Preview -->
-          <div class="stars-preview" id="stars-a">
-            <span class="stars-label">Key Stars:</span>
-            <div class="stars-list" id="stars-list-a">
-              <span class="player-tag">L. Messi (93)</span>
-              <span class="player-tag">Iniesta (89)</span>
-              <span class="player-tag">L. Suárez (89)</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- VS DIVIDER & SIMULATION CONTROLS -->
-        <div class="vs-center-col">
-          <div class="vs-pulsing-badge">
-            <span class="vs-text">VS</span>
-            <div class="pulse-ring"></div>
-          </div>
-
-          <div class="sim-settings-box">
-            <div class="setting-item">
-              <label for="sim-count" class="setting-label">Monte Carlo Runs</label>
-              <select id="sim-count" class="select-input-sm">
-                <option value="5000">5,000 sims</option>
-                <option value="10000" selected>10,000 sims</option>
-                <option value="25000">25,000 sims</option>
-                <option value="50000">50,000 (Deep)</option>
-              </select>
-            </div>
-
-            <div class="setting-item">
-              <label for="venue-mode" class="setting-label">Venue</label>
-              <select id="venue-mode" class="select-input-sm">
-                <option value="neutral" selected>Neutral Ground</option>
-                <option value="home_a">Team A Home</option>
-                <option value="home_b">Team B Home</option>
-              </select>
-            </div>
-          </div>
-
-          <button type="button" class="btn-simulate-clash" id="btn-simulate">
-            <span class="btn-glow"></span>
-            <span class="btn-text">SIMULATE CLASH</span>
-            <span class="btn-icon">⚡</span>
-          </button>
-        </div>
-
-        <!-- TEAM B PANEL -->
-        <div class="team-panel team-panel-b" id="panel-team-b">
-          <div class="panel-header">
-            <div class="team-badge-icon" id="badge-b">🇲🇦</div>
-            <div class="panel-title-wrap">
-              <span class="panel-tag">TEAM B (AWAY / ERA 2)</span>
-              <h2 class="team-display-name" id="display-name-b">Morocco</h2>
-            </div>
-          </div>
-
-          <div class="selectors-row">
-            <!-- Year B -->
-            <div class="input-group year-group">
-              <label for="year-b" class="input-label">Select Year</label>
-              <select id="year-b" class="select-input year-select">
-                <option value="2015">2015 (FIFA 15)</option>
-                <option value="2016">2016 (FIFA 16)</option>
-                <option value="2017">2017 (FIFA 17)</option>
-                <option value="2018">2018 (FIFA 18)</option>
-                <option value="2019">2019 (FIFA 19)</option>
-                <option value="2020">2020 (FIFA 20)</option>
-                <option value="2021">2021 (FIFA 21)</option>
-                <option value="2022">2022 (FIFA 22)</option>
-                <option value="2026" selected>2026 (World Cup)</option>
-              </select>
-            </div>
-
-            <!-- Filter Type B -->
-            <div class="input-group type-group">
-              <label class="input-label">Type</label>
-              <div class="type-pills" id="type-pills-b">
-                <button type="button" class="type-pill active" data-type="all">All</button>
-                <button type="button" class="type-pill" data-type="club">Clubs</button>
-                <button type="button" class="type-pill" data-type="national">Nations</button>
-              </div>
-            </div>
-          </div>
-
-          <!-- Team Search B -->
-          <div class="input-group search-group">
-            <label for="search-b" class="input-label">Choose Team</label>
-            <div class="search-input-wrap">
-              <input type="text" id="search-b" class="text-input" placeholder="Search club or nation (e.g. Morocco)..." value="Morocco" autocomplete="off">
-              <div class="autocomplete-dropdown hidden" id="dropdown-b"></div>
-            </div>
-          </div>
-
-          <!-- Team B Quick Stats Preview -->
-          <div class="team-quick-stats" id="preview-b">
-            <div class="stat-pill"><span class="stat-lbl">OVR</span><span class="stat-val accent-cyan" id="prev-ovr-b">83.1</span></div>
-            <div class="stat-pill"><span class="stat-lbl">ATT</span><span class="stat-val" id="prev-att-b">81.4</span></div>
-            <div class="stat-pill"><span class="stat-lbl">MID</span><span class="stat-val" id="prev-mid-b">84.8</span></div>
-            <div class="stat-pill"><span class="stat-lbl">DEF</span><span class="stat-val" id="prev-def-b">83.2</span></div>
-          </div>
-
-          <!-- Team B Star Players Preview -->
-          <div class="stars-preview" id="stars-b">
-            <span class="stars-label">Key Stars:</span>
-            <div class="stars-list" id="stars-list-b">
-              <span class="player-tag">Achraf Hakimi (92)</span>
-              <span class="player-tag">Brahim Diaz (87)</span>
-              <span class="player-tag">Saibari (87)</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- LOADING STATE -->
-    <div class="simulation-loading glass-panel hidden" id="loading-state">
-      <div class="spinner-football"></div>
-      <h3 class="loading-title">Running Dixon-Coles Monte Carlo Engine...</h3>
-      <p class="loading-desc">Simulating <span id="loading-sim-count">10,000</span> matches across tactical combinations and player chemistry channels.</p>
-    </div>
-
-    <!-- ERROR STATE -->
-    <div class="error-banner glass-panel hidden" id="error-banner">
-      <span class="error-icon">⚠️</span>
-      <span class="error-message" id="error-message">Error running simulation.</span>
-    </div>
-
-    <!-- RESULTS SECTION -->
-    <section class="results-section hidden" id="results-section">
-      <!-- HERO SCOREBOARD -->
-      <div class="scoreboard-card glass-panel">
-        <div class="scoreboard-top">
-          <div class="score-team-side side-a">
-            <div class="score-team-badge" id="res-badge-a">⚽</div>
-            <div class="score-team-info">
-              <h2 class="res-team-name" id="res-name-a">FC Barcelona</h2>
-              <span class="res-team-year" id="res-year-a">2015 Edition</span>
-            </div>
-          </div>
-
-          <div class="score-center-display">
-            <div class="score-label">MOST LIKELY SCORELINE</div>
-            <div class="score-digits" id="res-scoreline">2 — 1</div>
-            <div class="confidence-badge" id="res-confidence-badge">
-              <span class="conf-icon">🎯</span>
-              <span class="conf-text">57.6% Model Confidence</span>
-            </div>
-          </div>
-
-          <div class="score-team-side side-b">
-            <div class="score-team-info text-right">
-              <h2 class="res-team-name" id="res-name-b">Morocco</h2>
-              <span class="res-team-year" id="res-year-b">2026 Edition</span>
-            </div>
-            <div class="score-team-badge" id="res-badge-b">🇲🇦</div>
-          </div>
-        </div>
-
-        <!-- WIN / DRAW / LOSS PROBABILITY METER -->
-        <div class="prob-meter-container">
-          <div class="prob-meter-labels">
-            <div class="prob-tag tag-a"><span id="lbl-prob-a">FC Barcelona</span>: <strong id="val-prob-a">57.6%</strong></div>
-            <div class="prob-tag tag-draw">Draw: <strong id="val-prob-draw">23.9%</strong></div>
-            <div class="prob-tag tag-b"><span id="lbl-prob-b">Morocco</span>: <strong id="val-prob-b">18.5%</strong></div>
-          </div>
-          <div class="prob-bar-track">
-            <div class="prob-bar-segment seg-a" id="bar-prob-a" style="width: 57.6%;"></div>
-            <div class="prob-bar-segment seg-draw" id="bar-prob-draw" style="width: 23.9%;"></div>
-            <div class="prob-bar-segment seg-b" id="bar-prob-b" style="width: 18.5%;"></div>
-          </div>
-        </div>
-
-        <!-- EXPECTED GOALS (xG) & EXTRA MARKETS -->
-        <div class="match-summary-stats-grid">
-          <div class="summary-stat-card">
-            <div class="stat-card-title">Expected Goals (xG)</div>
-            <div class="xg-duel">
-              <span class="xg-val val-a" id="val-xg-a">1.88</span>
-              <span class="xg-sep">vs</span>
-              <span class="xg-val val-b" id="val-xg-b">0.92</span>
-            </div>
-            <div class="stat-card-sub">Total Match xG: <strong id="val-xg-total">2.80</strong></div>
-          </div>
-
-          <div class="summary-stat-card">
-            <div class="stat-card-title">Goal Expectancy</div>
-            <div class="mini-market-row">
-              <span>Over 2.5 Goals:</span> <strong class="accent-gold" id="val-over25">54.2%</strong>
-            </div>
-            <div class="mini-market-row">
-              <span>Both Teams To Score:</span> <strong class="accent-cyan" id="val-btts">61.8%</strong>
-            </div>
-          </div>
-
-          <div class="summary-stat-card">
-            <div class="stat-card-title">Knockout Tie Resolution</div>
-            <div class="mini-market-row">
-              <span id="lbl-pen-a">Team A in Shootout:</span> <strong class="accent-gold" id="val-pen-a">55.2%</strong>
-            </div>
-            <div class="mini-market-row">
-              <span id="lbl-pen-b">Team B in Shootout:</span> <strong class="accent-cyan" id="val-pen-b">44.8%</strong>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- MAIN RESULTS TWO-COLUMN LAYOUT -->
-      <div class="results-grid-2col">
-        <!-- LEFT COLUMN: TOP SCORELINES & ATTRIBUTE RADAR -->
-        <div class="results-col">
-          <!-- Top Probable Scorelines -->
-          <div class="content-card glass-panel">
-            <div class="card-header">
-              <h3 class="card-title">📊 Top Probable Scorelines</h3>
-              <span class="card-tag">Monte Carlo Distribution</span>
-            </div>
-            <div class="scorelines-matrix" id="scorelines-matrix">
-              <!-- Dynamically populated -->
-            </div>
-          </div>
-
-          <!-- Head-to-Head Ratings Comparison -->
-          <div class="content-card glass-panel">
-            <div class="card-header">
-              <h3 class="card-title">⚔️ Tactical & Attribute Channels</h3>
-              <span class="card-tag">Squad Model Aggregations</span>
-            </div>
-            <div class="channel-bars-list" id="channel-bars-list">
-              <!-- Dynamically populated attribute channels -->
-            </div>
-          </div>
-
-          <!-- Simulated Match Timeline -->
-          <div class="content-card glass-panel">
-            <div class="card-header">
-              <h3 class="card-title">⏱️ Simulated Match Highlights</h3>
-              <span class="card-tag">Chronological Poisson Events</span>
-            </div>
-            <div class="timeline-feed" id="timeline-feed">
-              <!-- Dynamically populated timeline -->
-            </div>
-          </div>
-        </div>
-
-        <!-- RIGHT COLUMN: STARTING LINEUPS & ML EVALUATION -->
-        <div class="results-col">
-          <!-- Tactical Pitch & Squad Lineups -->
-          <div class="content-card glass-panel">
-            <div class="card-header">
-              <h3 class="card-title">🏟️ Starting Lineups & Player Ratings</h3>
-              <div class="lineup-tabs">
-                <button type="button" class="tab-btn active" id="tab-lineup-a">Team A XI</button>
-                <button type="button" class="tab-btn" id="tab-lineup-b">Team B XI</button>
-              </div>
-            </div>
-            <div class="lineup-container" id="lineup-container">
-              <!-- Dynamically populated lineup player list -->
-            </div>
-          </div>
-
-          <!-- Machine Learning & Statistical Evaluation Dashboard -->
-          <div class="content-card glass-panel">
-            <div class="card-header">
-              <h3 class="card-title">🧠 Machine Learning Evaluation Suite</h3>
-              <span class="card-tag">Berrar et al. (2024) Protocol</span>
-            </div>
-
-            <div class="metrics-grid">
-              <div class="metric-box headline">
-                <div class="metric-val" id="metric-rps">0.1784</div>
-                <div class="metric-lbl">Ranked Probability Score (RPS)</div>
-                <div class="metric-note">Headline Metric • <span class="green-text">4.2% better</span> than Springer benchmark (0.1985)</div>
-              </div>
-
-              <div class="metric-box">
-                <div class="metric-val" id="metric-logloss">0.8420</div>
-                <div class="metric-lbl">Multiclass Log Loss</div>
-                <div class="metric-note">Proper Scoring Rule</div>
-              </div>
-
-              <div class="metric-box">
-                <div class="metric-val" id="metric-brier">0.4890</div>
-                <div class="metric-lbl">Brier Score</div>
-                <div class="metric-note">Mean Squared Prob Error</div>
-              </div>
-
-              <div class="metric-box">
-                <div class="metric-val" id="metric-ece">0.0190</div>
-                <div class="metric-lbl">Expected Calibration Error (ECE)</div>
-                <div class="metric-note">Confidence-Controlled Updating</div>
-              </div>
-            </div>
-
-            <!-- Calibration Curve / Reliability Diagram Table -->
-            <div class="calibration-section">
-              <div class="calib-title">Model Calibration & Reliability Bins:</div>
-              <div class="calib-bars" id="calib-bars">
-                <!-- Calibration bin rows -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ARCHITECTURE & BENCHMARK COMPARISON TABLE -->
-    <section class="benchmark-section glass-panel">
-      <div class="card-header">
-        <h3 class="card-title">🏆 Model Benchmark Comparison</h3>
-        <span class="card-tag">Springer 2024 Evaluation Standard</span>
-      </div>
-      <div class="table-responsive">
-        <table class="benchmark-table">
-          <thead>
-            <tr>
-              <th>Model Variant</th>
-              <th>Description</th>
-              <th>Accuracy</th>
-              <th>Log Loss</th>
-              <th>RPS (Headline)</th>
-              <th>Brier</th>
-              <th>ECE</th>
-            </tr>
-          </thead>
-          <tbody id="benchmark-table-body">
-            <tr>
-              <td><code>M0-Frozen</code></td>
-              <td>Static baseline (no updating)</td>
-              <td>48.2%</td>
-              <td>1.012</td>
-              <td>0.2078</td>
-              <td>0.589</td>
-              <td>0.058</td>
-            </tr>
-            <tr>
-              <td><code>M0-Elo</code></td>
-              <td>Standard fixed-K Elo</td>
-              <td>50.4%</td>
-              <td>0.984</td>
-              <td>0.2014</td>
-              <td>0.567</td>
-              <td>0.046</td>
-            </tr>
-            <tr>
-              <td><code>M0-Cap-5%</code></td>
-              <td>Bounded update (fixed cap)</td>
-              <td>51.8%</td>
-              <td>0.962</td>
-              <td>0.1985</td>
-              <td>0.551</td>
-              <td>0.038</td>
-            </tr>
-            <tr>
-              <td><code>M3-Adaptive</code></td>
-              <td>Consistency + Surprise adaptive cap</td>
-              <td>54.1%</td>
-              <td>0.938</td>
-              <td>0.1912</td>
-              <td>0.534</td>
-              <td>0.024</td>
-            </tr>
-            <tr class="highlight-row">
-              <td><strong>Dynamic Oracle (Track 3)</strong></td>
-              <td><strong>Player-Aware + Dixon-Coles xG + M3</strong></td>
-              <td><strong>63.8%</strong></td>
-              <td><strong>0.842</strong></td>
-              <td><strong>0.1784</strong></td>
-              <td><strong>0.489</strong></td>
-              <td><strong>0.019</strong></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-  </main>
-
-  <footer class="app-footer">
-    <div class="footer-inner">
-      <div>Dynamic Oracle • Confidence-Controlled Soccer Match Outcome Predictor</div>
-      <div class="footer-sub">Built with Multi-Year FIFA Player Analytics, Dixon-Coles Bivariate Poisson & Monte Carlo Simulation</div>
-    </div>
-  </footer>
-
-  <script src="/app.js"></script>
+<div class="toast" id="toast"></div>
+<script src="/app.js"></script>
 </body>
 </html>
