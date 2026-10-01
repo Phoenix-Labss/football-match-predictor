@@ -171,7 +171,404 @@ Future Match Prediction
 
 ---
 
-# 6. WHAT WE IMPROVED
+# 6. 🧪 EXPERIMENTATION & MODEL EVOLUTION
+
+The project was developed through multiple controlled experiments rather than selecting a model arbitrarily. Each stage was evaluated using **temporal validation**, ensuring that models were trained on past matches and evaluated on later matches.
+
+### Experiment Pipeline
+
+```text
+                         FOOTBALL MATCH DATA
+                                │
+                                ▼
+                    ┌──────────────────────┐
+                    │  Experiment 1        │
+                    │  Strength Tracking   │
+                    │  Adaptive Elo        │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │  Experiment 2        │
+                    │  Feature Engineering │
+                    │                      │
+                    │  Form + H2H + EWMA   │
+                    │  Dixon-Coles + FIFA  │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │  Experiment 3        │
+                    │  Baseline Model      │
+                    │  HistGradientBoosting│
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │  Experiment 4        │
+                    │  Model Comparison    │
+                    │                      │
+                    │  LightGBM             │
+                    │  XGBoost              │
+                    │  CatBoost             │
+                    │  Random Forest        │
+                    │  Extra Trees          │
+                    │  HistGBDT             │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │  Experiment 5        │
+                    │  Hyperparameter      │
+                    │  Optimization        │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │  Experiment 6        │
+                    │  Ensemble Learning   │
+                    │                      │
+                    │  Multiple models     │
+                    │  → probability blend │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │  Experiment 7        │
+                    │  Weight Optimization │
+                    │                      │
+                    │  Optimized model     │
+                    │  contribution       │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                         🏆 CHAMPION
+                         60.14% Accuracy
+                         5,956 / 9,904
+```
+
+---
+
+### 6.1 Dynamic Strength Tracking
+
+#### Objective
+Improve team-strength estimation beyond a static Elo rating.
+
+We experimented with different strength-tracking strategies:
+* Frozen/static strength
+* Standard Elo-style updates
+* Confidence-controlled updates
+* Adaptive Elo updates based on recent performance and surprise
+
+#### Key Learning
+Football team strength changes over time. An adaptive strength tracker can react to recent results while controlling excessive rating changes.
+
+The final system therefore uses an **adaptive Elo-style strength representation** as one of its important feature groups.
+
+---
+
+### 6.2 Feature Engineering Experiments
+
+Instead of relying only on raw match results, several football-specific feature groups were developed.
+
+| Feature Group | Purpose |
+|---|---|
+| **Adaptive Elo** | Estimate current team strength |
+| **Recent Form** | Capture short- and long-term performance |
+| **EWMA Form** | Give more importance to recent matches |
+| **H2H** | Capture historical matchup information |
+| **Bayesian H2H** | Reduce noise from limited H2H samples |
+| **Home Advantage** | Capture venue effects |
+| **Rest Days** | Capture recovery/time between matches |
+| **Tournament Type** | Capture competition context |
+| **Dixon-Coles** | Model football-specific goal probabilities |
+| **FIFA Player Features** | Represent squad quality and depth |
+
+Multiple feature configurations were compared before selecting the feature matrix used for model comparison.
+
+The Champion configuration contains approximately **217 engineered features**.
+
+---
+
+### 6.3 Baseline Experiment
+
+The first authoritative machine-learning baseline used:
+
+**HistGradientBoosting + basic engineered features**
+
+```text
+Basic Features
+      │
+      ▼
+HistGradientBoosting
+      │
+      ▼
+59.73% Accuracy
+```
+
+This established a reference point against which later experiments could be measured.
+
+#### Baseline Summary
+
+| Metric | Baseline |
+|---|---:|
+| **Model** | HistGradientBoosting |
+| **Accuracy** | **59.73%** |
+| **Test Matches** | 9,904 |
+
+The goal of subsequent experiments was not simply to improve validation accuracy, but to determine whether improvements could generalize to unseen matches.
+
+---
+
+### 6.4 Model Comparison Experiment
+
+Several algorithm families were tested on the engineered feature matrix.
+
+| Model | Role |
+|---|---|
+| **HistGradientBoosting** | Baseline + candidate ensemble model |
+| **LightGBM** | Candidate + final ensemble model |
+| **XGBoost** | Candidate + final ensemble model |
+| **CatBoost** | Candidate + final ensemble model |
+| **Random Forest** | Experimental comparison model |
+| **Extra Trees** | Experimental comparison model |
+
+#### Important Note on Model Selection
+Random Forest and Extra Trees **were tested during the model-comparison experiment**, but they were **not selected as components of the final Champion Ensemble**.
+
+The project therefore did not assume that a particular algorithm would automatically perform best. Different model families were evaluated using the same temporal-validation framework.
+
+---
+
+### 6.5 Hyperparameter Optimization
+
+After model-family comparison, important boosting models were further optimized.
+
+The experiments explored parameters such as:
+* Number of estimators
+* Learning rate
+* Tree depth
+* Number of leaves
+* Minimum samples per leaf
+* Regularization-related parameters
+
+The purpose was to find configurations that performed well without simply overfitting the validation data.
+
+---
+
+### 6.6 Ensemble Experiment
+
+A major improvement came from combining predictions from multiple models.
+
+Instead of:
+
+```text
+One Model
+    ↓
+One Prediction
+```
+
+the system uses:
+
+```text
+LightGBM ────────┐
+XGBoost ─────────┤
+CatBoost ────────┤
+HistGBDT ────────┤──► Probability Ensemble
+Dixon-Coles ─────┘
+                         │
+                         ▼
+                  Final Prediction
+```
+
+#### Why use an ensemble?
+Different models learn different patterns and can make different mistakes.
+
+The tree-based models learn nonlinear relationships between the engineered features, while Dixon-Coles provides a football-specific statistical perspective based on expected goals and score probabilities.
+
+Combining their probability predictions can therefore provide a more robust prediction than relying on a single model.
+
+---
+
+### 6.7 Ensemble Weight Optimization
+
+The models were not simply assigned equal weights.
+
+For example:
+
+```text
+Model A → 20%
+Model B → 20%
+Model C → 20%
+Model D → 20%
+Model E → 20%
+```
+
+Instead, the system optimized the contribution of each component using validation data.
+
+Conceptually:
+
+```text
+Model Probabilities
+       │
+       ▼
+┌───────────────────────┐
+│ Weight Optimization   │
+│                       │
+│ w₁ + w₂ + ... + wₙ=1 │
+└───────────┬───────────┘
+            │
+            ▼
+   Weighted Probability
+            │
+            ▼
+     Final Prediction
+```
+
+The final Champion Ensemble contains:
+* **LightGBM**
+* **XGBoost**
+* **CatBoost**
+* **HistGradientBoosting**
+* **Dixon-Coles**
+
+---
+
+### 6.8 🏆 Champion Ensemble Configuration
+
+The resulting Champion achieved:
+
+### **60.14% Accuracy**
+on **5,956 correct predictions out of 9,904 untouched test matches**.
+
+| Component | Approx. Contribution |
+|---|---:|
+| **LightGBM** | ~30.4% |
+| **XGBoost** | ~25.0% |
+| **HistGradientBoosting** | ~20.9% |
+| **CatBoost** | ~17.2% |
+| **Dixon-Coles** | ~6.5% |
+
+> *Note:* The exact optimized weights can vary depending on the temporal fold/configuration. The saved Champion configuration (`results/champion/champion_config.json`) is the authoritative source.
+
+---
+
+### 6.9 📊 Baseline vs Champion Summary
+
+| Metric | Baseline | Champion |
+|---|---:|---:|
+| **Accuracy** | 59.73% | **60.14%** |
+| **Log Loss** | 0.8734 | **0.8687** |
+| **Normalized RPS** | 0.1706 | **0.1696** |
+| **Brier Score** | 0.5137 | **0.5112** |
+| **Test Matches** | 9,904 | 9,904 |
+| **Correct Predictions** | 5,916 | **5,956** |
+
+```text
+Baseline
+59.73%
+   │
+   │ +0.41 percentage points
+   ▼
+Champion
+60.14%
+```
+
+The Champion therefore improved the baseline by approximately **0.4 percentage points** on the untouched test set.
+
+---
+
+### 6.10 🔬 Accuracy Optimization Round 2
+
+The research did not stop after reaching 60.14%. A second optimization round explored:
+* 24 additional features
+* Elo velocity
+* Form acceleration
+* Clean-sheet ratios
+* Accuracy-weighted ensembles
+* Decision-threshold shifting
+* Out-of-fold stacking
+* Meta-classifiers
+
+#### Result of Round 2 Experiments
+
+| Approach | Result |
+|---|---:|
+| **Round 1 Champion** | **60.14%** |
+| **Round 2 Ensemble** | 60.12% |
+| **Round 2 Meta-classifier** | 59.76% |
+
+Interestingly, some Round 2 approaches performed better on validation folds but performed worse on the final test set. This demonstrated the critical importance of **generalization** and avoiding overfitting to validation data.
+
+```text
+Round 1 Champion
+      │
+      │ 60.14%
+      ▼
+   RETAINED 🏆
+
+Round 2
+      │
+      ├── Ensemble → 60.12%
+      └── Stacking → 59.76%
+      
+      ↓
+Did not beat Champion
+```
+
+Therefore, the project retained the **Round 1 Champion at 60.14%**.
+
+---
+
+### 6.11 🧠 What We Learned From the Experiments
+
+1. **More features do not automatically mean better performance**: Adding features can improve validation performance but may hurt performance on unseen data.
+2. **Different models capture different patterns**: LightGBM, XGBoost, CatBoost, and HistGradientBoosting learn different nonlinear relationships from the same football features.
+3. **Football-specific statistical models still provide useful information**: Dixon-Coles contributes a different perspective from purely machine-learning models by modeling goal-scoring probabilities.
+4. **Ensemble learning can improve robustness**: Combining different models allows the system to use complementary predictions rather than depending on one algorithm.
+5. **Validation performance is not enough**: Round 2 demonstrated that a model can improve on validation data but still perform worse on genuinely unseen data.
+6. **Temporal validation is essential**: Football matches have a natural time order. Training on future matches to predict past matches would introduce information leakage.
+
+---
+
+### 6.12 🏁 Final Research Progression
+
+```text
+Adaptive Team Strength
+        ↓
+Better Football Features
+        ↓
+HistGradientBoosting Baseline
+        ↓
+59.73%
+        ↓
+Model Comparison
+        ↓
+LightGBM / XGBoost / CatBoost /
+HistGBDT / Random Forest / Extra Trees
+        ↓
+Hyperparameter Optimization
+        ↓
+Probability Ensembling
+        ↓
+Optimized Ensemble Weights
+        ↓
+Dixon-Coles + ML Models
+        ↓
+🏆 60.14% Champion
+        ↓
+9,904 Untouched Test Matches
+        ↓
+5,956 Correct Predictions
+```
+
+### 6.13 🎯 Final Takeaway
+
+> **The Champion was selected through an iterative experimental process rather than by choosing the most complex model. We progressively improved the feature representation, compared multiple model families, optimized hyperparameters, combined complementary models, optimized ensemble weights, and finally evaluated the system on an untouched temporal test set. The resulting Champion achieved 60.14% accuracy, while a later optimization round failed to exceed it on the test set.**
+
+---
+
+# 7. WHAT WE IMPROVED
 
 ### Progression of Our Improvements
 
@@ -211,7 +608,7 @@ Final Champion (60.14% Accuracy across 9,904 Untouched Test Matches)
 
 ---
 
-# 7. FEATURE ENGINEERING
+# 8. FEATURE ENGINEERING
 
 ### What Does the Model Actually Know Before a Match Starts?
 The model possesses **zero post-match knowledge**. Before kickoff, it only knows:
@@ -240,7 +637,7 @@ The model possesses **zero post-match knowledge**. Before kickoff, it only knows
 
 ---
 
-# 8. MODELS — SIMPLE EXPLANATION
+# 9. MODELS — SIMPLE EXPLANATION
 
 ### All Evaluated Models in the Repository
 
@@ -261,7 +658,7 @@ The model possesses **zero post-match knowledge**. Before kickoff, it only knows
 
 ---
 
-# 9. BASELINE VS CHAMPION
+# 10. BASELINE VS CHAMPION
 
 ### Head-to-Head Comparison Table
 
@@ -290,7 +687,7 @@ The model possesses **zero post-match knowledge**. Before kickoff, it only knows
 
 ---
 
-# 10. RANDOM FOREST EXPERIMENT
+# 11. RANDOM FOREST EXPERIMENT
 
 ### Actual Verified Random Forest Result
 The exact standalone accuracy of Random Forest recorded in the repository's model comparison (`results/archive/accuracy_optimization_r1/model_comparison.csv`) is:
@@ -319,7 +716,7 @@ $$\text{\bf Random Forest Accuracy: 59.10\%}$$
 
 ---
 
-# 11. ENSEMBLE ARCHITECTURE
+# 12. ENSEMBLE ARCHITECTURE
 
 ### Ensemble Flowchart
 
@@ -368,7 +765,7 @@ $$\text{\bf Random Forest Accuracy: 59.10\%}$$
 
 ---
 
-# 12. TEMPORAL VALIDATION
+# 13. TEMPORAL VALIDATION
 
 ### What is a "Temporal Fold"?
 A temporal fold is an **expanding-window time-series evaluation protocol**. The model trains exclusively on historical matches that took place **before** the test matches, perfectly mirroring real-world deployment.
@@ -399,7 +796,7 @@ Suppose you calculate a team's rolling goal average using the entire dataset (pa
 
 ---
 
-# 13. RESULTS
+# 14. RESULTS
 
 ### Official Verified Results on 9,904 Untouched Test Matches
 
@@ -421,7 +818,7 @@ Suppose you calculate a team's rolling goal average using the entire dataset (pa
 
 ---
 
-# 14. COMPLETE SYSTEM ARCHITECTURE
+# 15. COMPLETE SYSTEM ARCHITECTURE
 
 ```
                            RAW DATA LAYER
@@ -473,7 +870,7 @@ Suppose you calculate a team's rolling goal average using the entire dataset (pa
 
 ---
 
-# 15. CODE / FILE LOCATION TABLE
+# 16. CODE / FILE LOCATION TABLE
 
 | Component | File Path | Function / Class / Section | What It Does |
 |---|---|---|---|
@@ -501,7 +898,7 @@ Suppose you calculate a team's rolling goal average using the entire dataset (pa
 
 ---
 
-# 16. VIVA QUESTIONS WE SHOULD BE READY FOR
+# 17. VIVA QUESTIONS WE SHOULD BE READY FOR
 
 | Teacher May Ask | Short Answer for Viva |
 |---|---|
@@ -531,7 +928,7 @@ Suppose you calculate a team's rolling goal average using the entire dataset (pa
 
 ---
 
-# 17. DATASET + PAPER LINKS
+# 18. DATASET + PAPER LINKS
 
 ### Research Paper
 - **Berrar, Lopes, & Dubitzky (2024)**: *"A data- and knowledge-driven framework for developing machine learning models to predict soccer match outcomes"*, *Machine Learning*, Springer Nature.  
